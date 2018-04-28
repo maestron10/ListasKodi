@@ -22,14 +22,14 @@
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/1263.ts;streamtype=TSDOWNLOADER&amp;name=ITV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14761.ts;streamtype=TSDOWNLOADER&amp;name=ITV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV (F4M source #02)</link>
 <link><link>$doregex[getts]$$lsname=ITV (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/11</page><referer>http://www.filmon.com/tv/channel/export?channel id=11&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/9/92/ITV_logo_2013.svg/1200px-ITV_logo_2013.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/15050.ts;streamtype=TSDOWNLOADER&amp;name=ITV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV HD (F4M source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/11</page><referer>http://www.filmon.com/tv/channel/export?channel id=11&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV HD (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/9/92/ITV_logo_2013.svg/1200px-ITV_logo_2013.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV +1[/B][/COLOR]</title>
 <link><link>$doregex[getts]$$lsname=ITV +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/11</page><referer>http://www.filmon.com/tv/channel/export?channel id=11&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV +1 (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/9/92/ITV_logo_2013.svg/1200px-ITV_logo_2013.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHANNEL 4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14922.ts;streamtype=TSDOWNLOADER&amp;name=CHANNEL 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHANNEL 4 (F4M source #02)</link>
 <link><link>$doregex[getts]$$lsname=CHANNEL 4 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/2</page><referer>http://www.filmon.com/tv/channel/export?channel id=2&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CHANNEL 4 (HTTP source #05)</link>
@@ -87,52 +87,52 @@
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/1264.ts;streamtype=TSDOWNLOADER&amp;name=ITV 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 2 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14746.ts;streamtype=TSDOWNLOADER&amp;name=ITV 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 2 (F4M source #02)</link>
 <link><link>$doregex[getts]$$lsname=ITV 2 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/67</page><referer>http://www.filmon.com/tv/channel/export?channel id=67&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 2 (HTTP source #05)</link>
-<thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/8/86/ITV2_logo_2015.png/revision/latest?cb=20150812102407</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 2 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/15049.ts;streamtype=TSDOWNLOADER&amp;name=ITV 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 2 HD (F4M source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV 2 HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/67</page><referer>http://www.filmon.com/tv/channel/export?channel id=67&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 2 HD (HTTP source #05)</link>
-<thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/8/86/ITV2_logo_2015.png/revision/latest?cb=20150812102407</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 2 +1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14760.ts;streamtype=TSDOWNLOADER&amp;name=ITV 2 +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 2 +1 (F4M source #02)</link>
 <link><link>$doregex[getts]$$lsname=ITV 2 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/67</page><referer>http://www.filmon.com/tv/channel/export?channel id=67&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 2 +1 (HTTP source #05)</link>
-<thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/8/86/ITV2_logo_2015.png/revision/latest?cb=20150812102407</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV2+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 3[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/1265.ts;streamtype=TSDOWNLOADER&amp;name=ITV 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 3 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14745.ts;streamtype=TSDOWNLOADER&amp;name=ITV 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 3 (F4M source #02)</link>
 <link><link>$doregex[getts]$$lsname=ITV 3 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/26</page><referer>http://www.filmon.com/tv/channel/export?channel id=26&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 3 (HTTP source #05)</link>
-<thumbnail>https://vignette3.wikia.nocookie.net/dreamlogos/images/0/04/Itv_3.png/revision/latest?cb=20140108230235</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 3 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/15048.ts;streamtype=TSDOWNLOADER&amp;name=ITV 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 3 HD (F4M source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV 3 HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/26</page><referer>http://www.filmon.com/tv/channel/export?channel id=26&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 3 HD (HTTP source #05)</link>
-<thumbnail>https://vignette3.wikia.nocookie.net/dreamlogos/images/0/04/Itv_3.png/revision/latest?cb=20140108230235</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 3 +1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14759.ts;streamtype=TSDOWNLOADER&amp;name=ITV 3 +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 3 +1 (F4M source #02)</link>
 <link><link>$doregex[getts]$$lsname=ITV 3 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/26</page><referer>http://www.filmon.com/tv/channel/export?channel id=26&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 3 +1 (HTTP source #05)</link>
-<thumbnail>https://vignette3.wikia.nocookie.net/dreamlogos/images/0/04/Itv_3.png/revision/latest?cb=20140108230235</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV3+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/1266.ts;streamtype=TSDOWNLOADER&amp;name=ITV 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 4 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14744.ts;streamtype=TSDOWNLOADER&amp;name=ITV 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 4 (F4M source #02)</link>
 <link><link>$doregex[getts]$$lsname=ITV 4 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 4 (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/ITV4_logo_2013.svg/2000px-ITV4_logo_2013.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 4 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/15047.ts;streamtype=TSDOWNLOADER&amp;name=ITV 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 4 HD (F4M source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV 4 HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 4 HD (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/ITV4_logo_2013.svg/2000px-ITV4_logo_2013.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 4 +1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14758.ts;streamtype=TSDOWNLOADER&amp;name=ITV 4 +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 4 +1 (F4M source #02)</link>
 <link><link>$doregex[getts]$$lsname=ITV 4 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 4 +1 (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/ITV4_logo_2013.svg/2000px-ITV4_logo_2013.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV4+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITVBe[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/133849.ts;streamtype=TSDOWNLOADER&amp;name=ITVBe [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITVBe (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14823.ts;streamtype=TSDOWNLOADER&amp;name=ITVBe [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITVBe (F4M source #02)</link>
 <link><link>$doregex[getts]$$lsname=ITVBe (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITVBe (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/ITVBe_logo_2014-.svg/1280px-ITVBe_logo_2014-.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITVBE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITVBe HD[/B][/COLOR]</title>
 <link><link>$doregex[getts]$$lsname=ITVBe HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITVBe HD (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/ITVBe_logo_2014-.svg/1280px-ITVBe_logo_2014-.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITVBE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITVBe +1[/B][/COLOR]</title>
 <link><link>$doregex[getts]$$lsname=ITVBe +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITVBe +1 (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/ITVBe_logo_2014-.svg/1280px-ITVBe_logo_2014-.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITVBE+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY TWO[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/15044.ts;streamtype=TSDOWNLOADER&amp;name=SKY TWO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY TWO (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/15001.ts;streamtype=TSDOWNLOADER&amp;name=SKY TWO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY TWO (F4M source #02)</link>
@@ -306,7 +306,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HISTORY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] H2[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14867.ts;streamtype=TSDOWNLOADER&amp;name=H2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=H2 (F4M source #02)</link>
-<thumbnail>https://goo.gl/ca3kWW</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/H2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CRIME + INVESTIGATION[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14932.ts;streamtype=TSDOWNLOADER&amp;name=CRIME + INVESTIGATION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CRIME + INVESTIGATION (F4M source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/3/37/C%26I_logo.svg/1280px-C%26I_logo.svg.png</thumbnail></item>
@@ -345,6 +345,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/3810.ts;streamtype=TSDOWNLOADER&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14407.ts;streamtype=TSDOWNLOADER&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #02)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/229/index.m3u8$$lsname=MTV HITS (HTTP source #01)</link>
+<link>plugin://program.plexus/?url=acestream://a2013c3017d2cfb2adf5f6673f57187c1e657ec7&amp;mode=1&amp;name=Acestream+MTV HITS$$lsname=MTV HITS (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/MTV_Hits_2017_logo.svg/1024px-MTV_Hits_2017_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV BASE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/15000.ts;streamtype=TSDOWNLOADER&amp;name=MTV BASE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV BASE (F4M source #01)</link>
@@ -361,6 +362,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV ROCKS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14734.ts;streamtype=TSDOWNLOADER&amp;name=MTV ROCKS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV ROCKS (F4M source #02)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/230/index.m3u8$$lsname=MTV ROCKS (HTTP source #01)</link>
+<link>plugin://program.plexus/?url=acestream://16754ae940c6a9ebbff214d5e62a0c3e042c08cf&amp;mode=1&amp;name=Acestream+MTV ROCKS$$lsname=MTV ROCKS (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/2/22/MTV_Rocks_2017_logo.svg/1200px-MTV_Rocks_2017_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV CLASSIC[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://d7296a822f31692402b98c22daf0760ab17e7665&amp;mode=1&amp;name=Acestream+MTV CLASSIC$$lsname=MTV CLASSIC (PLEXUS source #01)</link>
@@ -684,7 +686,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://tvgold.top:25461/live/vI60TgeOhF/Listahome/331.ts;streamtype=TSDOWNLOADER&amp;name=CHELSEA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHELSEA TV (F4M source #05)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://62.210.93.34:8000/live/black/black/38.ts;streamtype=TSDOWNLOADER&amp;name=CHELSEA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHELSEA TV (F4M source #07)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/chelseatv.php$$lsname=CHELSEA TV (SD source #01)</link>
-<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/6/6b/Chelsea_TV.svg/revision/latest/scale-to-width-down/250?cb=20100620212058</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHELSEATV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MOTORSPORT.TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ip.sltv.be:8000/live/SalVaBarAki/RlzjNMSRWp/14971.ts;streamtype=TSDOWNLOADER&amp;name=MOTORSPORT.TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MOTORSPORT.TV (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/isptT9wCLv/0MvkYTQkPW/14856.ts;streamtype=TSDOWNLOADER&amp;name=MOTORSPORT.TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MOTORSPORT.TV (F4M source #02)</link>
