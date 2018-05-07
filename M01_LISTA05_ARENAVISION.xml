@@ -191,7 +191,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION  1[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 01 (PLEXUS #source 01)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -203,7 +203,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION  2[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 02 (PLEXUS #source 02)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -215,7 +215,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION  3[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 03 (PLEXUS #source 03)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -227,7 +227,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION  4[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 04 (PLEXUS #source 04)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -239,7 +239,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION  5[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 05 (PLEXUS #source 05)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -251,7 +251,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION  6[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 06 (PLEXUS #source 06)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -263,7 +263,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION  7[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 07 (PLEXUS #source 07)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -275,7 +275,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION  8[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 08 (PLEXUS #source 08)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -287,7 +287,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION  9[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 09 (PLEXUS #source 09)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -299,7 +299,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 10[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 10 (PLEXUS #source 10)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -311,7 +311,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 11[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 11 (PLEXUS #source 11)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -323,7 +323,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 12[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 12 (PLEXUS #source 12)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -335,7 +335,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 13[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 13 (PLEXUS #source 13)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -347,7 +347,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 14[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 14 (PLEXUS #source 14)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -359,7 +359,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 15[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 15 (PLEXUS #source 15)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -371,7 +371,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 16[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 16 (PLEXUS #source 16)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -383,7 +383,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 17[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 17 (PLEXUS #source 17)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -395,7 +395,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 18[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 18 (PLEXUS #source 18)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -407,7 +407,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 19[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 19 (PLEXUS #source 19)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -419,7 +419,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 20[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 20 (PLEXUS #source 20)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -431,7 +431,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 21[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 21 (PLEXUS #source 21)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -443,7 +443,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 22[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 22 (PLEXUS #source 22)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -455,7 +455,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 23[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 23 (PLEXUS #source 23)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -467,7 +467,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 24[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 24 (PLEXUS #source 24)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -479,7 +479,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 25[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 25 (PLEXUS #source 25)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -491,7 +491,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 26[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 26 (PLEXUS #source 26)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -503,7 +503,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 27[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 27 (PLEXUS #source 27)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -515,7 +515,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 28[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 28 (PLEXUS #source 28)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -527,7 +527,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 29[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 29 (PLEXUS #source 29)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -539,7 +539,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 30[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 30 (PLEXUS #source 30)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -551,7 +551,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 31[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 31 (PLEXUS #source 31)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -563,7 +563,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 32[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 32 (PLEXUS #source 32)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -575,7 +575,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 33[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 33 (PLEXUS #source 33)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -587,7 +587,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 34[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 34 (PLEXUS #source 34)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -599,7 +599,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 35[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 35 (PLEXUS #source 35)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -611,7 +611,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 36[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 36 (PLEXUS #source 36)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -623,7 +623,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 37[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 37 (PLEXUS #source 37)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -635,7 +635,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 38[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 38 (PLEXUS #source 38)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -647,7 +647,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 39[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 39 (PLEXUS #source 39)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -659,7 +659,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 40[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 40 (PLEXUS #source 40)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -671,7 +671,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 41[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 41 (PLEXUS #source 41)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
@@ -683,7 +683,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 42[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 42 (PLEXUS #source 42)</link>
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
