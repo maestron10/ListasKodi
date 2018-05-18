@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC ONE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1997.ts;streamtype=TSDOWNLOADER&amp;name=BBC ONE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC ONE (F4M source #03)</link>
-<link>http://94.130.34.125:81/BBC1/mpegts$$lsname=BBC ONE (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/bbc1.m3u8$$lsname=BBC ONE (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://a30c60fe37ef98a276b0daafcdc0527f534142c5&amp;mode=1&amp;name=Acestream+BBC ONE$$lsname=BBC ONE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC ONE HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1998.ts;streamtype=TSDOWNLOADER&amp;name=BBC ONE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC ONE HD (F4M source #03)</link>
+<link>http://185.59.221.136:9981/stream/channelid/650783408$$lsname=BBC ONE HD (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=BBC ONE HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/14</page><referer>http://www.filmon.com/tv/channel/export?channel id=14&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BBC ONE HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC TWO[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1994.ts;streamtype=TSDOWNLOADER&amp;name=BBC TWO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC TWO (F4M source #03)</link>
-<link>http://94.130.34.125:81/BBC2/mpegts$$lsname=BBC TWO (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/bbc2.m3u8$$lsname=BBC TWO (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=BBC TWO (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/25</page><referer>http://www.filmon.com/tv/channel/export?channel id=25&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BBC TWO (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC TWO HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1995.ts;streamtype=TSDOWNLOADER&amp;name=BBC TWO HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC TWO HD (F4M source #03)</link>
+<link>http://185.59.221.136:9981/stream/channelid/382198530$$lsname=BBC TWO HD (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=BBC TWO HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/25</page><referer>http://www.filmon.com/tv/channel/export?channel id=25&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BBC TWO HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1985.ts;streamtype=TSDOWNLOADER&amp;name=ITV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV (F4M source #03)</link>
-<link>http://94.130.34.125:81/ITV1/mpegts$$lsname=ITV (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/itv.m3u8$$lsname=ITV (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/11</page><referer>http://www.filmon.com/tv/channel/export?channel id=11&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2215.ts;streamtype=TSDOWNLOADER&amp;name=ITV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV HD (F4M source #01)</link>
+<link>http://185.59.221.136:9981/stream/channelid/1998784340$$lsname=ITV HD (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/11</page><referer>http://www.filmon.com/tv/channel/export?channel id=11&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV +1[/B][/COLOR]</title>
@@ -33,7 +36,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHANNEL 4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2210.ts;streamtype=TSDOWNLOADER&amp;name=CHANNEL 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHANNEL 4 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1972.ts;streamtype=TSDOWNLOADER&amp;name=CHANNEL 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHANNEL 4 (F4M source #03)</link>
-<link>http://94.130.34.125:81/CHANNEL4/mpegts$$lsname=CHANNEL 4 (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/channel4.m3u8$$lsname=CHANNEL 4 (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=CHANNEL 4 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/2</page><referer>http://www.filmon.com/tv/channel/export?channel id=2&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CHANNEL 4 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHANNEL4UK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHANNEL 4 HD[/B][/COLOR]</title>
@@ -45,7 +48,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHANNEL4+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHANNEL 5[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1968.ts;streamtype=TSDOWNLOADER&amp;name=CHANNEL 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHANNEL 5 (F4M source #03)</link>
-<link>http://94.130.34.125:81/CHANNEL5/mpegts$$lsname=CHANNEL 5 (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/five.m3u8$$lsname=CHANNEL 5 (HTTP source #01)</link>
 <link><link>$doregex[getts]</link>$$lsname=CHANNEL 5 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/22</page><referer>http://www.filmon.com/tv/channel/export?channel id=22&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CHANNEL 5 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHANNEL5UK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHANNEL 5 HD[/B][/COLOR]</title>
@@ -58,7 +61,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] E4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2209.ts;streamtype=TSDOWNLOADER&amp;name=E4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=E4 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1966.ts;streamtype=TSDOWNLOADER&amp;name=E4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=E4 (F4M source #03)</link>
-<link>http://94.130.34.125:81/E4/mpegts$$lsname=E4 (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/e4.m3u8$$lsname=E4 (HTTP source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/1/18/E4_%28channel%29_logo.svg/1073px-E4_%28channel%29_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] E4 +1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1965.ts;streamtype=TSDOWNLOADER&amp;name=E4 +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=E4 +1 (F4M source #03)</link>
@@ -69,7 +72,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC FOUR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2216.ts;streamtype=TSDOWNLOADER&amp;name=BBC FOUR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC FOUR (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1989.ts;streamtype=TSDOWNLOADER&amp;name=BBC FOUR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC FOUR (F4M source #03)</link>
-<link>http://94.130.34.125:81/BBC4/mpegts$$lsname=BBC FOUR (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/bbc4.m3u8$$lsname=BBC FOUR (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=BBC FOUR (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/103</page><referer>http://www.filmon.com/tv/channel/export?channel id=103&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BBC FOUR (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC FOUR HD[/B][/COLOR]</title>
@@ -91,12 +94,13 @@
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/6/62/SkyLiving16.png/revision/latest/scale-to-width-down/300?cb=20160419205650</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 2[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1982.ts;streamtype=TSDOWNLOADER&amp;name=ITV 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 2 (F4M source #03)</link>
-<link>http://94.130.34.125:81/ITV2/mpegts$$lsname=ITV 2 (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/itv2.m3u8$$lsname=ITV 2 (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV 2 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/67</page><referer>http://www.filmon.com/tv/channel/export?channel id=67&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 2 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 2 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2214.ts;streamtype=TSDOWNLOADER&amp;name=ITV 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 2 HD (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1983.ts;streamtype=TSDOWNLOADER&amp;name=ITV 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 2 HD (F4M source #03)</link>
+<link>http://185.59.221.136:9981/stream/channelid/2139720971$$lsname=ITV 2 HD (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV 2 HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/67</page><referer>http://www.filmon.com/tv/channel/export?channel id=67&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 2 HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 2 +1[/B][/COLOR]</title>
@@ -106,7 +110,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 3[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2213.ts;streamtype=TSDOWNLOADER&amp;name=ITV 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 3 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1979.ts;streamtype=TSDOWNLOADER&amp;name=ITV 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 3 (F4M source #03)</link>
-<link>http://94.130.34.125:81/ITV3/mpegts$$lsname=ITV 3 (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/itv3.m3u8$$lsname=ITV 3 (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV 3 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/26</page><referer>http://www.filmon.com/tv/channel/export?channel id=26&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 3 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 3 HD[/B][/COLOR]</title>
@@ -118,7 +122,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV3+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1976.ts;streamtype=TSDOWNLOADER&amp;name=ITV 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 4 (F4M source #03)</link>
-<link>http://94.130.34.125:81/ITV4/mpegts$$lsname=ITV 4 (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/itv4.m3u8$$lsname=ITV 4 (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV 4 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 4 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 4 HD[/B][/COLOR]</title>
@@ -130,6 +134,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV4+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITVBe[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2211.ts;streamtype=TSDOWNLOADER&amp;name=ITVBe [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITVBe (F4M source #01)</link>
+<link>https://ovh.easyview.eu/hls/itvbe.m3u8$$lsname=ITVBe (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITVBe (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITVBe (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITVBE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITVBe HD[/B][/COLOR]</title>
@@ -151,21 +156,21 @@
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/c/cf/Pick2013.png/revision/latest?cb=20131004183440</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] alibi[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1916.ts;streamtype=TSDOWNLOADER&amp;name=alibi [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=alibi (F4M source #03)</link>
-<link>http://94.130.34.125:81/alibi/mpegts$$lsname=alibi (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ALIBI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DAVE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1911.ts;streamtype=TSDOWNLOADER&amp;name=DAVE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DAVE (F4M source #03)</link>
-<link>http://94.130.34.125:81/dave/mpegts$$lsname=DAVE (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/dave.m3u8$$lsname=DAVE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DAVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DAVE HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2173.ts;streamtype=TSDOWNLOADER&amp;name=DAVE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DAVE HD (F4M source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Dave.svg/2000px-Dave.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DRAMA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1863.ts;streamtype=TSDOWNLOADER&amp;name=DRAMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DRAMA (F4M source #03)</link>
-<link>http://94.130.34.125:81/drama/mpegts$$lsname=DRAMA (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/drama.m3u8$$lsname=DRAMA (HTTP source #01)</link>
 <thumbnail>http://i.imgur.com/te6XRf8.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] REALLY[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1940.ts;streamtype=TSDOWNLOADER&amp;name=REALLY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=REALLY (F4M source #03)</link>
+<link>https://ovh.easyview.eu/hls/really.m3u8$$lsname=REALLY (HTTP source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Really_logo.svg/996px-Really_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] COMEDY CENTRAL[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2196.ts;streamtype=TSDOWNLOADER&amp;name=COMEDY CENTRAL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMEDY CENTRAL (F4M source #01)</link>
@@ -173,12 +178,10 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/COMEDYCENTRAL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1835.ts;streamtype=TSDOWNLOADER&amp;name=MTV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV (F4M source #03)</link>
-<link>http://94.130.34.125:81/mtv/mpegts$$lsname=MTV (HTTP source #01)</link>
 <thumbnail>http://i.imgur.com/5u1u9oO.png?1</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SYFY[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2200.ts;streamtype=TSDOWNLOADER&amp;name=SYFY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1900.ts;streamtype=TSDOWNLOADER&amp;name=SYFY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY (F4M source #03)</link>
-<link>http://94.130.34.125:81/syfy/mpegts$$lsname=SYFY (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SYFY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SYFY +1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1899.ts;streamtype=TSDOWNLOADER&amp;name=SYFY +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY +1 (F4M source #03)</link>
@@ -188,6 +191,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/UNIVERSALCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHALLENGE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1782.ts;streamtype=TSDOWNLOADER&amp;name=CHALLENGE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHALLENGE (F4M source #03)</link>
+<link>https://ovh.easyview.eu/hls/challenge.m3u8$$lsname=CHALLENGE (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=CHALLENGE (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/2</page><referer>http://www.filmon.com/tv/channel/export?channel id=2&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CHALLENGE (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHALLENGE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHALLENGE +1[/B][/COLOR]</title>
@@ -196,6 +200,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHALLENGE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 4Seven[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1937.ts;streamtype=TSDOWNLOADER&amp;name=4Seven [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=4Seven (F4M source #03)</link>
+<link>https://ovh.easyview.eu/hls/4seven.m3u8$$lsname=4Seven (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/4SEVEN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] More4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2194.ts;streamtype=TSDOWNLOADER&amp;name=More4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=More4 (F4M source #01)</link>
@@ -211,7 +216,6 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS Reality[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2204.ts;streamtype=TSDOWNLOADER&amp;name=CBS Reality [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBS Reality (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1910.ts;streamtype=TSDOWNLOADER&amp;name=CBS Reality [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBS Reality (F4M source #03)</link>
-<link>http://94.130.34.125:81/cbsreality/mpegts$$lsname=CBS Reality (HTTP source #01)</link>
 <link><link>$doregex[getts]</link>$$lsname=CBS REALITY (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1808</page><referer>http://www.filmon.com/tv/channel/export?channel id=1808&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CBS Reality (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSREALITY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS Reality +1[/B][/COLOR]</title>
@@ -225,18 +229,16 @@
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/d/d7/The_HORRO%D0%AF_Channel.png/revision/latest?cb=20100401091116</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 5STAR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1963.ts;streamtype=TSDOWNLOADER&amp;name=5STAR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=5STAR (F4M source #03)</link>
-<link>http://94.130.34.125:81/5star/mpegts$$lsname=5STAR (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/5STAR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 5 USA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1964.ts;streamtype=TSDOWNLOADER&amp;name=5 USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=5 USA (F4M source #03)</link>
-<link>http://94.130.34.125:81/5usa/mpegts$$lsname=5 USA (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/5usa.m3u8$$lsname=5 USA (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/5USA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] E![/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1934.ts;streamtype=TSDOWNLOADER&amp;name=E! [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=E! (F4M source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/E!.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1913.ts;streamtype=TSDOWNLOADER&amp;name=FOX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX (F4M source #03)</link>
-<link>http://94.130.34.125:81/fox/mpegts$$lsname=FOX (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Real Lives[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1939.ts;streamtype=TSDOWNLOADER&amp;name=Real Lives [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=Real Lives (F4M source #03)</link>
@@ -252,7 +254,6 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TLC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] INVESTIGATION DISCOVERY[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1883.ts;streamtype=TSDOWNLOADER&amp;name=INVESTIGATION DISCOVERY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=INVESTIGATION DISCOVERY (F4M source #03)</link>
-<link>http://94.130.34.125:81/ID/mpegts$$lsname=INVESTIGATION DISCOVERY (HTTP source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/pt/thumb/8/86/Logotipo_Investiga%C3%A7%C3%A3o_Discovery.png/200px-Logotipo_Investiga%C3%A7%C3%A3o_Discovery.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Quest[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1890.ts;streamtype=TSDOWNLOADER&amp;name=Quest [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=Quest (F4M source #03)</link>
@@ -262,6 +263,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/COMEDYCENTRALEXTRA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BET[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1961.ts;streamtype=TSDOWNLOADER&amp;name=BET [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BET (F4M source #03)</link>
+<link>https://ovh.easyview.eu/hls/betblackenttv.m3u8$$lsname=BET (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=BET (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/25</page><referer>http://www.filmon.com/tv/channel/export?channel id=25&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BET (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TRUE ENTERTAINMENT[/B][/COLOR]</title>
@@ -270,7 +272,6 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS Action[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2205.ts;streamtype=TSDOWNLOADER&amp;name=CBS Action [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBS Action (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1909.ts;streamtype=TSDOWNLOADER&amp;name=CBS Action [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBS Action (F4M source #03)</link>
-<link>http://94.130.34.125:81/cbsaction/mpegts$$lsname=CBS Action (HTTP source #01)</link>
 <link><link>$doregex[getts]</link>$$lsname=CBS ACTION (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1952</page><referer>http://www.filmon.com/tv/channel/export?channel id=1952&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CBS Action (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSACTION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SONY CHANNEL[/B][/COLOR]</title>
@@ -278,7 +279,6 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SONYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS Drama[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1908.ts;streamtype=TSDOWNLOADER&amp;name=CBS Drama [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBS Drama (F4M source #03)</link>
-<link>http://94.130.34.125:81/cbsdrama/mpegts$$lsname=CBS Drama (HTTP source #01)</link>
 <link><link>$doregex[getts]</link>$$lsname=CBS DRAMA (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1805</page><referer>http://www.filmon.com/tv/channel/export?channel id=1805&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CBS Drama (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSDRAMA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] LIFETIME[/B][/COLOR]</title>
@@ -299,7 +299,10 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DMAXX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] YESTERDAY[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1906.ts;streamtype=TSDOWNLOADER&amp;name=YESTERDAY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=YESTERDAY (F4M source #03)</link>
-<link>http://94.130.34.125:81/yesterday/mpegts$$lsname=YESTERDAY (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/yesterday.m3u8$$lsname=YESTERDAY (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Yesterday_logo_2012.svg/1200px-Yesterday_logo_2012.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] YESTERDAY +1[/B][/COLOR]</title>
+<link>https://ovh.easyview.eu/hls/yesterdayplus1.m3u8$$lsname=YESTERDAY +1 (HTTP source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Yesterday_logo_2012.svg/1200px-Yesterday_logo_2012.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EDEN[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1935.ts;streamtype=TSDOWNLOADER&amp;name=EDEN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EDEN (F4M source #03)</link>
@@ -310,7 +313,6 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2163.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1886.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY (F4M source #03)</link>
-<link>http://94.130.34.125:81/Discovery/mpegts$$lsname=DISCOVERY (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY +1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1887.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY +1 (F4M source #03)</link>
@@ -350,14 +352,12 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEOHD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HISTORY[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1867.ts;streamtype=TSDOWNLOADER&amp;name=HISTORY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTORY (F4M source #03)</link>
-<link>http://94.130.34.125:81/history/mpegts$$lsname=HISTORY (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HISTORY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HISTORY +1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1866.ts;streamtype=TSDOWNLOADER&amp;name=HISTORY +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTORY +1 (F4M source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HISTORY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] H2[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1871.ts;streamtype=TSDOWNLOADER&amp;name=H2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=H2 (F4M source #03)</link>
-<link>http://94.130.34.125:81/h2/mpegts$$lsname=H2 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/H2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY HOME & HEALTH[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1826.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY HOME & HEALTH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY HOME & HEALTH (F4M source #03)</link>
@@ -371,7 +371,6 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOOD NETWORK[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2162.ts;streamtype=TSDOWNLOADER&amp;name=FOOD NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOOD NETWORK (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1942.ts;streamtype=TSDOWNLOADER&amp;name=FOOD NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOOD NETWORK (F4M source #03)</link>
-<link>http://94.130.34.125:81/foodnetwork/mpegts$$lsname=FOOD NETWORK (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOOD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TRAVEL CHANNEL[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1781.ts;streamtype=TSDOWNLOADER&amp;name=TRAVEL CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TRAVEL CHANNEL (F4M source #03)</link>
@@ -396,6 +395,7 @@
 <thumbnail>http://i.imgur.com/6agMcKm.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV DANCE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/11421.ts;streamtype=TSDOWNLOADER&amp;name=MTV DANCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV DANCE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://painel.kingiptv.com.br:25461/live/admin/admin/5887.ts;streamtype=TSDOWNLOADER&amp;name=MTV DANCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV DANCE (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/3853.ts;streamtype=TSDOWNLOADER&amp;name=MTV DANCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV DANCE (F4M source #03)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/228/index.m3u8$$lsname=MTV DANCE (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://9a318168b27bc5b54a206c48a0033ca9aee73495&amp;mode=1&amp;name=Acestream+MTV DANCE$$lsname=MTV DANCE (PLEXUS source #01)</link>
@@ -412,6 +412,7 @@
 <thumbnail>http://www.lyngsat-logo.com/hires/mm/mtv_classic_au.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 EUROPE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2329.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://painel.kingiptv.com.br:25461/live/admin/admin/5869.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/6044.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://ns3074107.ip-217-182-173.eu:8000/live/micha/micha/2329.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #05)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://asdp.ddns.net:8000/live/daniel/daniel/340.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #06)</link>
@@ -420,6 +421,7 @@
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/238/index.m3u8$$lsname=VH1 EUROPE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1EUROPE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 CLASSIC[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://painel.kingiptv.com.br:25461/live/admin/admin/5868.ts;streamtype=TSDOWNLOADER&amp;name=VH1 CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 CLASSIC (F4M source #02)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/237/index.m3u8$$lsname=VH1 CLASSIC (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VIVA[/B][/COLOR]</title>
@@ -434,7 +436,6 @@
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Kiss_Network_logo.svg/1200px-Kiss_Network_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TCM[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1955.ts;streamtype=TSDOWNLOADER&amp;name=TCM [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TCM (F4M source #03)</link>
-<link>http://94.130.34.125:81/TCM/mpegts$$lsname=TCM (HTTP source #01)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/c/cd/TCM_Latin_America.png/revision/latest?cb=20151209165240</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TCM +1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1954.ts;streamtype=TSDOWNLOADER&amp;name=TCM +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TCM +1 (F4M source #03)</link>
@@ -446,7 +447,6 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FILM4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2199.ts;streamtype=TSDOWNLOADER&amp;name=FILM4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FILM4 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1830.ts;streamtype=TSDOWNLOADER&amp;name=FILM4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FILM4 (F4M source #03)</link>
-<link>http://94.130.34.125:81/FILM4/mpegts$$lsname=FILM4 (HTTP source #01)</link>
 <thumbnail>https://geekboy95.files.wordpress.com/2014/01/film4-logo.jpg</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA PREMIERE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2183.ts;streamtype=TSDOWNLOADER&amp;name=SKY CINEMA PREMIERE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY CINEMA PREMIERE (F4M source #01)</link>
@@ -577,17 +577,17 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORTS MIX HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1821.ts;streamtype=TSDOWNLOADER&amp;name=SKY SPORTS MIX HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORTS MIX HD (F4M source #03)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/9/9c/Sky_Sports_Mix_2017.svg/revision/latest/scale-to-width-down/300?cb=20170718104658</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1[/B][/COLOR]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/eurosport.php$$lsname=EUROSPORT 1 (SD source #01)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 UK[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/eurosport.php$$lsname=EUROSPORT 1 UK (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1812.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 HD (F4M source #03)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 HD UK[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1812.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 1 HD UK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 HD UK (F4M source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2[/B][/COLOR]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/eurosport2.php$$lsname=EUROSPORT 2 (SD source #01)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 UK[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/eurosport2.php$$lsname=EUROSPORT 2 UK (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT2.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1811.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 HD (F4M source #03)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 HD UK[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1811.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 2 HD UK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 HD UK (F4M source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MUTV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2150.ts;streamtype=TSDOWNLOADER&amp;name=MUTV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MUTV (F4M source #01)</link>
@@ -617,7 +617,6 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BT SPORT 3[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/365.ts;streamtype=TSDOWNLOADER&amp;name=BT SPORT 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BT SPORT 3 (F4M source #03)</link>
-<link>http://94.130.34.125:81/bt3/index.m3u8$$lsname=BT SPORT 3 (HTTP source #01)</link>
 <link>http://185.53.163.205:2701$$lsname=BT SPORT 3 (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/btsport3.php$$lsname=BT SPORT 3 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cricfree.sc/update/bteu.php$$lsname=BT SPORT 3 (SD source #02)</link>
@@ -671,6 +670,7 @@
 <link><link>$doregex[getts]$$lsname=LFC TV (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=LFC TV (HTTP source #05)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/1/1f/LFC_TV_logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHELSEA TV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://painel.kingiptv.com.br:25461/live/admin/admin/5858.ts;streamtype=TSDOWNLOADER&amp;name=CHELSEA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHELSEA TV (F4M source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/chelseatv.php$$lsname=CHELSEA TV (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHELSEATV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MOTORSPORT.TV[/B][/COLOR]</title>
@@ -687,29 +687,33 @@
 <thumbnail>http://www.lyngsat-logo.com/hires/pp/premier_sports.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC NEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1777.ts;streamtype=TSDOWNLOADER&amp;name=BBC NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC NEWS (F4M source #03)</link>
-<link>http://94.130.34.125:81/bbcnews/mpegts$$lsname=BBC NEWS (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/bbcnews.m3u8$$lsname=BBC NEWS (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY NEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2159.ts;streamtype=TSDOWNLOADER&amp;name=SKY NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY NEWS (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://painel.kingiptv.com.br:25461/live/admin/admin/6012.ts;streamtype=TSDOWNLOADER&amp;name=SKY NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY NEWS (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1925.ts;streamtype=TSDOWNLOADER&amp;name=SKY NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY NEWS (F4M source #03)</link>
 <link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8$$lsname=SKY NEWS (HTTP source #01)</link>
 <link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/05.m3u8$$lsname=SKY NEWS (HTTP source #02)</link>
-<link>http://94.130.34.125:81/skynews/mpegts$$lsname=SKY NEWS (HTTP source #03)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/0/0c/Sky_News_2015_logo.svg/revision/latest/scale-to-width-down/300?cb=20150530220244</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC PARLIAMENT[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/2003.ts;streamtype=TSDOWNLOADER&amp;name=BBC PARLIAMENT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC PARLIAMENT (F4M source #03)</link>
+<link>https://ovh.easyview.eu/hls/bbc_parliament.m3u8$$lsname=BBC PARLIAMENT (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=BBC PARLIAMENT (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/14</page><referer>http://www.filmon.com/tv/channel/export?channel id=14&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BBC PARLIAMENT (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCPARL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://painel.kingiptv.com.br:25461/live/admin/admin/6013.ts;streamtype=TSDOWNLOADER&amp;name=CNN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNN (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1764.ts;streamtype=TSDOWNLOADER&amp;name=CNN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNN (F4M source #03)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/102/index.m3u8$$lsname=CNN (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://b1e85b569a660aae52c03b6a3f32a7fd906cca05&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://painel.kingiptv.com.br:25461/live/admin/admin/6014.ts;streamtype=TSDOWNLOADER&amp;name=BLOOMBERG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BLOOMBERG (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1770.ts;streamtype=TSDOWNLOADER&amp;name=BLOOMBERG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BLOOMBERG (F4M source #03)</link>
-<link>http://94.130.34.125:81/Bloomberg/mpegts$$lsname=BLOOMBERG (HTTP source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://painel.kingiptv.com.br:25461/live/admin/admin/5813.ts;streamtype=TSDOWNLOADER&amp;name=BLOOMBERG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BLOOMBERG (F4M source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNBC[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://painel.kingiptv.com.br:25461/live/admin/admin/5799.ts;streamtype=TSDOWNLOADER&amp;name=CNBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNBC (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/525.ts;streamtype=TSDOWNLOADER&amp;name=CNBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNBC (F4M source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
@@ -724,8 +728,10 @@
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2207.ts;streamtype=TSDOWNLOADER&amp;name=RTE TWO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTE TWO (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1932.ts;streamtype=TSDOWNLOADER&amp;name=RTE TWO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTE TWO (F4M source #03)</link>
 <link>http://akamai.rasset.ie/hls-live/_definst_/rte2/rte2-720.m3u8$$lsname=RTE TWO (HTTP source #01)</link>
-<link>http://94.130.34.125:81/rte2/mpegts$$lsname=RTE TWO (HTTP source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/1280px-RT%C3%892_logo.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 EN[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://painel.kingiptv.com.br:25461/live/admin/admin/5849.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 EN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 EN (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/10780.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 FR (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/419.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 FR (F4M source #03)</link>
@@ -733,7 +739,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBBC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1991.ts;streamtype=TSDOWNLOADER&amp;name=CBBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBBC (F4M source #03)</link>
-<link>http://94.130.34.125:81/CBBC/mpegts$$lsname=CBBC (HTTP source #01)</link>
+<link>https://ovh.easyview.eu/hls/cbbc.m3u8$$lsname=CBBC (HTTP source #01)</link>
 <link><link>$doregex[getts]</link>$$lsname=CBBC (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1952</page><referer>http://www.filmon.com/tv/channel/export?channel id=1952&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CBBC (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBBC HD[/B][/COLOR]</title>
@@ -741,6 +747,7 @@
 <link><link>$doregex[getts]</link>$$lsname=CBBC HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1952</page><referer>http://www.filmon.com/tv/channel/export?channel id=1952&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CBBC HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Cbeebies[/B][/COLOR]</title>
+<link>https://ovh.easyview.eu/hls/cbeebies.m3u8$$lsname=Cbeebies (HTTP source #01)</link>
 <link><link>$doregex[getts]</link>$$lsname=CBEEBIES (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1952</page><referer>http://www.filmon.com/tv/channel/export?channel id=1952&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=Cbeebies (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBEEBIES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Cbeebies HD[/B][/COLOR]</title>
@@ -766,11 +773,9 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYXD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1859.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON (F4M source #03)</link>
-<link>http://94.130.34.125:81/disneyxd/mpegts$$lsname=NICKELODEON (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICK JR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1850.ts;streamtype=TSDOWNLOADER&amp;name=NICK JR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICK JR (F4M source #03)</link>
-<link>http://94.130.34.125:81/nickjr/mpegts$$lsname=NICK JR (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKJR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICK JR +1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1849.ts;streamtype=TSDOWNLOADER&amp;name=NICK JR +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICK JR +1 (F4M source #03)</link>
@@ -784,7 +789,6 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2166.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1844.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL (F4M source #03)</link>
-<link>http://94.130.34.125:81/DisneyChannel/mpegts$$lsname=DISNEY CHANNEL (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL +1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1843.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL +1 (F4M source #03)</link>
