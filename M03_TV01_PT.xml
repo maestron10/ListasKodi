@@ -70,6 +70,7 @@
 <link><link>http://$doregex[ip]$doregex[ts]$$lsname=SIC (RTMP source #01)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>ts</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/SIC13423784238/1/555/440</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer>$$lsname=SIC (RTMP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt2.php$$lsname=SIC (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.net/channel-tab-frame/sporttv2hd-1.php$$lsname=SIC (SD source #02)</link>
+<link>plugin://program.plexus/?url=acestream://e1ebd22fa0f2d2565668f5305e8ec5f2fdf953f3&amp;mode=1&amp;name=Acestream+SIC$$lsname=SIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SIC HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://195.181.160.131:8080/live/marcelo/m2ezHeAh0j/3.ts;streamtype=TSDOWNLOADER&amp;name=SIC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SIC HD (F4M source #02)</link>
@@ -139,6 +140,8 @@
 <expres>channel='(.*?)'</expres>
 <page>http://www.ucasterplayer.com/membedplayer/tvdesportosicn/1/600/480</page>
 </regex>$$lsname=SIC NOTICIAS (HTTP source #05)</link>"
+<link>plugin://program.plexus/?url=acestream://59220530b75c8a29db8d2831659b05990bc8f43b&amp;mode=1&amp;name=Acestream+SIC NOTICIAS$$lsname=SIC NOTICIAS (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://274a7d5f7b03ed889a355562e67c937e09b2ad9e&amp;mode=1&amp;name=Acestream+SIC NOTICIAS$$lsname=SIC NOTICIAS (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SICN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP 3[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2358.ts;streamtype=TSDOWNLOADER&amp;name=RTP 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP 3 (F4M source #01)</link>
@@ -246,6 +249,8 @@
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/2699.ts;streamtype=TSDOWNLOADER&amp;name=SIC RADICAL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SIC RADICAL (F4M source #03)</link>
 <link>http://live.impresa.pt/live/sicrad/sicrad540p.m3u8$$lsname=SIC RADICAL (HTTP source #01)</link>
 <link>http://live.impresa.pt/live/sicrad/sicrad.m3u8$$lsname=SIC RADICAL (HTTP source #02)</link>
+<link>plugin://program.plexus/?url=acestream://3906c4a9ce25ec10fc7780f1980fdb6c497d77d5&amp;mode=1&amp;name=Acestream+SIC RADICAL$$lsname=SIC RADICAL (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://6bae80c24f7b7f68cf33fd2a1b3411b951ccc41e&amp;mode=1&amp;name=Acestream+SIC RADICAL$$lsname=SIC RADICAL (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SICRADICAL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP MEMORIA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2355.ts;streamtype=TSDOWNLOADER&amp;name=RTP MEMORIA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP MEMORIA (F4M source #01)</link>
@@ -281,7 +286,7 @@
 <link>http://195.181.160.131:8080/live/marcelo/m2ezHeAh0j/205.m3u8$$lsname=SPORT TV 1 HD (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/channels/pt/sporttv1.html$$lsname=SPORT TV 1 HD (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt1.php$$lsname=SPORT TV 1 HD (SD source #02)</link>
-<link>plugin://program.plexus/?url=acestream://a696fb6c909e80163b30d97b2580928095acdc0f&amp;mode=1&amp;name=Acestream+SPORT TV 1 HD$$lsname=SPORT TV 1 HD (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://a4945221c8a9d5388ae41759bd77a4c14c6eb1e7&amp;mode=1&amp;name=Acestream+SPORT TV 1 HD$$lsname=SPORT TV 1 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV1HD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 1 FHD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/3618.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 1 FHD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 1 FHD (F4M source #03)</link>
@@ -292,6 +297,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/2677.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 2 (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://gastrobar.ddns.net:8000/live/Clemente/clemente/3133.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 2 (F4M source #04)</link>
 <link>http://195.181.160.131:8080/live/marcelo/m2ezHeAh0j/80.m3u8$$lsname=SPORT TV 2 (HTTP source #01)</link>
+<link>plugin://program.plexus/?url=acestream://aaa24f43c802a66afbc953f96adbd5a4d5d8367c&amp;mode=1&amp;name=Acestream+SPORT TV 2$$lsname=SPORT TV 2 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 2 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2301.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 2 HD (F4M source #01)</link>
@@ -327,6 +333,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/2675.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 4 (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://gastrobar.ddns.net:8000/live/Clemente/clemente/3135.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 4 (F4M source #04)</link>
 <link>http://195.181.160.131:8080/live/marcelo/m2ezHeAh0j/82.m3u8$$lsname=SPORT TV 4 (HTTP source #01)</link>
+<link>plugin://program.plexus/?url=acestream://410ab9029de51a0d97e8271a944c361acdc66ea6&amp;mode=1&amp;name=Acestream+SPORT TV 4$$lsname=SPORT TV 4 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2299.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 4 HD (F4M source #01)</link>
@@ -351,6 +358,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://ns3074107.ip-217-182-173.eu:8000/live/micha/micha/2298.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 5 HD (F4M source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.net/channel-tab-frame/sporttv5hd-2.php$$lsname=SPORT TV 5 HD (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/ver-sport-tv-5-en-vivo/$$lsname=SPORT TV 5 HD (SD source #02)</link>
+<link>plugin://program.plexus/?url=acestream://4b0f2138dd48916a0190cd36d1a89630726298bd&amp;mode=1&amp;name=Acestream+SPORT TV 5 HD$$lsname=SPORT TV 5 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV5HD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 5 FHD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/3614.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 5 FHD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 5 FHD (F4M source #03)</link>
@@ -766,12 +774,13 @@
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/4057.ts;streamtype=TSDOWNLOADER&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://gastrobar.ddns.net:8000/live/Clemente/clemente/1734.ts;streamtype=TSDOWNLOADER&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #04)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/229/index.m3u8$$lsname=MTV HITS (HTTP source #01)</link>
-<link>plugin://program.plexus/?url=acestream://b7293147416846bec1b6574d35f2c2ea0c857b31&amp;mode=1&amp;name=Acestream+MTV HITS$$lsname=MTV HITS (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://a4cb4ab0b826f9c8f4ca1f784cb5613401c52537&amp;mode=1&amp;name=Acestream+MTV HITS$$lsname=MTV HITS (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/MTV_Hits_2017_logo.svg/1024px-MTV_Hits_2017_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV LIVE HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/11417.ts;streamtype=TSDOWNLOADER&amp;name=MTV LIVE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV LIVE HD (F4M source #01)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/26/index.m3u8$$lsname=MTV LIVE HD (HTTP source #01)</link>
 <link>http://playlist.onlybest.tv/ru/channel/78ad82ff7979f9daa5f44464e8788080/26/index.m3u8$$lsname=MTV LIVE HD (HTTP source #02)</link>
+<link>plugin://program.plexus/?url=acestream://c55badbfac9cd85c7e0212141561a71e71f2f4ca&amp;mode=1&amp;name=Acestream+MTV LIVE HD$$lsname=MTV LIVE HD (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/1/14/MTV_Live_Logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV MUSIC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1840.ts;streamtype=TSDOWNLOADER&amp;name=MTV MUSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV MUSIC (F4M source #03)</link>
@@ -779,7 +788,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV ROCKS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/11418.ts;streamtype=TSDOWNLOADER&amp;name=MTV ROCKS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV ROCKS (F4M source #01)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/230/index.m3u8$$lsname=MTV ROCKS (HTTP source #01)</link>
-<link>plugin://program.plexus/?url=acestream://772a38fb385f8b96dec16743187c02074158fad3&amp;mode=1&amp;name=Acestream+MTV ROCKS$$lsname=MTV ROCKS (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://da9b2d937309c62c7b614dc1132c8b3986e3e5d7&amp;mode=1&amp;name=Acestream+MTV ROCKS$$lsname=MTV ROCKS (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/2/22/MTV_Rocks_2017_logo.svg/1200px-MTV_Rocks_2017_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 EUROPE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2329.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #01)</link>
@@ -788,10 +797,12 @@
 <link>plugin://plugin.video.f4mTester/?url=http://gastrobar.ddns.net:8000/live/Clemente/clemente/2949.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #04)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://ns3074107.ip-217-182-173.eu:8000/live/micha/micha/2329.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #05)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/238/index.m3u8$$lsname=VH1 EUROPE (HTTP source #01)</link>
+<link>plugin://program.plexus/?url=acestream://8cb69525386533f81c042f9e02d254f01b71d00c&amp;mode=1&amp;name=Acestream+VH1 EUROPE$$lsname=VH1 EUROPE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1EUROPE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 CLASSIC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://195.181.160.131:8080/live/marcelo/m2ezHeAh0j/300.ts;streamtype=TSDOWNLOADER&amp;name=VH1 CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 CLASSIC (F4M source #02)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/237/index.m3u8$$lsname=VH1 CLASSIC (HTTP source #01)</link>
+<link>plugin://program.plexus/?url=acestream://185ee5f2e98278437e946fc09e26ecee75b446fd&amp;mode=1&amp;name=Acestream+VH1 CLASSIC$$lsname=VH1 CLASSIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6 MUSIQUE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/480.ts;streamtype=TSDOWNLOADER&amp;name=M6 MUSIQUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 MUSIQUE (F4M source #01)</link>
@@ -815,6 +826,7 @@
 <thumbnail>https://teleonline.org/wp-content/uploads/2016/02/djing-ibiza-poster.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MCM TOP[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/2729.ts;streamtype=TSDOWNLOADER&amp;name=MCM TOP [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MCM TOP (F4M source #03)</link>
+<link>plugin://program.plexus/?url=acestream://a7d81b6c7b69cb0830c309e073aba6695e75a630&amp;mode=1&amp;name=Acestream+MCM TOP$$lsname=MCM TOP (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MCMTOP.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MCM POP[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://195.181.160.131:8080/live/marcelo/m2ezHeAh0j/1135.ts;streamtype=TSDOWNLOADER&amp;name=MCM POP [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MCM POP (F4M source #02)</link>
@@ -824,11 +836,13 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C MUSIC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://195.181.160.131:8080/live/marcelo/m2ezHeAh0j/295.ts;streamtype=TSDOWNLOADER&amp;name=C MUSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C MUSIC (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/5611.ts;streamtype=TSDOWNLOADER&amp;name=C MUSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C MUSIC (F4M source #03)</link>
+<link>plugin://program.plexus/?url=acestream://b3a5b978c82c600c49144d8e8c1d90eebb740bef&amp;mode=1&amp;name=Acestream+C MUSIC$$lsname=C MUSIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CMUSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEZZO[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://195.181.160.131:8080/live/marcelo/m2ezHeAh0j/587.ts;streamtype=TSDOWNLOADER&amp;name=MEZZO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MEZZO (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/5610.ts;streamtype=TSDOWNLOADER&amp;name=MEZZO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MEZZO (F4M source #03)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/67/index.m3u8$$lsname=MEZZO (HTTP source #01)</link>
+<link>plugin://program.plexus/?url=acestream://c46dceaece308ebd03a7123a298c4f49d2adfb2a&amp;mode=1&amp;name=Acestream+MEZZO$$lsname=MEZZO (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEZZO LIVE HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/6043.ts;streamtype=TSDOWNLOADER&amp;name=MEZZO LIVE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MEZZO LIVE HD (F4M source #03)</link>
@@ -986,7 +1000,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1764.ts;streamtype=TSDOWNLOADER&amp;name=CNN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNN (F4M source #03)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/102/index.m3u8$$lsname=CNN (HTTP source #01)</link>
-<link>plugin://program.plexus/?url=acestream://b1e85b569a660aae52c03b6a3f32a7fd906cca05&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://19ed23f12a849d0818f81f17d0c2f99a7ce1bf1f&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX NEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1074.ts;streamtype=TSDOWNLOADER&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #03)</link>
@@ -994,6 +1008,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1770.ts;streamtype=TSDOWNLOADER&amp;name=BLOOMBERG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BLOOMBERG (F4M source #03)</link>
+<link>plugin://program.plexus/?url=acestream://9f57af33bd3b3e01ffcd5fbd7700effd0765a77d&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY NEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2159.ts;streamtype=TSDOWNLOADER&amp;name=SKY NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY NEWS (F4M source #01)</link>
@@ -1003,6 +1018,7 @@
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/0/0c/Sky_News_2015_logo.svg/revision/latest/scale-to-width-down/300?cb=20150530220244</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC WORLD NEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/2773.ts;streamtype=TSDOWNLOADER&amp;name=BBC WORLD NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC WORLD NEWS (F4M source #03)</link>
+<link>plugin://program.plexus/?url=acestream://c68645ccde51551b47de995c3f0ba950228841da&amp;mode=1&amp;name=Acestream+BBC WORLD NEWS$$lsname=BBC WORLD NEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCWORLDNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBSN[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/524.ts;streamtype=TSDOWNLOADER&amp;name=CBSN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBSN (F4M source #03)</link>
@@ -1019,12 +1035,14 @@
 <link>http://b2everyrai-lh.akamaihd.net:80/i/rainews_1@179616/index_1800_av-p.m3u8$$lsname=RAI NEWS 24 (HTTP source #02)</link>
 <link>http://b2everyrai-lh.akamaihd.net/i/rainews_1@179616/index_1200_av-p.m3u8$$lsname=RAI NEWS 24 (HTTP source #03)</link>
 <link>http://151.72.35.116:9981/stream/channelid/931223481$$lsname=RAI NEWS 24 (HTTP source #04)</link>
+<link>plugin://program.plexus/?url=acestream://39b429b47b9d49c4761284606568056386411763&amp;mode=1&amp;name=Acestream+RAI NEWS 24$$lsname=RAI NEWS 24 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAINEWS24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVE 24H[/B][/COLOR]</title>
 <link>http://hlsliveamdgl8-lh.akamaihd.net/i/hlsdvrlive_1@583030/master.m3u8$$lsname=TVE 24H (HTTP source #01)</link>
 <link>http://hlsliveamdgl8-lh.akamaihd.net/i/hlsdvrlive_1@583030/index_1500_av-p.m3u8$$lsname=TVE 24H (HTTP source #02)</link>
 <link>http://rtvev4-live.hss.adaptive.level3.net/egress/ahandler/rtvegl0/irtve01_lv3_aosv4_gl0/irtve01_lv3_aosv4_gl0.isml/irtve01_lv3_aosv4_gl0-audio=128000-video=400000.m3u8$$lsname=TVE 24H (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/nacionales/tve24h.php$$lsname=TVE 24H (SD source #01)</link>
+<link>plugin://program.plexus/?url=acestream://276e0693a79bf5ad95e47792465b7f8fef91e48f&amp;mode=1&amp;name=Acestream+TVE 24H$$lsname=TVE 24H (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVE24H.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DW (ENGLISH)[/B][/COLOR]</title>
 <link>http://dwstream5-lh.akamaihd.net/i/dwstream5_live@124540/master.m3u8$$lsname=DW (ENGLISH) (HTTP source #01)</link>
@@ -1108,7 +1126,7 @@
 <link>http://playlist.onlybest.tv/ru/channel/78ad82ff7979f9daa5f44464e8788080/661/index.m3u8$$lsname=VOX (HTTP source #02)</link>
 <link>http://84.164.34.135:9981/stream/channelid/1879004925$$lsname=VOX (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernsehen/deutsch/vox.html$$lsname=VOX (SD source #01)</link>
-<link>plugin://program.plexus/?url=acestream://c583e777a93472cdaca33785b348b844864c3327&amp;mode=1&amp;name=Acestream+VOX$$lsname=VOX (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://0ea2b8622cbde70391dfcd5f6f9d3a86df2a72ac&amp;mode=1&amp;name=Acestream+VOX$$lsname=VOX (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VOX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTL[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/429.ts;streamtype=TSDOWNLOADER&amp;name=RTL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL (F4M source #01)</link>
@@ -1142,6 +1160,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1439.ts;streamtype=TSDOWNLOADER&amp;name=TV5 MONDE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV5 MONDE (F4M source #03)</link>
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/v3plusinfo247hls_1_1.m3u8$$lsname=TV5 MONDE (HTTP source #01)</link>
 <link>http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/435/index.m3u8$$lsname=TV5 MONDE (HTTP source #02)</link>
+<link>plugin://program.plexus/?url=acestream://d6a0d3b9d35f2d3e4cfbdadee17867421062a60d&amp;mode=1&amp;name=Acestream+TV5 MONDE$$lsname=TV5 MONDE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TV5MONDE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RAI 1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/325.ts;streamtype=TSDOWNLOADER&amp;name=RAI 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RAI 1 (F4M source #03)</link>
@@ -1215,6 +1234,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://193.200.164.146:8080/live/live:kral__smart/UYjqUviEyW/1037.ts;streamtype=TSDOWNLOADER&amp;name=REAL MADRID TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=REAL MADRID TV (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://gastrobar.ddns.net:8000/live/Clemente/clemente/100.ts;streamtype=TSDOWNLOADER&amp;name=REAL MADRID TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=REAL MADRID TV (F4M source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/deportes/realmadridtv.php$$lsname=REAL MADRID TV (SD source #01)</link>
+<link>plugin://program.plexus/?url=acestream://1f07ff5d2f370b308386280624c326600b3d9426&amp;mode=1&amp;name=Acestream+REAL MADRID TV$$lsname=REAL MADRID TV (PLEXUS source #01)</link>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/2/27/Realmadrid_TV.svg/revision/latest/scale-to-width-down/600?cb=20100605113205</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] REAL MADRID TV HD[/B][/COLOR]</title>
 <link>http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/master.m3u8$$lsname=REAL MADRID TV HD (HTTP source #01)</link>
