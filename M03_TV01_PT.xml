@@ -10,8 +10,8 @@
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2360.ts;streamtype=TSDOWNLOADER&amp;name=RTP 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP 1 HD (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/439.ts;streamtype=TSDOWNLOADER&amp;name=RTP 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP 1 HD (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://ns3074107.ip-217-182-173.eu:8000/live/micha/micha/2360.ts;streamtype=TSDOWNLOADER&amp;name=RTP 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP 1 HD (F4M source #05)</link>
-<link>http://62.28.213.14:9981/stream/channelid/1439506767$$lsname=RTP 1 HD (HTTP source #01)</link>
 <link>http://ns3074107.ip-217-182-173.eu:8000/live/micha/micha/2360.m3u8$$lsname=RTP 1 HD (HTTP source #02)</link>
+<link>http://62.28.213.14:9981/stream/channelid/1439506767$$lsname=RTP 1 HD (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP 2[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://217.182.173.184:8000/live/micha/micha/2359.ts;streamtype=TSDOWNLOADER&amp;name=RTP 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP 2 (F4M source #01)</link>
@@ -81,7 +81,6 @@
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/5307.ts;streamtype=TSDOWNLOADER&amp;name=TVI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TVI (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://1sn.ns1.name:18800/live/asnjeri1AlbLocBoxFreeForMe/fdsgrewgeafwegea/2676.ts;streamtype=TSDOWNLOADER&amp;name=TVI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TVI (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://ns3074107.ip-217-182-173.eu:8000/live/micha/micha/2348.ts;streamtype=TSDOWNLOADER&amp;name=TVI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TVI (F4M source #05)</link>
-<link>https://video-auth2.iol.pt/live_tvi/live_tvi/live_tvi/live_tvi-3/chunks.m3u8?nimblesessionid=6203553&wmsAuthSign=c2VydmVyX3RpbWU9NS8yNS8yMDE4IDExOjEzOjU0IFBNJmhhc2hfdmFsdWU9ekEyTFR0WS96bk5RMmNtUysxL1ZaUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWIzMGMxYTA2LTljMDEtNDU1NC1hNTRhLTNjM2ZlMmQ1ODdiMA==$$lsname=TVI (HTTP source #01)</link>
 <link>http://62.28.213.14:9981/stream/channelid/1402355728$$lsname=TVI (HTTP source #02)</link>
 "<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=TVI (HTTP source #04)</link>
 <regex>
@@ -763,20 +762,14 @@
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/16258.ts;streamtype=TSDOWNLOADER&amp;name=M6 MUSIQUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 MUSIQUE (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://1sn.ns1.name:18800/live/asnjeri1AlbLocBoxFreeForMe/fdsgrewgeafwegea/2843.ts;streamtype=TSDOWNLOADER&amp;name=M6 MUSIQUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 MUSIQUE (F4M source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6MUSIC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] DJING CLASSIC[/B][/COLOR]</title>
-<link>http://www.djing.com/tv/i-05.m3u8$$lsname=DJING CLASSIC (HTTP source #01)</link>
-<thumbnail>http://www.streamytv.net/wp-content/uploads/2015/11/Djing-Classic.jpg</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DJING DANCE FLOOR MUSIC[/B][/COLOR]</title>
-<link>http://www.djing.com/tv/dancefloor.m3u8$$lsname=DJING DANCE FLOOR MUSIC (HTTP source #01)</link>
-<link>https://www.djing.com/tv/dancefloor.m3u8$$lsname=DJING DANCE FLOOR MUSIC (HTTP source #02)</link>
-<link>http://djing.com/tv/dancefloor.m3u8$$lsname=DJING DANCE FLOOR MUSIC (HTTP source #03)</link>
+<link>http://djing.com/tv/dancefloor.m3u8$$lsname=DJING DANCE FLOOR MUSIC (HTTP source #01)</link>
 <thumbnail>https://soombo.com/assets/images/200_1449003921.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DJING HITS[/B][/COLOR]</title>
-<link>http://www.djing.com/tv/04.m3u8$$lsname=DJING HITS (HTTP source #01)</link>
+<link>http://djing.com/tv/04.m3u8$$lsname=DJING HITS (HTTP source #01)</link>
 <thumbnail>https://soombo.com/assets/images/200_1449003921.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DJING IBIZA[/B][/COLOR]</title>
-<link>http://www.djing.com/tv/01.m3u8$$lsname=DJING IBIZA (HTTP source #01)</link>
-<link>http://djing.com/tv/ibiza.m3u8$$lsname=DJING IBIZA (HTTP source #02)</link>
+<link>http://djing.com/tv/ibiza.m3u8$$lsname=DJING IBIZA (HTTP source #01)</link>
 <thumbnail>https://teleonline.org/wp-content/uploads/2016/02/djing-ibiza-poster.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MCM TOP[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/275.ts;streamtype=TSDOWNLOADER&amp;name=MCM TOP [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MCM TOP (F4M source #02)</link>
@@ -915,7 +908,7 @@
 <thumbnail>http://bit.ly/2lsP3Gh</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV RECORD HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/317.ts;streamtype=TSDOWNLOADER&amp;name=TV RECORD HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV RECORD HD (F4M source #02)</link>
-<link>http://api.new.livestream.com/accounts/21076186/events/6180705/live.m3u8$$lsname=TV RECORD HD (HTTP source #01)</link>
+<link>http://api.new.livestream.com/accounts/21076186/events/6180705/live.m3u8$$lsname=TV RECORD HD (HTTP source #02)</link>
 <thumbnail>http://bit.ly/2lsP3Gh</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/417.ts;streamtype=TSDOWNLOADER&amp;name=EURONEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EURONEWS (F4M source #02)</link>
@@ -956,9 +949,9 @@
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/0/0c/Sky_News_2015_logo.svg/revision/latest/scale-to-width-down/300?cb=20150530220244</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC WORLD NEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/421.ts;streamtype=TSDOWNLOADER&amp;name=BBC WORLD NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC WORLD NEWS (F4M source #02)</link>
-<link>http://playlist.onlybest.tv/en/channel/7897eb1d61ef4aba51d1424a65d01be9/145/index.m3u8$$lsname=BBC WORLD NEWS (HTTP source #01)</link>
-<link>http://playlist.onlybest.tv/en/channel/7897eb1d61ef4aba51d1424a65d01be9/433/index.m3u8$$lsname=BBC WORLD NEWS (HTTP source #02)</link>
-<link>plugin://program.plexus/?url=acestream://c68645ccde51551b47de995c3f0ba950228841da&amp;mode=1&amp;name=Acestream+BBC WORLD NEWS$$lsname=BBC WORLD NEWS (PLEXUS source #01)</link>
+<link>http://playlist.onlybest.tv/en/channel/7897eb1d61ef4aba51d1424a65d01be9/433/index.m3u8$$lsname=BBC WORLD NEWS (HTTP source #01)</link>
+<link>http://playlist.onlybest.tv/en/channel/7897eb1d61ef4aba51d1424a65d01be9/145/index.m3u8$$lsname=BBC WORLD NEWS (HTTP source #02)</link>
+<link>plugin://program.plexus/?url=acestream://dd35ebb28e96e9631b1cc935b8e57cd1ea6f9bb1&amp;mode=1&amp;name=Acestream+BBC WORLD NEWS$$lsname=BBC WORLD NEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCWORLDNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNBC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/295.ts;streamtype=TSDOWNLOADER&amp;name=CNBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNBC (F4M source #02)</link>
@@ -993,7 +986,6 @@
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/293.ts;streamtype=TSDOWNLOADER&amp;name=DW (ENGLISH) [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DW (ENGLISH) (F4M source #02)</link>
 <link>http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-p.m3u8$$lsname=DW (ENGLISH) (HTTP source #01)</link>
 <link>http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8$$lsname=DW (ENGLISH) (HTTP source #02)</link>
-<link>http://dwstream5-lh.akamaihd.net/i/dwstream5_live@124540/master.m3u8$$lsname=DW (ENGLISH) (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DW.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 EN[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/313.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 EN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 EN (F4M source #02)</link>
@@ -1042,7 +1034,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANCAO NOVA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/267.ts;streamtype=TSDOWNLOADER&amp;name=CANCAO NOVA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANCAO NOVA (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://1sn.ns1.name:18800/live/asnjeri1AlbLocBoxFreeForMe/fdsgrewgeafwegea/4774.ts;streamtype=TSDOWNLOADER&amp;name=CANCAO NOVA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANCAO NOVA (F4M source #03)</link>
-<link>http://cancaonova-push-live.hls.adaptive.level3.net:80/hls-live/cancaonova-channel01/_definst_/live/stream1.m3u8$$lsname=CANCAO NOVA (HTTP source #02)</link>
+<link>http://cancaonova-push-live.hls.adaptive.level3.net:80/hls-live/cancaonova-channel01/_definst_/live/stream1.m3u8$$lsname=CANCAO NOVA (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANCAONOVA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FATIMA TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/397.ts;streamtype=TSDOWNLOADER&amp;name=FATIMA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FATIMA TV (F4M source #02)</link>
@@ -1050,9 +1042,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVFATIMA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AR TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/15563.ts;streamtype=TSDOWNLOADER&amp;name=AR TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AR TV (F4M source #02)</link>
-<link>http://193.126.16.68:1935/livenlin4/2liveartvpub/live.m3u$$lsname=AR TV (HTTP source #01)</link>
+<link>http://193.126.16.68:1935/livenlin4/2liveartvpub/live.m3u8$$lsname=AR TV (HTTP source #01)</link>
 <link>http://193.126.16.68:1935/livenlin4/mp4:2liveartvpub/playlist.m3u8$$lsname=AR TV (HTTP source #02)</link>
-<link>http://193.126.16.68:1935/livenlin4/2liveartvpub/live.m3u8$$lsname=AR TV (HTTP source #03)</link>
 <link>rtmp://193.126.16.68:1935/livenlin4/2liveartvpub$$lsname=AR TV (RTMP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP AFRICA[/B][/COLOR]</title>
@@ -1296,7 +1287,6 @@
 <link>http://srv6.zoeweb.tv:1935/z343-live/stream/playlist.m3u8$$lsname=SBT HD (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SBT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ARROIOS TV[/B][/COLOR]</title>
-<link>http://213.13.26.11:1935/live/luis/livestream.m3u$$lsname=ARROIOS TV (HTTP source #01)</link>
-<link>http://213.13.26.11:1935/live/luis/livestream.m3u8$$lsname=ARROIOS TV (HTTP source #02)</link>
+<link>http://213.13.26.11:1935/live/luis/livestream.m3u8$$lsname=ARROIOS TV (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARROIOSTV.png</thumbnail></item>
 Copyright © 2018 - TeamBlue
