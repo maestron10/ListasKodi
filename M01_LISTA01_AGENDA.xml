@@ -333,6 +333,13 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/channels/pt/sporttv1.html$$lsname=SPORT TV 1 HD (Sports Devil #source 01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt1.php$$lsname=SPORT TV 1 HD (Sports Devil #source 01)</link>
 <link>plugin://program.plexus/?url=acestream://a4945221c8a9d5388ae41759bd77a4c14c6eb1e7&amp;mode=1&amp;name=acestream+SPORT TV 1 HD$$lsname=SPORT TV 1 HD (PLEXUS source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/5411.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV3$$lsname=SPORTV3 (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://54.39.46.113:80/live/vando/vando/37006.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV3$$lsname=SPORTV3 (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/saad/saad/4325.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV3$$lsname=SPORTV3 (F4M source #02)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/sportv3.php$$lsname=SPORTV3 (Sports Devil #source 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/106.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV3 HD$$lsname=SPORTV3 HD (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://54.39.46.113:80/live/vando/vando/36942.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV3 HD$$lsname=SPORTV3 HD (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/saad/saad/6083.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV3 HD$$lsname=SPORTV3 HD (F4M source #02)</link>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 17 (PLEXUS)</link><regex><name>hash</name><expres>this.loadPlayer\("(.*?)"</expres><page>http://arenavision2018.ml/17</page><referer>http://arenavision2018.ml</referer><setcookie>beget=begetok</setcookie></regex>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 18 (PLEXUS)</link><regex><name>hash</name><expres>this.loadPlayer\("(.*?)"</expres><page>http://arenavision2018.ml/18</page><referer>http://arenavision2018.ml</referer><setcookie>beget=begetok</setcookie></regex>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=(Acestreams)$$lsname=ARENAVISION 10 (PLEXUS)</link><regex><name>hash</name><expres>this.loadPlayer\("(.*?)"</expres><page>http://arenavision2018.ml/10</page><referer>http://arenavision2018.ml</referer><setcookie>beget=begetok</setcookie></regex>
@@ -520,11 +527,14 @@
 <link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/saad/saad/7863.ts;streamtype=TSDOWNLOADER&amp;name=PFC$$lsname=PFC (F4M source #02)</link>
 <link>rtmp://213.152.180.151:17247/sstream/1bdlLe7dro.stream$$lsname=PFC (RTMP #source 01)</link>
 <link>rtmp://213.152.180.151:17247/sstream/06lt6eKOWl.stream$$lsname=PFC (RTMP #source 01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/206.ts;streamtype=TSDOWNLOADER&amp;name=PREMIERE CLUBES$$lsname=PREMIERE CLUBES (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://54.39.46.113:80/live/vando/vando/37016.ts;streamtype=TSDOWNLOADER&amp;name=PREMIERE CLUBES$$lsname=PREMIERE CLUBES (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/saad/saad/7863.ts;streamtype=TSDOWNLOADER&amp;name=PREMIERE CLUBES$$lsname=PREMIERE CLUBES (F4M source #02)</link>
-<link>rtmp://213.152.180.151:17247/sstream/1bdlLe7dro.stream$$lsname=PREMIERE CLUBES (RTMP #source 01)</link>
-<link>rtmp://213.152.180.151:17247/sstream/06lt6eKOWl.stream$$lsname=PREMIERE CLUBES (RTMP #source 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/5414.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV$$lsname=SPORTV (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://54.39.46.113:80/live/vando/vando/37045.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV$$lsname=SPORTV (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/saad/saad/4327.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV$$lsname=SPORTV (F4M source #02)</link>
+<link>http://apk.goo.ac:8081/live/20/playlist.m3u8$$lsname=SPORTV (HTTP #source 02)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://widestream.io/embed-9646$$lsname=SPORTV (Sports Devil #source 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/Junia/Junia/5413.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV HD$$lsname=SPORTV HD (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://54.39.46.113:80/live/vando/vando/36941.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV HD$$lsname=SPORTV HD (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/saad/saad/6082.ts;streamtype=TSDOWNLOADER&amp;name=SPORTV HD$$lsname=SPORTV HD (F4M source #02)</link>
 <info>Brasileirão - Série A, é a liga brasileira de futebol profissional entre clubes do Brasil, sendo a principal competição futebolística no país. É por meio dela que são indicados os representantes brasileiros para a Copa Libertadores da América (juntamente com o campeão da Copa do Brasil). Atualmente é também chamada oficialmente de Brasileirão Chevrolet, por motivos de patrocínio.</info>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/ICOcomp/master/FUTEBOL.png</thumbnail></item>
 "<item><title>[B][COLOR red]27.05•01h00 [B][COLOR lawngreen]FUTEBOL•BRASILEIRAO SERIE A
