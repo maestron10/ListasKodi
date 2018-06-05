@@ -2,35 +2,49 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TF1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10087.ts;streamtype=TSDOWNLOADER&amp;name=TF1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TF1.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TF1 HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/3578.ts;streamtype=TSDOWNLOADER&amp;name=TF1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 HD (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TF1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 2[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10104.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 2 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5866.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 2 (F4M source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE 2 (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1717</page><referer>http://www.filmon.com/tv/channel/export?channel id=1717&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE 2 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 3[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10102.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2540.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 (F4M source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE 3 (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1723</page><referer>http://www.filmon.com/tv/channel/export?channel id=1723&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE 3 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10115.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ (F4M source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/canal-plus-francia-online/$$lsname=CANAL+ (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/3706.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ HD (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 5[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10100.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 5 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2538.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 5 (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10098.ts;streamtype=TSDOWNLOADER&amp;name=M6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ARTE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5402.ts;streamtype=TSDOWNLOADER&amp;name=ARTE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ARTE (F4M source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=ARTE (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1729</page><referer>http://www.filmon.com/tv/channel/export?channel id=1729&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ARTE (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] W9[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10084.ts;streamtype=TSDOWNLOADER&amp;name=W9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 (F4M source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/W9.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] W9 HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5414.ts;streamtype=TSDOWNLOADER&amp;name=W9 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/W9.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NRJ12[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://038bc750dfbbe978d4f6933ea0648bde5ce32276&amp;mode=1&amp;name=Acestream+NRJ12$$lsname=NRJ12 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NRJ12.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10101.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 4 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2539.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 4 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://d640a45fdc6d736a6cbe49274234489f4818b047&amp;mode=1&amp;name=Acestream+FRANCE 4$$lsname=FRANCE 4 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM TV[/B][/COLOR]</title>
@@ -40,12 +54,16 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.bfmtv.com/mediaplayer/live-video/$$lsname=BFM TV HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GULLI[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5011.ts;streamtype=TSDOWNLOADER&amp;name=GULLI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GULLI (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://5dd558a03fba438753494d109e7b013b40590d8f&amp;mode=1&amp;name=Acestream+GULLI$$lsname=GULLI (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GULLI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE Ô[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10105.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE Ô [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE Ô (F4M source #01)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE O (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/3884</page><referer>http://www.filmon.com/tv/channel/export?channel id=3884&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE Ô (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCEO.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] HD1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5411.ts;streamtype=TSDOWNLOADER&amp;name=HD1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HD1 (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HD1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] L'EQUIPE 21[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10099.ts;streamtype=TSDOWNLOADER&amp;name=L'EQUIPE 21 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=L'EQUIPE 21 (F4M source #01)</link>
 <link>http://ec.playmedia.fr/lequipe21/live/chunklist_w811887822.m3u8$$lsname=L'EQUIPE 21 (HTTP source #01)</link>
@@ -64,42 +82,91 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PARISPREMIERE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTL9[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10092.ts;streamtype=TSDOWNLOADER&amp;name=RTL9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL9 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5416.ts;streamtype=TSDOWNLOADER&amp;name=RTL9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL9 (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTL9.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 1[/B][/COLOR]</title>
 <link>http://86.242.219.151:8000/play/a002/index.m3u8$$lsname=beiN SPORTS 1 (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/deportes/beinfrance1.php$$lsname=beiN SPORTS 1 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/canal+liga.php$$lsname=beiN SPORTS 1 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS1.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 1 HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2823.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 1 HD (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 2[/B][/COLOR]</title>
 <link>http://86.242.219.151:8000/play/a006/index.m3u8$$lsname=beiN SPORTS 2 (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/deportes/beinfrance2.php$$lsname=beiN SPORTS 2 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://mamahd.com/watch-bein-2-france-live-stream-1.html$$lsname=beiN SPORTS 2 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS2.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 2 HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2824.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 2 HD (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 3[/B][/COLOR]</title>
 <link>http://86.242.219.151:8000/play/a007/index.m3u8$$lsname=beiN SPORTS 3 (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/deportes/beinfrance3.php$$lsname=beiN SPORTS 3 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS3.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 3 HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2825.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 3 HD (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS3.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 4 FR[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5325.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 4 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 4 FR (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS4MAX.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 5 FR[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5326.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 5 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 5 FR (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS5MAX.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 6 FR[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5327.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 6 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 6 FR (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS6MAX.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 7 FR[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5328.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 7 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 7 FR (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS7MAX.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 8 FR[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5329.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 8 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 8 FR (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS8MAX.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/3988.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 1 (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 1 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10091.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 1 HD (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT1.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 2[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/3989.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 2 (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 2 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10090.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 2 HD (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT2.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 3[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/3990.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 3 (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 3 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10089.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 3 HD (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT3.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TEVA HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/3318.ts;streamtype=TSDOWNLOADER&amp;name=TEVA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TEVA HD (F4M source #02)</link>
+<thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/9/93/Tevaq2g.png/revision/latest?cb=20171014172952</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ CINEMA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10114.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ CINEMA (F4M source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+CINEMA.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ CINEMA HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2543.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ CINEMA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ CINEMA HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+CINEMA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ SPORT[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/canal+sport.php$$lsname=CANAL+ SPORT (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/canal-plus-francia-sport/$$lsname=CANAL+ SPORT (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+SPORT.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ SERIES HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/3577.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ SERIES HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ SERIES HD (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+SERIES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ FAMILY[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10112.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ FAMILY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ FAMILY (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+FAMILY.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ FAMILY HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2535.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ FAMILY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ FAMILY HD (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+FAMILY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ DECALE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10113.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ DECALE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ DECALE (F4M source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+DECALE.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ DECALE HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2536.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ DECALE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ DECALE HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+DECALE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL[/B][/COLOR]</title>
 <link>http://86.242.219.151:8000/play/a00i/index.m3u8$$lsname=DISNEY CHANNEL (HTTP source #01)</link>
@@ -109,7 +176,14 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ PREMIER[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10117.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ PREMIER [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ PREMIER (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2532.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ PREMIER [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ PREMIER (F4M source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_cine_plus_premier.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS MAX HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2979.ts;streamtype=TSDOWNLOADER&amp;name=OCS MAX HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS MAX HD (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSMAX.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS CHOC[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/3707.ts;streamtype=TSDOWNLOADER&amp;name=OCS CHOC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS CHOC (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSCHOC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ACTION[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10125.ts;streamtype=TSDOWNLOADER&amp;name=ACTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ACTION (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ACTION.png</thumbnail></item>
@@ -134,6 +208,9 @@
 <link>http://188.93.238.205:8000/play/TV5Monde$$lsname=TV5 MONDE (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://d6a0d3b9d35f2d3e4cfbdadee17867421062a60d&amp;mode=1&amp;name=Acestream+TV5 MONDE$$lsname=TV5 MONDE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TV5MONDE.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TV BREIZH[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5413.ts;streamtype=TSDOWNLOADER&amp;name=TV BREIZH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV BREIZH (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVBREIZH.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MANGAS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10097.ts;streamtype=TSDOWNLOADER&amp;name=MANGAS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MANGAS (F4M source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/e/e4/Mangas_%28TV%29_logo_2015.png</thumbnail></item>
@@ -142,12 +219,18 @@
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/f/f0/Small_logo_GONG_black.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ FRISSON[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10119.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FRISSON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FRISSON (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2478.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FRISSON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FRISSON (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+FRISSON.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ FRISSON HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2784.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FRISSON HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FRISSON HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+FRISSON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ EMOTION HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10121.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ EMOTION HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ EMOTION HD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2978.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ EMOTION HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ EMOTION HD (F4M source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_cine_plus_emotion.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ FAMIZ[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10120.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FAMIZ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FAMIZ (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/2981.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FAMIZ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FAMIZ (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+FAMIZ.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ CLUB[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10123.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ CLUB [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLUB (F4M source #01)</link>
@@ -164,6 +247,9 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY JUNIOR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://reason4online.com:8080/live/Auntagency/csIrr6DjE3/10107.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY JUNIOR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY JUNIOR (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYJUNIOR.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] PIWI+[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvhd.eu:777/live/tel1/tel1/5010.ts;streamtype=TSDOWNLOADER&amp;name=PIWI+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PIWI+ (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PIWI+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELETOON+[/B][/COLOR]</title>
 <link>http://86.242.219.151:8000/play/a00l/index.m3u8$$lsname=TELETOON+ (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TELETOON.png</thumbnail></item>
