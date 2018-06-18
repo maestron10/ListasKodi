@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+"<item><title>COM AMOR, SIMON [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link>
+<regex><name>TeamBluePlay</name>
+<expres>file: "(.*ALTO.*?)"</expres>
+<page>$doregex[TeamBluePlayOne]</page>
+</regex><regex>
+<name>TeamBluePlayOne</name>
+<expres>src="(.*)" fra</expres>
+<page>$doregex[TeamBluePlayTwo]</page>
+</regex><regex>
+<name>TeamBluePlayTwo</name>
+<expres>src=""(.*LEG.*?)"" fra</expres>
+<page>http://netcine.us/com-amor-simon/</page>
+</regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/449176_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Love, Simon[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] Marty Bowen
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 110 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/12
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] Nick Robinson, Alexandra Shipp, Logan Miller, Katherine Langford, Talitha Bateman, Mackenzie Lintz, Jorge Lendeborg Jr., Miles Heizer, Jennifer Garner, Josh Duhamel, Tony Hale, Colton Haynes, Nancy De Mayo, David Copeland Brown Jr., Tyler Chase, Terayle Hill, Clark Moore, Alex Sgambati, Alyssa Riley Burrell, Mandy Fason
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Todos merecem uma grande história de amor. Mas para Simon é complicado: ninguém sabe que ele é gay e ele não sabe quem é o colega de turma anónimo por quem se apaixonou através da Internet.
+Resolver estas as duas questões revela-se divertido, assustador e muda para sempre a vida de Simon.</info></item>"
 "<item><title>EU MATO GIGANTES [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/i-kill-giants/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/419831.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]I Kill Giants[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Anders Walter

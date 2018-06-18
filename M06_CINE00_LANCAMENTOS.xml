@@ -16,6 +16,27 @@
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Madison Wolfe, Zoe Saldana, Imogen Poots, Noel Clarke, Ciara O'Callaghan, Sydney Wade, Rory Jackson
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Barbara Thorson é uma aluna do 5º ano esperta e de língua afiada, que não tem medo de nada. Porque haveria de ter? Afinal de contas, é a única miúda da escola que anda com um martelo de guerra ancestral nórdico na mala e vive a vida a matar gigantes. Pelo menos, é o que ela conta por aí...
 Adaptado da novela gráfica de Joe Kelly, "Eu Mato Gigantes" é a história bizarra e agridoce de uma jovem  que tenta derrotar os seus monstros, reais ou imaginários, à medida que o mundo que construiu com empenho começa a desmoronar-se aos pés de gigantes de uma dimensão que nenhuma criança conseguirá alguma vez enfrentar.</info></item>"
+"<item><title>COM AMOR, SIMON [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link>
+<regex><name>TeamBluePlay</name>
+<expres>file: "(.*ALTO.*?)"</expres>
+<page>$doregex[TeamBluePlayOne]</page>
+</regex><regex>
+<name>TeamBluePlayOne</name>
+<expres>src="(.*)" fra</expres>
+<page>$doregex[TeamBluePlayTwo]</page>
+</regex><regex>
+<name>TeamBluePlayTwo</name>
+<expres>src=""(.*LEG.*?)"" fra</expres>
+<page>http://netcine.us/com-amor-simon/</page>
+</regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/449176_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Love, Simon[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] Marty Bowen
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 110 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/12
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] Nick Robinson, Alexandra Shipp, Logan Miller, Katherine Langford, Talitha Bateman, Mackenzie Lintz, Jorge Lendeborg Jr., Miles Heizer, Jennifer Garner, Josh Duhamel, Tony Hale, Colton Haynes, Nancy De Mayo, David Copeland Brown Jr., Tyler Chase, Terayle Hill, Clark Moore, Alex Sgambati, Alyssa Riley Burrell, Mandy Fason
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Todos merecem uma grande história de amor. Mas para Simon é complicado: ninguém sabe que ele é gay e ele não sabe quem é o colega de turma anónimo por quem se apaixonou através da Internet.
+Resolver estas as duas questões revela-se divertido, assustador e muda para sempre a vida de Simon.</info></item>"
 "<item><title>UMA VIAGEM NO TEMPO [Leg] </title><link>http://cdn96.micetop.us/httpdelivery/sex/antigos/nc/L/UMADOBRANOTEMPOHDLEG.mp4</link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/407451.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]A Wrinkle in Time[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Aventura, Fantasia
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Ava DuVernay
@@ -55,7 +76,7 @@ As suas vidas cruzam-se e são decididas por um génio do crime que planeia, met
 [B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Nicolas Cage, Robin Tunney, Marc Blucas, Ernie Lively, Jacque Gray, Bill Bolender, Barry Jay Minoff, Kassia Conway, Jason K Wixom, Sila Agavale, Kimmy Jimenez, Pascoalina Dunham, Rebecca Beckham
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Um casal compra um motel deserto, onde acontecem eventos estranhos.</info></item>"
-"<item><title>CARGO [Leg] </title><link>http://cdn96.micetop.us/httpdelivery/sex/antigos/nc/L/CARGOLEG.mp4</link><thumbnail>http://br.web.img3.acsta.net/c_215_290/pictures/17/10/23/12/33/0246129.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Cargo[/B][/COLOR]
+"<item><title>CARGO [Leg] </title><link>http://tcdn22.micetop.us/httpdelivery/sex/antigos/nc/L/CARGOLEG.mp4</link><thumbnail>http://br.web.img3.acsta.net/c_215_290/pictures/17/10/23/12/33/0246129.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Cargo[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Thriller, Ação
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Ben Howling, Yolanda Ramke
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 105 m
