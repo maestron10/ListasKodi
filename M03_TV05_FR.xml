@@ -1,719 +1,548 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TF1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/5324.ts;streamtype=TSDOWNLOADER&amp;name=TF1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28717.ts;streamtype=TSDOWNLOADER&amp;name=TF1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5610.ts;streamtype=TSDOWNLOADER&amp;name=TF1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TF1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TF1 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3591.ts;streamtype=TSDOWNLOADER&amp;name=TF1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/882.ts;streamtype=TSDOWNLOADER&amp;name=TF1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4279.ts;streamtype=TSDOWNLOADER&amp;name=TF1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12062.ts;streamtype=TSDOWNLOADER&amp;name=TF1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 HD (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12857.ts;streamtype=TSDOWNLOADER&amp;name=TF1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TF1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 2[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3575.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 2 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28716.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 2 (F4M source #08)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE 2 (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1717</page><referer>http://www.filmon.com/tv/channel/export?channel id=1717&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE 2 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 2 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/902.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 2 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4277.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 2 HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12061.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 2 HD (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5669.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 2 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 3[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3576.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28715.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5668.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 (F4M source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE 3 (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1723</page><referer>http://www.filmon.com/tv/channel/export?channel id=1723&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE 3 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 3 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/901.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4276.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12060.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 HD (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12858.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/canal-plus-francia-online/$$lsname=CANAL+ (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3561.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2540.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4252.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28696.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ HD (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12860.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 5[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3578.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 5 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/899.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 5 (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28713.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 5 (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 5 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4274.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 5 HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12058.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 5 HD (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5666.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 5 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/513.ts;streamtype=TSDOWNLOADER&amp;name=M6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4278.ts;streamtype=TSDOWNLOADER&amp;name=M6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28712.ts;streamtype=TSDOWNLOADER&amp;name=M6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5653.ts;streamtype=TSDOWNLOADER&amp;name=M6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3581.ts;streamtype=TSDOWNLOADER&amp;name=M6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/858.ts;streamtype=TSDOWNLOADER&amp;name=M6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/1386.ts;streamtype=TSDOWNLOADER&amp;name=M6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12057.ts;streamtype=TSDOWNLOADER&amp;name=M6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 HD (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ARTE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12056.ts;streamtype=TSDOWNLOADER&amp;name=ARTE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ARTE (F4M source #08)</link>
 <link><link>$doregex[getm3u8]$$lsname=ARTE (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1729</page><referer>http://www.filmon.com/tv/channel/export?channel id=1729&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ARTE (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ARTE HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/872.ts;streamtype=TSDOWNLOADER&amp;name=ARTE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ARTE HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4174.ts;streamtype=TSDOWNLOADER&amp;name=ARTE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ARTE HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12862.ts;streamtype=TSDOWNLOADER&amp;name=ARTE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ARTE HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] C8[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2501.ts;streamtype=TSDOWNLOADER&amp;name=C8 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C8 (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28711.ts;streamtype=TSDOWNLOADER&amp;name=C8 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C8 (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/C8.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C8 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3552.ts;streamtype=TSDOWNLOADER&amp;name=C8 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C8 HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/1402.ts;streamtype=TSDOWNLOADER&amp;name=C8 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C8 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13006.ts;streamtype=TSDOWNLOADER&amp;name=C8 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C8 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/C8.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] W9[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3593.ts;streamtype=TSDOWNLOADER&amp;name=W9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2500.ts;streamtype=TSDOWNLOADER&amp;name=W9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12054.ts;streamtype=TSDOWNLOADER&amp;name=W9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/W9.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] W9 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4272.ts;streamtype=TSDOWNLOADER&amp;name=W9 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5601.ts;streamtype=TSDOWNLOADER&amp;name=W9 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/W9.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TMC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3547.ts;streamtype=TSDOWNLOADER&amp;name=TMC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TMC (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/860.ts;streamtype=TSDOWNLOADER&amp;name=TMC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TMC (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28702.ts;streamtype=TSDOWNLOADER&amp;name=TMC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TMC (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TMC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TMC HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4269.ts;streamtype=TSDOWNLOADER&amp;name=TMC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TMC HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5607.ts;streamtype=TSDOWNLOADER&amp;name=TMC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TMC HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TMCHD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NT1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/863.ts;streamtype=TSDOWNLOADER&amp;name=NT1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NT1 (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28707.ts;streamtype=TSDOWNLOADER&amp;name=NT1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NT1 (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5639.ts;streamtype=TSDOWNLOADER&amp;name=NT1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NT1 (F4M source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/nn/nt1_fr.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NT1 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3585.ts;streamtype=TSDOWNLOADER&amp;name=NT1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NT1 HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4267.ts;streamtype=TSDOWNLOADER&amp;name=NT1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NT1 HD (F4M source #03)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/nn/nt1_fr.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NRJ12[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12051.ts;streamtype=TSDOWNLOADER&amp;name=NRJ12 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ12 (F4M source #08)</link>
 <link>plugin://program.plexus/?url=acestream://038bc750dfbbe978d4f6933ea0648bde5ce32276&amp;mode=1&amp;name=Acestream+NRJ12$$lsname=NRJ12 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NRJ12.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NRJ12 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3584.ts;streamtype=TSDOWNLOADER&amp;name=NRJ12 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ12 HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/866.ts;streamtype=TSDOWNLOADER&amp;name=NRJ12 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ12 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19856.ts;streamtype=TSDOWNLOADER&amp;name=NRJ12 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ12 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5641.ts;streamtype=TSDOWNLOADER&amp;name=NRJ12 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ12 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NRJ12.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] LA CHAINE PARLAMENTAIRE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19796.ts;streamtype=TSDOWNLOADER&amp;name=LA CHAINE PARLAMENTAIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=LA CHAINE PARLAMENTAIRE (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5655.ts;streamtype=TSDOWNLOADER&amp;name=LA CHAINE PARLAMENTAIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=LA CHAINE PARLAMENTAIRE (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LCP.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3577.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 4 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28714.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 4 (F4M source #08)</link>
 <link>plugin://program.plexus/?url=acestream://d640a45fdc6d736a6cbe49274234489f4818b047&amp;mode=1&amp;name=Acestream+FRANCE 4$$lsname=FRANCE 4 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 4 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/900.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 4 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4275.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 4 HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12059.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 4 HD (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5667.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 4 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3554.ts;streamtype=TSDOWNLOADER&amp;name=BFM TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM TV (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28709.ts;streamtype=TSDOWNLOADER&amp;name=BFM TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM TV (F4M source #08)</link>
 <link><link>$doregex[getm3u8]$$lsname=BFM TV (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/2765</page><referer>http://www.filmon.com/tv/channel/export?channel id=2765&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BFM TV (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM TV HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/1398.ts;streamtype=TSDOWNLOADER&amp;name=BFM TV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM TV HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5706.ts;streamtype=TSDOWNLOADER&amp;name=BFM TV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM TV HD (F4M source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.bfmtv.com/mediaplayer/live-video/$$lsname=BFM TV HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMTV.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] I>TELE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2528.ts;streamtype=TSDOWNLOADER&amp;name=I>TELE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=I>TELE (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28708.ts;streamtype=TSDOWNLOADER&amp;name=I>TELE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=I>TELE (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITELE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GULLI[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8615.ts;streamtype=TSDOWNLOADER&amp;name=GULLI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GULLI (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://5dd558a03fba438753494d109e7b013b40590d8f&amp;mode=1&amp;name=Acestream+GULLI$$lsname=GULLI (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GULLI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GULLI HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3580.ts;streamtype=TSDOWNLOADER&amp;name=GULLI HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GULLI HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2511.ts;streamtype=TSDOWNLOADER&amp;name=GULLI HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GULLI HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4177.ts;streamtype=TSDOWNLOADER&amp;name=GULLI HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GULLI HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16917.ts;streamtype=TSDOWNLOADER&amp;name=GULLI HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GULLI HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GULLI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE Ô[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3579.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE Ô [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE Ô (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28697.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE Ô [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE Ô (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5664.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE Ô [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE Ô (F4M source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE O (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/3884</page><referer>http://www.filmon.com/tv/channel/export?channel id=3884&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE Ô (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCEO.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE Ô HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/903.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE Ô HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE Ô HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4273.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE Ô HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE Ô HD (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCEO.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] HD1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12052.ts;streamtype=TSDOWNLOADER&amp;name=HD1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HD1 (F4M source #08)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] HD1 HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5662.ts;streamtype=TSDOWNLOADER&amp;name=HD1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HD1 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HD1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] L'EQUIPE 21[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/883.ts;streamtype=TSDOWNLOADER&amp;name=L'EQUIPE 21 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=L'EQUIPE 21 (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5676.ts;streamtype=TSDOWNLOADER&amp;name=L'EQUIPE 21 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=L'EQUIPE 21 (F4M source #02)</link>
 <link>http://ec.playmedia.fr/lequipe21/live/chunklist_w811887822.m3u8$$lsname=L'EQUIPE 21 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LEQUIPE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] L'EQUIPE 21 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/1395.ts;streamtype=TSDOWNLOADER&amp;name=L'EQUIPE 21 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=L'EQUIPE 21 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5674.ts;streamtype=TSDOWNLOADER&amp;name=L'EQUIPE 21 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=L'EQUIPE 21 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LEQUIPE.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] 6TER[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28706.ts;streamtype=TSDOWNLOADER&amp;name=6TER [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=6TER (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/6TER.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 6TER HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2546.ts;streamtype=TSDOWNLOADER&amp;name=6TER HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=6TER HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4263.ts;streamtype=TSDOWNLOADER&amp;name=6TER HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=6TER HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13004.ts;streamtype=TSDOWNLOADER&amp;name=6TER HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=6TER HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/6TER.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] NUMERO 23[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28699.ts;streamtype=TSDOWNLOADER&amp;name=NUMERO 23 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NUMERO 23 (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NUMERO23.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NUMERO 23 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4260.ts;streamtype=TSDOWNLOADER&amp;name=NUMERO 23 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NUMERO 23 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5638.ts;streamtype=TSDOWNLOADER&amp;name=NUMERO 23 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NUMERO 23 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NUMERO23.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] RMC DECOUVERTE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2527.ts;streamtype=TSDOWNLOADER&amp;name=RMC DECOUVERTE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RMC DECOUVERTE (F4M source #02)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/fr/7/73/Logo_RMC_D%C3%A9couverte_2012.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] RMC DECOUVERTE HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4221.ts;streamtype=TSDOWNLOADER&amp;name=RMC DECOUVERTE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RMC DECOUVERTE HD (F4M source #03)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/fr/7/73/Logo_RMC_D%C3%A9couverte_2012.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHERIE 25[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3989.ts;streamtype=TSDOWNLOADER&amp;name=CHERIE 25 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHERIE 25 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28691.ts;streamtype=TSDOWNLOADER&amp;name=CHERIE 25 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHERIE 25 (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHERIE25.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHERIE 25 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/871.ts;streamtype=TSDOWNLOADER&amp;name=CHERIE 25 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHERIE 25 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4259.ts;streamtype=TSDOWNLOADER&amp;name=CHERIE 25 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHERIE 25 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5693.ts;streamtype=TSDOWNLOADER&amp;name=CHERIE 25 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHERIE 25 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHERIE25.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] LCI[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3513.ts;streamtype=TSDOWNLOADER&amp;name=LCI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=LCI (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LCI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] LCI HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4176.ts;streamtype=TSDOWNLOADER&amp;name=LCI HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=LCI HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5656.ts;streamtype=TSDOWNLOADER&amp;name=LCI HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=LCI HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LCI.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] PARIS PREMIERE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28698.ts;streamtype=TSDOWNLOADER&amp;name=PARIS PREMIERE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PARIS PREMIERE (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PARISPREMIERE.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] PARIS PREMIERE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28698.ts;streamtype=TSDOWNLOADER&amp;name=PARIS PREMIERE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PARIS PREMIERE (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PARISPREMIERE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTL9[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3535.ts;streamtype=TSDOWNLOADER&amp;name=RTL9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL9 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/881.ts;streamtype=TSDOWNLOADER&amp;name=RTL9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL9 (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28710.ts;streamtype=TSDOWNLOADER&amp;name=RTL9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL9 (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/7945.ts;streamtype=TSDOWNLOADER&amp;name=RTL9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL9 (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTL9.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTL9 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/121.ts;streamtype=TSDOWNLOADER&amp;name=RTL9 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL9 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5620.ts;streamtype=TSDOWNLOADER&amp;name=RTL9 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL9 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTL9.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28679.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 1 (F4M source #08)</link>
-<link>http://86.242.219.151:8000/play/a002/index.m3u8$$lsname=beiN SPORTS 1 (HTTP source #01)</link>
+<link>http://163.172.220.115:8080/rAMdannbein/beinspfr1/index.m3u8$$lsname=beiN SPORTS 1 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 1 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3558.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 1 HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/1419.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 1 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12961.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 1 HD (F4M source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/beinsports1france.php$$lsname=beiN SPORTS 1 HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28678.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 2 (F4M source #08)</link>
-<link>http://86.242.219.151:8000/play/a006/index.m3u8$$lsname=beiN SPORTS 2 (HTTP source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12959.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 2 (F4M source #02)</link>
+<link>http://163.172.220.115:8080/rAMdannbein/beinspfr2/index.m3u8$$lsname=beiN SPORTS 2 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 2 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3559.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 2 HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/1420.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 2 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5709.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 2 HD (F4M source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/beinsports2france.php$$lsname=beiN SPORTS 2 HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 3[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28677.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 3 (F4M source #08)</link>
-<link>http://86.242.219.151:8000/play/a007/index.m3u8$$lsname=beiN SPORTS 3 (HTTP source #01)</link>
+<link>http://163.172.220.115:8080/rAMdannbein/beinspfr3/index.m3u8$$lsname=beiN SPORTS 3 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 3 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3560.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 3 HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/1421.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 3 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12957.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 3 HD (F4M source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/beinsports3france.php$$lsname=beiN SPORTS 3 HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 4 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3522.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 4 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 4 FR (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/8943.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 4 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 4 FR (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19820.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 4 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 4 FR (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5389.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 4 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 4 FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS4MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 5 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3521.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 5 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 5 FR (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/8942.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 5 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 5 FR (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19819.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 5 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 5 FR (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5388.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 5 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 5 FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS5MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 6 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3520.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 6 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 6 FR (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/8941.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 6 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 6 FR (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19818.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 6 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 6 FR (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5387.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 6 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 6 FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS6MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 7 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3519.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 7 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 7 FR (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/8940.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 7 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 7 FR (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19817.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 7 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 7 FR (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5386.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 7 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 7 FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS7MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 8 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3518.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 8 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 8 FR (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19816.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 8 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 8 FR (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5385.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 8 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 8 FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS8MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 9 FR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19815.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 9 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 9 FR (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5384.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 9 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 9 FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS9MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 10 FR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19814.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 10 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 10 FR (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5383.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 10 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 10 FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS10MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3531.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 1 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28676.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 1 (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 1 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/6355.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 1 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/2912.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 1 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8636.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 1 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 2[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3530.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 2 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28675.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 2 (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 2 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/6356.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 2 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/2913.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 2 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5400.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 2 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 3[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3500.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 3 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28674.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 3 (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 3 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/6357.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 3 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/2914.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 3 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5399.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 3 HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT3.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 5[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/2915.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 5 (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28673.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 5 (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 FR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/951.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 1 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 FR (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/7137.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 1 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 HD FR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/1418.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 1 HD FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 HD FR (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5672.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 1 HD FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 HD FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 FR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/950.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 2 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 FR (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12951.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 2 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 HD FR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/144.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 2 HD FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 HD FR (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5671.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 2 HD FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 HD FR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GAME ONE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3793.ts;streamtype=TSDOWNLOADER&amp;name=GAME ONE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GAME ONE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5663.ts;streamtype=TSDOWNLOADER&amp;name=GAME ONE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GAME ONE (F4M source #02)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/international-entertainment-project/images/3/38/Logo_game_one.png/revision/latest?cb=20171015005822</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GAME ONE HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4179.ts;streamtype=TSDOWNLOADER&amp;name=GAME ONE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GAME ONE HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16919.ts;streamtype=TSDOWNLOADER&amp;name=GAME ONE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GAME ONE HD (F4M source #02)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/international-entertainment-project/images/3/38/Logo_game_one.png/revision/latest?cb=20171015005822</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TEVA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3791.ts;streamtype=TSDOWNLOADER&amp;name=TEVA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TEVA (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28703.ts;streamtype=TSDOWNLOADER&amp;name=TEVA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TEVA (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5611.ts;streamtype=TSDOWNLOADER&amp;name=TEVA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TEVA (F4M source #02)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/9/93/Tevaq2g.png/revision/latest?cb=20171014172952</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TEVA HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/855.ts;streamtype=TSDOWNLOADER&amp;name=TEVA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TEVA HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/111.ts;streamtype=TSDOWNLOADER&amp;name=TEVA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TEVA HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13002.ts;streamtype=TSDOWNLOADER&amp;name=TEVA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TEVA HD (F4M source #02)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/9/93/Tevaq2g.png/revision/latest?cb=20171014172952</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AB 1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3523.ts;streamtype=TSDOWNLOADER&amp;name=AB 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB 1 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28705.ts;streamtype=TSDOWNLOADER&amp;name=AB 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB 1 (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AB1.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] AB 1 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/856.ts;streamtype=TSDOWNLOADER&amp;name=AB 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB 1 HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/128.ts;streamtype=TSDOWNLOADER&amp;name=AB 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB 1 HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5715.ts;streamtype=TSDOWNLOADER&amp;name=AB 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB 1 (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AB1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ CINEMA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3562.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ CINEMA (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28693.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ CINEMA (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+CINEMA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ CINEMA HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/6352.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ CINEMA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ CINEMA HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4248.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ CINEMA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ CINEMA HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12996.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ CINEMA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ CINEMA HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+CINEMA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ SPORT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12025.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ SPORT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ SPORT (F4M source #08)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/canal-plus-francia-sport/$$lsname=CANAL+ SPORT (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+SPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ SPORT HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3564.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ SPORT HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ SPORT HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2539.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ SPORT HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ SPORT HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4247.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ SPORT HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ SPORT HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8569.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ SPORT HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ SPORT HD (F4M source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/canal+sport.php$$lsname=CANAL+ SPORT HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+SPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ SERIES HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/6353.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ SERIES HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ SERIES HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4249.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ SERIES HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ SERIES HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12995.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ SERIES HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ SERIES HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+SERIES.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ FAMILY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28695.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ FAMILY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ FAMILY (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+FAMILY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ FAMILY HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4251.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ FAMILY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ FAMILY HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12046.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ FAMILY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ FAMILY HD (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12970.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ FAMILY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ FAMILY HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+FAMILY.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ DECALE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28692.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ DECALE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ DECALE (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+DECALE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ DECALE HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3563.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ DECALE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ DECALE HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2538.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ DECALE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ DECALE HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4250.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ DECALE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ DECALE HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12045.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ DECALE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ DECALE HD (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5699.ts;streamtype=TSDOWNLOADER&amp;name=CANAL+ DECALE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ DECALE HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+DECALE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3574.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2509.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28746.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL (F4M source #08)</link>
 <link>http://86.242.219.151:8000/play/a00i/index.m3u8$$lsname=DISNEY CHANNEL (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4189.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5681.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL +1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19848.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL +1 (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12947.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL +1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL +1 (F4M source #02)</link>
 <link>http://86.242.219.151:8000/play/a00k/index.m3u8$$lsname=DISNEY CHANNEL +1 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CINEMA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3516.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CINEMA (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCINEMAGIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CINEMA HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4188.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CINEMA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CINEMA HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12946.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CINEMA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CINEMA HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCINEMAGIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ PREMIER[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3570.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ PREMIER [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ PREMIER (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/1408.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ PREMIER [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ PREMIER (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28685.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ PREMIER [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ PREMIER (F4M source #08)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_cine_plus_premier.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ PREMIER HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/877.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ PREMIER HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ PREMIER HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4245.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ PREMIER HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ PREMIER HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5688.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ PREMIER HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ PREMIER HD (F4M source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_cine_plus_premier.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS MAX HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3588.ts;streamtype=TSDOWNLOADER&amp;name=OCS MAX HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS MAX HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4164.ts;streamtype=TSDOWNLOADER&amp;name=OCS MAX HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS MAX HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5634.ts;streamtype=TSDOWNLOADER&amp;name=OCS MAX HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS MAX HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSMAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS CITY HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3586.ts;streamtype=TSDOWNLOADER&amp;name=OCS CITY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS CITY HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4166.ts;streamtype=TSDOWNLOADER&amp;name=OCS CITY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS CITY HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5636.ts;streamtype=TSDOWNLOADER&amp;name=OCS CITY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS CITY HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSCITY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS CHOC HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/886.ts;streamtype=TSDOWNLOADER&amp;name=OCS CHOC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS CHOC HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4167.ts;streamtype=TSDOWNLOADER&amp;name=OCS CHOC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS CHOC HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12041.ts;streamtype=TSDOWNLOADER&amp;name=OCS CHOC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS CHOC HD (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5637.ts;streamtype=TSDOWNLOADER&amp;name=OCS CHOC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS CHOC HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSCHOC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS GEANTS HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3587.ts;streamtype=TSDOWNLOADER&amp;name=OCS GEANTS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS GEANTS HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4165.ts;streamtype=TSDOWNLOADER&amp;name=OCS GEANTS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS GEANTS HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5635.ts;streamtype=TSDOWNLOADER&amp;name=OCS GEANTS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS GEANTS HD (F4M source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/oo/ocs_geants.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ACTION[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3541.ts;streamtype=TSDOWNLOADER&amp;name=ACTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ACTION (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28704.ts;streamtype=TSDOWNLOADER&amp;name=ACTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ACTION (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8629.ts;streamtype=TSDOWNLOADER&amp;name=ACTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ACTION (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ACTION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ACTION HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4237.ts;streamtype=TSDOWNLOADER&amp;name=ACTION HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ACTION HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13003.ts;streamtype=TSDOWNLOADER&amp;name=ACTION HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ACTION HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ACTION.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TCM CINEMA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8621.ts;streamtype=TSDOWNLOADER&amp;name=TCM CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TCM CINEMA (F4M source #02)</link>
+<thumbnail>http://i.imgur.com/aMWD5vz.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TCM CINEMA HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4238.ts;streamtype=TSDOWNLOADER&amp;name=TCM CINEMA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TCM CINEMA HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13001.ts;streamtype=TSDOWNLOADER&amp;name=TCM CINEMA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TCM CINEMA HD (F4M source #02)</link>
 <thumbnail>http://i.imgur.com/aMWD5vz.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PARAMOUNT CHANNEL HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3544.ts;streamtype=TSDOWNLOADER&amp;name=PARAMOUNT CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PARAMOUNT CHANNEL HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4236.ts;streamtype=TSDOWNLOADER&amp;name=PARAMOUNT CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PARAMOUNT CHANNEL HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16896.ts;streamtype=TSDOWNLOADER&amp;name=PARAMOUNT CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PARAMOUNT CHANNEL HD (F4M source #02)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/5/59/Paramount_Channel.svg/revision/latest/scale-to-width-down/208?cb=20130908121353</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28752.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PLANETE+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+ HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2526.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/132.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8572.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PLANETE+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NAT GEO CH[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3583.ts;streamtype=TSDOWNLOADER&amp;name=NAT GEO CH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO CH (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28757.ts;streamtype=TSDOWNLOADER&amp;name=NAT GEO CH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO CH (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] NAT GEO WILD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2524.ts;streamtype=TSDOWNLOADER&amp;name=NAT GEO WILD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO WILD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28756.ts;streamtype=TSDOWNLOADER&amp;name=NAT GEO WILD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO WILD (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEOWILD.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NAT GEO CH HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8632.ts;streamtype=TSDOWNLOADER&amp;name=NAT GEO CH HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO CH HD (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEOHD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NAT GEO WILD HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3582.ts;streamtype=TSDOWNLOADER&amp;name=NAT GEO WILD HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO WILD HD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16906.ts;streamtype=TSDOWNLOADER&amp;name=NAT GEO WILD HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO WILD HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEOHD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VOYAGE HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3592.ts;streamtype=TSDOWNLOADER&amp;name=VOYAGE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VOYAGE HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4223.ts;streamtype=TSDOWNLOADER&amp;name=VOYAGE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VOYAGE HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16883.ts;streamtype=TSDOWNLOADER&amp;name=VOYAGE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VOYAGE HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VOYAGE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] E! ENTERTAINMENT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4235.ts;streamtype=TSDOWNLOADER&amp;name=E! ENTERTAINMENT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=E! ENTERTAINMENT (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5678.ts;streamtype=TSDOWNLOADER&amp;name=E! ENTERTAINMENT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=E! ENTERTAINMENT (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/E!.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6 MUSIQUE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2502.ts;streamtype=TSDOWNLOADER&amp;name=M6 MUSIQUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 MUSIQUE (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19808.ts;streamtype=TSDOWNLOADER&amp;name=M6 MUSIQUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 MUSIQUE (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5654.ts;streamtype=TSDOWNLOADER&amp;name=M6 MUSIQUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 MUSIQUE (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6MUSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV HITS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/8956.ts;streamtype=TSDOWNLOADER&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/11146.ts;streamtype=TSDOWNLOADER&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19807.ts;streamtype=TSDOWNLOADER&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8568.ts;streamtype=TSDOWNLOADER&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/MTV_Hits_2017_logo.svg/1024px-MTV_Hits_2017_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TRACE URBAN HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4196.ts;streamtype=TSDOWNLOADER&amp;name=TRACE URBAN HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TRACE URBAN HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16886.ts;streamtype=TSDOWNLOADER&amp;name=TRACE URBAN HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TRACE URBAN HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRACEURBANHD.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TRACE TROPICAL HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19799.ts;streamtype=TSDOWNLOADER&amp;name=TRACE TROPICAL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TRACE TROPICAL HD (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRACETROPICALHD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV5 MONDE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/954.ts;streamtype=TSDOWNLOADER&amp;name=TV5 MONDE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV5 MONDE (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/129.ts;streamtype=TSDOWNLOADER&amp;name=TV5 MONDE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV5 MONDE (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8631.ts;streamtype=TSDOWNLOADER&amp;name=TV5 MONDE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV5 MONDE (F4M source #02)</link>
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/v3plusinfo247hls_1_1.m3u8$$lsname=TV5 MONDE (HTTP source #01)</link>
 <link>http://188.93.238.205:8000/play/TV5Monde$$lsname=TV5 MONDE (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://d6a0d3b9d35f2d3e4cfbdadee17867421062a60d&amp;mode=1&amp;name=Acestream+TV5 MONDE$$lsname=TV5 MONDE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TV5MONDE.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TV BREIZH[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2521.ts;streamtype=TSDOWNLOADER&amp;name=TV BREIZH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV BREIZH (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/3017.ts;streamtype=TSDOWNLOADER&amp;name=TV BREIZH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV BREIZH (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28700.ts;streamtype=TSDOWNLOADER&amp;name=TV BREIZH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV BREIZH (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVBREIZH.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] COMEDIE+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3571.ts;streamtype=TSDOWNLOADER&amp;name=COMEDIE+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMEDIE+ (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/6354.ts;streamtype=TSDOWNLOADER&amp;name=COMEDIE+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMEDIE+ (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4253.ts;streamtype=TSDOWNLOADER&amp;name=COMEDIE+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMEDIE+ (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5687.ts;streamtype=TSDOWNLOADER&amp;name=COMEDIE+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMEDIE+ (F4M source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_comedie_plus.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] 13E RUE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2543.ts;streamtype=TSDOWNLOADER&amp;name=13E RUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=13E RUE (F4M source #02)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/13EMERUE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 13E RUE HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3546.ts;streamtype=TSDOWNLOADER&amp;name=13E RUE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=13E RUE HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/113.ts;streamtype=TSDOWNLOADER&amp;name=13E RUE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=13E RUE HD (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12050.ts;streamtype=TSDOWNLOADER&amp;name=13E RUE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=13E RUE HD (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5717.ts;streamtype=TSDOWNLOADER&amp;name=13E RUE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=13E RUE HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/13EMERUE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SYFY[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3542.ts;streamtype=TSDOWNLOADER&amp;name=SYFY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28701.ts;streamtype=TSDOWNLOADER&amp;name=SYFY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5614.ts;streamtype=TSDOWNLOADER&amp;name=SYFY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SYFY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SYFY HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2537.ts;streamtype=TSDOWNLOADER&amp;name=SYFY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4255.ts;streamtype=TSDOWNLOADER&amp;name=SYFY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12968.ts;streamtype=TSDOWNLOADER&amp;name=SYFY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SYFY.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] SERIE CLUB HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19857.ts;streamtype=TSDOWNLOADER&amp;name=SERIE CLUB HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SERIE CLUB HD (F4M source #03)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SERIE CLUB[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8622.ts;streamtype=TSDOWNLOADER&amp;name=SERIE CLUB [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SERIE CLUB (F4M source #02)</link>
 <thumbnail>https://vignette1.wikia.nocookie.net/logopedia/images/e/ec/SERIE_CLUB_2013.png/revision/latest?cb=20150314142323</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12965.ts;streamtype=TSDOWNLOADER&amp;name=MTV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV (F4M source #02)</link>
+<thumbnail>http://i.imgur.com/5u1u9oO.png?1</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4197.ts;streamtype=TSDOWNLOADER&amp;name=MTV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/7942.ts;streamtype=TSDOWNLOADER&amp;name=MTV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HD (F4M source #02)</link>
 <thumbnail>http://i.imgur.com/5u1u9oO.png?1</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MCM[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/3032.ts;streamtype=TSDOWNLOADER&amp;name=MCM [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MCM (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12967.ts;streamtype=TSDOWNLOADER&amp;name=MCM [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MCM (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MCM.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MANGAS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3792.ts;streamtype=TSDOWNLOADER&amp;name=MANGAS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MANGAS (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2508.ts;streamtype=TSDOWNLOADER&amp;name=MANGAS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MANGAS (F4M source #02)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/fr/e/e4/Mangas_%28TV%29_logo_2015.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] MANGAS HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4180.ts;streamtype=TSDOWNLOADER&amp;name=MANGAS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MANGAS HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8616.ts;streamtype=TSDOWNLOADER&amp;name=MANGAS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MANGAS (F4M source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/e/e4/Mangas_%28TV%29_logo_2015.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GONG[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19842.ts;streamtype=TSDOWNLOADER&amp;name=GONG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GONG (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8558.ts;streamtype=TSDOWNLOADER&amp;name=GONG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GONG (F4M source #02)</link>
 <link>http://ec.playmedia.fr/gong-base/live/playlist.m3u8$$lsname=GONG (HTTP source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/f/f0/Small_logo_GONG_black.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ FRISSON[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3569.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FRISSON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FRISSON (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+FRISSON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ FRISSON HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/873.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FRISSON HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FRISSON HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4244.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FRISSON HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FRISSON HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5690.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FRISSON HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FRISSON HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+FRISSON.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ EMOTION[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28688.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ EMOTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ EMOTION (F4M source #08)</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_cine_plus_emotion.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ EMOTION HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3567.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ EMOTION HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ EMOTION HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4243.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ EMOTION HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ EMOTION HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5691.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ EMOTION HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ EMOTION HD (F4M source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_cine_plus_emotion.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ FAMIZ[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3568.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FAMIZ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FAMIZ (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/874.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FAMIZ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FAMIZ (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4242.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FAMIZ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FAMIZ (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28694.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FAMIZ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FAMIZ (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8624.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ FAMIZ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FAMIZ (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+FAMIZ.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ CLUB[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3566.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ CLUB [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLUB (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4246.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ CLUB [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLUB (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28689.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ CLUB [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLUB (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12994.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ CLUB [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLUB (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+CLUB.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ CLASSIC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3565.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLASSIC (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/879.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLASSIC (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4241.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLASSIC (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28690.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLASSIC (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/7943.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLASSIC (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE POLAR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/878.ts;streamtype=TSDOWNLOADER&amp;name=CINE POLAR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE POLAR (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28684.ts;streamtype=TSDOWNLOADER&amp;name=CINE POLAR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE POLAR (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5689.ts;streamtype=TSDOWNLOADER&amp;name=CINE POLAR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE POLAR (F4M source #02)</link>
 <thumbnail>http://media-recherche.ina.fr/image/VQTaZJ8u-IvY5HF3jok4b_5MEuIJLpe2Z_5I__mXl8fFz-2afcolNsx06XuI53U-RhfJYdetP_730TgpTFwTkl1pTFCAAOIzPLga9tWYYas.jpg</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE POLAR HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3545.ts;streamtype=TSDOWNLOADER&amp;name=CINE POLAR HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE POLAR HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4239.ts;streamtype=TSDOWNLOADER&amp;name=CINE POLAR HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE POLAR HD (F4M source #03)</link>
 #N/D
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE FX[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28686.ts;streamtype=TSDOWNLOADER&amp;name=CINE FX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE FX (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINEFX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE FX HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4240.ts;streamtype=TSDOWNLOADER&amp;name=CINE FX HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE FX HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5692.ts;streamtype=TSDOWNLOADER&amp;name=CINE FX HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE FX HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINEFX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY JUNIOR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3538.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY JUNIOR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY JUNIOR (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYJUNIOR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY JUNIOR HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4191.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY JUNIOR HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY JUNIOR HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5679.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY JUNIOR HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY JUNIOR HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYJUNIOR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON JUNIOR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28742.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON JUNIOR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON JUNIOR (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5642.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON JUNIOR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON JUNIOR (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKJR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TIJI[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/147.ts;streamtype=TSDOWNLOADER&amp;name=TIJI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TIJI (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28741.ts;streamtype=TSDOWNLOADER&amp;name=TIJI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TIJI (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5609.ts;streamtype=TSDOWNLOADER&amp;name=TIJI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TIJI (F4M source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/2/2e/Tiji_logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PIWI+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3539.ts;streamtype=TSDOWNLOADER&amp;name=PIWI+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PIWI+ (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2518.ts;streamtype=TSDOWNLOADER&amp;name=PIWI+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PIWI+ (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/153.ts;streamtype=TSDOWNLOADER&amp;name=PIWI+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PIWI+ (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28740.ts;streamtype=TSDOWNLOADER&amp;name=PIWI+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PIWI+ (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5625.ts;streamtype=TSDOWNLOADER&amp;name=PIWI+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PIWI+ (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PIWI+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BOOMERANG[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3556.ts;streamtype=TSDOWNLOADER&amp;name=BOOMERANG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOOMERANG (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/3037.ts;streamtype=TSDOWNLOADER&amp;name=BOOMERANG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOOMERANG (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28747.ts;streamtype=TSDOWNLOADER&amp;name=BOOMERANG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOOMERANG (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5704.ts;streamtype=TSDOWNLOADER&amp;name=BOOMERANG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOOMERANG (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BOOMERANG.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CARTOON NETWORK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/865.ts;streamtype=TSDOWNLOADER&amp;name=CARTOON NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CARTOON NETWORK (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/3036.ts;streamtype=TSDOWNLOADER&amp;name=CARTOON NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CARTOON NETWORK (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28749.ts;streamtype=TSDOWNLOADER&amp;name=CARTOON NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CARTOON NETWORK (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5695.ts;streamtype=TSDOWNLOADER&amp;name=CARTOON NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CARTOON NETWORK (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CARTOONNETWORK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3540.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28743.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5643.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4182.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16902.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY XD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3537.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY XD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY XD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/885.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY XD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY XD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28745.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY XD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY XD (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYXD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY XD HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4190.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY XD HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY XD HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16920.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY XD HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY XD HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYXD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL J[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3528.ts;streamtype=TSDOWNLOADER&amp;name=CANAL J [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL J (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28748.ts;streamtype=TSDOWNLOADER&amp;name=CANAL J [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL J (F4M source #08)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALJ.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL J HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/868.ts;streamtype=TSDOWNLOADER&amp;name=CANAL J HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL J HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4185.ts;streamtype=TSDOWNLOADER&amp;name=CANAL J HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL J HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5702.ts;streamtype=TSDOWNLOADER&amp;name=CANAL J HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL J HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALJ.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELETOON+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3590.ts;streamtype=TSDOWNLOADER&amp;name=TELETOON+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELETOON+ (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2515.ts;streamtype=TSDOWNLOADER&amp;name=TELETOON+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELETOON+ (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/148.ts;streamtype=TSDOWNLOADER&amp;name=TELETOON+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELETOON+ (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28739.ts;streamtype=TSDOWNLOADER&amp;name=TELETOON+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELETOON+ (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5612.ts;streamtype=TSDOWNLOADER&amp;name=TELETOON+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELETOON+ (F4M source #02)</link>
 <link>http://86.242.219.151:8000/play/a00l/index.m3u8$$lsname=TELETOON+ (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TELETOON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELETOON +1[/B][/COLOR]</title>
 <link>http://86.242.219.151:8000/play/a00m/index.m3u8$$lsname=TELETOON +1 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TELETOON.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON 4TEEN[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16903.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON 4TEEN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON 4TEEN (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEONFORTEEN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BOING[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3517.ts;streamtype=TSDOWNLOADER&amp;name=BOING [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOING (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19843.ts;streamtype=TSDOWNLOADER&amp;name=BOING [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOING (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28744.ts;streamtype=TSDOWNLOADER&amp;name=BOING [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOING (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5705.ts;streamtype=TSDOWNLOADER&amp;name=BOING [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOING (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BOING.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TOONAMI HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19844.ts;streamtype=TSDOWNLOADER&amp;name=TOONAMI HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TOONAMI HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16890.ts;streamtype=TSDOWNLOADER&amp;name=TOONAMI HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TOONAMI HD (F4M source #02)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/dreamlogos/images/d/d8/Toonami_Asia_logo.png/revision/latest?cb=20170121210022</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] INFO SPORT+[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/857.ts;streamtype=TSDOWNLOADER&amp;name=INFO SPORT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=INFO SPORT+ (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28680.ts;streamtype=TSDOWNLOADER&amp;name=INFO SPORT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=INFO SPORT+ (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5660.ts;streamtype=TSDOWNLOADER&amp;name=INFO SPORT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=INFO SPORT+ (F4M source #02)</link>
 <thumbnail>https://4.bp.blogspot.com/-_bAyCgweAJs/WUxEs-UJe3I/AAAAAAAAHEE/LyMpsR8MX4EZQzZCTw8tZEpdX-k8JndfwCLcBGAs/s1600/canalplus_fr_infosport_plus.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] INFO SPORT+ HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4207.ts;streamtype=TSDOWNLOADER&amp;name=INFO SPORT+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=INFO SPORT+ HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16915.ts;streamtype=TSDOWNLOADER&amp;name=INFO SPORT+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=INFO SPORT+ HD (F4M source #02)</link>
 <thumbnail>https://4.bp.blogspot.com/-_bAyCgweAJs/WUxEs-UJe3I/AAAAAAAAHEE/LyMpsR8MX4EZQzZCTw8tZEpdX-k8JndfwCLcBGAs/s1600/canalplus_fr_infosport_plus.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] AB MOTEURS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28683.ts;streamtype=TSDOWNLOADER&amp;name=AB MOTEURS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB MOTEURS (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABMOTEURS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AB MOTEURS HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2533.ts;streamtype=TSDOWNLOADER&amp;name=AB MOTEURS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB MOTEURS HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19810.ts;streamtype=TSDOWNLOADER&amp;name=AB MOTEURS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB MOTEURS HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5713.ts;streamtype=TSDOWNLOADER&amp;name=AB MOTEURS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB MOTEURS HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABMOTEURS.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] EQUIDIA LIVE HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/109.ts;streamtype=TSDOWNLOADER&amp;name=EQUIDIA LIVE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EQUIDIA LIVE HD (F4M source #03)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] EQUIDIA LIVE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5675.ts;streamtype=TSDOWNLOADER&amp;name=EQUIDIA LIVE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EQUIDIA LIVE (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EQUIDIALIVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EQUIDIA LIFE HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4202.ts;streamtype=TSDOWNLOADER&amp;name=EQUIDIA LIFE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EQUIDIA LIFE HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12950.ts;streamtype=TSDOWNLOADER&amp;name=EQUIDIA LIFE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EQUIDIA LIFE HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EQUIDIALIFE.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOTORSPORT.TV[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19811.ts;streamtype=TSDOWNLOADER&amp;name=MOTORSPORT.TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MOTORSPORT.TV (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOTORSPORTTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GOLF CHANNEL HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4204.ts;streamtype=TSDOWNLOADER&amp;name=GOLF CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GOLF CHANNEL HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/16918.ts;streamtype=TSDOWNLOADER&amp;name=GOLF CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GOLF CHANNEL HD (F4M source #02)</link>
 <thumbnail>https://4e0ab98dwwv2ll5wc23bd0c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/Golf_Channel.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GOLF+ HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4205.ts;streamtype=TSDOWNLOADER&amp;name=GOLF+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GOLF+ HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12948.ts;streamtype=TSDOWNLOADER&amp;name=GOLF+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GOLF+ HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GOLF+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+ CI[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3502.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ CI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ CI (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2525.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ CI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ CI (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28750.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ CI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ CI (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5622.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ CI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ CI (F4M source #02)</link>
 <thumbnail>http://bit.ly/IMG_PLANETECI</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+ A&E[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3589.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ A&E [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ A&E (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/123.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ A&E [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ A&E (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28751.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ A&E [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ A&E (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8563.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ A&E [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ A&E (F4M source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/pp/planete_plus_action_experience.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY CHANNEL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28755.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY CHANNEL (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5683.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY CHANNEL (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY CHANNEL HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3572.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY CHANNEL HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4234.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY CHANNEL HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12997.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY CHANNEL HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCHANNEL.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SCIENCE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28754.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY SCIENCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SCIENCE (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSCIENCE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SCIENCE HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3573.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY SCIENCE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SCIENCE HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/884.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY SCIENCE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SCIENCE HD (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4233.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY SCIENCE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SCIENCE HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5682.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY SCIENCE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SCIENCE HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSCIENCE.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] USHUAIA TV[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/28758.ts;streamtype=TSDOWNLOADER&amp;name=USHUAIA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=USHUAIA TV (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/USHUAIA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] USHUAIA TV HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/136.ts;streamtype=TSDOWNLOADER&amp;name=USHUAIA TV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=USHUAIA TV HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5603.ts;streamtype=TSDOWNLOADER&amp;name=USHUAIA TV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=USHUAIA TV HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/USHUAIA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HISTOIRE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3514.ts;streamtype=TSDOWNLOADER&amp;name=HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTOIRE (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/126.ts;streamtype=TSDOWNLOADER&amp;name=HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTOIRE (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12029.ts;streamtype=TSDOWNLOADER&amp;name=HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTOIRE (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8570.ts;streamtype=TSDOWNLOADER&amp;name=HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTOIRE (F4M source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/hh/histoire_fr.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] SCIENCE & VIE TV HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4225.ts;streamtype=TSDOWNLOADER&amp;name=SCIENCE & VIE TV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SCIENCE & VIE TV HD (F4M source #03)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/fr/7/71/Science_et_Vie_TV_logo_2015.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] ANIMAUX[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12028.ts;streamtype=TSDOWNLOADER&amp;name=ANIMAUX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ANIMAUX (F4M source #08)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIMAUX.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TOUTE L'HISTOIRE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5606.ts;streamtype=TSDOWNLOADER&amp;name=TOUTE L'HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TOUTE L'HISTOIRE (F4M source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TOUTELHISTOIRE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ANIMAUX HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3557.ts;streamtype=TSDOWNLOADER&amp;name=ANIMAUX HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ANIMAUX HD (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4219.ts;streamtype=TSDOWNLOADER&amp;name=ANIMAUX HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ANIMAUX HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5712.ts;streamtype=TSDOWNLOADER&amp;name=ANIMAUX HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ANIMAUX HD (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIMAUX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHASSE & PECHE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2504.ts;streamtype=TSDOWNLOADER&amp;name=CHASSE & PECHE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHASSE & PECHE (F4M source #02)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHASSE&PECHE.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] CHASSE & PECHE HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19836.ts;streamtype=TSDOWNLOADER&amp;name=CHASSE & PECHE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHASSE & PECHE HD (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5694.ts;streamtype=TSDOWNLOADER&amp;name=CHASSE & PECHE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHASSE & PECHE (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHASSE&PECHE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NRJ HITS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19804.ts;streamtype=TSDOWNLOADER&amp;name=NRJ HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ HITS (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5640.ts;streamtype=TSDOWNLOADER&amp;name=NRJ HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ HITS (F4M source #02)</link>
 <link>http://5.196.138.6:1935/live/nrjbelgique/chunklist_w1339281553.m3u8$$lsname=NRJ HITS (HTTP source #01)</link>
 <link>http://5.196.138.6:1935/live/nrjbelgique/playlist.m3u8$$lsname=NRJ HITS (HTTP source #02)</link>
 <link>http://5.196.138.6:1935/live/ngrp:nrjbelgique_all/chunklist_w1975319451_b1496608.m3u8$$lsname=NRJ HITS (HTTP source #03)</link>
@@ -725,105 +554,105 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NRJHITS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEZZO[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/767.ts;streamtype=TSDOWNLOADER&amp;name=MEZZO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MEZZO (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/3034.ts;streamtype=TSDOWNLOADER&amp;name=MEZZO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MEZZO (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/31245.ts;streamtype=TSDOWNLOADER&amp;name=MEZZO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MEZZO (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/7212.ts;streamtype=TSDOWNLOADER&amp;name=MEZZO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MEZZO (F4M source #02)</link>
 <link>http://86.82.79.91:9420/play/a00n$$lsname=MEZZO (HTTP source #01)</link>
 <link>http://188.93.238.205:8000/play/Mezzo$$lsname=MEZZO (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://c46dceaece308ebd03a7123a298c4f49d2adfb2a&amp;mode=1&amp;name=Acestream+MEZZO$$lsname=MEZZO (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZO.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] MEZZO LIVE HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/36527.ts;streamtype=TSDOWNLOADER&amp;name=MEZZO LIVE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MEZZO LIVE HD (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZOLIVEHD.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] DJAZZ HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/7939.ts;streamtype=TSDOWNLOADER&amp;name=DJAZZ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DJAZZ HD (F4M source #02)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/f/fb/Djazz.TV_logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MCM TOP[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/3033.ts;streamtype=TSDOWNLOADER&amp;name=MCM TOP [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MCM TOP (F4M source #03)</link>
 <link>plugin://program.plexus/?url=acestream://6928bca413ba15d42c479ed4d52af98e3d6e9474&amp;mode=1&amp;name=Acestream+MCM TOP$$lsname=MCM TOP (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MCMTOP.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] I-CONCERTS HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/686.ts;streamtype=TSDOWNLOADER&amp;name=I-CONCERTS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=I-CONCERTS HD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12502.ts;streamtype=TSDOWNLOADER&amp;name=I-CONCERTS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=I-CONCERTS HD (F4M source #02)</link>
 <thumbnail>http://dtg.org.uk/images/logos/logo_iConcerts.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 EUROPE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/97.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/11135.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/38237.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8785.ts;streamtype=TSDOWNLOADER&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #02)</link>
 <link>http://193.70.44.176:8080/live/Afonso/AFONSO/97.m3u8$$lsname=VH1 EUROPE (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://8cb69525386533f81c042f9e02d254f01b71d00c&amp;mode=1&amp;name=Acestream+VH1 EUROPE$$lsname=VH1 EUROPE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1EUROPE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 CLASSIC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/1107.ts;streamtype=TSDOWNLOADER&amp;name=VH1 CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 CLASSIC (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/11134.ts;streamtype=TSDOWNLOADER&amp;name=VH1 CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 CLASSIC (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12506.ts;streamtype=TSDOWNLOADER&amp;name=VH1 CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 CLASSIC (F4M source #02)</link>
 <link>http://193.70.44.176:8080/live/Afonso/AFONSO/1107.m3u8$$lsname=VH1 CLASSIC (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://40d6947fb057ad625e5fc9674b3f62b4076129a8&amp;mode=1&amp;name=Acestream+VH1 CLASSIC$$lsname=VH1 CLASSIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3515.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 FR (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/2529.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 FR (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/2944.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 FR (F4M source #03)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/12049.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 FR (F4M source #08)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8630.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 FR (F4M source #02)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master.m3u8$$lsname=FRANCE 24 FR (HTTP source #01)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 FR (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://fc6d4f2ed4ea95299a1d7e615c4ddfe2f9995968&amp;mode=1&amp;name=Acestream+FRANCE 24 FR$$lsname=FRANCE 24 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 EN[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/771.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 EN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 EN (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8559.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 24 EN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 EN (F4M source #02)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 EN (HTTP source #01)</link>
 <link>http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8$$lsname=FRANCE 24 EN (HTTP source #02)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master.m3u8$$lsname=FRANCE 24 EN (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/131.ts;streamtype=TSDOWNLOADER&amp;name=EURONEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EURONEWS (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5673.ts;streamtype=TSDOWNLOADER&amp;name=EURONEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EURONEWS (F4M source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=EURONEWS (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/2900</page><referer>http://www.filmon.com/tv/channel/export?channel id=2900&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=EURONEWS (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://6f466d8eb45791ca81cc44399888be9da3aefc66&amp;mode=1&amp;name=Acestream+EURONEWS$$lsname=EURONEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM BUSINESS[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5707.ts;streamtype=TSDOWNLOADER&amp;name=BFM BUSINESS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM BUSINESS (F4M source #02)</link>
 <link>http://bfmlive-i.akamaihd.net/hls/live/254438/876450612001/DVMR_BFMBusiness2/master.m3u8$$lsname=BFM BUSINESS (HTTP source #01)</link>
 <link>https://bfmbusisecure-i.akamaihd.net/hls/live/265375/876450612001/BFMBusinessS/video_2/video_2.m3u8$$lsname=BFM BUSINESS (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://eda06e860eb3cfa44075e6afa7e4e7a209af1d4e&amp;mode=1&amp;name=Acestream+BFM BUSINESS$$lsname=BFM BUSINESS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMBUSINESS.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM BUSINESS HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/4171.ts;streamtype=TSDOWNLOADER&amp;name=BFM BUSINESS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM BUSINESS HD (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMBUSINESS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC WORLD NEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/952.ts;streamtype=TSDOWNLOADER&amp;name=BBC WORLD NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC WORLD NEWS (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12527.ts;streamtype=TSDOWNLOADER&amp;name=BBC WORLD NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC WORLD NEWS (F4M source #02)</link>
 <link>http://playlist.onlybest.tv/en/channel/7897eb1d61ef4aba51d1424a65d01be9/433/index.m3u8$$lsname=BBC WORLD NEWS (HTTP source #01)</link>
 <link>http://playlist.onlybest.tv/en/channel/7897eb1d61ef4aba51d1424a65d01be9/145/index.m3u8$$lsname=BBC WORLD NEWS (HTTP source #02)</link>
 <link>http://193.70.44.176:8080/live/Afonso/AFONSO/952.m3u8$$lsname=BBC WORLD NEWS (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCWORLDNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY NEWS[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12514.ts;streamtype=TSDOWNLOADER&amp;name=SKY NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY NEWS (F4M source #02)</link>
 <link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8$$lsname=SKY NEWS (HTTP source #01)</link>
 <link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/05.m3u8$$lsname=SKY NEWS (HTTP source #02)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/0/0c/Sky_News_2015_logo.svg/revision/latest/scale-to-width-down/300?cb=20150530220244</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/9092.ts;streamtype=TSDOWNLOADER&amp;name=CNN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNN (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/17745.ts;streamtype=TSDOWNLOADER&amp;name=CNN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNN (F4M source #03)</link>
 <link>http://188.93.238.205:8000/play/CNN$$lsname=CNN (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://8d398431657ad9c8ca40b60c71e075027421a53d&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX NEWS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/36498.ts;streamtype=TSDOWNLOADER&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12513.ts;streamtype=TSDOWNLOADER&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #02)</link>
 <link>http://fnurtmp-f.akamaihd.net/i/FNCPREV_1@143121/index_300_av-b.m3u8$$lsname=FOX NEWS (HTTP source #01)</link>
 <link>http://fncgohls-i.akamaihd.net/hls/live/263399/FNCGOHLSv2/Fox_News_v2_VIDEO_0_2564000.m3u8$$lsname=FOX NEWS (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/951.ts;streamtype=TSDOWNLOADER&amp;name=BLOOMBERG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BLOOMBERG (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/17976.ts;streamtype=TSDOWNLOADER&amp;name=BLOOMBERG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BLOOMBERG (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12525.ts;streamtype=TSDOWNLOADER&amp;name=BLOOMBERG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BLOOMBERG (F4M source #02)</link>
 <link>http://playlist.onlybest.tv/en/channel/7897eb1d61ef4aba51d1424a65d01be9/176/index.m3u8$$lsname=BLOOMBERG (HTTP source #01)</link>
 <link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8$$lsname=BLOOMBERG (HTTP source #02)</link>
 <link>http://193.70.44.176:8080/live/Afonso/AFONSO/951.m3u8$$lsname=BLOOMBERG (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNBC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/9093.ts;streamtype=TSDOWNLOADER&amp;name=CNBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNBC (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/17715.ts;streamtype=TSDOWNLOADER&amp;name=CNBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNBC (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/9534.ts;streamtype=TSDOWNLOADER&amp;name=CNBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNBC (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://0dd76d0f734188975094934b12e2b286f48122bd&amp;mode=1&amp;name=Acestream+CNBC$$lsname=CNBC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOOT+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3555.ts;streamtype=TSDOWNLOADER&amp;name=FOOT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOOT+ (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://devcon101.com:8080/live/ibrahim1/1ibrahim/861.ts;streamtype=TSDOWNLOADER&amp;name=FOOT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOOT+ (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5670.ts;streamtype=TSDOWNLOADER&amp;name=FOOT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOOT+ (F4M source #02)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/9/97/Foot_2011.png/revision/latest?cb=20111122222217</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM SPORT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://stb.first-class-portal.com:80/live/triple-tv-all-lines/GdhXKzhK9b/19812.ts;streamtype=TSDOWNLOADER&amp;name=BFM SPORT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM SPORT (F4M source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/8560.ts;streamtype=TSDOWNLOADER&amp;name=BFM SPORT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM SPORT (F4M source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMSPORT.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] D8[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5684.ts;streamtype=TSDOWNLOADER&amp;name=D8 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=D8 (F4M source #02)</link>
+<thumbnail>http://www.logotypes101.com/logos/258/C649BC70C796FB7E5D59A58A533F983F/d8_logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTS UN[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3532.ts;streamtype=TSDOWNLOADER&amp;name=RTS UN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTS UN (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/5619.ts;streamtype=TSDOWNLOADER&amp;name=RTS UN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTS UN (F4M source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=Rm3u8 UN (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/3911</page><referer>http://www.filmon.com/tv/channel/export?channel id=3911&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=RTS UN (HTTP source #05)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RTS_un.svg/310px-RTS_un.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTS DEUX[/B][/COLOR]</title>
