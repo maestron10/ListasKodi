@@ -147,7 +147,8 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CM TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/1477.ts;streamtype=TSDOWNLOADER&amp;name=CM TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CM TV (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/7524.ts;streamtype=TSDOWNLOADER&amp;name=CM TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CM TV (F4M source #02)</link>
-<link>http://p15.quest123.top:8088/live/cmtvtvdesporto/playlist.m3u8?id=98747&pk=ea6596833839e507426ed544d3a7802f9f4bcedc2cf0a5526b730a9525846702$$lsname=CM TV (HTTP source #01)</link>
+<link>http://p26.quest123.top:8088/live/cmtvtvdesporto/playlist.m3u8?id=98747&pk=ea6596833839e507426ed544d3a7802f9f4bcedc2cf0a5526b730a9525846702$$lsname=CM TV (HTTP source #01)</link>
+<link>http://p15.quest123.top:8088/live/cmtvtvdesporto/playlist.m3u8?id=98747&pk=ea6596833839e507426ed544d3a7802f9f4bcedc2cf0a5526b730a9525846702$$lsname=CM TV (HTTP source #02)</link>
 "<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=CM TV (HTTP source #05)</link>
 <regex>
 <name>ip</name>
@@ -310,7 +311,6 @@
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13089.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 4 (F4M source #02)</link>
 <link>http://sportsbar.pw/lba/YmMyZmY0NTVkMDVlZjRhZjZhMWViZWU1NDFkMDRhZDA=/g4/Sport4PT.m3u8$$lsname=SPORT TV 4 (HTTP source #01)</link>
 <link>http://sportsbar.pw/lba/123/g4/Sport4PT.m3u8$$lsname=SPORT TV 4 (HTTP source #02)</link>
-<link>https://sportsbar.pw/lba/123/g4/Sport4PT.m3u8$$lsname=SPORT TV 4 (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://410ab9029de51a0d97e8271a944c361acdc66ea6&amp;mode=1&amp;name=Acestream+SPORT TV 4$$lsname=SPORT TV 4 (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://7ea78a64d867a38dde1254ffce5fcf562f729a4e&amp;mode=1&amp;name=Acestream+SPORT TV 4$$lsname=SPORT TV 4 (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4.png</thumbnail></item>
@@ -318,6 +318,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/17.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 4 HD (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/37839.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 4 HD (F4M source #02)</link>
 <link>http://193.70.44.176:8080/live/Afonso/AFONSO/17.m3u8$$lsname=SPORT TV 4 HD (HTTP source #01)</link>
+<link>https://sportsbar.pw/lba/123/g4/Sport4PT.m3u8$$lsname=SPORT TV 4 HD (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt4.php$$lsname=SPORT TV 4 HD (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.net/channel-tab-frame/sporttv4hd-1.php$$lsname=SPORT TV 4 HD (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4HD.png</thumbnail></item>
@@ -347,8 +348,8 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BENFICA TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/1496.ts;streamtype=TSDOWNLOADER&amp;name=BENFICA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BENFICA TV (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/12523.ts;streamtype=TSDOWNLOADER&amp;name=BENFICA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BENFICA TV (F4M source #02)</link>
-<link>http://193.70.44.176:8080/live/Afonso/AFONSO/391.m3u8$$lsname=BENFICA TV (HTTP source #01)</link>
-<link>http://p15.quest123.top:8088/live/crlmafoda/playlist.m3u8?id=99369&pk=ea6596833839e507426ed544d3a7802f9f4bcedc2cf0a5526b730a9525846702$$lsname=BENFICA TV (HTTP source #04)</link>
+<link>http://bb.sharecast.eu:8081/shareedge/btv-md504/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xOS8yMDE4IDc6MTY6NDMgQU0maGFzaF92YWx1ZT1QQ0hZVXhEQzhQK2FFUUFtazVPaWhnPT0mdmFsaWRtaW51dGVzPTg=$$lsname=BENFICA TV (HTTP source #01)</link>
+<link>http://193.70.44.176:8080/live/Afonso/AFONSO/391.m3u8$$lsname=BENFICA TV (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed/btv-md504$$lsname=BENFICA TV (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://firstrowas1.cc/embed/MyPAl2yq4Y$$lsname=BENFICA TV (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BENFICATV.png</thumbnail></item>
@@ -402,12 +403,14 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PFC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3758.ts;streamtype=TSDOWNLOADER&amp;name=PFC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PFC (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/10219.ts;streamtype=TSDOWNLOADER&amp;name=PFC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PFC (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/liberato/liberato/7541.ts;streamtype=TSDOWNLOADER&amp;name=PFC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PFC (F4M source #05)</link>
 <link>http://paraisotv.ddns.net:80/097/myStream/live.m3u8$$lsname=PFC (HTTP source #01)</link>
 <link>rtmp://213.152.180.151:17247/sstream/1bdlLe7dro.stream$$lsname=PFC (RTMP source #01)</link>
 <link>rtmp://213.152.180.151:17247/sstream/06lt6eKOWl.stream$$lsname=PFC (RTMP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PFC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PFC HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13610.ts;streamtype=TSDOWNLOADER&amp;name=PFC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PFC HD (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/liberato/liberato/9144.ts;streamtype=TSDOWNLOADER&amp;name=PFC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PFC HD (F4M source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PFC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FUEL TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/7512.ts;streamtype=TSDOWNLOADER&amp;name=FUEL TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FUEL TV (F4M source #02)</link>
@@ -415,7 +418,8 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] A BOLA TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/22.ts;streamtype=TSDOWNLOADER&amp;name=A BOLA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=A BOLA TV (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/7541.ts;streamtype=TSDOWNLOADER&amp;name=A BOLA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=A BOLA TV (F4M source #02)</link>
-<link>http://193.70.44.176:8080/live/Afonso/AFONSO/22.m3u8$$lsname=A BOLA TV (HTTP source #01)</link>
+<link>http://p04.quest123.top:8088/live/abolatvdesporto/playlist.m3u8?id=97370&pk=ea6596833839e507426ed544d3a7802f9f4bcedc2cf0a5526b730a9525846702$$lsname=A BOLA TV (HTTP source #01)</link>
+<link>http://193.70.44.176:8080/live/Afonso/AFONSO/22.m3u8$$lsname=A BOLA TV (HTTP source #02)</link>
 "<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=A BOLA TV  (HTTP source #05)</link>
 <regex>
 <name>ip</name>
@@ -497,7 +501,6 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/JIMJAM.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SUPER RTL[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/9028.ts;streamtype=TSDOWNLOADER&amp;name=SUPER RTL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SUPER RTL (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/24048.ts;streamtype=TSDOWNLOADER&amp;name=SUPER RTL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SUPER RTL (F4M source #08)</link>
 <link>http://playlist.onlybest.tv/en/channel/7897eb1d61ef4aba51d1424a65d01be9/660/index.m3u8$$lsname=SUPER RTL (HTTP source #01)</link>
 <link>http://78.141.139.157:9981/stream/channelid/2018212027$$lsname=SUPER RTL (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernsehen/deutsch/superrtl.html$$lsname=SUPER RTL (SD source #01)</link>
@@ -962,7 +965,6 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RAI NEWS 24[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3435.ts;streamtype=TSDOWNLOADER&amp;name=RAI NEWS 24 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RAI NEWS 24 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/9326.ts;streamtype=TSDOWNLOADER&amp;name=RAI NEWS 24 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RAI NEWS 24 (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/11560.ts;streamtype=TSDOWNLOADER&amp;name=RAI NEWS 24 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RAI NEWS 24 (F4M source #08)</link>
 <link>http://b2everyrai-lh.akamaihd.net/i/rainews_1@179616/master.m3u8$$lsname=RAI NEWS 24 (HTTP source #01)</link>
 <link>http://b2everyrai-lh.akamaihd.net:80/i/rainews_1@179616/index_1800_av-p.m3u8$$lsname=RAI NEWS 24 (HTTP source #02)</link>
 <link>http://b2everyrai-lh.akamaihd.net/i/rainews_1@179616/index_1200_av-p.m3u8$$lsname=RAI NEWS 24 (HTTP source #03)</link>
@@ -1016,6 +1018,7 @@ return requests.get(url,headers={'Referer':'http://playtv.fr/television/i24-news
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RECORD NEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3760.ts;streamtype=TSDOWNLOADER&amp;name=RECORD NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RECORD NEWS (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13608.ts;streamtype=TSDOWNLOADER&amp;name=RECORD NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RECORD NEWS (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/liberato/liberato/6941.ts;streamtype=TSDOWNLOADER&amp;name=RECORD NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RECORD NEWS (F4M source #05)</link>
 <link>http://sm.fabricahost.com.br:1935/tvguara/tvguara/chunklist_w849814207.m3u8$$lsname=RECORD NEWS (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RECORDNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP MADEIRA[/B][/COLOR]</title>
@@ -1087,7 +1090,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VOX[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/9031.ts;streamtype=TSDOWNLOADER&amp;name=VOX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VOX (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/6153.ts;streamtype=TSDOWNLOADER&amp;name=VOX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VOX (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/24043.ts;streamtype=TSDOWNLOADER&amp;name=VOX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VOX (F4M source #08)</link>
 <link>http://playlist.onlybest.tv/en/channel/7897eb1d61ef4aba51d1424a65d01be9/661/index.m3u8$$lsname=VOX (HTTP source #01)</link>
 <link>http://78.141.139.157:9981/stream/channelid/1876033091$$lsname=VOX (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernsehen/deutsch/vox.html$$lsname=VOX (SD source #01)</link>
@@ -1095,7 +1097,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VOX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTL[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/9011.ts;streamtype=TSDOWNLOADER&amp;name=RTL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://tre.masal.pro:2015/live/stalker/zLkb4fMLgd/24088.ts;streamtype=TSDOWNLOADER&amp;name=RTL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL (F4M source #08)</link>
 <link>http://playlist.onlybest.tv/en/channel/7897eb1d61ef4aba51d1424a65d01be9/658/index.m3u8$$lsname=RTL (HTTP source #01)</link>
 <link>http://78.141.139.157:9981/stream/channelid/489070922$$lsname=RTL (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernsehen/deutsch/rtl.html$$lsname=RTL (SD source #01)</link>
@@ -1263,14 +1264,19 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] REDE TV![/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3761.ts;streamtype=TSDOWNLOADER&amp;name=REDE TV! [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=REDE TV! (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/6110.ts;streamtype=TSDOWNLOADER&amp;name=REDE TV! [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=REDE TV! (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/liberato/liberato/4420.ts;streamtype=TSDOWNLOADER&amp;name=REDE TV! [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=REDE TV! (F4M source #05)</link>
 <link>http://evpp.mm.uol.com.br/redetv1/redetv1/chunklist_w83762451.m3u8$$lsname=REDE TV! (HTTP source #01)</link>
 <link>http://evpp.mm.uol.com.br/redetv1/redetv1/playlist.m3u8$$lsname=REDE TV! (HTTP source #02)</link>
 <link>http://evpp.mm.uol.com.br/redetv1/redetv1/chunklist_w1096797278.m3u8$$lsname=REDE TV! (HTTP source #03)</link>
 <link>http://evpp.mm.uol.com.br/redetv2/redetv2/chunklist_w1379590905.m3u8$$lsname=REDE TV! (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/REDETV.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] REDE TV! HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/liberato/liberato/6940.ts;streamtype=TSDOWNLOADER&amp;name=REDE TV! HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=REDE TV! HD (F4M source #05)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/REDETV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BAND[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3712.ts;streamtype=TSDOWNLOADER&amp;name=BAND [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BAND (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13640.ts;streamtype=TSDOWNLOADER&amp;name=BAND [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BAND (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/liberato/liberato/4400.ts;streamtype=TSDOWNLOADER&amp;name=BAND [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BAND (F4M source #05)</link>
 "<link><link>$doregex[TeamBlue_Ch]$$lsname=BAND (HTTP source #04)</link>
 <regex>
 <name>TeamBlue_Ch</name>
@@ -1299,10 +1305,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BAND.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BAND HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13639.ts;streamtype=TSDOWNLOADER&amp;name=BAND HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BAND HD (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/liberato/liberato/6882.ts;streamtype=TSDOWNLOADER&amp;name=BAND HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BAND HD (F4M source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BAND.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SBT[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.44.176:8080/live/Afonso/AFONSO/3762.ts;streamtype=TSDOWNLOADER&amp;name=SBT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SBT (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/10236.ts;streamtype=TSDOWNLOADER&amp;name=SBT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SBT (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/liberato/liberato/4331.ts;streamtype=TSDOWNLOADER&amp;name=SBT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SBT (F4M source #05)</link>
 <link>http://evpp.mm.uol.com.br/ne10/ne10.smil/chunklist_w1445897713_b216000_sleng.m3u8$$lsname=SBT (HTTP source #01)</link>
 <link>http://evpp.mm.uol.com.br/ne10/ne10.smil/chunklist_w795992491_b216000_sleng.m3u8$$lsname=SBT (HTTP source #02)</link>
 <link>http://evpp.mm.uol.com.br/ne10/ne10.smil/chunklist_w60470706_b216000_sleng.m3u8$$lsname=SBT (HTTP source #03)</link>
@@ -1310,6 +1318,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SBT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SBT HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/nb/nb2017/13606.ts;streamtype=TSDOWNLOADER&amp;name=SBT HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SBT HD (F4M source #02)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://142.44.139.236:25461/live/liberato/liberato/6889.ts;streamtype=TSDOWNLOADER&amp;name=SBT HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SBT HD (F4M source #05)</link>
 <link>http://evpp.mm.uol.com.br/ne10/ne10.smil/chunklist_w902022027_b216000_sleng.m3u8$$lsname=SBT HD (HTTP source #01)</link>
 <link>http://evpp.mm.uol.com.br/ne10/ne10.smil/playlist.m3u8$$lsname=SBT HD (HTTP source #02)</link>
 <link>http://srv6.zoeweb.tv:1935/z343-live/stream/playlist.m3u8$$lsname=SBT HD (HTTP source #03)</link>
