@@ -15,19 +15,16 @@
 [B][COLOR deepskyblue]Ano:[/B][/COLOR] 2017
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Bruce Willis, Vincent D'Onofrio, Dean Norris
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Paul Kersey é um cirurgião experiente, um homem que passou a vida a salvar os outros. Mas quando a sua família é alvo de um ataque, Paul, movido pela raiva e pela incapacidade de a proteger, decide vingar-se e procurar justiça pelas suas próprias mãos.</info></item>"
-"<item><title>BATALHA DO PACÍFICO: A REVOLTA [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link>
-<regex><name>TeamBluePlay</name>
-<expres>file: "(.*ALTO.*?)"</expres>
-<page>$doregex[TeamBluePlayOne]</page>
-</regex><regex>
-<name>TeamBluePlayOne</name>
-<expres>src="(.*)" fra</expres>
-<page>$doregex[TeamBluePlayTwo]</page>
-</regex><regex>
-<name>TeamBluePlayTwo</name>
-<expres>src="(.*LEG.*?)" fra</expres>
-<page>http://netcine.us/circulo-de-fogo-2/</page>
-</regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/268896_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Pacific Rim: Uprising[/B][/COLOR]
+"<item><title>RAMPAGE – FORA DE CONTROLO [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src=""(.*LEG.*?)"" fra</expres><page>http://netcine.us/rampage-destruicao-total/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/427641_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Rampage[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] Ação, Aventura
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] Brad Peyton
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 107 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/12
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] Dwayne Johnson, Naomie Harris, Jeffrey Dean Morgan, Joe Manganiello, Malin Åkerman, Jake Lacy, Jack Quaid, Marley Shelton, P. J. Byrne, Breanne Hill, Matt Gerald
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] O primatologista Davis Okoye (Johnson) é um homem solitário que partilha um laço indestrutível com George, um gorila extraordinariamente inteligente que Okoye tem criado desde o seu nascimento. Mas uma experiência genética que corre tremendamente mal transforma este primata dócil numa criatura furiosa e gigante.
+A situação piora quando se descobre que existem outros animais igualmente afetados por esta mutação. Enquanto estes novos predadores-alfa atravessam a América do Norte, destruindo tudo o que encontram no seu caminho, Okoye junta-se a um desacreditado engenheiro genético para criar um antídoto, enquanto enfrenta um campo de batalha em constante mudança, não só para evitar uma catástrofe global, mas para salvar a temível criatura que foi, outrora, sua amiga.</info></item>"
+"<item><title>BATALHA DO PACÍFICO: A REVOLTA [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/circulo-de-fogo-2/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/268896_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Pacific Rim: Uprising[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Ação, Ficção Científica, Aventura
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Steven S. DeKnight
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 111 m
@@ -39,19 +36,7 @@ Em "Batalha do Pacífico: A Revolta", John Boyega ("Star Wars: O Despertar da Fo
 Quando uma ameaça ainda mais imparável começa a destruir as cidades e coloca o mundo a seus pés, a sua irmã Mako Mori (Rinko Kikuchi) dá-lhe mais uma oportunidade para seguir o legado do pai.
 Mako lidera uma nova geração de pilotos que cresceu durante a guerra. Enquanto procuram justiça para os que morreram, a sua única esperança consiste em permanecerem unidos numa resistência global contra as forças que pretendem eliminá-los.
 A Jake junta-se o seu maior rival, o talentoso piloto Lambert (Scott Eastwood, "Velocidade Furiosa 8") e Amara (Cailee Spaeny), uma pirata cibernauta Jaeger, de apenas 15 anos.</info></item>"
-"<item><title>BRAVEN [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link>
-<regex><name>TeamBluePlay</name>
-<expres>file: "(.*ALTO.*?)"</expres>
-<page>$doregex[TeamBluePlayOne]</page>
-</regex><regex>
-<name>TeamBluePlayOne</name>
-<expres>src="(.*)" fra</expres>
-<page>$doregex[TeamBluePlayTwo]</page>
-</regex><regex>
-<name>TeamBluePlayTwo</name>
-<expres>src="(.*LEG.*?)" fra</expres>
-<page>http://netcine.us/braven/</page>
-</regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/459910_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Braven[/B][/COLOR]
+"<item><title>BRAVEN [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/braven/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/459910_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Braven[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Ação
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Lin Oeding
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 94 m
@@ -59,19 +44,7 @@ A Jake junta-se o seu maior rival, o talentoso piloto Lambert (Scott Eastwood, "
 [B][COLOR deepskyblue]Ano:[/B][/COLOR] 2017
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Jason Momoa, Stephen Lang, Zahn McClarnon
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Joe Braven (Jason Momoa), um humilde lenhador, residente na zona de fronteira entre os EUA e o Canadá, vê-se confrontado com um grupo de perigosos traficantes de droga na sua cabana isolada nas montanhas e tenta fazer tudo ao seu alcance para proteger a família. Mal sabem os traficantes que o homem simples, com o qual estão prestes a medir forças, se divide entre dois mundos – um que luta pelas vidas dos seus e outro que ama a caça.</info></item>"
-"<item><title>CORRIDA MORTAL 4: ALÉM DA ANARQUIA [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link>
-<regex><name>TeamBluePlay</name>
-<expres>file: "(.*ALTO.*?)"</expres>
-<page>$doregex[TeamBluePlayOne]</page>
-</regex><regex>
-<name>TeamBluePlayOne</name>
-<expres>src="(.*)" fra</expres>
-<page>$doregex[TeamBluePlayTwo]</page>
-</regex><regex>
-<name>TeamBluePlayTwo</name>
-<expres>src="(.*LEG.*?)" fra</expres>
-<page>http://netcine.us/corrida-mortal-4/</page>
-</regex></link><thumbnail>http://cdnstk.ntcdn.us/wp-content/uploads/2018/03/deathrace.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Death Race: Beyond Anarchy[/B][/COLOR]
+"<item><title>CORRIDA MORTAL 4: ALÉM DA ANARQUIA [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/corrida-mortal-4/</page></regex></link><thumbnail>http://cdnstk.ntcdn.us/wp-content/uploads/2018/03/deathrace.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Death Race: Beyond Anarchy[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Ação
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Don Michael Paul
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 111 m
@@ -80,19 +53,7 @@ A Jake junta-se o seu maior rival, o talentoso piloto Lambert (Scott Eastwood, "
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Cassie Clare, Christine Marzano, Daniel Kolchev, Danny Glover, Danny Trej
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] O ano de 2050, o planeta tornou-se superpovoado, para ajudar a controlar a população o governo desenvolve uma corrida. A corrida da morte. Anualmente a corrida tem concorrentes de todo o país, marcando pontos por matar pessoas com seus veículos.
 Quarto filme da franquia Corrida Mortal, dirigido por Don Michael Paul (Pânico no Lago: O Capítulo Final) e produzido por Paul W.S. Anderson (Resident Evil) e com roteiro de Tony Giglio (Pânico na Floresta 2) e o próprio Don Michael Paul.</info></item>"
-"<item><title>FULLMETAL ALCHEMIST [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link>
-<regex><name>TeamBluePlay</name>
-<expres>file: "(.*ALTO.*?)"</expres>
-<page>$doregex[TeamBluePlayOne]</page>
-</regex><regex>
-<name>TeamBluePlayOne</name>
-<expres>src="(.*)" fra</expres>
-<page>$doregex[TeamBluePlayTwo]</page>
-</regex><regex>
-<name>TeamBluePlayTwo</name>
-<expres>src="(.*LEG.*?)" fra</expres>
-<page>http://netcine.us/fullmetal-alchemist/</page>
-</regex></link><thumbnail>http://cdnstk.ntcdn.us/wp-content/uploads/2018/02/PERFIL.png</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Fullmetal Alchemist[/B][/COLOR]
+"<item><title>FULLMETAL ALCHEMIST [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/fullmetal-alchemist/</page></regex></link><thumbnail>http://cdnstk.ntcdn.us/wp-content/uploads/2018/02/PERFIL.png</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Fullmetal Alchemist[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Acção
 [B][COLOR deepskyblue]Realização:[/B][/COLOR]  Fumihiko Sori
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 120 m
@@ -100,19 +61,7 @@ Quarto filme da franquia Corrida Mortal, dirigido por Don Michael Paul (Pânico 
 [B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
 [B][COLOR deepskyblue]Actores:[/B][/COLOR]  Dean Fujioka, Ryosuke Yamada, Tsubasa Honda
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Adaptado do famoso manga e anime, a trama conta a historia de dois irmãos que depois de perderem sua mãe, Alphonse e Edward Elric tentam trazê-la de volta usando uma técnica proibida de alquimia, mas, para isso, eles precisam dar algo em troca. Como consequência, Ed perde sua perna e Al perde seu corpo. Para impedir que a alma de Al vague incorpórea, Ed sacrifica um braço para prendê-la dentro de uma grande armadura. Visando recuperar seus corpos, os dois irmãos iniciem a busca da lendária pedra filosofal.</info></item>"
-"<item><title>MAZE RUNNER: A CURA MORTAL [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link>
-<regex><name>TeamBluePlay</name>
-<expres>file: "(.*ALTO.*?)"</expres>
-<page>$doregex[TeamBluePlayOne]</page>
-</regex><regex>
-<name>TeamBluePlayOne</name>
-<expres>src="(.*)" fra</expres>
-<page>$doregex[TeamBluePlayTwo]</page>
-</regex><regex>
-<name>TeamBluePlayTwo</name>
-<expres>src="(.*LEG.*?)" fra</expres>
-<page>http://netcine.us/maze-runner-a-cura-mortal/</page>
-</regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/336843_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]The Maze Runner: The Death Cure[/B][/COLOR]
+"<item><title>MAZE RUNNER: A CURA MORTAL [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/maze-runner-a-cura-mortal/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/336843_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]The Maze Runner: The Death Cure[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Acção
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Wes Ball
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 142 m
