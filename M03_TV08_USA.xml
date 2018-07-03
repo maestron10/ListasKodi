@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ABC TV[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3425.ts;streamtype=TSDOWNLOADER&amp;name=ABC TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ABC TV (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3425.m3u8$$lsname=ABC TV (HTTP source #01)</link>
 <link>http://live.field59.com/wwsb/ngrp:wwsb1_all/playlist.m3u8$$lsname=ABC TV (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO SIGNATURE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3383.ts;streamtype=TSDOWNLOADER&amp;name=HBO SIGNATURE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HBO SIGNATURE (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3383.m3u8$$lsname=HBO SIGNATURE (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBOSIGNATURE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ABC NEWS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/2016.ts;streamtype=TSDOWNLOADER&amp;name=ABC NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ABC NEWS (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/2016.m3u8$$lsname=ABC NEWS (HTTP source #01)</link>
 <link>http://abclive2-lh.akamaihd.net/i/abc_live11@423404/index_1200_av-p.m3u8$$lsname=ABC NEWS (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABCNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
@@ -19,40 +11,29 @@
 <link><link>$doregex[getm3u8]$$lsname=BLOOMBERG (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/81</page><referer>http://www.filmon.com/tv/channel/export?channel id=81&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BLOOMBERG (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3407.ts;streamtype=TSDOWNLOADER&amp;name=CNN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNN (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3407.m3u8$$lsname=CNN (HTTP source #01)</link>
 <link>http://188.93.238.205:8000/play/CNN$$lsname=CNN (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://8d398431657ad9c8ca40b60c71e075027421a53d&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNBC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1989.ts;streamtype=TSDOWNLOADER&amp;name=CNBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNBC (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/1989.m3u8$$lsname=CNBC (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://0dd76d0f734188975094934b12e2b286f48122bd&amp;mode=1&amp;name=Acestream+CNBC$$lsname=CNBC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBSN[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3409.ts;streamtype=TSDOWNLOADER&amp;name=CBSN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBSN (F4M source #01)</link>
 <link>http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/index_700_av-p.m3u8$$lsname=CBSN (HTTP source #01)</link>
 <link>http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/index_2200_av-p.m3u8$$lsname=CBSN (HTTP source #02)</link>
 <link>http://cbsnewshd-lh.akamaihd.net:80/i/CBSNHD_7@199302/index_1200_av-b.m3u8$$lsname=CBSN (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://9b95468b62198b6e416a568660cf00ca66690f82&amp;mode=1&amp;name=Acestream+CBSN$$lsname=CBSN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C-SPAN[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3414.ts;streamtype=TSDOWNLOADER&amp;name=C-SPAN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C-SPAN (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3414.m3u8$$lsname=C-SPAN (HTTP source #01)</link>
 <link>http://cspan1-lh.akamaihd.net/i/cspan1_1@304727/master.m3u8$$lsname=C-SPAN (HTTP source #02)</link>
 <link>http://cspan1-lh.akamaihd.net/i/cspan1_1@304727/index_1000_av-p.m3u8$$lsname=C-SPAN (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://d5f169fa3c197609521b291baaf7ea1a33fd3fe6&amp;mode=1&amp;name=Acestream+C-SPAN$$lsname=C-SPAN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CSPAN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C-SPAN 2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3413.ts;streamtype=TSDOWNLOADER&amp;name=C-SPAN 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C-SPAN 2 (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3413.m3u8$$lsname=C-SPAN 2 (HTTP source #01)</link>
 <link>http://cspan2-lh.akamaihd.net/i/cspan2_1@304728/master.m3u8$$lsname=C-SPAN 2 (HTTP source #02)</link>
 <link>http://cspan2-lh.akamaihd.net/i/cspan2_1@304728/index_1000_av-p.m3u8$$lsname=C-SPAN 2 (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://7edc0d51f5000716d7787437b49ff1351220e1ba&amp;mode=1&amp;name=Acestream+C-SPAN 2$$lsname=C-SPAN 2 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CSPAN2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C-SPAN 3[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3412.ts;streamtype=TSDOWNLOADER&amp;name=C-SPAN 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C-SPAN 3 (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3412.m3u8$$lsname=C-SPAN 3 (HTTP source #01)</link>
 <link>http://cspan3-lh.akamaihd.net/i/cspan3_1@304729/master.m3u8$$lsname=C-SPAN 3 (HTTP source #02)</link>
 <link>http://cspan3-lh.akamaihd.net/i/cspan3_1@304729/index_1000_av-p.m3u8$$lsname=C-SPAN 3 (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://608f0da1f65431ee4e62d891d6bd33f6c0ffc6a8&amp;mode=1&amp;name=Acestream+C-SPAN 3$$lsname=C-SPAN 3 (PLEXUS source #01)</link>
@@ -61,18 +42,6 @@
 <link>http://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/master.m3u8$$lsname=WGN 9 NEWS CHICAGO (HTTP source #01)</link>
 <link>http://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/index_1000_av-p.m3u8$$lsname=WGN 9 NEWS CHICAGO (HTTP source #02)</link>
 <thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/9/90/Wgn9newsopen.jpg/revision/latest?cb=20151210042859</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] A&E[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3426.ts;streamtype=TSDOWNLOADER&amp;name=A&E [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=A&E (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3426.m3u8$$lsname=A&E (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/A&E.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] E! ENTERTAINMENT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/2002.ts;streamtype=TSDOWNLOADER&amp;name=E! ENTERTAINMENT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=E! ENTERTAINMENT (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/2002.m3u8$$lsname=E! ENTERTAINMENT (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/E!.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] HALLMARK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3380.ts;streamtype=TSDOWNLOADER&amp;name=HALLMARK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HALLMARK (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3380.m3u8$$lsname=HALLMARK (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HALLMART.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DW[/B][/COLOR]</title>
 <link>http://www.metafilegenerator.de/DWelle/tv-northamerica/ios/master.m3u8$$lsname=DW (HTTP source #01)</link>
 <link>http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-p.m3u8$$lsname=DW (HTTP source #02)</link>
@@ -81,161 +50,53 @@
 <link>https://secure-streams.akamaized.net/rt-usa/index.m3u8$$lsname=RT AMERICA (HTTP source #01)</link>
 <link>https://secure-streams.akamaized.net/rt-usa/index2500.m3u8$$lsname=RT AMERICA (HTTP source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/2/21/RT_America_Logo.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] RT DOCUMENTARY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3354.ts;streamtype=TSDOWNLOADER&amp;name=RT DOCUMENTARY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RT DOCUMENTARY (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3354.m3u8$$lsname=RT DOCUMENTARY (HTTP source #01)</link>
-<thumbnail>http://www.veteranstoday.com/wp-content/uploads/2016/03/RTV-Doc.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TLC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3345.ts;streamtype=TSDOWNLOADER&amp;name=TLC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TLC (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3345.m3u8$$lsname=TLC (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TLC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TRAVEL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3340.ts;streamtype=TSDOWNLOADER&amp;name=TRAVEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TRAVEL (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3340.m3u8$$lsname=TRAVEL (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRAVELCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] WORLD FASHION[/B][/COLOR]</title>
 <link>http://btv-net.mediacdn.ru/TVB8/wfhd/playlist.m3u8$$lsname=WORLD FASHION (HTTP source #01)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/2/20/WORLD_FASHION.jpg/revision/latest?cb=20150316180940</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ANIMAL PLANET[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3418.ts;streamtype=TSDOWNLOADER&amp;name=ANIMAL PLANET [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ANIMAL PLANET (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3418.m3u8$$lsname=ANIMAL PLANET (HTTP source #01)</link>
 <link>http://cdnworld.magictvbox.eu/Animal_Planet_HD/tracks-v2a1/index.m3u8?token=b04f6e1d3917019e1ca2559684a5aad5673f376e$$lsname=ANIMAL PLANET (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIMALPLANET.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SCIENCE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3400.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY SCIENCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SCIENCE (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3400.m3u8$$lsname=DISCOVERY SCIENCE (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSCIENCE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] H2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3385.ts;streamtype=TSDOWNLOADER&amp;name=H2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=H2 (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3385.m3u8$$lsname=H2 (HTTP source #01)</link>
 <link>http://wowza2.mysoltv.com:1992/UK_ENG_history2/index.m3u8$$lsname=H2 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/H2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HISTORY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3379.ts;streamtype=TSDOWNLOADER&amp;name=HISTORY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTORY (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3379.m3u8$$lsname=HISTORY (HTTP source #01)</link>
 <link>http://wowza2.mysoltv.com:1992/UK_ENG_history/index.m3u8$$lsname=HISTORY (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HISTORY.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] NATIONAL GEOGRAPHIC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3012.ts;streamtype=TSDOWNLOADER&amp;name=NATIONAL GEOGRAPHIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NATIONAL GEOGRAPHIC (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3012.m3u8$$lsname=NATIONAL GEOGRAPHIC (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NATIONAL GEOGRAPHIC WILD[/B][/COLOR]</title>
 <link>http://cdnworld.magictvbox.eu/Nat_Geo_Wild_HD/index.m3u8?token=b04f6e1d3917019e1ca2559684a5aad5673f376e$$lsname=NATIONAL GEOGRAPHIC WILD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEOWILD.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] BRAVO[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3417.ts;streamtype=TSDOWNLOADER&amp;name=BRAVO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BRAVO (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3417.m3u8$$lsname=BRAVO (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BRAVOTV.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] SHOWTIME[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1999.ts;streamtype=TSDOWNLOADER&amp;name=SHOWTIME [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SHOWTIME (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/1999.m3u8$$lsname=SHOWTIME (HTTP source #01)</link>
-<thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/1/1c/Showtime_1997.svg/revision/latest/scale-to-width-down/300?cb=20161003141051</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] AMC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3421.ts;streamtype=TSDOWNLOADER&amp;name=AMC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AMC (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3421.m3u8$$lsname=AMC (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AMC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] CINEMAX[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3404.ts;streamtype=TSDOWNLOADER&amp;name=CINEMAX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINEMAX (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3404.m3u8$$lsname=CINEMAX (HTTP source #01)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Cinemax.svg/2000px-Cinemax.svg.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] COMEDY CENTRAL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3403.ts;streamtype=TSDOWNLOADER&amp;name=COMEDY CENTRAL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMEDY CENTRAL (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3403.m3u8$$lsname=COMEDY CENTRAL (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/COMEDYCENTRAL.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX 1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1977.ts;streamtype=TSDOWNLOADER&amp;name=FOX 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX 1 (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/1977.m3u8$$lsname=FOX 1 (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX1.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1963.ts;streamtype=TSDOWNLOADER&amp;name=HBO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HBO (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/1963.m3u8$$lsname=HBO (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBO.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO COMEDY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3384.ts;streamtype=TSDOWNLOADER&amp;name=HBO COMEDY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HBO COMEDY (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3384.m3u8$$lsname=HBO COMEDY (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBOCOMEDY.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] STARZ CINEMA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3349.ts;streamtype=TSDOWNLOADER&amp;name=STARZ CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=STARZ CINEMA (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3349.m3u8$$lsname=STARZ CINEMA (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/STARZCINEMA.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] STARZ EDGE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3348.ts;streamtype=TSDOWNLOADER&amp;name=STARZ EDGE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=STARZ EDGE (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3348.m3u8$$lsname=STARZ EDGE (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/STARZEDGE.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] CARTOON NETWORK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3405.ts;streamtype=TSDOWNLOADER&amp;name=CARTOON NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CARTOON NETWORK (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3405.m3u8$$lsname=CARTOON NETWORK (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CARTOONNETWORK.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3398.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3398.m3u8$$lsname=DISNEY CHANNEL (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3361.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3361.m3u8$$lsname=NICKELODEON (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS US[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/2011.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS US [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS US (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/2011.m3u8$$lsname=beiN SPORTS US (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/beinsportsusa.php$$lsname=beiN SPORTS US (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTSUSA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN USA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1991.ts;streamtype=TSDOWNLOADER&amp;name=ESPN USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ESPN USA (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/1991.m3u8$$lsname=ESPN USA (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/espn.php$$lsname=ESPN USA (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN 2 USA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/2744.ts;streamtype=TSDOWNLOADER&amp;name=ESPN 2 USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ESPN 2 USA (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/2744.m3u8$$lsname=ESPN 2 USA (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN2.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] FIGHT NETWORK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1997.ts;streamtype=TSDOWNLOADER&amp;name=FIGHT NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FIGHT NETWORK (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/1997.m3u8$$lsname=FIGHT NETWORK (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FIGHTNET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS 1 USA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/2007.ts;streamtype=TSDOWNLOADER&amp;name=FOX SPORTS 1 USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX SPORTS 1 USA (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/2007.m3u8$$lsname=FOX SPORTS 1 USA (HTTP source #01)</link>
 <link>http://iptv4u.club/stream/553339/cccc34222210985555555/foxsports1usa.m3u8$$lsname=FOX SPORTS 1 USA (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/foxsports1.php$$lsname=FOX SPORTS 1 USA (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://cfda068e6b1d48678782e19302bf03fc5d55ec58&amp;mode=1&amp;name=Acestream+FOX SPORTS 1 USA$$lsname=FOX SPORTS 1 USA (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS 2 USA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3388.ts;streamtype=TSDOWNLOADER&amp;name=FOX SPORTS 2 USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX SPORTS 2 USA (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3388.m3u8$$lsname=FOX SPORTS 2 USA (HTTP source #01)</link>
 <link>http://iptv4u.club/stream/553339/cccc34222210985555555/foxsports2usa.m3u8$$lsname=FOX SPORTS 2 USA (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/foxsports2.php$$lsname=FOX SPORTS 2 USA (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FS2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NBA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3370.ts;streamtype=TSDOWNLOADER&amp;name=NBA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NBA (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3370.m3u8$$lsname=NBA (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/nbatv.php$$lsname=NBA (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NBATV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NBC GOLF[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/2013.ts;streamtype=TSDOWNLOADER&amp;name=NBC GOLF [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NBC GOLF (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/2013.m3u8$$lsname=NBC GOLF (HTTP source #01)</link>
 <link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/4296k/prog.m3u8|X-Forwarded-For=209.239.112.104$$lsname=NBC GOLF (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NBCGOLFTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NFL NETWORK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1830.ts;streamtype=TSDOWNLOADER&amp;name=NFL NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NFL NETWORK (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3366.m3u8$$lsname=NFL NETWORK (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/nflnetwork.php$$lsname=NFL NETWORK (SD source #01)</link>
 <thumbnail>http://www.morethanjustsports.com/Files/2010/11/screen_nflNetwork.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] NHL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3364.ts;streamtype=TSDOWNLOADER&amp;name=NHL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NHL (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3364.m3u8$$lsname=NHL (HTTP source #01)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/NHL_Logo_former.svg/996px-NHL_Logo_former.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1985.ts;streamtype=TSDOWNLOADER&amp;name=TSN1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TSN1 (F4M source #01)</link>
 <link>https://sportsbar.pw/lba/123/g2/TSN1.m3u8$$lsname=TSN1 (HTTP source #01)</link>
 <link>http://sportsbar.pw/lba/N2Y5NDEyNjU3NzAzMTliZGJiZGYwNjU5NDQ0ZjQ3NGE=/g2/TSN1.m3u8$$lsname=TSN1 (HTTP source #02)</link>
 <thumbnail>http://i.imgur.com/ZJ8xW1t.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1984.ts;streamtype=TSDOWNLOADER&amp;name=TSN2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TSN2 (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/1984.m3u8$$lsname=TSN2 (HTTP source #01)</link>
 <link>https://sportsbar.pw/lba/123/g3/TSN2.m3u8$$lsname=TSN2 (HTTP source #02)</link>
 <thumbnail>http://i.imgur.com/l1NJsdM.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN3[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1983.ts;streamtype=TSDOWNLOADER&amp;name=TSN3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TSN3 (F4M source #01)</link>
 <link>https://sportsbar.pw/lba/123/g1/TSN3.m3u8$$lsname=TSN3 (HTTP source #01)</link>
 <link>http://sportsbar.pw/lba/N2Y5NDEyNjU3NzAzMTliZGJiZGYwNjU5NDQ0ZjQ3NGE=/g4/TSN3.m3u8$$lsname=TSN3 (HTTP source #02)</link>
 <link>http://sportsbar.pw/lba/123/g4/TSN3.m3u8$$lsname=TSN3 (HTTP source #03)</link>
@@ -252,31 +113,21 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/hd1.php$$lsname=TSN5 (SD source #01)</link>
 <thumbnail>http://i.imgur.com/QldQfqY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] WWE NETWORK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/2994.ts;streamtype=TSDOWNLOADER&amp;name=WWE NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=WWE NETWORK (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/2994.m3u8$$lsname=WWE NETWORK (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/wwenetwork.php$$lsname=WWE NETWORK (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://cd29479ac4b8ee528a7f1082020ce9ee3a09fbe4&amp;mode=1&amp;name=Acestream+WWE NETWORK$$lsname=WWE NETWORK (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/WWENET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Arizona[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3360.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Arizona [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Arizona (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3360.m3u8$$lsname=PAC 12 Arizona (HTTP source #01)</link>
 <link>http://p12a-lh.akamaihd.net/i/arizona_delivery@199730/master.m3u8$$lsname=PAC 12 Arizona (HTTP source #02)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Bay Area[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3359.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Bay Area [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Bay Area (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3359.m3u8$$lsname=PAC 12 Bay Area (HTTP source #01)</link>
 <link>http://p12b-lh.akamaihd.net/i/bayarea_delivery@429334/master.m3u8$$lsname=PAC 12 Bay Area (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://902561041a0a9f0ef65e963529de52f2b9d00773&amp;mode=1&amp;name=Acestream+PAC 12 Bay Area$$lsname=PAC 12 Bay Area (PLEXUS source #01)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Los Angeles[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3358.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Los Angeles [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Los Angeles (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3358.m3u8$$lsname=PAC 12 Los Angeles (HTTP source #01)</link>
 <link>http://p12l-lh.akamaihd.net/i/la_delivery@425541/master.m3u8$$lsname=PAC 12 Los Angeles (HTTP source #02)</link>
 <link>http://p12l-lh.akamaihd.net/i/la_delivery@425541/index_1164_av-p.m3u8$$lsname=PAC 12 Los Angeles (HTTP source #03)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Moutain[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3357.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Moutain [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Moutain (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3357.m3u8$$lsname=PAC 12 Moutain (HTTP source #01)</link>
 <link>http://p12m-lh.akamaihd.net/i/mountain_delivery@428912/master.m3u8$$lsname=PAC 12 Moutain (HTTP source #02)</link>
 <link>http://p12m-lh.akamaihd.net/i/mountain_delivery@428912/index_1164_av-p.m3u8$$lsname=PAC 12 Moutain (HTTP source #03)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
@@ -285,44 +136,24 @@
 <link>plugin://program.plexus/?url=acestream://0c17af1d94b636e5be6b4748a537c07fe3e8377a&amp;mode=1&amp;name=Acestream+PAC 12 Network (National)$$lsname=PAC 12 Network (National) (PLEXUS source #01)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Oregon[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3356.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Oregon [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Oregon (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3356.m3u8$$lsname=PAC 12 Oregon (HTTP source #01)</link>
 <link>http://p12o-lh.akamaihd.net/i/oregon_delivery@103261/master.m3u8$$lsname=PAC 12 Oregon (HTTP source #02)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Washington[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3355.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Washington [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Washington (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3355.m3u8$$lsname=PAC 12 Washington (HTTP source #01)</link>
 <link>http://p12w-lh.akamaihd.net/i/washington_delivery@426584/master.m3u8$$lsname=PAC 12 Washington (HTTP source #02)</link>
 <link>http://p12w-lh.akamaihd.net/i/washington_delivery@426584/index_1164_av-p.m3u8$$lsname=PAC 12 Washington (HTTP source #03)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET ONE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/1954.ts;streamtype=TSDOWNLOADER&amp;name=SPORTSNET ONE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORTSNET ONE (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/1954.m3u8$$lsname=SPORTSNET ONE (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/sportsnetone.php$$lsname=SPORTSNET ONE (SD source #01)</link>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/1/18/1000px-Sportsnetone2011_svg.png/revision/latest/scale-to-width-down/390?cb=20120424202314</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET ONTARIO[/B][/COLOR]</title>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3891.m3u8$$lsname=SPORTSNET ONTARIO (HTTP source #01)</link>
 <link>http://vapi.vaders.tv/play/2673.m3u8?token=eyJ1c2VybmFtZSI6ImZyYW5jb21hYyIsInBhc3N3b3JkIjoia2lsbDJ0aGlzIn0=$$lsname=SPORTSNET ONTARIO (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/sportsnetontario.php$$lsname=SPORTSNET ONTARIO (SD source #01)</link>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/f/fd/Sportsnet_ontario.png/revision/latest/scale-to-width-down/250?cb=20120212021015</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET PACIFIC[/B][/COLOR]</title>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3892.m3u8$$lsname=SPORTSNET PACIFIC (HTTP source #01)</link>
 <link>http://vapi.vaders.tv/play/2674.m3u8?token=eyJ1c2VybmFtZSI6ImZyYW5jb21hYyIsInBhc3N3b3JkIjoia2lsbDJ0aGlzIn0=$$lsname=SPORTSNET PACIFIC (HTTP source #02)</link>
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/d/d4/Sportsnet_pacific.png/revision/latest?cb=20120212023043</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET WORLD[/B][/COLOR]</title>
 <link>http://vapi.vaders.tv/play/2670.m3u8?token=eyJ1c2VybmFtZSI6ImZyYW5jb21hYyIsInBhc3N3b3JkIjoia2lsbDJ0aGlzIn0=$$lsname=SPORTSNET WORLD (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/sportsnetworld.php$$lsname=SPORTSNET WORLD (SD source #01)</link>
 <thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/8/8f/250px-SportsnetWorld.svg.png/revision/latest?cb=20111112195204</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] AFN MOVIES[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/3424.ts;streamtype=TSDOWNLOADER&amp;name=AFN MOVIES [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AFN MOVIES (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/3424.m3u8$$lsname=AFN MOVIES (HTTP source #01)</link>
-#N/D
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] AFN SPORTS HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/2001.ts;streamtype=TSDOWNLOADER&amp;name=AFN SPORTS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AFN SPORTS HD (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/2001.m3u8$$lsname=AFN SPORTS HD (HTTP source #01)</link>
-#N/D
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] AFN SPORTS 2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dynaiptv.tv:8010/live/Z2tiigx9cX/wcpNvLFRV1/2012.ts;streamtype=TSDOWNLOADER&amp;name=AFN SPORTS 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AFN SPORTS 2 (F4M source #01)</link>
-<link>http://163.172.108.173:8010/live/Z2tiigx9cX/wcpNvLFRV1/2012.m3u8$$lsname=AFN SPORTS 2 (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AFNSPORTS2.png</thumbnail></item>
 Copyright © 2018 - TeamBlue
