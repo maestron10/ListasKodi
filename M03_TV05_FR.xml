@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TF1[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/tf1/live/playlist.m3u8$$lsname=TF1 (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TF1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TF1 HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/735.m3u8$$lsname=TF1 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TF1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 2[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/france2/live/playlist.m3u8$$lsname=FRANCE 2 (HTTP source #01)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE 2 (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1717</page><referer>http://www.filmon.com/tv/channel/export?channel id=1717&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE 2 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 2 HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/744.m3u8$$lsname=FRANCE 2 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 3[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/france3/live/playlist.m3u8$$lsname=FRANCE 3 (HTTP source #01)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE 3 (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1723</page><referer>http://www.filmon.com/tv/channel/export?channel id=1723&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE 3 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 3 HD[/B][/COLOR]</title>
@@ -20,39 +25,51 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/731.m3u8$$lsname=CANAL+ HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 5[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/france5/live/playlist.m3u8$$lsname=FRANCE 5 (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 5 HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/740.m3u8$$lsname=FRANCE 5 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6[/B][/COLOR]</title>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1434.m3u8$$lsname=M6 (HTTP source #01)</link>
+<link>https://s2.tntendirect.com/m6/live/playlist.m3u8$$lsname=M6 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1434.m3u8$$lsname=M6 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6 HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/739.m3u8$$lsname=M6 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ARTE[/B][/COLOR]</title>
-<link>http://5.189.187.55:8000/live/Fadil/skype/885.m3u8$$lsname=ARTE (HTTP source #01)</link>
+<link>https://s2.tntendirect.com/arte/live/playlist.m3u8$$lsname=ARTE (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/885.m3u8$$lsname=ARTE (HTTP source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=ARTE (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1729</page><referer>http://www.filmon.com/tv/channel/export?channel id=1729&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ARTE (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C8[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/817.m3u8$$lsname=C8 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/C8.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] W9[/B][/COLOR]</title>
-<link>http://5.189.187.55:8000/live/Fadil/skype/736.m3u8$$lsname=W9 (HTTP source #01)</link>
+<link>https://s2.tntendirect.com/w9/live/playlist.m3u8$$lsname=W9 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/736.m3u8$$lsname=W9 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/W9.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] W9 HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2655.m3u8$$lsname=W9 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/W9.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TMC[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/tmc/live/playlist.m3u8$$lsname=TMC (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TMC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TMC HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1099.m3u8$$lsname=TMC HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TMCHD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NT1[/B][/COLOR]</title>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1571.m3u8$$lsname=NT1 (HTTP source #01)</link>
+<link>https://s2.tntendirect.com/nt1/live/playlist.m3u8$$lsname=NT1 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1571.m3u8$$lsname=NT1 (HTTP source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/nn/nt1_fr.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NRJ12[/B][/COLOR]</title>
-<link>http://5.189.187.55:8000/live/Fadil/skype/966.m3u8$$lsname=NRJ12 (HTTP source #01)</link>
+<link>https://s2.tntendirect.com/nrj12/live/playlist.m3u8$$lsname=NRJ12 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/966.m3u8$$lsname=NRJ12 (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://038bc750dfbbe978d4f6933ea0648bde5ce32276&amp;mode=1&amp;name=Acestream+NRJ12$$lsname=NRJ12 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NRJ12.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 4[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/france4/live/playlist.m3u8$$lsname=FRANCE 4 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://d640a45fdc6d736a6cbe49274234489f4818b047&amp;mode=1&amp;name=Acestream+FRANCE 4$$lsname=FRANCE 4 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 4 HD[/B][/COLOR]</title>
@@ -67,22 +84,33 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.bfmtv.com/mediaplayer/live-video/$$lsname=BFM TV HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GULLI[/B][/COLOR]</title>
-<link>http://5.189.187.55:8000/live/Fadil/skype/837.m3u8$$lsname=GULLI (HTTP source #01)</link>
+<link>https://s2.tntendirect.com/gulli/live/playlist.m3u8$$lsname=GULLI (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/837.m3u8$$lsname=GULLI (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://5dd558a03fba438753494d109e7b013b40590d8f&amp;mode=1&amp;name=Acestream+GULLI$$lsname=GULLI (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GULLI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE Ô[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/franceo/live/playlist.m3u8$$lsname=FRANCE Ô (HTTP source #01)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE O (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/3884</page><referer>http://www.filmon.com/tv/channel/export?channel id=3884&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE Ô (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE Ô HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/745.m3u8$$lsname=FRANCE Ô HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCEO.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] HD1[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/hd1/live/playlist.m3u8$$lsname=HD1 (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HD1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] L'EQUIPE 21[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1995.m3u8$$lsname=L'EQUIPE 21 (HTTP source #01)</link>
 <link>http://ec.playmedia.fr/lequipe21/live/chunklist_w811887822.m3u8$$lsname=L'EQUIPE 21 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LEQUIPE.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] 6TER[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/6ter/live/playlist.m3u8$$lsname=6TER (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/6TER.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 6TER HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2693.m3u8$$lsname=6TER HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/6TER.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NUMERO 23[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/numero23/live/playlist.m3u8$$lsname=NUMERO 23 (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NUMERO23.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NUMERO 23 HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2741.m3u8$$lsname=NUMERO 23 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NUMERO23.png</thumbnail></item>
@@ -429,6 +457,9 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM SPORT[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/3245.m3u8$$lsname=BFM SPORT (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMSPORT.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] D8[/B][/COLOR]</title>
+<link>https://s2.tntendirect.com/d8/live/playlist.m3u8$$lsname=D8 (HTTP source #01)</link>
+<thumbnail>http://www.logotypes101.com/logos/258/C649BC70C796FB7E5D59A58A533F983F/d8_logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTS UN[/B][/COLOR]</title>
 <link><link>$doregex[getm3u8]$$lsname=Rm3u8 UN (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/3911</page><referer>http://www.filmon.com/tv/channel/export?channel id=3911&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=RTS UN (HTTP source #05)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RTS_un.svg/310px-RTS_un.svg.png</thumbnail></item>

@@ -21,6 +21,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/nacionales/antena-3.php$$lsname=ANTENA 3 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANTENA3ES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ANTENA 3 HD[/B][/COLOR]</title>
+<link>https://livepull1.secure.footprint.net/antena3mpp/bitrate_3.m3u8$$lsname=ANTENA 3 HD (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://cb4e5d7a4ddc67ac9a5b0c43568ee57259042659&amp;mode=1&amp;name=Acestream+ANTENA 3 HD$$lsname=ANTENA 3 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANTENA3ES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CUATRO[/B][/COLOR]</title>
@@ -46,7 +47,8 @@
 <link>plugin://program.plexus/?url=acestream://492a5037b7cd29756f262148cffb10388b8b0b62&amp;mode=1&amp;name=Acestream+LA SEXTA$$lsname=LA SEXTA (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LASEXTA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] LA SEXTA HD[/B][/COLOR]</title>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1670.m3u8$$lsname=LA SEXTA HD (HTTP source #01)</link>
+<link>https://livepull1.secure.footprint.net/lasextampp/bitrate_3.m3u8$$lsname=LA SEXTA HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1670.m3u8$$lsname=LA SEXTA HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LASEXTA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] #0[/B][/COLOR]</title>
 <link>http://86.82.79.91:9420/play/a00d$$lsname=#0 (HTTP source #01)</link>
@@ -165,6 +167,7 @@
 <link>plugin://program.plexus/?url=acestream://f8ece01a3fb0ca9cd15f6ed7f16c5a0a97211f7a&amp;mode=1&amp;name=Acestream+NEOX$$lsname=NEOX (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NEOX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ATRESERIES[/B][/COLOR]</title>
+<link>https://livepull1.secure.footprint.net/a3seriesmpp/bitrate_2.m3u8$$lsname=ATRESERIES (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/nacionales/astreseries.php$$lsname=ATRESERIES (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/A3SERIES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ATRESERIES HD[/B][/COLOR]</title>
@@ -234,6 +237,7 @@
 <link>http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/chunklist_w539995230_b998000.m3u8$$lsname=TRECE (HTTP source #02)</link>
 <thumbnail>http://cinestrenostv.tv/img/13tv.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV3[/B][/COLOR]</title>
+<link>https://ccma-tva-int-cellnex-live-hls.secure.footprint.net/cat/ngrp:tv3_web/chunklist_b1296000_DVR.m3u8$$lsname=TV3 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://e8e772cfe4d5d3d614025e6b469141977baeb136&amp;mode=1&amp;name=Acestream+TV3$$lsname=TV3 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TEN[/B][/COLOR]</title>
@@ -579,9 +583,10 @@
 <link>plugin://program.plexus/?url=acestream://d013b1cccfed6a6b729dde56da72dad0ca7f62bf&amp;mode=1&amp;name=Acestream+TELESUR$$lsname=TELESUR (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/TeleSUR-Logo.svg/1200px-TeleSUR-Logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL SUR ANDALUCIA[/B][/COLOR]</title>
-<link>http://canalsur-live.hls.adaptive.level3.net/hls-live/canalsur_live-rtva/_definst_/live/stream3.m3u8$$lsname=CANAL SUR ANDALUCIA (HTTP source #01)</link>
-<link>http://86.82.79.91:9430/play/a00h$$lsname=CANAL SUR ANDALUCIA (HTTP source #02)</link>
-<link>http://ca.stablechannels.tv:25461/live/zXaNF05hR/rvt13L7Cr1/4299.m3u8$$lsname=CANAL SUR ANDALUCIA (HTTP source #03)</link>
+<link>http://canalsur-live.hls.adaptive.level3.net/hls-live/canalsur_live-rtva/_definst_/live.m3u8$$lsname=CANAL SUR ANDALUCIA (HTTP source #01)</link>
+<link>http://canalsur-live.hls.adaptive.level3.net/hls-live/canalsur_live-rtva/_definst_/live/stream3.m3u8$$lsname=CANAL SUR ANDALUCIA (HTTP source #02)</link>
+<link>http://86.82.79.91:9430/play/a00h$$lsname=CANAL SUR ANDALUCIA (HTTP source #03)</link>
+<link>http://ca.stablechannels.tv:25461/live/zXaNF05hR/rvt13L7Cr1/4299.m3u8$$lsname=CANAL SUR ANDALUCIA (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/autonomicos/canalsur.php$$lsname=CANAL SUR ANDALUCIA (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALSURANDALUCIA.png</thumbnail></item>
 Copyright © 2018 - TeamBlue
