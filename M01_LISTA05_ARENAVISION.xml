@@ -15,7 +15,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR blue][makelist.param1] [COLOR silver] [makelist.param2]  [COLOR white][makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR white] [makelist.param5][/COLOR] </title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=BlackAddon+[COLOR white][makelist.param4][/COLOR]</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Teamblue+[COLOR white][makelist.param4][/COLOR]</link>
    <regex>
    <name>hash</name>
    <expres>this.loadPlayer\("(.*?)"</expres>
@@ -59,7 +59,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
 <title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param5]+Arenavision</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Teamblue+[makelist.param5]+Arenavision</link>
    <regex>
    <name>hash</name>
    <expres>this.loadPlayer\("(.*?)"</expres>
@@ -882,7 +882,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ES: LA 1[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://7ffc4a0a8f6bb1b746af08589202cff1369b9b0f&amp;mode=1&amp;name=LA 1</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/c/cd/TVE_La1_logo_since_2008.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LA1.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ES: MEGA[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
@@ -942,7 +942,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]UK: MOVIES4MEN[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://a4e077c20c268627d8003d1be27b40d440de0f1f&amp;mode=1&amp;name=MOVIES4MEN</link>
-<thumbnail>http://hoolatv.com/sites/default/files/channels/movies4men.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOVIES4MEN.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]US: C-SPAN[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
