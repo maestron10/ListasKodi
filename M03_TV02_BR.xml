@@ -16,31 +16,9 @@
 <link>http://173.236.10.10:1935/rbtv/rbtv/chunklist_w712068166.m3u8$$lsname=REDE BRASIL (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/REDEBRASIL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RECORD[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4533.m3u8$$lsname=RECORD (HTTP source #01)</link>
-"<link><link>$doregex[TeamBlue_Ch]$$lsname=RECORD (HTTP source #04)</link>
-<regex>
-<name>TeamBlue_Ch</name>
-<expres>"(.*m3u8.*?)"</expres>
-<page>http://www.freelivestream.tv/embedPlayer.php?file=$doregex[TeamBlue_Site]</page>
-<referer>http://www.freelivestream.tv/</referer>
-</regex>
-<regex>
-<name>TeamBlue_Site</name>
-<expres>file='(.*?)';</expres>
-<page>http://www.look-tvs.com/record.html </page>
-<referer>http://look-tvs.com</referer>
-</regex>$$lsname=RECORD (HTTP source #04)</link>"
-"<link><link>http://$doregex[Igor_Rangel_IP]/loadbalance/record2278/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=RECORD (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_IP</name>
-<expres>http://(.*)/loadbalance</expres>
-<page>http://m.tudotv.tv/assistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page>
-</regex>
-<regex>
-<name>TeamBlue_AuthSign</name>
-<expres>m3u8([^\"].*)"</expres>
-<page>http://m.tudotv.tv/assistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page>
-</regex>$$lsname=RECORD (HTTP source #05)</link>"
+<link>http://painelvj.com.BR 1935/tvaguaboa/tvaguaboa.sdp/live.m3u8$$lsname=RECORD (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4533.m3u8$$lsname=RECORD (HTTP source #02)</link>
+<link><link>http://$doregex[Igor_Rangel_IP]/loadbalance/record2278/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://m.tudotv.tv/assistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://m.tudotv.tv/assistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page></regex>$$lsname=RECORD (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/record.php$$lsname=RECORD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RECORDTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RECORD HD[/B][/COLOR]</title>
@@ -62,31 +40,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/REDETV! .png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BAND[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4436.m3u8$$lsname=BAND (HTTP source #01)</link>
-"<link><link>$doregex[TeamBlue_Ch]$$lsname=BAND (HTTP source #04)</link>
-<regex>
-<name>TeamBlue_Ch</name>
-<expres>"(.*m3u8.*?)"</expres>
-<page>http://www.freelivestream.tv/embedPlayer.php?file=$doregex[TeamBlue_Site]</page>
-<referer>http://www.freelivestream.tv/</referer>
-</regex>
-<regex>
-<name>TeamBlue_Site</name>
-<expres>file='(.*?)';</expres>
-<page>http://www.look-tvs.com/band.html</page>
-<referer>http://look-tvs.com</referer>
-</regex>$$lsname=BAND (HTTP source #04)</link>"
-"<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=BAND (HTTP source #05)</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.p3gpublish.com:1935/loadbalancer</page>
-</regex>
-<regex>
-<name>m3u8</name>
-<expres>ea \+ "(.*?)"</expres>
-<page>http://www.p3g.tv/membedplayer/tvbandaovivo3/1/640/360</page>
-<referer>http://www.p3g.tv/</referer>
-</regex>$$lsname=BAND (HTTP source #05)</link>"
+<link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvbandaovivo3/1/640/360</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=BAND (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BAND.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SBT[/B][/COLOR]</title>
 <link>http://192.99.46.182:1935/pioneira-tv3/pioneira-tv3/chunklist_w1129490283.m3u8$$lsname=SBT (HTTP source #01)</link>
@@ -94,26 +48,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SBT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOBO[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4429.m3u8$$lsname=GLOBO (HTTP source #01)</link>
-"<link><link>$doregex[TeamBlue_Ch]$$lsname=GLOBO (HTTP source #04)</link>
-<regex>
-<name>TeamBlue_Ch</name>
-<expres>"(.*m3u8.*?)"</expres>
-<page>http://www.freelivestream.tv/embedPlayer.php?file=globomg</page>
-<referer>http://www.freelivestream.tv/</referer>
-</regex>$$lsname=GLOBO (HTTP source #04)</link>"
-"<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=GLOBO (HTTP source #05)</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.janjuapublisher.com:1935/loadbalancer</page>
-</regex>
-<regex>
-<name>m3u8</name>
-<expres>ea \+ "(.*?)"</expres>
-<page>http://www.janjuaplayer.com/membedplayer/globoaovivo16/1/700/360</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.janjuaplayer.com/</referer>
-</regex>$$lsname=GLOBO (HTTP source #05)</link>"
+<link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.janjuapublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.janjuaplayer.com/membedplayer/globoaovivo16/1/700/360</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.janjuaplayer.com/</referer></regex>$$lsname=GLOBO (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOBO HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4531.m3u8$$lsname=GLOBO HD (HTTP source #01)</link>
@@ -132,8 +67,12 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://onlinenatv.com/canal/globo02.html$$lsname=GLOBO SP (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV CULTURA[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4491.m3u8$$lsname=TV CULTURA (HTTP source #01)</link>
+<link>http://177.73.84.49/hls/live/live.m3u8$$lsname=TV CULTURA (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4491.m3u8$$lsname=TV CULTURA (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVCULTURA.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] OFF[/B][/COLOR]</title>
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/74926671567415569875/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=OFF (HTTP source #05)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALOFF.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OFF HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4405.m3u8$$lsname=OFF HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALOFF.png</thumbnail></item>
@@ -143,6 +82,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTV HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4424.m3u8$$lsname=SPORTV HD (HTTP source #01)</link>
+<link>http://aovivo2.goo.bo:8081/live/20/playlist.m3u8$$lsname=SPORTV HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTV2[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4524.m3u8$$lsname=SPORTV2 (HTTP source #01)</link>
@@ -151,6 +91,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTV2 HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4423.m3u8$$lsname=SPORTV2 HD (HTTP source #01)</link>
+<link>http://aovivo2.goo.bo:8081/live/15/playlist.m3u8$$lsname=SPORTV2 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTV3[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4525.m3u8$$lsname=SPORTV3 (HTTP source #01)</link>
@@ -160,43 +101,27 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4422.m3u8$$lsname=SPORTV3 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOBO NEWS[/B][/COLOR]</title>
-"<link><link>$doregex[TeamBlue_Ch]</link>
-<regex>
-<name>TeamBlue_Ch</name>
-<expres>"(.*m3u8.*?)"</expres>
-<page>http://www.freelivestream.tv/embedPlayer.php?file=$doregex[TeamBlue_Site]$$lsname=GLOBO NEWS (HTTP source #04)</page>
-<referer>http://www.freelivestream.tv/</referer>
-</regex>
-<regex>
-<name>TeamBlue_Site</name>
-<expres>file='(.*?)';</expres>
-<page>http://www.look-tvs.com/globonews.html</page>
-<referer>http://look-tvs.com</referer>
-</regex>$$lsname=GLOBO NEWS (HTTP source #04)</link>"
-"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/bobonews/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=GLOBO NEWS (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_IP</name>
-<expres>http://(.*)/loadbalance</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>
-<regex>
-<name>TeamBlue_AuthSign</name>
-<expres>m3u8([^\"].*)"</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>$$lsname=GLOBO NEWS (HTTP source #05)</link>"
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/bobonews/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=GLOBO NEWS (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBONEWS.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] GNT[/B][/COLOR]</title>
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/53745895287193198754/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer>$$lsname=GNT (HTTP source #05)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GNT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GNT HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4430.m3u8$$lsname=GNT HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GNT.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MULTISHOW[/B][/COLOR]</title>
+<link>http://212.237.41.64/multishow/tracks-v1a1/mono.m3u8$$lsname=MULTISHOW (HTTP source #01)</link>
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/show/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=MULTISHOW (HTTP source #05)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MULTISHOW.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MULTISHOW HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4519.m3u8$$lsname=MULTISHOW HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MULTISHOW.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] VIVA BR[/B][/COLOR]</title>
+<link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/vivaaovivo2/1/640/360</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=VIVA BR (HTTP source #05)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VIVABR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] E! ENTERTAINMENT[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4410.m3u8$$lsname=E! ENTERTAINMENT (HTTP source #01)</link>
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/entertainment/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=E! ENTERTAINMENT (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/E!.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TLC HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4418.m3u8$$lsname=TLC HD (HTTP source #01)</link>
@@ -212,6 +137,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/WOOHOO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN BRASIL HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4447.m3u8$$lsname=ESPN BRASIL HD (HTTP source #01)</link>
+<link>http://aovivo2.goo.bo:8081/live/19/playlist.m3u8$$lsname=ESPN BRASIL HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPNBR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/espn.php$$lsname=ESPN (SD source #02)</link>
@@ -220,96 +146,26 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4448.m3u8$$lsname=ESPN HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX LIFE[/B][/COLOR]</title>
-"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/foxlife/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=FOX LIFE (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_IP</name>
-<expres>http://(.*)/loadbalance</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>
-<regex>
-<name>TeamBlue_AuthSign</name>
-<expres>m3u8([^\"].*)"</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>$$lsname=FOX LIFE (HTTP source #05)</link>"
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/foxlife/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=FOX LIFE (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXLIFE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX LIFE HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4512.m3u8$$lsname=FOX LIFE HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXLIFE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX PREMIUM 1[/B][/COLOR]</title>
-"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/13945963548438544165/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=FOX PREMIUM 1 (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_IP</name>
-<expres>http://(.*)/loadbalance</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>
-<regex>
-<name>TeamBlue_AuthSign</name>
-<expres>m3u8([^\"].*)"</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>$$lsname=FOX PREMIUM 1 (HTTP source #05)</link>"
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/13945963548438544165/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=FOX PREMIUM 1 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXPREMIUM1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX PREMIUM 1 HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4409.m3u8$$lsname=FOX PREMIUM 1 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXPREMIUM1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX PREMIUM 2[/B][/COLOR]</title>
-"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/86286526837465378731/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=FOX PREMIUM 2 (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_IP</name>
-<expres>http://(.*)/loadbalance</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>
-<regex>
-<name>TeamBlue_AuthSign</name>
-<expres>m3u8([^\"].*)"</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>$$lsname=FOX PREMIUM 2 (HTTP source #05)</link>"
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/86286526837465378731/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=FOX PREMIUM 2 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXPREMIUM2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX PREMIUM 2 HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4408.m3u8$$lsname=FOX PREMIUM 2 HD (HTTP source #01)</link>
-"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/86286526837465378731/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=FOX PREMIUM 2 (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_IP</name>
-<expres>http://(.*)/loadbalance</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>
-<regex>
-<name>TeamBlue_AuthSign</name>
-<expres>m3u8([^\"].*)"</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>$$lsname=FOX PREMIUM 2 HD (HTTP source #05)</link>"
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/86286526837465378731/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=FOX PREMIUM 2 HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXPREMIUM2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX PREMIUM 2 FHD[/B][/COLOR]</title>
-"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/86286526837465378731/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=FOX PREMIUM 2 (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_IP</name>
-<expres>http://(.*)/loadbalance</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>
-<regex>
-<name>TeamBlue_AuthSign</name>
-<expres>m3u8([^\"].*)"</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>$$lsname=FOX PREMIUM 2 FHD (HTTP source #05)</link>"
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/86286526837465378731/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=FOX PREMIUM 2 FHD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXPREMIUM2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS BR[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4451.m3u8$$lsname=FOX SPORTS BR (HTTP source #01)</link>
@@ -318,6 +174,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXSPORTS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS BR HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4420.m3u8$$lsname=FOX SPORTS BR HD (HTTP source #01)</link>
+<link>http://aovivo2.goo.bo:8081/live/4/playlist.m3u8$$lsname=FOX SPORTS BR HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXSPORTS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS 2 BR[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/foxsporm3u8?.php$$lsname=FOX SPORTS 2 BR (SD source #01)</link>
@@ -414,7 +271,9 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4412.m3u8$$lsname=BIS HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BIS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4495.m3u8$$lsname=MTV (HTTP source #01)</link>
+<link>http://212.237.41.64/mtv/tracks-v1a1/mono.m3u8$$lsname=MTV (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4495.m3u8$$lsname=MTV (HTTP source #02)</link>
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/83792545658779361413/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=MTV (HTTP source #05)</link>
 <thumbnail>http://i.imgur.com/5u1u9oO.png?1</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLAY TV[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4431.m3u8$$lsname=PLAY TV (HTTP source #01)</link>
@@ -428,38 +287,10 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1MEGAHITS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] UNIVERSAL CHANNEL[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4535.m3u8$$lsname=UNIVERSAL CHANNEL (HTTP source #01)</link>
-"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/universalch/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=UNIVERSAL CHANNEL (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_IP</name>
-<expres>http://(.*)/loadbalance</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>
-<regex>
-<name>TeamBlue_AuthSign</name>
-<expres>m3u8([^\"].*)"</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>$$lsname=UNIVERSAL CHANNEL (HTTP source #05)</link>"
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/universalch/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=UNIVERSAL CHANNEL (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/UNIVERSALCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX[/B][/COLOR]</title>
-"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/fox-hd/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=FOX (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_IP</name>
-<expres>http://(.*)/loadbalance</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>
-<regex>
-<name>TeamBlue_AuthSign</name>
-<expres>m3u8([^\"].*)"</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>$$lsname=FOX (HTTP source #05)</link>"
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/fox-hd/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=FOX (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4450.m3u8$$lsname=FOX HD (HTTP source #01)</link>
@@ -495,13 +326,13 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4482.m3u8$$lsname=TNT SERIE HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TNTSERIEHD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TNT[/B][/COLOR]</title>
-<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=TNT (HTTP source #05)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvtntaovivo/1/1280/669</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=TNT (HTTP source #05)</link>
+<link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvtntaovivo/1/1280/669</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=TNT (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TNT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TNT HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4481.m3u8$$lsname=TNT HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TNTHD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEGAPIX[/B][/COLOR]</title>
-<link><link>$doregex[TeamBlue]$$lsname=MEGAPIX (HTTP source #05)</link><regex><name>TeamBlue</name><expres>"(.*m3u8.*?)"</expres><page>http://www.freelivestream.tv/mediaPlayer.php?file=megapix</page><referer>http://www.freelivestream.tv/</referer></regex>$$lsname=MEGAPIX (HTTP source #05)</link>
+<link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvmegapixaovivo/1/1280/669</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=MEGAPIX (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEGAPIX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEGAPIX HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4464.m3u8$$lsname=MEGAPIX HD (HTTP source #01)</link>
@@ -519,45 +350,21 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4474.m3u8$$lsname=TCM (HTTP source #01)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/c/cd/TCM_Latin_America.png/revision/latest?cb=20151209165240</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE PREMIUM[/B][/COLOR]</title>
-"<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=TELECINE PREMIUM (HTTP source #05)</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.p3gpublish.com:1935/loadbalancer</page>
-</regex>
-<regex>
-<name>m3u8</name>
-<expres>ea \+ "(.*?)"</expres>
-<page>http://www.p3g.tv/membedplayer/tvtcpremumaovivo/1/640/360</page>
-<referer>http://www.p3g.tv/</referer>
-</regex>$$lsname=TELECINE PREMIUM (HTTP source #05)</link>"
+<link>http://212.237.41.64/telecinepremium/tracks-v1a1/mono.m3u8$$lsname=TELECINE PREMIUM (HTTP source #01)</link>
+<link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvtcpremumaovivo/1/640/360</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=TELECINE PREMIUM (HTTP source #05)</link>
 <thumbnail>http://www.tvmagazine.com.br/imagens/icones/600/tcpremiumb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE PREMIUM HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4479.m3u8$$lsname=TELECINE PREMIUM HD (HTTP source #01)</link>
 <thumbnail>http://www.tvmagazine.com.br/imagens/icones/600/tcpremiumb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE ACTION[/B][/COLOR]</title>
-"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/telecineaction/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=TELECINE ACTION (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_IP</name>
-<expres>http://(.*)/loadbalance</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>
-<regex>
-<name>TeamBlue_AuthSign</name>
-<expres>m3u8([^\"].*)"</expres>
-<page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page>
-<referer>http://aovivonatv.com/</referer>
-<agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent>
-</regex>$$lsname=TELECINE ACTION (HTTP source #05)</link>"
+<link><link>http://$doregex[TeamBlue_IP]/loadbalance/telecineaction/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue_IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex><regex><name>TeamBlue_AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36</agent></regex>$$lsname=TELECINE ACTION (HTTP source #05)</link>
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/d/d2/Telecine_Action_2005.png/revision/latest?cb=20151109191132</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE ACTION HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4475.m3u8$$lsname=TELECINE ACTION HD (HTTP source #01)</link>
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/d/d2/Telecine_Action_2005.png/revision/latest?cb=20151109191132</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE TOUCH[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4480.m3u8$$lsname=TELECINE TOUCH (HTTP source #01)</link>
-"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/telecinetouch/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone$$lsname=TELECINE TOUCH (HTTP source #05)</link>
+"<link><link>http://$doregex[TeamBlue_IP]/loadbalance/telecinetouch/playlist.m3u8$doregex[TeamBlue_AuthSign]|User-Agent=iPhone</link>
 <regex>
 <name>TeamBlue_IP</name>
 <expres>http://(.*)/loadbalance</expres>
@@ -577,7 +384,8 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4477.m3u8$$lsname=TELECINE FUN HD (HTTP source #01)</link>
 <thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/d/d4/TC_FUN.jpg/revision/latest?cb=20131115104539</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE PIPOCA[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4478.m3u8$$lsname=TELECINE PIPOCA (HTTP source #01)</link>
+<link>http://212.237.41.64/telecinepipocahd/tracks-v1a1/mono.m3u8$$lsname=TELECINE PIPOCA (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4478.m3u8$$lsname=TELECINE PIPOCA (HTTP source #02)</link>
 <thumbnail>http://www.tvmagazine.com.br/imagens/icones/600/tcpipocab.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE CULT HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4476.m3u8$$lsname=TELECINE CULT HD (HTTP source #01)</link>
@@ -657,6 +465,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ALL SPORTS[/B][/COLOR]</title>
 <link>http://173.236.10.10:1935/dgrau/dgrau/chunklist_w549339512.m3u8$$lsname=ALL SPORTS (HTTP source #01)</link>
 <link>http://104.154.90.211:9981/stream/channelid/1812394565$$lsname=ALL SPORTS (HTTP source #02)</link>
+<link>https://59f1cbe63db89.streamlock.net:1443/dgrau/_definst_/dgrau/chunklist_w1192655349.m3u8$$lsname=ALL SPORTS (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ALLSPORTS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPORTE INTERATIVO[/B][/COLOR]</title>
 <link>https://l3tk-ei-ee-cdn-mdstrm.secure.footprint.net/live-stream-secure/58121908685da2dd08de7ec5/publish/media_1200.m3u8?dnt=true&access_token=mkn1ejub7yla1mkvrfhvi6l2adxkpvs5zqqlqqyllmac5wmq8ktzykfjahbor3sahzrlnig9b6l&ref=https%3a%2f%2fwww.eiplus.com.br%2fcanal%2f47%2fnautico-x-bahia%2f&es=l3tk-ei-ee-cdn-mdstrm.secure.footprint.net&proto=https&pz=br&hash=0abd35a18c0ee0c957eac$$lsname=ESPORTE INTERATIVO (HTTP source #01)</link>

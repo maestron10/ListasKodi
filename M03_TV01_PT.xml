@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP 1[/B][/COLOR]</title>
-<link>http://62.28.213.14:9981/stream/channelid/1439506767?ticket=47159E103E3491785E30DE6CCA2C30D78AB62198&profile=pass$$lsname=RTP 1 (HTTP source #01)</link>
-<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp1_5ch5h264.stream/chunklist.m3u8$$lsname=RTP 1 (HTTP source #02)</link>
-<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtp1_5ch5h264.stream/playlist.m3u8$$lsname=RTP 1 (HTTP source #03)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp1_5ch5h264.stream/chunklist.m3u8$$lsname=RTP 1 (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtp1_5ch5h264.stream/playlist.m3u8$$lsname=RTP 1 (HTTP source #02)</link>
+<link>http://62.28.213.14:9981/stream/channelid/1439506767?ticket=47159E103E3491785E30DE6CCA2C30D78AB62198&profile=pass$$lsname=RTP 1 (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.rtp.pt/play/direto/rtp1$$lsname=RTP 1 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP1.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP 1 HD[/B][/COLOR]</title>
-<link>http://www.bozhd.eu:8000/live/NZQLoFXvwa/q7BQosiV2I/2512.m3u8$$lsname=RTP 1 HD (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP 2[/B][/COLOR]</title>
-<link>http://62.28.213.14:9981/stream/channelid/1580833545?ticket=36678AD4429E9E881C23368C21289DF446A43F18&profile=pass$$lsname=RTP 2 (HTTP source #01)</link>
-<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtp2_5ch3h264.stream/playlist.pt.m3u8$$lsname=RTP 2 (HTTP source #02)</link>
-<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp2_5ch3h264.stream/chunklist.m3u8$$lsname=RTP 2 (HTTP source #03)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtp2_5ch3h264.stream/playlist.pt.m3u8$$lsname=RTP 2 (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp2_5ch3h264.stream/chunklist.m3u8$$lsname=RTP 2 (HTTP source #02)</link>
+<link>http://62.28.213.14:9981/stream/channelid/1580833545?ticket=36678AD4429E9E881C23368C21289DF446A43F18&profile=pass$$lsname=RTP 2 (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.rtp.pt/play/direto/rtp2$$lsname=RTP 2 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SIC[/B][/COLOR]</title>
@@ -64,8 +61,9 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/800.m3u8$$lsname=SIC HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVI[/B][/COLOR]</title>
-<link>http://62.28.213.14:9981/stream/channelid/1402355728?ticket=C452DCE93575B9231492720EFF86BB9084915952&profile=pass$$lsname=TVI (HTTP source #01)</link>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1427.m3u8$$lsname=TVI (HTTP source #02)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1427.m3u8$$lsname=TVI (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1055.m3u8$$lsname=TVI (HTTP source #02)</link>
+<link>http://62.28.213.14:9981/stream/channelid/1402355728?ticket=C452DCE93575B9231492720EFF86BB9084915952&profile=pass$$lsname=TVI (HTTP source #03)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=TVI (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/TVI374537223/1/555/440</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer></regex>$$lsname=TVI (HTTP source #04)</link>
 <link><link>https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=TVI (HTTP source #05)</link><regex><name>m3u8</name><expres>wmsAuthSign=([^"]*)</expres><page>http://tviplayer.iol.pt/direto/TVI</page><referer>http://tviplayer.iol.pt/</referer></regex>$$lsname=TVI (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/tvi?ch=tvi$$lsname=TVI (SD source #01)</link>
@@ -102,8 +100,9 @@
 <link>plugin://program.plexus/?url=acestream://274a7d5f7b03ed889a355562e67c937e09b2ad9e&amp;mode=1&amp;name=Acestream+SIC NOTICIAS$$lsname=SIC NOTICIAS (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SICN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP 3[/B][/COLOR]</title>
-<link>http://62.28.213.14:9981/stream/channelid/1434611461?ticket=96DBF67F95154FA068B1651B8DE68C499C8C7513&profile=pass$$lsname=RTP 3 (HTTP source #01)</link>
-<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpn_5ch64h264.stream/chunklist.m3u8$$lsname=RTP 3 (HTTP source #02)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpn_5ch64h264.stream/chunklist.m3u8$$lsname=RTP 3 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1969.m3u8$$lsname=RTP 3 (HTTP source #02)</link>
+<link>http://62.28.213.14:9981/stream/channelid/1434611461?ticket=96DBF67F95154FA068B1651B8DE68C499C8C7513&profile=pass$$lsname=RTP 3 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVI24[/B][/COLOR]</title>
 <link>http://noscdne.entrprise.tv:1935/cvo/tvi24.stream/live.m3u8$$lsname=TVI24 (HTTP source #01)</link>
@@ -119,8 +118,8 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/tvi?ch=tvi24$$lsname=TVI24 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVI24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CM TV[/B][/COLOR]</title>
-<link>http://p05.quest123.top:8088/live/cmtvtvdesporto/playlist.m3u8?id=98747&pk=ea6596833839e507426ed544d3a7802f9f4bcedc2cf0a5526b730a9525846702$$lsname=CM TV (HTTP source #01)</link>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1429.m3u8$$lsname=CM TV (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2078.m3u8$$lsname=CM TV (HTTP source #01)</link>
+<link>http://p05.quest123.top:8088/live/cmtvtvdesporto/playlist.m3u8?id=98747&pk=ea6596833839e507426ed544d3a7802f9f4bcedc2cf0a5526b730a9525846702$$lsname=CM TV (HTTP source #04)</link>
 "<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=CM TV (HTTP source #05)</link>
 <regex>
 <name>ip</name>
@@ -189,8 +188,9 @@
 <link>plugin://program.plexus/?url=acestream://6bae80c24f7b7f68cf33fd2a1b3411b951ccc41e&amp;mode=1&amp;name=Acestream+SIC RADICAL$$lsname=SIC RADICAL (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SICRADICAL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP MEMORIA[/B][/COLOR]</title>
-<link>http://62.28.213.14:9981/stream/channelid/775982095?ticket=B504C52925F0F3FAE443735869ECAFA21195A91B&profile=pass$$lsname=RTP MEMORIA (HTTP source #01)</link>
-<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpmem_5ch80h264.stream/chunklist.m3u8$$lsname=RTP MEMORIA (HTTP source #02)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpmem_5ch80h264.stream/chunklist.m3u8$$lsname=RTP MEMORIA (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2056.m3u8$$lsname=RTP MEMORIA (HTTP source #02)</link>
+<link>http://62.28.213.14:9981/stream/channelid/775982095?ticket=B504C52925F0F3FAE443735869ECAFA21195A91B&profile=pass$$lsname=RTP MEMORIA (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTPMEMORIA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 24 KITCHEN[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1458.m3u8$$lsname=24 KITCHEN (HTTP source #01)</link>
@@ -290,9 +290,6 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/793.m3u8$$lsname=SPORTING TV HD (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2476.m3u8$$lsname=SPORTING TV HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTINGTVHD.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 PT[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1115.m3u8$$lsname=EUROSPORT 1 PT (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 HD PT[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1973.m3u8$$lsname=EUROSPORT 1 HD PT (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
@@ -306,9 +303,6 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MOTORSPORT.TV HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/motorstv.php$$lsname=MOTORSPORT.TV HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOTORSPORTTV.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOTORVISION TV[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2826.m3u8$$lsname=MOTORVISION TV (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOTORVISION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PFC[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4548.m3u8$$lsname=PFC (HTTP source #01)</link>
 <link>rtmp://213.152.180.151:17247/sstream/1bdlLe7dro.stream$$lsname=PFC (RTMP source #01)</link>
@@ -357,8 +351,7 @@
 <link>http://5.189.187.55:8000/live/Fadil/skype/2077.m3u8$$lsname=BABY TV (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BABYTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] JIMJAM[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2829.m3u8$$lsname=JIMJAM (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/3238.m3u8$$lsname=JIMJAM (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/3238.m3u8$$lsname=JIMJAM (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/JIMJAM.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SUPER RTL[/B][/COLOR]</title>
 <link>http://81.200.50.4/hls/Super_RTL_nejtv_portable_low.m3u8$$lsname=SUPER RTL (HTTP source #01)</link>
@@ -416,17 +409,9 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/789.m3u8$$lsname=TVCINE 4 HD (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1056.m3u8$$lsname=TVCINE 4 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVC4.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TVSERIES[/B][/COLOR]</title>
-<link>http://www.bozhd.eu:8000/live/NZQLoFXvwa/q7BQosiV2I/2480.m3u8$$lsname=TVSERIES (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVSERIES.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TVSERIES HD[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4534.m3u8$$lsname=TVSERIES HD (HTTP source #01)</link>
-<link>http://www.bozhd.eu:8000/live/NZQLoFXvwa/q7BQosiV2I/2475.m3u8$$lsname=TVSERIES HD (HTTP source #02)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVSERIES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HOLLYWOOD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1129.m3u8$$lsname=HOLLYWOOD (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2479.m3u8$$lsname=HOLLYWOOD (HTTP source #02)</link>
-<link>http://www.bozhd.eu:8000/live/NZQLoFXvwa/q7BQosiV2I/2462.m3u8$$lsname=HOLLYWOOD (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALHOLLYWOOD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINEMUNDO[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1452.m3u8$$lsname=CINEMUNDO (HTTP source #01)</link>
@@ -439,12 +424,8 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX MOVIES HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3847.m3u8$$lsname=FOX MOVIES HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXMOVIES.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX[/B][/COLOR]</title>
-<link>http://www.bozhd.eu:8000/live/NZQLoFXvwa/q7BQosiV2I/2468.m3u8$$lsname=FOX (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX HD[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1119.m3u8$$lsname=FOX HD (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1694.m3u8$$lsname=FOX HD (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1694.m3u8$$lsname=FOX HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AXN[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1109.m3u8$$lsname=AXN (HTTP source #01)</link>
@@ -466,7 +447,6 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXCRIME.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX COMEDY[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1454.m3u8$$lsname=FOX COMEDY (HTTP source #01)</link>
-<link>http://www.bozhd.eu:8000/live/NZQLoFXvwa/q7BQosiV2I/2471.m3u8$$lsname=FOX COMEDY (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXCOMEDY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX COMEDY HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2144.m3u8$$lsname=FOX COMEDY HD (HTTP source #01)</link>
@@ -486,15 +466,11 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SYFY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SYFY HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2474.m3u8$$lsname=SYFY HD (HTTP source #01)</link>
-<link>http://www.bozhd.eu:8000/live/NZQLoFXvwa/q7BQosiV2I/2463.m3u8$$lsname=SYFY HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SYFY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AMC[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1453.m3u8$$lsname=AMC (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2076.m3u8$$lsname=AMC (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AMC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOV[/B][/COLOR]</title>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2432.m3u8$$lsname=MOV (HTTP source #01)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/pt/thumb/f/f9/Log%C3%B3tipo_de_MOV.png/400px-Log%C3%B3tipo_de_MOV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV PORTUGAL[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2823.m3u8$$lsname=MTV PORTUGAL (HTTP source #01)</link>
 <thumbnail>http://i.imgur.com/5u1u9oO.png?1</thumbnail></item>
@@ -515,8 +491,7 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3373.m3u8$$lsname=MTV LIVE (HTTP source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/1/14/MTV_Live_Logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV LIVE HD[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3196.m3u8$$lsname=MTV LIVE HD (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/3258.m3u8$$lsname=MTV LIVE HD (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/3258.m3u8$$lsname=MTV LIVE HD (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://647e23ed3d12fd85764a65027a2b1e1b8ef60a28&amp;mode=1&amp;name=Acestream+MTV LIVE HD$$lsname=MTV LIVE HD (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/1/14/MTV_Live_Logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV MUSIC[/B][/COLOR]</title>
@@ -536,6 +511,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 CLASSIC[/B][/COLOR]</title>
 <link>http://81.200.50.4/hls/VH1_Classic_nejtv_portable_low.m3u8$$lsname=VH1 CLASSIC (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2816.m3u8$$lsname=VH1 CLASSIC (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2432.m3u8$$lsname=VH1 CLASSIC (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://608a259dbc22f35d4c802ecb555160e035f572d8&amp;mode=1&amp;name=Acestream+VH1 CLASSIC$$lsname=VH1 CLASSIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6 MUSIQUE[/B][/COLOR]</title>
@@ -594,12 +570,8 @@
 <link>http://5.189.187.55:8000/live/Fadil/skype/2433.m3u8$$lsname=ODISSEIA (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ODISSEIA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] A&E[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1459.m3u8$$lsname=A&E (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/3251.m3u8$$lsname=A&E (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/3251.m3u8$$lsname=A&E (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/A&E.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TLC[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1455.m3u8$$lsname=TLC (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TLC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] E! ENTERTAINMENT[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1456.m3u8$$lsname=E! ENTERTAINMENT (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2483.m3u8$$lsname=E! ENTERTAINMENT (HTTP source #02)</link>
@@ -631,8 +603,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.filmon.com/channel/food-network$$lsname=FOOD NETWORK (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOOD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS REALITY[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2884.m3u8$$lsname=CBS REALITY (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2066.m3u8$$lsname=CBS REALITY (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2066.m3u8$$lsname=CBS REALITY (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.filmon.com/channel/cbs-reality1$$lsname=CBS REALITY (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.filmon.com/channel/cbs-reality$$lsname=CBS REALITY (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSREALITY.png</thumbnail></item>
@@ -743,6 +714,7 @@ return requests.get(url,headers={'Referer':'http://playtv.fr/television/i24-news
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RUSSIATODAY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RECORD NEWS[/B][/COLOR]</title>
 <link>http://sm.fabricahost.com.br:1935/tvguara/tvguara/chunklist_w849814207.m3u8$$lsname=RECORD NEWS (HTTP source #01)</link>
+<link>http://stmv4.srvstm.com/recordnewses/recordnewses/playlist.m3u8?wowzasessionid=991964873$$lsname=RECORD NEWS (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RECORDNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP MADEIRA[/B][/COLOR]</title>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtpmadeira_5ch1016h264H14.stream/playlist.pt.m3u8$$lsname=RTP MADEIRA (HTTP source #01)</link>
@@ -850,7 +822,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BARCA TV[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/971.m3u8$$lsname=BARCA TV (HTTP source #01)</link>
 <link>http://86.82.79.91:9430/play/a01a$$lsname=BARCA TV (HTTP source #02)</link>
-<link>http://ca.stablechannels.tv:25461/live/zXaNF05hR/rvt13L7Cr1/4398.m3u8$$lsname=BARCA TV (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/deportes/barcatv.php$$lsname=BARCA TV (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BARCATV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] REAL MADRID TV[/B][/COLOR]</title>
@@ -906,31 +877,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/REDETV! .png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BAND[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4436.m3u8$$lsname=BAND (HTTP source #01)</link>
-"<link><link>$doregex[TeamBlue_Ch]$$lsname=BAND (HTTP source #04)</link>
-<regex>
-<name>TeamBlue_Ch</name>
-<expres>"(.*m3u8.*?)"</expres>
-<page>http://www.freelivestream.tv/embedPlayer.php?file=$doregex[TeamBlue_Site]</page>
-<referer>http://www.freelivestream.tv/</referer>
-</regex>
-<regex>
-<name>TeamBlue_Site</name>
-<expres>file='(.*?)';</expres>
-<page>http://www.look-tvs.com/band.html</page>
-<referer>http://look-tvs.com</referer>
-</regex>$$lsname=BAND (HTTP source #04)</link>"
-"<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=BAND (HTTP source #05)</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.p3gpublish.com:1935/loadbalancer</page>
-</regex>
-<regex>
-<name>m3u8</name>
-<expres>ea \+ "(.*?)"</expres>
-<page>http://www.p3g.tv/membedplayer/tvbandaovivo3/1/640/360</page>
-<referer>http://www.p3g.tv/</referer>
-</regex>$$lsname=BAND (HTTP source #05)</link>"
+<link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvbandaovivo3/1/640/360</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=BAND (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BAND.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SBT[/B][/COLOR]</title>
 <link>http://192.99.46.182:1935/pioneira-tv3/pioneira-tv3/chunklist_w1129490283.m3u8$$lsname=SBT (HTTP source #01)</link>
