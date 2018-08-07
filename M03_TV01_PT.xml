@@ -15,44 +15,8 @@
 <link>http://live.impresa.pt/live/sic/sic.m3u8$$lsname=SIC (HTTP source #01)</link>
 <link>http://live.impresa.pt/live/sic/sic540p.m3u8$$lsname=SIC (HTTP source #02)</link>
 <link>http://62.28.213.14:9981/stream/channelid/1682111017?ticket=E00FD96F664273F5168E737FA0C69AD4D18827E2&profile=pass$$lsname=SIC (HTTP source #03)</link>
-"<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=SIC (HTTP source #04)</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.liveflashpublisher.com:1935/loadbalancer</page>
-</regex>
-<regex>
-<name>m3u8</name>
-<expres>ea \+ "(.*?)"</expres>
-<page>http://www.liveflashplayer.org/membedplayer/SIC13423784238/1/555/440</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.liveflashplayer.net</referer>
-</regex>$$lsname=SIC (HTTP source #04)</link>"
-"<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=SIC (HTTP source #05)</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.pubucaster.com:1935/loadbalancer</page>
-</regex>
-<regex>
-<name>m3u8</name>
-<expres>ea \+ "(.*?)"</expres>
-<page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.ucaster.me</referer>
-</regex>
-<regex>
-<name>hls</name>
-<expres>hlsUrl \+ \(\"(.*?)"</expres>
-<page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.ucaster.me</referer>
-</regex>
-<regex>
-<name>canal</name>
-<expres>channel='(.*?)'</expres>
-<page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page>
-</regex>$$lsname=SIC (HTTP source #05)</link>"
+<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=SIC (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/SIC13423784238/1/555/440</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer></regex>$$lsname=SIC (HTTP source #04)</link>
+<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=SIC (HTTP source #05)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.pubucaster.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>hls</name><expres>hlsUrl \+ \(\"(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>canal</name><expres>channel='(.*?)'</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page></regex>$$lsname=SIC (HTTP source #05)</link>
 <link><link>http://$doregex[ip]$doregex[ts]$$lsname=SIC (RTMP source #01)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>ts</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/SIC13423784238/1/555/440</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer>$$lsname=SIC (RTMP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.net/channel-tab-frame/sporttv2hd-1.php$$lsname=SIC (SD source #02)</link>
 <link>plugin://program.plexus/?url=acestream://e1ebd22fa0f2d2565668f5305e8ec5f2fdf953f3&amp;mode=1&amp;name=Acestream+SIC$$lsname=SIC (PLEXUS source #01)</link>
@@ -72,7 +36,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SIC NOTICIAS[/B][/COLOR]</title>
 <link>http://live.impresa.pt/live/sicnot/sicnot.m3u8$$lsname=SIC NOTICIAS (HTTP source #01)</link>
 <link>http://live.impresa.pt/live/sicnot/sicnot540p.m3u8$$lsname=SIC NOTICIAS (HTTP source #02)</link>
-<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.pubucaster.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/tvdesportosicn/1/600/480</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>hls</name><expres>hlsUrl \+ \(\"(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/tvdesportosicn/1/600/480</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>canal</name><expres>channel='(.*?)'</expres><page>http://www.ucasterplayer.com/membedplayer/tvdesportosicn/1/600/480</page></regex>$$lsname=SIC NOTICIAS (HTTP source #05)</link>
+<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=SIC NOTICIAS (HTTP source #05)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.pubucaster.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/tvdesportosicn/1/560/442</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://tvdesporto.info/play.php?canal=sicnoticias&height=442&width=560</referer></regex><regex><name>hls</name><expres>hlsUrl \+ \(\"(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/tvdesportosicn/1/560/442</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://tvdesporto.info/play.php?canal=sicnoticias&height=442&width=560</referer></regex><regex><name>canal</name><expres>channel='(.*?)'</expres><page>http://www.ucasterplayer.com/membedplayer/tvdesportosicn/1/560/442</page></regex>$$lsname=SIC NOTICIAS (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://59220530b75c8a29db8d2831659b05990bc8f43b&amp;mode=1&amp;name=Acestream+SIC NOTICIAS$$lsname=SIC NOTICIAS (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://274a7d5f7b03ed889a355562e67c937e09b2ad9e&amp;mode=1&amp;name=Acestream+SIC NOTICIAS$$lsname=SIC NOTICIAS (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SICN.png</thumbnail></item>
@@ -85,43 +49,13 @@
 <link>http://noscdne.entrprise.tv:1935/cvo/tvi24.stream/live.m3u8$$lsname=TVI24 (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1428.m3u8$$lsname=TVI24 (HTTP source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1054.m3u8$$lsname=TVI24 (HTTP source #03)</link>
-"<link><link>https://video-auth6.iol.pt/live_tvi24/live_tvi24/playlist.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=TVI24 (HTTP source #05)</link>
-<regex>
-<name>m3u8</name>
-<expres>wmsAuthSign=([^"]*)</expres>
-<page>http://tviplayer.iol.pt/direto/TVI24</page>
-<referer>http://tviplayer.iol.pt/</referer>
-</regex>$$lsname=TVI24 (HTTP source #05)</link>"
+<link><link>https://video-auth6.iol.pt/live_tvi24/live_tvi24/playlist.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=TVI24 (HTTP source #05)</link><regex><name>m3u8</name><expres>wmsAuthSign=([^"]*)</expres><page>http://tviplayer.iol.pt/direto/TVI24</page><referer>http://tviplayer.iol.pt/</referer></regex>$$lsname=TVI24 (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/tvi?ch=tvi24$$lsname=TVI24 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVI24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CM TV[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2078.m3u8$$lsname=CM TV (HTTP source #01)</link>
 <link>http://p05.quest123.top:8088/live/cmtvtvdesporto/playlist.m3u8?id=98747&pk=ea6596833839e507426ed544d3a7802f9f4bcedc2cf0a5526b730a9525846702$$lsname=CM TV (HTTP source #04)</link>
-"<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=CM TV (HTTP source #05)</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.pubucaster.com:1935/loadbalancer</page>
-</regex>
-<regex>
-<name>m3u8</name>
-<expres>ea \+ "(.*?)"</expres>
-<page>http://www.ucasterplayer.com/membedplayer/cmtvtvdesporto/1/600/480</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.ucaster.me</referer>
-</regex>
-<regex>
-<name>hls</name>
-<expres>hlsUrl \+ \(\"(.*?)"</expres>
-<page>http://www.ucasterplayer.com/membedplayer/cmtvtvdesporto/1/600/480</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.ucaster.me</referer>
-</regex>
-<regex>
-<name>canal</name>
-<expres>channel='(.*?)'</expres>
-<page>http://www.ucasterplayer.com/membedplayer/cmtvtvdesporto/1/600/480</page>
-</regex>$$lsname=CM TV (HTTP source #05)</link>"
+<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=CM TV (HTTP source #05)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.pubucaster.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/cmtvtvdesporto/1/600/480</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>hls</name><expres>hlsUrl \+ \(\"(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/cmtvtvdesporto/1/600/480</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>canal</name><expres>channel='(.*?)'</expres><page>http://www.ucasterplayer.com/membedplayer/cmtvtvdesporto/1/600/480</page></regex>$$lsname=CM TV (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.tvsdezsports.com/cmtv-online-gratis/$$lsname=CM TV (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed/cmtv-ctpxp$$lsname=CM TV (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CMTV.png</thumbnail></item>
@@ -135,13 +69,7 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3034.m3u8$$lsname=GLOBO (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2062.m3u8$$lsname=GLOBO (HTTP source #02)</link>
 <link><link>http://$doregex[Igor_Rangel_IP]/loadbalance/boborj/playlist.ts$doregex[Igor_Rangel_AuthSign]|User-Agent=iPhone$$lsname=GLOBO (RTMP source #01)</link><regex><name>Igor_Rangel_IP</name><expres>http://(.*)/loadbalance</expres><page>http://m.tudotv.tv/assistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page></regex><regex><name>Igor_Rangel_AuthSign</name><expres>ts([^\"].*)"</expres><page>http://m.tudotv.tv/assistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page></regex>$$lsname=GLOBO (HTTP source #04)</link>
-"<link><link>$doregex[TeamBlue_Ch]$$lsname=GLOBO (HTTP source #05)</link>
-<regex>
-<name>TeamBlue_Ch</name>
-<expres>"(.*m3u8.*?)"</expres>
-<page>http://www.freelivestream.tv/embedPlayer.php?file=sptv</page>
-<referer>http://www.freelivestream.tv/</referer>
-</regex>$$lsname=GLOBO (HTTP source #05)</link>"
+<link><link>$doregex[TeamBlue_Ch]$$lsname=GLOBO (HTTP source #05)</link><regex><name>TeamBlue_Ch</name><expres>"(.*m3u8.*?)"</expres><page>http://www.freelivestream.tv/embedPlayer.php?file=sptv</page><referer>http://www.freelivestream.tv/</referer></regex>$$lsname=GLOBO (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SIC MULHER[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1430.m3u8$$lsname=SIC MULHER (HTTP source #01)</link>
@@ -329,31 +257,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVI REALITY[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1457.m3u8$$lsname=TVI REALITY (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2050.m3u8$$lsname=TVI REALITY (HTTP source #02)</link>
-"<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=TVI REALITY  (HTTP source #05)</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.pubucaster.com:1935/loadbalancer</page>
-</regex>
-<regex>
-<name>m3u8</name>
-<expres>ea \+ "(.*?)"</expres>
-<page>http://www.ucasterplayer.com/membedplayer/puinhas/1/600/400</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.ucaster.me</referer>
-</regex>
-<regex>
-<name>hls</name>
-<expres>hlsUrl \+ \(\"(.*?)"</expres>
-<page>http://www.ucasterplayer.com/membedplayer/puinhas/1/600/400</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.ucaster.me</referer>
-</regex>
-<regex>
-<name>canal</name>
-<expres>channel='(.*?)'</expres>
-<page>http://www.ucasterplayer.com/membedplayer/puinhas/1/600/400</page>
-</regex>$$lsname=TVI REALITY (HTTP source #05)</link>"
+<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=TVI REALITY  (HTTP source #05)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.pubucaster.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/puinhas/1/600/400</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>hls</name><expres>hlsUrl \+ \(\"(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/puinhas/1/600/400</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>canal</name><expres>channel='(.*?)'</expres><page>http://www.ucasterplayer.com/membedplayer/puinhas/1/600/400</page></regex>$$lsname=TVI REALITY (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/tvi?ch=tvi_reality$$lsname=TVI REALITY (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVIREALITY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVCINE 1 HD[/B][/COLOR]</title>
@@ -533,23 +437,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRAVELCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FTV[/B][/COLOR]</title>
 <link>http://fash1043.cloudycdn.services/slive/ftv_pg13_adaptive.smil/chunklist_b1400000_t64NDgwcA==.m3u8$$lsname=FTV (HTTP source #01)</link>
-"<link><link>$doregex[final-url]$$lsname=FTV (HTTP source #05)</link>
-<regex>
-<name>final-url</name>
-<expres>(.*)#</expres>
-<page>$doregex[url]&amp;redirect=0</page>
-</regex>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>mpegURL.*"(http.*m3u8.*?)"</expres>
-<page>http://www.dailymotion.com/video/x3m6nld</page>
-<referer>http://www.dailymotion.com/</referer>
-</regex>$$lsname=FTV (HTTP source #05)</link>"
+<link><link>$doregex[final-url]$$lsname=FTV (HTTP source #05)</link><regex><name>final-url</name><expres>(.*)#</expres><page>$doregex[url]&amp;redirect=0</page></regex><regex><name>url</name><expres>$pyFunction:'$doregex[get-url]'.replace('\/','/')</expres><page></page></regex><regex><name>get-url</name><expres>mpegURL.*"(http.*m3u8.*?)"</expres><page>http://www.dailymotion.com/video/x3m6nld</page><referer>http://www.dailymotion.com/</referer></regex>$$lsname=FTV (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOOD NETWORK[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.filmon.com/channel/food-network$$lsname=FOOD NETWORK (SD source #01)</link>
@@ -566,32 +454,11 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV RECORD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1439.m3u8$$lsname=TV RECORD (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1967.m3u8$$lsname=TV RECORD (HTTP source #02)</link>
-"<link><link>$doregex[url]|User-Agent=iPad$$lsname=TV RECORD (HTTP source #05)</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/').replace('\u0026','&amp;')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>url":"(.*?)"</expres>
-<page>http://playtv.fr/player/play/tv-record/?bitrate=800&amp;format=hls&amp;language=pt</page>
-<referer>http://playtv.fr</referer>
-</regex>$$lsname=TV RECORD (HTTP source #05)</link>"
+<link><link>$doregex[url]|User-Agent=iPad$$lsname=TV RECORD (HTTP source #05)</link><regex><name>url</name><expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/').replace('\u0026','&amp;')</expres><page></page></regex><regex><name>jsonurl</name><expres>url":"(.*?)"</expres><page>http://playtv.fr/player/play/tv-record/?bitrate=800&amp;format=hls&amp;language=pt</page><referer>http://playtv.fr</referer></regex>$$lsname=TV RECORD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RECORDTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2482.m3u8$$lsname=EURONEWS (HTTP source #01)</link>
-"<link><link>$doregex[url]$$lsname=EURONEWS (HTTP source #05 YOUTUBE)</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=3HYUSsBm_YA</page>
-</regex>$$lsname=EURONEWS (HTTP source #05)</link>"
+<link><link>$doregex[url]$$lsname=EURONEWS (HTTP source #05 YOUTUBE)</link><regex><name>url</name><expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres><page></page></regex><regex><name>jsonurl</name><expres>hlsvp":"(.*?)"</expres><page>https://www.youtube.com/watch?v=3HYUSsBm_YA</page></regex>$$lsname=EURONEWS (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2925.m3u8$$lsname=CNN (HTTP source #01)</link>
