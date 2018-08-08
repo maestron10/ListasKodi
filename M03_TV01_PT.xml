@@ -15,8 +15,9 @@
 <link>http://live.impresa.pt/live/sic/sic.m3u8$$lsname=SIC (HTTP source #01)</link>
 <link>http://live.impresa.pt/live/sic/sic540p.m3u8$$lsname=SIC (HTTP source #02)</link>
 <link>http://62.28.213.14:9981/stream/channelid/1682111017?ticket=E00FD96F664273F5168E737FA0C69AD4D18827E2&profile=pass$$lsname=SIC (HTTP source #03)</link>
-<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=SIC (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/SIC13423784238/1/555/440</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer></regex>$$lsname=SIC (HTTP source #04)</link>
-<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=SIC (HTTP source #05)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.pubucaster.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>hls</name><expres>hlsUrl \+ \(\"(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>canal</name><expres>channel='(.*?)'</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page></regex>$$lsname=SIC (HTTP source #05)</link>
+<link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=SIC  (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.pubucaster.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>hls</name><expres>hlsUrl \+ \(\"(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>canal</name><expres>channel='(.*?)'</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page></regex>$$lsname=SIC (HTTP source #04)</link>
+"<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=SIC  (HTTP source #05)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/SIC364387434/1/555/440</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer>$$lsname=SIC (HTTP source #05)</link>"
 <link><link>http://$doregex[ip]$doregex[ts]$$lsname=SIC (RTMP source #01)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>ts</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/SIC13423784238/1/555/440</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer>$$lsname=SIC (RTMP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.net/channel-tab-frame/sporttv2hd-1.php$$lsname=SIC (SD source #02)</link>
 <link>plugin://program.plexus/?url=acestream://e1ebd22fa0f2d2565668f5305e8ec5f2fdf953f3&amp;mode=1&amp;name=Acestream+SIC$$lsname=SIC (PLEXUS source #01)</link>
@@ -26,11 +27,11 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/800.m3u8$$lsname=SIC HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVI[/B][/COLOR]</title>
-<link>http://62.28.213.14:9981/stream/channelid/1402355728?ticket=C452DCE93575B9231492720EFF86BB9084915952&profile=pass$$lsname=TVI (HTTP source #01)</link>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1427.m3u8$$lsname=TVI (HTTP source #02)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1055.m3u8$$lsname=TVI (HTTP source #03)</link>
-<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=TVI (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/TVI374537223/1/555/440</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer></regex>$$lsname=TVI (HTTP source #04)</link>
-<link><link>https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=TVI (HTTP source #05)</link><regex><name>m3u8</name><expres>wmsAuthSign=([^"]*)</expres><page>http://tviplayer.iol.pt/direto/TVI</page><referer>http://tviplayer.iol.pt/</referer></regex>$$lsname=TVI (HTTP source #05)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1427.m3u8$$lsname=TVI (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1055.m3u8$$lsname=TVI (HTTP source #02)</link>
+<link>http://62.28.213.14:9981/stream/channelid/1402355728?ticket=C452DCE93575B9231492720EFF86BB9084915952&profile=pass$$lsname=TVI (HTTP source #03)</link>
+<link><link>https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=TVI  (HTTP source #04)</link><regex><name>m3u8</name><expres>wmsAuthSign=([^"]*)</expres><page>http://tviplayer.iol.pt/direto/TVI</page><referer>http://tviplayer.iol.pt/</referer></regex>$$lsname=TVI (HTTP source #04)</link>
+<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=TVI  (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/TVI63453453/1/555/440</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer>$$lsname=TVI (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/tvi?ch=tvi$$lsname=TVI (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SIC NOTICIAS[/B][/COLOR]</title>
@@ -49,7 +50,7 @@
 <link>http://noscdne.entrprise.tv:1935/cvo/tvi24.stream/live.m3u8$$lsname=TVI24 (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1428.m3u8$$lsname=TVI24 (HTTP source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1054.m3u8$$lsname=TVI24 (HTTP source #03)</link>
-<link><link>https://video-auth6.iol.pt/live_tvi24/live_tvi24/playlist.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=TVI24 (HTTP source #05)</link><regex><name>m3u8</name><expres>wmsAuthSign=([^"]*)</expres><page>http://tviplayer.iol.pt/direto/TVI24</page><referer>http://tviplayer.iol.pt/</referer></regex>$$lsname=TVI24 (HTTP source #05)</link>
+<link><link>https://video-auth6.iol.pt/live_tvi24/live_tvi24/playlist.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=TVI24  (HTTP source #05)</link><regex><name>m3u8</name><expres>wmsAuthSign=([^"]*)</expres><page>http://tviplayer.iol.pt/direto/TVI24</page><referer>http://tviplayer.iol.pt/</referer></regex>$$lsname=TVI24 (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/tvi?ch=tvi24$$lsname=TVI24 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVI24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CM TV[/B][/COLOR]</title>
@@ -68,8 +69,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOBO[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3034.m3u8$$lsname=GLOBO (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2062.m3u8$$lsname=GLOBO (HTTP source #02)</link>
-<link><link>http://$doregex[Igor_Rangel_IP]/loadbalance/boborj/playlist.ts$doregex[Igor_Rangel_AuthSign]|User-Agent=iPhone$$lsname=GLOBO (RTMP source #01)</link><regex><name>Igor_Rangel_IP</name><expres>http://(.*)/loadbalance</expres><page>http://m.tudotv.tv/assistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page></regex><regex><name>Igor_Rangel_AuthSign</name><expres>ts([^\"].*)"</expres><page>http://m.tudotv.tv/assistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page></regex>$$lsname=GLOBO (HTTP source #04)</link>
-<link><link>$doregex[TeamBlue_Ch]$$lsname=GLOBO (HTTP source #05)</link><regex><name>TeamBlue_Ch</name><expres>"(.*m3u8.*?)"</expres><page>http://www.freelivestream.tv/embedPlayer.php?file=sptv</page><referer>http://www.freelivestream.tv/</referer></regex>$$lsname=GLOBO (HTTP source #05)</link>
+<link><link>$doregex[TeamBlue]$$lsname=GLOBO  (HTTP source #05)</link><regex><name>TeamBlue</name><expres>"(.*m3u8.*?)"</expres><page>http://www.freelivestream.tv/mediaPlayer.php?file=sptv</page><referer>http://www.freelivestream.tv/</referer></regex>$$lsname=GLOBO (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SIC MULHER[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1430.m3u8$$lsname=SIC MULHER (HTTP source #01)</link>
@@ -113,7 +113,8 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 1 HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/799.m3u8$$lsname=SPORT TV 1 HD (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1797.m3u8$$lsname=SPORT TV 1 HD (HTTP source #02)</link>
-<link><link>$doregex[m3u8]$$lsname=SPORT TV 1 HD (HTTP source #05)</link><regex><name>m3u8</name><expres>file: "([^\"].*)"</expres><page>http://sharecast.eu/embed.php?ch=live1-rbi6c</page><referer></referer><agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</agent></regex>$$lsname=SPORT TV 1 HD (HTTP source #05)</link>
+<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=SPORT TV 1 HD (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/mychan2/1/720/450</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer>$$lsname=SPORT TV 1 HD (HTTP source #04)</link>
+<link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 1 HD (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/s6m0vsdisiufp7</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 1 HD (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/channels/pt/sporttv1.html$$lsname=SPORT TV 1 HD (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt1.php$$lsname=SPORT TV 1 HD (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV1.png</thumbnail></item>
@@ -124,12 +125,12 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 2[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3236.m3u8$$lsname=SPORT TV 2 (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/857.m3u8$$lsname=SPORT TV 2 (HTTP source #02)</link>
+<link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 2 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>http://whostreams.net/embed/2dbrbt50ibw21jq</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 2 (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt2.php$$lsname=SPORT TV 2 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 2 HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/798.m3u8$$lsname=SPORT TV 2 HD (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2827.m3u8$$lsname=SPORT TV 2 HD (HTTP source #02)</link>
-<link><link>$doregex[m3u8]$$lsname=SPORT TV 2 HD (HTTP source #05)</link><regex><name>m3u8</name><expres>file: "([^\"].*)"</expres><page>http://sharecast.eu/embed.php?ch=live2-bipmr</page><referer></referer><agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</agent></regex>$$lsname=SPORT TV 2 HD (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.pt/2018/01/sport-tv-2-l-2.html$$lsname=SPORT TV 2 HD (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/stv2.html?dll=001$$lsname=SPORT TV 2 HD (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2.png</thumbnail></item>
@@ -145,11 +146,13 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 3 HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/797.m3u8$$lsname=SPORT TV 3 HD (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2828.m3u8$$lsname=SPORT TV 3 HD (HTTP source #02)</link>
+<link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 3 HD (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>http://whostreams.net/embed/5bw0ttm</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 3 HD (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/channels/pt/sporttv3.html$$lsname=SPORT TV 3 HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3234.m3u8$$lsname=SPORT TV 4 (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/855.m3u8$$lsname=SPORT TV 4 (HTTP source #02)</link>
+<link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 4 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/3ant1pjxw3</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 4 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4 HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/796.m3u8$$lsname=SPORT TV 4 HD (HTTP source #01)</link>
@@ -171,6 +174,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BENFICA TV[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1111.m3u8$$lsname=BENFICA TV (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2542.m3u8$$lsname=BENFICA TV (HTTP source #02)</link>
+<link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=BENFICA TV (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/pst4nwvms</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=BENFICA TV (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed/btv-md504$$lsname=BENFICA TV (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://firstrowas1.cc/embed/MyPAl2yq4Y$$lsname=BENFICA TV (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BENFICATV.png</thumbnail></item>
@@ -195,12 +199,12 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/motorstv.php$$lsname=MOTORSPORT.TV HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOTORSPORTTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PFC[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4548.m3u8$$lsname=PFC (HTTP source #01)</link>
+<link>http://212.8.250.12:25461/live/Daniel/1234/206.m3u8$$lsname=PFC (HTTP source #01)</link>
 <link>rtmp://213.152.180.151:17247/sstream/1bdlLe7dro.stream$$lsname=PFC (RTMP source #01)</link>
 <link>rtmp://213.152.180.151:17247/sstream/06lt6eKOWl.stream$$lsname=PFC (RTMP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PFC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PFC HD[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4421.m3u8$$lsname=PFC HD (HTTP source #01)</link>
+<link>http://212.8.250.12:25461/live/Daniel/1234/11660.m3u8$$lsname=PFC HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PFC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FUEL TV[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2882.m3u8$$lsname=FUEL TV (HTTP source #01)</link>
@@ -458,7 +462,6 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RECORDTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2482.m3u8$$lsname=EURONEWS (HTTP source #01)</link>
-<link><link>$doregex[url]$$lsname=EURONEWS (HTTP source #05 YOUTUBE)</link><regex><name>url</name><expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres><page></page></regex><regex><name>jsonurl</name><expres>hlsvp":"(.*?)"</expres><page>https://www.youtube.com/watch?v=3HYUSsBm_YA</page></regex>$$lsname=EURONEWS (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2925.m3u8$$lsname=CNN (HTTP source #01)</link>
@@ -524,17 +527,6 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] I 24 NEWS FR[/B][/COLOR]</title>
 <link>https://i24alive1-a.akamaihd.net/f30e0953c49644b6bf4f6e07f6b1d8ea/eu-central-1/5377161796001/profile_3/chunklist.m3u8$$lsname=I 24 NEWS FR (HTTP source #01)</link>
-"<link><link>$doregex[getUrl]$$lsname=I24 FR (HTTP source #05)</link>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):
-url=re.findall('"play":"(.*?)"',page_data)[0].replace('\\','')+'?format=hls&language=fr'
-return requests.get(url,headers={'Referer':'http://playtv.fr/television/i24-news/','X-Requested-With':'XMLHttpRequest'}).json()['url']+'|User-Agent=iPad&Referer=http://playtv.fr/television/'
-]]></expres>
-<page>http://playtv.fr/television/i24-news/</page>
-</regex>$$lsname=I 24 NEWS FR (HTTP source #05)</link>"
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/I24NEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RUSSIA TODAY[/B][/COLOR]</title>
 <link>http://secure-streams.akamaized.net/rt-uk/index800.m3u8$$lsname=RUSSIA TODAY (HTTP source #01)</link>
@@ -697,16 +689,19 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 <link>http://evpp.mm.uol.com.br/redetv2/redetv2/chunklist_w1379590905.m3u8$$lsname=REDE TV! (HTTP source #04)</link>
 <link>http://evpp.mm.uol.com.br:1935/redetv1/redetv1/playlist.m3u8 $$lsname=REDE TV! (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/REDETV! .png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] REDE TV! HD[/B][/COLOR]</title>
+<link>http://212.8.250.12:25461/live/Daniel/1234/14342.m3u8$$lsname=REDE TV! HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/REDETV! .png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BAND[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4436.m3u8$$lsname=BAND (HTTP source #01)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvbandaovivo3/1/640/360</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=BAND (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BAND.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SBT[/B][/COLOR]</title>
 <link>http://192.99.46.182:1935/pioneira-tv3/pioneira-tv3/chunklist_w1129490283.m3u8$$lsname=SBT (HTTP source #01)</link>
+<link>http://212.8.250.12:25461/live/Daniel/1234/192.m3u8$$lsname=SBT (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/sbt.php$$lsname=SBT (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SBT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SBT HD[/B][/COLOR]</title>
 <link>http://evpp.mm.uol.com.br/ne10/ne10.smil/chunklist_w902022027_b216000_sleng.m3u8$$lsname=SBT HD (HTTP source #01)</link>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/4536.m3u8$$lsname=SBT HD (HTTP source #02)</link>
+<link>http://212.8.250.12:25461/live/Daniel/1234/105.m3u8$$lsname=SBT HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SBT.png</thumbnail></item>
 Copyright © 2018 - TeamBlue

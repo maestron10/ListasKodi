@@ -4,11 +4,13 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3425.m3u8$$lsname=ABC TV (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO SIGNATURE[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3383.m3u8$$lsname=HBO SIGNATURE (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/7857.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=HBO SIGNATURE (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3383.m3u8$$lsname=HBO SIGNATURE (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBOSIGNATURE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ABC NEWS[/B][/COLOR]</title>
 <link>http://abclive2-lh.akamaihd.net/i/abc_live11@423404/index_1200_av-p.m3u8$$lsname=ABC NEWS (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2016.m3u8$$lsname=ABC NEWS (HTTP source #02)</link>
+<link>plugin://program.plexus/?url=acestream://a2e2fa5531a84cc655a77bb242fdbc4986008f92&amp;mode=1&amp;name=Acestream+ABC NEWS$$lsname=ABC NEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABCNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MSNBC[/B][/COLOR]</title>
 <link>http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8$$lsname=MSNBC (HTTP source #01)</link>
@@ -17,14 +19,17 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
 <link>https://liveprodeuwest.global.ssl.fastly.net/btv/desktop/eu_live.m3u8$$lsname=BLOOMBERG (HTTP source #01)</link>
 <link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8$$lsname=BLOOMBERG (HTTP source #02)</link>
+<link>https://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #03)</link>
 <link><link>$doregex[getm3u8]$$lsname=BLOOMBERG (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/81</page><referer>http://www.filmon.com/tv/channel/export?channel id=81&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BLOOMBERG (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3407.m3u8$$lsname=CNN (HTTP source #01)</link>
-<link>plugin://program.plexus/?url=acestream://fdca7cdbcd1bb7e12287e9a9e12f1d44696eebbf&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://f0a7e495edc821ce03b186c54e48e1cdfc408e69&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNBC[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1989.m3u8$$lsname=CNBC (HTTP source #01)</link>
+<link>http://stitcher.pluto.tv/stitch/hls/channel/57ebfd64f70792b24b5bd9a6/master.m3u8?deviceType=&deviceMake=&deviceModel=&sid=2&deviceId=&deviceVersion=&appVersion=&deviceDNT=&userId=&advertisingId=&deviceLat=&deviceLon=-&app_name=&appName=&appStoreUrl=&profileLimit=high$$lsname=CNBC (HTTP source #01)</link>
+<link>http://93.87.85.71/PLTV/88888888/224/3221226774/index.m3u8?rrsip=93.87.85.10&zoneoffset=0&servicetype=1&icpid=SSPID&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=kMPT1CuzvmP5azfOIIpcU74pEQwVtxY%2FuC5XlCvYDSyNcovykKO5JnJcY39jlvqzPX0aIzOnpikWu3zR45yt8ZrRlLf7DOt3X9zpzG7VTVVPWgPso7mD8mG87PrkwgA9cUL0yoetz%2BvKdx%2Fd54YxqItYB1ayo8ZvEJFS8LuNff4%3D%3A20180117221111%3AUTC%2C667280775442361405%2C89.172.240.222%2C20180117221111%2Curn%3AHuawei%3AliveTV%3AXTV100001815%2CE1AEBA0D093C19B037E317D73D194EA6%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2Cguest%2C0%2Cguest%2C%2C2%2CEND&GuardEncType=2&from=2&hms_devid=4$$lsname=CNBC (HTTP source #02)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1989.m3u8$$lsname=CNBC (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://0dd76d0f734188975094934b12e2b286f48122bd&amp;mode=1&amp;name=Acestream+CNBC$$lsname=CNBC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBSN[/B][/COLOR]</title>
@@ -57,10 +62,15 @@
 <link>http://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/index_1000_av-p.m3u8$$lsname=WGN 9 NEWS CHICAGO (HTTP source #02)</link>
 <thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/9/90/Wgn9newsopen.jpg/revision/latest?cb=20151210042859</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] A&E[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3426.m3u8$$lsname=A&E (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/2463.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=A&E (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3426.m3u8$$lsname=A&E (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/A&E.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] E! ENTERTAINMENT[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2002.m3u8$$lsname=E! ENTERTAINMENT (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/2760.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=E! ENTERTAINMENT (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2002.m3u8$$lsname=E! ENTERTAINMENT (HTTP source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/E!.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] E! ENTERTAINMENT HD[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/2760.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=E! ENTERTAINMENT HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/E!.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HALLMARK[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3380.m3u8$$lsname=HALLMARK (HTTP source #01)</link>
@@ -68,6 +78,9 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DW[/B][/COLOR]</title>
 <link>http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-p.m3u8$$lsname=DW (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DW.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] FOOD NETWORK[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/2913.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=FOOD NETWORK (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOOD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RT AMERICA[/B][/COLOR]</title>
 <link>https://secure-streams.akamaized.net/rt-usa/index.m3u8$$lsname=RT AMERICA (HTTP source #01)</link>
 <link>https://secure-streams.akamaized.net/rt-usa/index2500.m3u8$$lsname=RT AMERICA (HTTP source #02)</link>
@@ -76,14 +89,19 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3354.m3u8$$lsname=RT DOCUMENTARY (HTTP source #01)</link>
 <thumbnail>http://www.veteranstoday.com/wp-content/uploads/2016/03/RTV-Doc.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TLC[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3345.m3u8$$lsname=TLC (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/2777.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=TLC (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3345.m3u8$$lsname=TLC (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TLC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TRAVEL[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3340.m3u8$$lsname=TRAVEL (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/39874.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=TRAVEL (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3340.m3u8$$lsname=TRAVEL (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRAVELCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ANIMAL PLANET[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3418.m3u8$$lsname=ANIMAL PLANET (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIMALPLANET.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY CHANNEL[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/2445.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=DISCOVERY CHANNEL (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SCIENCE[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3400.m3u8$$lsname=DISCOVERY SCIENCE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSCIENCE.png</thumbnail></item>
@@ -91,40 +109,64 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3385.m3u8$$lsname=H2 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/H2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HISTORY[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3379.m3u8$$lsname=HISTORY (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/2915.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=HISTORY (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3379.m3u8$$lsname=HISTORY (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HISTORY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NATIONAL GEOGRAPHIC[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3012.m3u8$$lsname=NATIONAL GEOGRAPHIC (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/2754.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=NATIONAL GEOGRAPHIC (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3012.m3u8$$lsname=NATIONAL GEOGRAPHIC (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NATIONAL GEOGRAPHIC WILD[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/50910.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=NATIONAL GEOGRAPHIC WILD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEOWILD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BRAVO[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3417.m3u8$$lsname=BRAVO (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/2438.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=BRAVO (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3417.m3u8$$lsname=BRAVO (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BRAVOTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SHOWTIME[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1999.m3u8$$lsname=SHOWTIME (HTTP source #01)</link>
-<thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/1/1c/Showtime_1997.svg/revision/latest/scale-to-width-down/300?cb=20161003141051</thumbnail></item>
+<link>http://vapi.vaders.tv/play/39637.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=SHOWTIME (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1999.m3u8$$lsname=SHOWTIME (HTTP source #02)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SHOWTIME.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AMC[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3421.m3u8$$lsname=AMC (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2733.m3u8$$lsname=AMC (HTTP source #02)</link>
+<link>http://vapi.vaders.tv/play/2436.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=AMC (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3421.m3u8$$lsname=AMC (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2733.m3u8$$lsname=AMC (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AMC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINEMAX[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3404.m3u8$$lsname=CINEMAX (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/7936.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=CINEMAX (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3404.m3u8$$lsname=CINEMAX (HTTP source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Cinemax.svg/2000px-Cinemax.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CINEMAX 5 StarMax[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/7947.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=CINEMAX 5 StarMax (HTTP source #01)</link>
+<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/d/d1/Cinemax.svg/revision/latest/scale-to-width-down/200?cb=20170109014350</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CINEMAX ActionMax East[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/7946.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=CINEMAX ActionMax East (HTTP source #01)</link>
+<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/d/d1/Cinemax.svg/revision/latest/scale-to-width-down/200?cb=20170109014350</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] COMEDY CENTRAL[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3403.m3u8$$lsname=COMEDY CENTRAL (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/2443.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=COMEDY CENTRAL (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3403.m3u8$$lsname=COMEDY CENTRAL (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/COMEDYCENTRAL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX 1[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1977.m3u8$$lsname=FOX 1 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX1.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX ACTION[/B][/COLOR]</title>
+<link>http://stitcher.pluto.tv/stitch/hls/channel/561d7d484dc7c8770484914a/master.m3u8?deviceType=&deviceMake=&deviceModel=&sid=2&deviceId=&deviceVersion=&appVersion=&deviceDNT=&userId=&advertisingId=&deviceLat=&deviceLon=-&app_name=&appName=&appStoreUrl=&profileLimit=high$$lsname=FOX ACTION (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXACTION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1963.m3u8$$lsname=HBO (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/3130.m3u8$$lsname=HBO (HTTP source #02)</link>
+<link>http://vapi.vaders.tv/play/7859.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=HBO (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1963.m3u8$$lsname=HBO (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/3130.m3u8$$lsname=HBO (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO COMEDY[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3384.m3u8$$lsname=HBO COMEDY (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/7860.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=HBO COMEDY (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3384.m3u8$$lsname=HBO COMEDY (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBOCOMEDY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] STARZ CINEMA[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3349.m3u8$$lsname=STARZ CINEMA (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/STARZCINEMA.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] STARZ COMEDY[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/3121.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=STARZ COMEDY (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/STARZCOMEDY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] STARZ EDGE[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3348.m3u8$$lsname=STARZ EDGE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/STARZEDGE.png</thumbnail></item>
@@ -134,22 +176,33 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3398.m3u8$$lsname=DISNEY CHANNEL (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NICK JR[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/38910.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=NICK JR (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKJR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3361.m3u8$$lsname=NICKELODEON (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] BOOMERANG[/B][/COLOR]</title>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3361.m3u8$$lsname=NICKELODEON (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/12901.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=MTV (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/5u1u9oO.png?1</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS US[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2011.m3u8$$lsname=beiN SPORTS US (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2729.m3u8$$lsname=beiN SPORTS US (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/beinsportsusa.php$$lsname=beiN SPORTS US (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTSUSA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN USA[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1991.m3u8$$lsname=ESPN USA (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2732.m3u8$$lsname=ESPN USA (HTTP source #02)</link>
+<link>http://80.80.160.168/live/6/live.m3u8$$lsname=ESPN USA (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1991.m3u8$$lsname=ESPN USA (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2732.m3u8$$lsname=ESPN USA (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/espn.php$$lsname=ESPN USA (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN 2 USA[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2744.m3u8$$lsname=ESPN 2 USA (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2735.m3u8$$lsname=ESPN 2 USA (HTTP source #02)</link>
+<link>http://161.0.157.8/PLTV/88888888/224/3221226881/index.m3u8$$lsname=ESPN 2 USA (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2744.m3u8$$lsname=ESPN 2 USA (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2735.m3u8$$lsname=ESPN 2 USA (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FIGHT NETWORK[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1997.m3u8$$lsname=FIGHT NETWORK (HTTP source #01)</link>
@@ -195,8 +248,9 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/hd1.php$$lsname=TSN5 (SD source #01)</link>
 <thumbnail>http://i.imgur.com/QldQfqY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] WWE NETWORK[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2994.m3u8$$lsname=WWE NETWORK (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/3128.m3u8$$lsname=WWE NETWORK (HTTP source #02)</link>
+<link>http://vapi.vaders.tv/play/3047.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=WWE NETWORK (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2994.m3u8$$lsname=WWE NETWORK (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/3128.m3u8$$lsname=WWE NETWORK (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/wwenetwork.php$$lsname=WWE NETWORK (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://cd29479ac4b8ee528a7f1082020ce9ee3a09fbe4&amp;mode=1&amp;name=Acestream+WWE NETWORK$$lsname=WWE NETWORK (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/WWENET.png</thumbnail></item>
@@ -207,7 +261,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Bay Area[/B][/COLOR]</title>
 <link>http://p12b-lh.akamaihd.net/i/bayarea_delivery@429334/master.m3u8$$lsname=PAC 12 Bay Area (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3359.m3u8$$lsname=PAC 12 Bay Area (HTTP source #02)</link>
-<link>plugin://program.plexus/?url=acestream://902561041a0a9f0ef65e963529de52f2b9d00773&amp;mode=1&amp;name=Acestream+PAC 12 Bay Area$$lsname=PAC 12 Bay Area (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://7edf355356eec3c8ac1233c581abe3ef4b3c9ee7&amp;mode=1&amp;name=Acestream+PAC 12 Bay Area$$lsname=PAC 12 Bay Area (PLEXUS source #01)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Los Angeles[/B][/COLOR]</title>
 <link>http://p12l-lh.akamaihd.net/i/la_delivery@425541/master.m3u8$$lsname=PAC 12 Los Angeles (HTTP source #01)</link>
@@ -221,7 +275,7 @@
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Network (National)[/B][/COLOR]</title>
 <link>http://p12n-lh.akamaihd.net/i/network_delivery@428818/master.m3u8$$lsname=PAC 12 Network (National) (HTTP source #01)</link>
-<link>plugin://program.plexus/?url=acestream://0c17af1d94b636e5be6b4748a537c07fe3e8377a&amp;mode=1&amp;name=Acestream+PAC 12 Network (National)$$lsname=PAC 12 Network (National) (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://26143ad54a4741e85d5744b385a6810f59a6d517&amp;mode=1&amp;name=Acestream+PAC 12 Network (National)$$lsname=PAC 12 Network (National) (PLEXUS source #01)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Oregon[/B][/COLOR]</title>
 <link>http://p12o-lh.akamaihd.net/i/oregon_delivery@103261/master.m3u8$$lsname=PAC 12 Oregon (HTTP source #01)</link>
@@ -231,6 +285,7 @@
 <link>http://p12w-lh.akamaihd.net/i/washington_delivery@426584/master.m3u8$$lsname=PAC 12 Washington (HTTP source #01)</link>
 <link>http://p12w-lh.akamaihd.net/i/washington_delivery@426584/index_1164_av-p.m3u8$$lsname=PAC 12 Washington (HTTP source #02)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3355.m3u8$$lsname=PAC 12 Washington (HTTP source #03)</link>
+<link>plugin://program.plexus/?url=acestream://967af849c282b692e736757dcf7491a24fb9d098&amp;mode=1&amp;name=Acestream+PAC 12 Washington$$lsname=PAC 12 Washington (PLEXUS source #01)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET ONE[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1954.m3u8$$lsname=SPORTSNET ONE (HTTP source #01)</link>
@@ -244,11 +299,17 @@
 <thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/8/8f/250px-SportsnetWorld.svg.png/revision/latest?cb=20111112195204</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AFN MOVIES[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3424.m3u8$$lsname=AFN MOVIES (HTTP source #01)</link>
-#N/D
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AFNMOVIE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AFN SPORTS HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2001.m3u8$$lsname=AFN SPORTS HD (HTTP source #01)</link>
-#N/D
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AFNSPORTS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AFN SPORTS 2[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2012.m3u8$$lsname=AFN SPORTS 2 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AFNSPORTS2.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] BET[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/8246.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=BET (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BET.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] ByU TV[/B][/COLOR]</title>
+<link>https://byubhls-i.akamaihd.net/hls/live/267187/byutvhls/master_4064.m3u8$$lsname=ByU TV (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BYUTV.png</thumbnail></item>
 Copyright © 2018 - TeamBlue

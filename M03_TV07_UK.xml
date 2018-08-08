@@ -72,10 +72,10 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY ONE[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/474.m3u8$$lsname=SKY ONE (HTTP source #01)</link>
-<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/9/91/Sky1_logo_2011.svg/revision/latest?cb=20110205171207</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYONE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY ONE HD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1507.m3u8$$lsname=SKY ONE HD (HTTP source #01)</link>
-<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/9/91/Sky1_logo_2011.svg/revision/latest?cb=20110205171207</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYONE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY LIVING[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3108.m3u8$$lsname=SKY LIVING (HTTP source #01)</link>
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/6/62/SkyLiving16.png/revision/latest/scale-to-width-down/300?cb=20160419205650</thumbnail></item>
@@ -172,13 +172,13 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/144.m3u8$$lsname=More4 (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1319.m3u8$$lsname=More4 (HTTP source #02)</link>
 <link><link>$doregex[getts]$$lsname=MORE4 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=More4 (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/7/79/More4_logo.svg/932px-More4_logo.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MORE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] More4 HD[/B][/COLOR]</title>
 <link><link>$doregex[getts]$$lsname=MORE4 HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=More4 HD (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/7/79/More4_logo.svg/932px-More4_logo.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MORE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] More4 +1[/B][/COLOR]</title>
 <link><link>$doregex[getts]$$lsname=MORE4 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=More4 +1 (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/7/79/More4_logo.svg/932px-More4_logo.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MORE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS Reality[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1846.m3u8$$lsname=CBS Reality (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1128.m3u8$$lsname=CBS Reality (HTTP source #02)</link>
@@ -192,7 +192,8 @@
 <link>http://5.189.187.55:8000/live/Fadil/skype/2082.m3u8$$lsname=HORROR CHANNEL (HTTP source #02)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/d/d6/Horrorchannel.svg/revision/latest/scale-to-width-down/300?cb=20141218120714</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 5STAR[/B][/COLOR]</title>
-<link>http://5.189.187.55:8000/live/Fadil/skype/3275.m3u8$$lsname=5STAR (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/34212.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=5STAR (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/3275.m3u8$$lsname=5STAR (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/5STAR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 5 USA[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1146.m3u8$$lsname=5 USA (HTTP source #01)</link>
@@ -248,10 +249,10 @@
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3214.m3u8$$lsname=LIFETIME (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2139.m3u8$$lsname=LIFETIME (HTTP source #02)</link>
 <link><link>$doregex[getts]$$lsname=LIFETIME (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=LIFETIME (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/3/34/Lifetime_logo_2013.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LIFETIME.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] LIFETIME HD[/B][/COLOR]</title>
 <link><link>$doregex[getts]$$lsname=LIFETIME HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=LIFETIME HD (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/3/34/Lifetime_logo_2013.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LIFETIME.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] truTV[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2734.m3u8$$lsname=truTV (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=TRUTV (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/3707</page><referer>http://www.filmon.com/tv/channel/export?channel id=3707&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=truTV (HTTP source #05)</link>
@@ -298,7 +299,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/H2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CRIME + INVESTIGATION[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2538.m3u8$$lsname=CRIME + INVESTIGATION (HTTP source #01)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/3/37/C%26I_logo.svg/1280px-C%26I_logo.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CRIMEINVESTIGATION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY HOME & HEALTH[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2740.m3u8$$lsname=DISCOVERY HOME & HEALTH (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1302.m3u8$$lsname=DISCOVERY HOME & HEALTH (HTTP source #02)</link>
@@ -320,15 +321,14 @@
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/MTV_Music_2017_logo.svg/1024px-MTV_Music_2017_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV LIVE[/B][/COLOR]</title>
 <link>http://81.200.50.4/hls/MTV_Live_nejtv_portable_low.m3u8$$lsname=MTV LIVE (HTTP source #01)</link>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3373.m3u8$$lsname=MTV LIVE (HTTP source #02)</link>
+<link>plugin://program.plexus/?url=acestream://3e713a5dff0eb07d803eda66a55725d5887459d6&amp;mode=1&amp;name=Acestream+MTV LIVE$$lsname=MTV LIVE (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/1/14/MTV_Live_Logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV LIVE HD[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/3258.m3u8$$lsname=MTV LIVE HD (HTTP source #01)</link>
-<link>plugin://program.plexus/?url=acestream://647e23ed3d12fd85764a65027a2b1e1b8ef60a28&amp;mode=1&amp;name=Acestream+MTV LIVE HD$$lsname=MTV LIVE HD (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/1/14/MTV_Live_Logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV HITS[/B][/COLOR]</title>
 <link>http://81.200.50.4/hls/MTV_Hits_nejtv_portable_low.m3u8$$lsname=MTV HITS (HTTP source #01)</link>
-<link>plugin://program.plexus/?url=acestream://9f5c87e9629ff9d99364ecef7efa2a615c635842&amp;mode=1&amp;name=Acestream+MTV HITS$$lsname=MTV HITS (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://0dababb49402766b3f120d76a94af1f8b6e2dd67&amp;mode=1&amp;name=Acestream+MTV HITS$$lsname=MTV HITS (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/MTV_Hits_2017_logo.svg/1024px-MTV_Hits_2017_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV BASE[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2825.m3u8$$lsname=MTV BASE (HTTP source #01)</link>
@@ -336,32 +336,32 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV DANCE[/B][/COLOR]</title>
 <link>http://81.200.50.4/hls/MTV_Dance_nejtv_portable_low.m3u8$$lsname=MTV DANCE (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3697.m3u8$$lsname=MTV DANCE (HTTP source #02)</link>
-<link>plugin://program.plexus/?url=acestream://5af13e8bc4d17ae49d500fe5207057850444b604&amp;mode=1&amp;name=Acestream+MTV DANCE$$lsname=MTV DANCE (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://efa02d7f14d38f29e5df33ac1e596a1a130ba71c&amp;mode=1&amp;name=Acestream+MTV DANCE$$lsname=MTV DANCE (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/MTV_Dance_2017_logo.svg/1200px-MTV_Dance_2017_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV ROCKS[/B][/COLOR]</title>
 <link>http://81.200.50.4/hls/MTV_Rocks_nejtv_portable_low.m3u8$$lsname=MTV ROCKS (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2741.m3u8$$lsname=MTV ROCKS (HTTP source #02)</link>
-<link>plugin://program.plexus/?url=acestream://12a4fec2f1ec8cb47963b95d9633fd7fbf71bbd2&amp;mode=1&amp;name=Acestream+MTV ROCKS$$lsname=MTV ROCKS (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://3ead1daf1f1f457c0d0479db7e77321092deae10&amp;mode=1&amp;name=Acestream+MTV ROCKS$$lsname=MTV ROCKS (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/2/22/MTV_Rocks_2017_logo.svg/1200px-MTV_Rocks_2017_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 EUROPE[/B][/COLOR]</title>
 <link>http://81.200.50.4/hls/VH1_nejtv_portable_low.m3u8$$lsname=VH1 EUROPE (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1470.m3u8$$lsname=VH1 EUROPE (HTTP source #02)</link>
-<link>plugin://program.plexus/?url=acestream://27641333bcd4c3648d30f0c9d7e3657c17c4b9ad&amp;mode=1&amp;name=Acestream+VH1 EUROPE$$lsname=VH1 EUROPE (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://34d67969cefa3fa3333c21a3002f0803f1903ee8&amp;mode=1&amp;name=Acestream+VH1 EUROPE$$lsname=VH1 EUROPE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1EUROPE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 CLASSIC[/B][/COLOR]</title>
 <link>http://81.200.50.4/hls/VH1_Classic_nejtv_portable_low.m3u8$$lsname=VH1 CLASSIC (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2816.m3u8$$lsname=VH1 CLASSIC (HTTP source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2432.m3u8$$lsname=VH1 CLASSIC (HTTP source #03)</link>
-<link>plugin://program.plexus/?url=acestream://608a259dbc22f35d4c802ecb555160e035f572d8&amp;mode=1&amp;name=Acestream+VH1 CLASSIC$$lsname=VH1 CLASSIC (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://db0b1b76f4392502261fda55ec5f0aee653d1230&amp;mode=1&amp;name=Acestream+VH1 CLASSIC$$lsname=VH1 CLASSIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] KISS[/B][/COLOR]</title>
 <link><link>$doregex[getts]$$lsname=KISS (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=KISS (HTTP source #05)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Kiss_Network_logo.svg/1200px-Kiss_Network_logo.svg.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/KISS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Movies4Men[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/160.m3u8$$lsname=Movies4Men (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/454.m3u8$$lsname=Movies4Men (HTTP source #02)</link>
-<link>plugin://program.plexus/?url=acestream://a4e077c20c268627d8003d1be27b40d440de0f1f&amp;mode=1&amp;name=Acestream+Movies4Men$$lsname=Movies4Men (PLEXUS source #01)</link>
-<thumbnail>http://hoolatv.com/sites/default/files/channels/movies4men.png</thumbnail></item>
+<link>plugin://program.plexus/?url=acestream://dbfd4517f767b2ece73c7a130e281eeec812133f&amp;mode=1&amp;name=Acestream+Movies4Men$$lsname=Movies4Men (PLEXUS source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOVIES4MEN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FILM4[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/445.m3u8$$lsname=FILM4 (HTTP source #01)</link>
 <thumbnail>https://geekboy95.files.wordpress.com/2014/01/film4-logo.jpg</thumbnail></item>
@@ -397,7 +397,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA COMEDY[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/177.m3u8$$lsname=SKY CINEMA COMEDY (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/49.m3u8$$lsname=SKY CINEMA COMEDY (HTTP source #02)</link>
-<thumbnail>http://i.imgur.com/grFgBdy.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYCOMEDY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA THRILLER[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/472.m3u8$$lsname=SKY CINEMA THRILLER (HTTP source #01)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/9/96/Sky-Movies-CrimeThriller.png/revision/latest?cb=20111118190758</thumbnail></item>
@@ -601,7 +601,7 @@
 <link>http://5.189.187.55:8000/live/Fadil/skype/452.m3u8$$lsname=LFC TV (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=LFC TV (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=LFC TV (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/lfctv.php$$lsname=LFC TV (SD source #01)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/1/1f/LFC_TV_logo.png</thumbnail></item>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LFCTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHELSEA TV[/B][/COLOR]</title>
 <link>http://5.189.187.55:8000/live/Fadil/skype/434.m3u8$$lsname=CHELSEA TV (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/chelseatv.php$$lsname=CHELSEA TV (SD source #01)</link>
@@ -637,13 +637,17 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCPARL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3407.m3u8$$lsname=CNN (HTTP source #01)</link>
-<link>plugin://program.plexus/?url=acestream://fdca7cdbcd1bb7e12287e9a9e12f1d44696eebbf&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://f0a7e495edc821ce03b186c54e48e1cdfc408e69&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://b53f54d7e03a62b787620d273adadf664623332f&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #01)</link>
+<link>https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #01)</link>
+<link>plugin://program.plexus/?url=acestream://84575f53dea0a0b703f2a8b5ca3d8f8a70ae32d2&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://02dd8869df5a293bf5d8b30b669f923593a9484a&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNBC[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1989.m3u8$$lsname=CNBC (HTTP source #01)</link>
+<link>http://stitcher.pluto.tv/stitch/hls/channel/57ebfd64f70792b24b5bd9a6/master.m3u8?deviceType=&deviceMake=&deviceModel=&sid=2&deviceId=&deviceVersion=&appVersion=&deviceDNT=&userId=&advertisingId=&deviceLat=&deviceLon=-&app_name=&appName=&appStoreUrl=&profileLimit=high$$lsname=CNBC (HTTP source #01)</link>
+<link>http://93.87.85.71/PLTV/88888888/224/3221226774/index.m3u8?rrsip=93.87.85.10&zoneoffset=0&servicetype=1&icpid=SSPID&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=kMPT1CuzvmP5azfOIIpcU74pEQwVtxY%2FuC5XlCvYDSyNcovykKO5JnJcY39jlvqzPX0aIzOnpikWu3zR45yt8ZrRlLf7DOt3X9zpzG7VTVVPWgPso7mD8mG87PrkwgA9cUL0yoetz%2BvKdx%2Fd54YxqItYB1ayo8ZvEJFS8LuNff4%3D%3A20180117221111%3AUTC%2C667280775442361405%2C89.172.240.222%2C20180117221111%2Curn%3AHuawei%3AliveTV%3AXTV100001815%2CE1AEBA0D093C19B037E317D73D194EA6%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2Cguest%2C0%2Cguest%2C%2C2%2CEND&GuardEncType=2&from=2&hms_devid=4$$lsname=CNBC (HTTP source #02)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1989.m3u8$$lsname=CNBC (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://0dd76d0f734188975094934b12e2b286f48122bd&amp;mode=1&amp;name=Acestream+CNBC$$lsname=CNBC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
@@ -667,7 +671,7 @@
 <link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 FR (HTTP source #01)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master.m3u8$$lsname=FRANCE 24 FR (HTTP source #02)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2448.m3u8$$lsname=FRANCE 24 FR (HTTP source #03)</link>
-<link>plugin://program.plexus/?url=acestream://57cfd3fe5eaee367a7597d2ee374f59d3f10127c&amp;mode=1&amp;name=Acestream+FRANCE 24 FR$$lsname=FRANCE 24 FR (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://7b3483c662170561f43825d0bbe10e6551fb87ce&amp;mode=1&amp;name=Acestream+FRANCE 24 FR$$lsname=FRANCE 24 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBBC[/B][/COLOR]</title>
 <link><link>$doregex[getts]</link>$$lsname=CBBC (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1952</page><referer>http://www.filmon.com/tv/channel/export?channel id=1952&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CBBC (HTTP source #05)</link>
@@ -687,9 +691,13 @@
 <link>http://62.210.93.43:80/live?channelId=90&uid=5216&deviceMac=00:1a:79:3c:c9:73$$lsname=BABY TV (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BABYTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CARTOON NETWORK[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1842.m3u8$$lsname=CARTOON NETWORK (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2831.m3u8$$lsname=CARTOON NETWORK (HTTP source #02)</link>
+<link>http://vapi.vaders.tv/play/37249.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=CARTOON NETWORK (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/1842.m3u8$$lsname=CARTOON NETWORK (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2831.m3u8$$lsname=CARTOON NETWORK (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CARTOONNETWORK.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CARTOONITO[/B][/COLOR]</title>
+<link>http://vapi.vaders.tv/play/52252.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=CARTOONITO (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CARTOONITO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY XD[/B][/COLOR]</title>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2435.m3u8$$lsname=DISNEY XD (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2080.m3u8$$lsname=DISNEY XD (HTTP source #02)</link>
@@ -718,7 +726,8 @@
 <link>http://5.189.187.55:8000/live/Fadil/skype/2334.m3u8$$lsname=DISNEY JUNIOR (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYJUNIOR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BOOMERANG[/B][/COLOR]</title>
-<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3180.m3u8$$lsname=BOOMERANG (HTTP source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2343.m3u8$$lsname=BOOMERANG (HTTP source #02)</link>
+<link>http://vapi.vaders.tv/play/37248.m3u8?token=eyJ1c2VybmFtZSI6ImJqbW9vcmUxMyIsInBhc3N3b3JkIjoicG9saWNlMjMifQ=$$lsname=BOOMERANG (HTTP source #01)</link>
+<link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3180.m3u8$$lsname=BOOMERANG (HTTP source #02)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2343.m3u8$$lsname=BOOMERANG (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BOOMERANG.png</thumbnail></item>
 Copyright © 2018 - TeamBlue
