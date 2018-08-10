@@ -151,6 +151,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/2184.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 1 (F4M source #03)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3237.m3u8$$lsname=SPORT TV 1 (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/858.m3u8$$lsname=SPORT TV 1 (HTTP source #02)</link>
+<link>http://77.54.248.94:9981/stream/channelid/2135667$$lsname=SPORT TV 1 (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed.php?ch=live1-rbi6c$$lsname=SPORT TV 1 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.net/sport-tv1-live-sport-tv1-slovenia-free-sport-tv1-watch-sport-tv1/$$lsname=SPORT TV 1 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV1.png</thumbnail></item>
@@ -183,6 +184,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/10727.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 2 HD (F4M source #03)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/798.m3u8$$lsname=SPORT TV 2 HD (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2827.m3u8$$lsname=SPORT TV 2 HD (HTTP source #02)</link>
+<link>http://82.79.218.142:8089/sport_tv_2-$$lsname=SPORT TV 2 HD (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.pt/2018/01/sport-tv-2-l-2.html$$lsname=SPORT TV 2 HD (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/stv2.html?dll=001$$lsname=SPORT TV 2 HD (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2.png</thumbnail></item>
@@ -195,6 +197,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/2186.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 3 (F4M source #03)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3235.m3u8$$lsname=SPORT TV 3 (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/856.m3u8$$lsname=SPORT TV 3 (HTTP source #02)</link>
+<link>http://82.79.218.142:8089/sport_tv_3-$$lsname=SPORT TV 3 (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt3.php$$lsname=SPORT TV 3 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/sport-tv-3-ver-ao-vivo/$$lsname=SPORT TV 3 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV3.png</thumbnail></item>
@@ -214,6 +217,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/1695.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 4 (F4M source #03)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3234.m3u8$$lsname=SPORT TV 4 (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/855.m3u8$$lsname=SPORT TV 4 (HTTP source #02)</link>
+<link>http://82.79.218.142:8091/sport_tv_4-$$lsname=SPORT TV 4 (HTTP source #03)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 4 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/3ant1pjxw3</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 4 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4 HD[/B][/COLOR]</title>
@@ -516,24 +520,24 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV BASE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/6082.ts;streamtype=TSDOWNLOADER&amp;name=MTV BASE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV BASE (F4M source #03)</link>
-<link>http://62.210.93.43:80/live?channelId=102&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=MTV BASE (HTTP source #01)</link>
+<link>http://62.210.93.43:80/live?channelId=102&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=MTV BASE (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/2825.m3u8$$lsname=MTV BASE (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVBASE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV CLASSIC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/7312.ts;streamtype=TSDOWNLOADER&amp;name=MTV CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV CLASSIC (F4M source #03)</link>
-<link>http://62.210.93.43:80/live?channelId=103&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=MTV CLASSIC (HTTP source #01)</link>
+<link>http://62.210.93.43:80/live?channelId=103&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=MTV CLASSIC (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVCLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV DANCE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/456.ts;streamtype=TSDOWNLOADER&amp;name=MTV DANCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV DANCE (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/11455.ts;streamtype=TSDOWNLOADER&amp;name=MTV DANCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV DANCE (F4M source #03)</link>
 <link>http://81.200.50.4/hls/MTV_Dance_nejtv_portable_low.m3u8$$lsname=MTV DANCE (HTTP source #01)</link>
-<link>http://62.210.93.43:80/live?channelId=104&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=MTV DANCE (HTTP source #02)</link>
+<link>http://62.210.93.43:80/live?channelId=104&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=MTV DANCE (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://efa02d7f14d38f29e5df33ac1e596a1a130ba71c&amp;mode=1&amp;name=Acestream+MTV DANCE$$lsname=MTV DANCE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVDANCE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV HITS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/10718.ts;streamtype=TSDOWNLOADER&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #03)</link>
 <link>http://81.200.50.4/hls/MTV_Hits_nejtv_portable_low.m3u8$$lsname=MTV HITS (HTTP source #01)</link>
-<link>http://62.210.93.43:80/live?channelId=105&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=MTV HITS (HTTP source #02)</link>
+<link>http://62.210.93.43:80/live?channelId=105&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=MTV HITS (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://0dababb49402766b3f120d76a94af1f8b6e2dd67&amp;mode=1&amp;name=Acestream+MTV HITS$$lsname=MTV HITS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVHITS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV LIVE[/B][/COLOR]</title>
@@ -548,7 +552,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV MUSIC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/455.ts;streamtype=TSDOWNLOADER&amp;name=MTV MUSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV MUSIC (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/3755.ts;streamtype=TSDOWNLOADER&amp;name=MTV MUSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV MUSIC (F4M source #03)</link>
-<link>http://62.210.93.43:80/live?channelId=106&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=MTV MUSIC (HTTP source #01)</link>
+<link>http://62.210.93.43:80/live?channelId=106&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=MTV MUSIC (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3201.m3u8$$lsname=MTV MUSIC (HTTP source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/455.m3u8$$lsname=MTV MUSIC (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTV.png</thumbnail></item>
@@ -556,7 +560,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2333.ts;streamtype=TSDOWNLOADER&amp;name=MTV ROCKS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV ROCKS (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/3756.ts;streamtype=TSDOWNLOADER&amp;name=MTV ROCKS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV ROCKS (F4M source #03)</link>
 <link>http://81.200.50.4/hls/MTV_Rocks_nejtv_portable_low.m3u8$$lsname=MTV ROCKS (HTTP source #01)</link>
-<link>http://62.210.93.43:80/live?channelId=107&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=MTV ROCKS (HTTP source #02)</link>
+<link>http://62.210.93.43:80/live?channelId=107&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=MTV ROCKS (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://3ead1daf1f1f457c0d0479db7e77321092deae10&amp;mode=1&amp;name=Acestream+MTV ROCKS$$lsname=MTV ROCKS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVROCKS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 EUROPE[/B][/COLOR]</title>
@@ -691,7 +695,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://www.e900x.com:8000/live/soot3/93retno/961.ts;streamtype=TSDOWNLOADER&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/2403.ts;streamtype=TSDOWNLOADER&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #04)</link>
 <link>http://fnurtmp-f.akamaihd.net/i/FNCPREV_1@143121/index_300_av-b.m3u8$$lsname=FOX NEWS (HTTP source #01)</link>
-<link>http://163.172.15.141:9732/live?channelId=248&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=FOX NEWS (HTTP source #02)</link>
+<link>http://163.172.15.141:9732/live?channelId=248&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=FOX NEWS (HTTP source #02)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/3204.m3u8$$lsname=FOX NEWS (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
@@ -924,7 +928,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MUTV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1074.ts;streamtype=TSDOWNLOADER&amp;name=MUTV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MUTV (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/1830.ts;streamtype=TSDOWNLOADER&amp;name=MUTV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MUTV (F4M source #03)</link>
-<link>http://62.210.214.28:80/live?channelId=162&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=MUTV (HTTP source #01)</link>
+<link>http://62.210.214.28:80/live?channelId=162&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=MUTV (HTTP source #01)</link>
 <link>http://hd.buyiptv-server.tv:8010/live/xruGNE0Ymk/cdrrwGQTDj/145.m3u8$$lsname=MUTV (HTTP source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1074.m3u8$$lsname=MUTV (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/mutv.php$$lsname=MUTV (SD source #01)</link>
@@ -932,7 +936,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHELSEA TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/434.ts;streamtype=TSDOWNLOADER&amp;name=CHELSEA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHELSEA TV (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://ksportiptv.com:1557/live/H0sy1HLPQ0/9ip5GPSxOh!k2/2984.ts;streamtype=TSDOWNLOADER&amp;name=CHELSEA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHELSEA TV (F4M source #03)</link>
-<link>http://62.210.214.28:80/live?channelId=164&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=CHELSEA TV (HTTP source #01)</link>
+<link>http://62.210.214.28:80/live?channelId=164&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=CHELSEA TV (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/434.m3u8$$lsname=CHELSEA TV (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/chelseatv.php$$lsname=CHELSEA TV (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHELSEATV.png</thumbnail></item>
