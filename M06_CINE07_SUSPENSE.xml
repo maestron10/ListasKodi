@@ -8,6 +8,24 @@
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Matilda Anna Ingrid Lutz, Kevin Janssens, Vincent Colombe, Guillaume Bouchède, Avant Strangel
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Três amigos casados reúnem-se para um encontro anual de caça numa zona de deserto. Desta vez, um deles traz consigo a sua jovem amante que, de imediato, desperta o interesse dos outros dois.
 A situação depressa fica fora de controlo. Deixada como morta no meio do deserto infernal, a jovem agarra-se à vida e a caçada transforma-se numa impiedosa caça ao homem...</info></item>"
+"<item><title>DAMASCUS COVER [Leg] </title><link><link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  return re.findall('file.+?[\'"](h.+?/L/)',requests.get(re.findall('location.href=[\'"]([^\'"]+)',page_data)[0],headers={'Referer':'http://www.thenightfilmes.net/player/embed.php?type=l&v=nc/L/','User-Agent':'Mozilla/5.0'}).content.decode('ascii','ignore'))[0]+'DAMASCUSCOVERHDLEG.mp4'
+]]></expres>
+<page>http://www.thenightfilmes.net/player/embed.php?type=l&amp;v=nc/L/DAMASCUSCOVERHDLEG</page>
+<referer>http://www.thenightfilmes.net</referer>
+</regex></link><thumbnail>https://image.tmdb.org/t/p/w600_and_h900_bestv2/fstGX2lMtdPvDbrfg58MqB7kNzP.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Damascus Cover[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] 
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] Daniel Zelik Berk
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 93 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/12
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] Jonathan Rhys Meyers, Olivia Thirlby, John Hurt, Jürgen Prochnow, Navid Negahban
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Em 1989 o mundo testemunha a queda do Muro de Berlim. É nesse contexto que o espião israelense Hans Hoffmann (Jonathan Rhys Meyers) recebe a missão de tirar um cientista, que fabrica armas químicas, e sua família de Damasco, na Síria, de forma clandestina. O filme é baseado em fatos reais, narrados no livro The Damascus Cover, de Howard Kaplan.</info></item>"
 "<item><title>CALIBRE [Leg] </title><urlsolve>https://streamango.com/embed/pfdtonbetnaeedpc</urlsolve><thumbnail>https://image.tmdb.org/t/p/w600_and_h900_bestv2/e4ErGjb9XXWH2EhcIploMaAfglE.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Calibre[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Thtiller
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Matt Palmer

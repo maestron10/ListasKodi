@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+"<item><title>INVISIVEL [Leg] </title><link><link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  return re.findall('file.+?[\'"](h.+?/L/)',requests.get(re.findall('location.href=[\'"]([^\'"]+)',page_data)[0],headers={'Referer':'http://www.thenightfilmes.net/player/embed.php?type=l&v=nc/L/','User-Agent':'Mozilla/5.0'}).content.decode('ascii','ignore'))[0]+'INVISIVELHDLEG.mp4'
+]]></expres>
+<page>http://www.thenightfilmes.net/player/embed.php?type=l&amp;v=nc/L/INVISIVELHDLEG</page>
+<referer>http://www.thenightfilmes.net</referer>
+</regex></link><thumbnail>https://m.media-amazon.com/images/M/MV5BNTFjYThiMzktYzYyZC00NzBjLTk5YjktNWY0NGZjZDAxZTk5XkEyXkFqcGdeQXVyMjQ0NzgwNzY@._V1_.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Invisible[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] Pablo Giorgelli
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 87 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/12
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] María Laura Gargarella, Pablo Giorgelli
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Ely tem 17 anos e mora no bairro da Boca em Buenos Aires. Ela cursa o último ano do ensino médio e trabalha num pet shop para completar a renda familiar. Ao descobrir que está grávida do Raúl, dono do Pet Shop, seu mundo interno colapsa. Enquanto tenta manter sua rotina diária como se nada tivesse acontecido ela é tomada pelo medo e angústia. A sociedade que a pressiona e o estado de saúde frágil da sua mãe a isolam e a obrigam a amadurecer precocemente. Tomar a decisão que mudará sua vida para sempre lhe permitirá ter um novo começo.</info></item>"
 "<item><title>EU MATO GIGANTES [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/i-kill-giants/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/419831.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]I Kill Giants[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Anders Walter
@@ -8,6 +26,24 @@
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Madison Wolfe, Zoe Saldana, Imogen Poots, Noel Clarke, Ciara O'Callaghan, Sydney Wade, Rory Jackson
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Barbara Thorson é uma aluna do 5º ano esperta e de língua afiada, que não tem medo de nada. Porque haveria de ter? Afinal de contas, é a única miúda da escola que anda com um martelo de guerra ancestral nórdico na mala e vive a vida a matar gigantes. Pelo menos, é o que ela conta por aí...
 Adaptado da novela gráfica de Joe Kelly, "Eu Mato Gigantes" é a história bizarra e agridoce de uma jovem  que tenta derrotar os seus monstros, reais ou imaginários, à medida que o mundo que construiu com empenho começa a desmoronar-se aos pés de gigantes de uma dimensão que nenhuma criança conseguirá alguma vez enfrentar.</info></item>"
+"<item><title>AMAR PABLO E ODIAR ESCOBAR [Leg] </title><link><link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  return re.findall('file.+?[\'"](h.+?/L/)',requests.get(re.findall('location.href=[\'"]([^\'"]+)',page_data)[0],headers={'Referer':'http://www.thenightfilmes.net/player/embed.php?type=l&v=nc/L/ESCOBARATRAI%C3%87%C3%83OHDLEG','User-Agent':'Mozilla/5.0'}).content.decode('ascii','ignore'))[0]+'ESCOBARATRAI%C3%87%C3%83OHDLEG.mp4'
+]]></expres>
+<page>http://www.thenightfilmes.net/player/embed.php?type=l&amp;v=nc/L/ESCOBARATRAI%C3%87%C3%83OHDLEG</page>
+<referer>http://www.cineaticos.com/primeira-imagem-da-mulher-de-jensen-ackles-em-supernatural-e-revelada-veja/</referer>
+</regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/425336_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Loving Pablo[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] Drama, Crime
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] Fernando León de Aranoa
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 123 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/16
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2017
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] Javier Bardem, Penélope Cruz, Peter Sarsgaard, Julieth Restrepo, David Ojalvo, David Valencia, Joavany Alvarez
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] A história da ascensão e queda do senhor da droga colombiano, Pablo Escobar Gaviria (Javier Bardem), fundador do cartel de Medellín, contada pela sua amante Virgínia Vallejo, já então uma jornalista conhecida com o seu próprio programa de televisão</info></item>"
 "<item><title>COM AMOR, SIMON [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/com-amor-simon/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/449176_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Love, Simon[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Marty Bowen
@@ -46,6 +82,16 @@ Israel finge negociar, mas em segredo prepara uma minuciosa e arriscada operaç�
 [B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Michael B. Jordan, Michael Shannon, Sofia Boutella
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Num futuro opressivo dominado pela tecnologia, a posse de livros e a literatura são proibidas. Guy Montag (Michael B. Jordan) é um bombeiro, sua principal missão é queimar todos os livros que existem até que não sobre mais nenhum deles. No entanto, ele conhece Clarisse McClellan (Sofia Boutella), uma jovem misteriosa que faz com que ele comece a questionar suas atitudes e todo o sistema vigente.</info></item>"
+"<item><title>LADY BIRD [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*2018.*?)" fra</expres><page>http://netcine.us/lady-bird/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/391713_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Lady Bird[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] Drama, Comédia
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] Greta Gerwig
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 94 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/14
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2017
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] Saoirse Ronan, Laurie Metcalf, Tracy Letts, Lucas Hedges, Timothée Chalamet, Beanie Feldstein, Lois Smith, Stephen Henderson, Odeya Rush, Jordan Rodrigues, Marielle Scott, Jake McDorman, John Karna, Bayne Gibby, Laura Marano, Marietta DePrima, Daniel Zovatto, Kristen Cloke, Andy Buckley, Paul Keller
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Christine "Lady Bird" McPherson (Saoirse Ronan) não o reconhece, mas tem uma personalidade igual à da mãe, Marion (Laurie Metcalf) - apaixonada, opinativa e profundamente teimosa.
+Marion trabalha incansavelmente como enfermeira para sustentar a família após Larry (Tracy Letts), seu marido e pai de Lady Bird, ter perdido o emprego na sequência da crise económica.
+O filme explora o humor e os sentimentos presentes na turbulenta ligação entre uma mãe e a sua filha adolescente. Passado em Sacramento, na Califórnia, em 2002, no meio de um cenário de rápida mudança da economia americana, "Lady Bird" traça um retrato das relações que nos moldam, das crenças que nos definem e da incomparável beleza do sítio a que chamamos "lar".</info></item>"
 "<item><title>12 INDOMÁVEIS [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/12-herois/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/429351_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]12 Strong[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Nicolai Fuglsig
@@ -67,14 +113,6 @@ Além da necessidade de superar a desconfiança mútua e as vastas diferenças c
 Ao início da tarde de 21 de Agosto de 2015, o mundo assistiu em silêncio enquanto os meios de comunicação relatavam um ataque terrorista frustrado, ocorrido no comboio Thalys #9364 com destino a Paris. Um ataque evitado por três corajosos jovens americanos que viajavam pela Europa.
 O filme segue a história dos três amigos, desde as dificuldades na infância até encontrarem o seu caminho na vida, culminando numa série de eventos improváveis que conduziram ao ataque. Ao longo da dura experiência, a sua amizade nunca é posta em causa, tornando-se na melhor de todas as armas e permitindo que salvassem as vidas das mais de 500 pessoas a bordo daquele comboio.
 Anthony Sadler, Alek Skarlatos, Guarda do Parque Nacional de Oregon, e Spencer Stone, que serve na Força Aérea Americana, compõem o trio heróico que desempenha os seus próprios papéis no filme.</info></item>"
-"<item><title>AS CINQUENTA SOMBRAS LIVRE [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/cinquenta-tons-de-liberdade/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/337167_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Fifty Shades Freed[/B][/COLOR]
-[B][COLOR deepskyblue]Género:[/B][/COLOR] Drama, Erotico
-[B][COLOR deepskyblue]Realização:[/B][/COLOR] James Foley
-[B][COLOR deepskyblue]Duração:[/B][/COLOR] 101 m
-[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/16
-[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
-[B][COLOR deepskyblue]Actores:[/B][/COLOR] Dakota Johnson, Jamie Dornan, Kim Basinger, Eric Johnson, Arielle Kebbel, Brant Daugherty, Fay Masterson, Max Martini, Luke Grimes, Rita Ora, Tyler Hoechlin, Marcia Gay Harden, Dylan Neal, Andrew Airlie, Gary Hudson, Jaclyn Jonet, Ashleigh LaThrop, Guillaume Campanacci, Ben Corns
-[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Recém-casados e convencidos de que deixaram para trás os aspetos mais sombrios do passado, Christian e Anastasia assumem uma ligação inseparável e partilham uma vida de luxo. Mas assim que ela assume o papel de Sra. Grey e ele consegue alguma estabilidade, logo surgem novas ameaças que podem comprometer o final feliz antes deste sequer começar.</info></item>"
 "<item><title>LINHA FANTASMA [Leg] </title><urlsolve>https://streamango.com/embed/neecrdkkebsdldpa/</urlsolve><thumbnail></thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Phantom Thread[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama, Romance
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Paul Thomas Anderson
@@ -155,6 +193,14 @@ O pessoal do castelo é interpretado por Ewan McGregor, como o candelabro Lumiè
 [B][COLOR deepskyblue]Ano:[/B][/COLOR] 2016
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Emma Stone, Ryan Gosling, J.K. Simmons, Finn Wittrock, Sonoya Mizuno, Jessica Rothe, Callie Hernandez, Rosemarie DeWitt, John Legend, Meagen Fay
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] O filme começa como tudo começa em Los Angeles: na auto-estrada. Este é o lugar onde o pianista de jazz Sebastian (Ryan Gosling), encontra a aspirante a atriz Mia (Emma Stone), com uma buzinadela de desdém num engarrafamento que espelha o impasse em que navegam as suas vidas. Ambos possuem o tipo de esperanças impossíveis que são a alma da cidade: Sebastian tenta fazer com as pessoas gostem de jazz tradicional no século XXI. Mia gostava de conseguir chegar ao fim de uma audição. Mas nenhum dos dois espera que o seu fatídico encontro os leve onde nunca poderiam chegar sozinhos. Os seus movimentos, em direção um do outro e para os seus grandiosos sonhos artísticos, criam um mundo próprio, essencialmente cinematográfico, em La La Land - que com luz, cor, som, música e palavras, viaja diretamente para os êxtases da felicidade que perseguimos... e ao sofrimento das paixões que nunca iremos superar.</info></item>"
+"<item><title>AS CINQUENTA SOMBRAS LIVRE [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/cinquenta-tons-de-liberdade/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/337167_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Fifty Shades Freed[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] Drama, Erotico
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] James Foley
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 101 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/16
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] Dakota Johnson, Jamie Dornan, Kim Basinger, Eric Johnson, Arielle Kebbel, Brant Daugherty, Fay Masterson, Max Martini, Luke Grimes, Rita Ora, Tyler Hoechlin, Marcia Gay Harden, Dylan Neal, Andrew Airlie, Gary Hudson, Jaclyn Jonet, Ashleigh LaThrop, Guillaume Campanacci, Ben Corns
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Recém-casados e convencidos de que deixaram para trás os aspetos mais sombrios do passado, Christian e Anastasia assumem uma ligação inseparável e partilham uma vida de luxo. Mas assim que ela assume o papel de Sra. Grey e ele consegue alguma estabilidade, logo surgem novas ameaças que podem comprometer o final feliz antes deste sequer começar.</info></item>"
 "<item><title>AS CINQUENTA SOMBRAS MAIS NEGRAS [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src=""(.*LEG.*?)"" fra</expres><page>http://netcine.us/cinquenta-tons-mais-escuros/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/341174_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Fifty Shades Darker[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama, Erotico
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] James Foley
