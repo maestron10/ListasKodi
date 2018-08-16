@@ -1,4 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+"<item><title>ARRANHA-CÉUS [Leg] </title><urlsolve>https://streamango.com/embed/dkclkaetsfdrlpld/</urlsolve><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/447200_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Skyscraper[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] Ação
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] Rawson Thurber
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 103 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/12
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] Dwayne Johnson, Neve Campbell, Pablo Schreiber, Roland Møller, Kevin Rankin, Adrian Holmes, Chin Han, Byron Mann, Paul McGillion, Venus Terzo
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Will Ford, antigo líder de uma equipa de resgate do FBI e veterano de guerra, é agora um consultor que avalia a segurança em arranha-céus. Na China, o mais alto e seguro edifício do mundo está em chamas e Ford foi injustamente apontado como o responsável pelo desastre.
+Procurado e em fuga, Will tem de encontrar os culpados, limpar o seu nome e descobrir uma forma de salvar a família que se encontra presa dentro do edifício, acima da linha de fogo.</info></item>"
 "<item><title>PLANO DE FUGA HADES [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*2018.*?)" fra</expres><page>http://netcine.us/rota-de-fuga-2/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/440471_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Escape Plan 2: Hades[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Ação, Thriller
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Steven C. Miller
@@ -35,7 +44,19 @@ Na procura do gosto pela vida, e do capacitador de fluxo de "Regresso ao Futuro"
 [B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Bruce Davison, Corey Feldman, Dean S. Jagger, Malcolm McDowell, Rutger Hauer
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Um policial desonesto do NYPD muda-se para Los Angeles em busca do assassino de seus pais. Uma vez lá, ele é brutalmente assassinado e retorna à vida como o assassino final. Um derramamento de sangue acontece.</info></item>"
-"<item><title>DEATH WISH: A VINGANÇA [Leg] </title><urlsolve>https://streamango.com/embed/dnsnrmqmrnttqnpl/</urlsolve><thumbnail>https://filmspot.com.pt/images/filmes/posters//big/395990_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Death Wish[/B][/COLOR]
+"<item><title>DEATH WISH: A VINGANÇA [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link>
+<regex><name>TeamBluePlay</name>
+<expres>file: "(.*ALTO.*?)"</expres>
+<page>$doregex[TeamBluePlayOne]</page>
+</regex><regex>
+<name>TeamBluePlayOne</name>
+<expres>src="(.*)" fra</expres>
+<page>$doregex[TeamBluePlayTwo]</page>
+</regex><regex>
+<name>TeamBluePlayTwo</name>
+<expres>src="(.*LEG.*?)" fra</expres>
+<page>http://netcine.us/desejo-de-matar/</page>
+</regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters//big/395990_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Death Wish[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Ação, Crime, Drama, Thriller
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Eli Roth
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 107 m
