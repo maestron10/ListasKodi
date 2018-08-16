@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TF1 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/735.ts;streamtype=TSDOWNLOADER&amp;name=TF1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/735.m3u8$$lsname=TF1 HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a002$$lsname=TF1 HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/735.m3u8$$lsname=TF1 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TF1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 2[/B][/COLOR]</title>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE 2 (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1717</page><referer>http://www.filmon.com/tv/channel/export?channel id=1717&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE 2 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 2 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/744.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 2 HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/744.m3u8$$lsname=FRANCE 2 HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a005$$lsname=FRANCE 2 HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/744.m3u8$$lsname=FRANCE 2 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 3[/B][/COLOR]</title>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE 3 (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1723</page><referer>http://www.filmon.com/tv/channel/export?channel id=1723&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE 3 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 3 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/742.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/742.m3u8$$lsname=FRANCE 3 HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a006$$lsname=FRANCE 3 HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/742.m3u8$$lsname=FRANCE 3 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/canal-plus-francia-online/$$lsname=CANAL+ (SD source #01)</link>
@@ -26,11 +29,13 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 5 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/740.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 5 HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/740.m3u8$$lsname=FRANCE 5 HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a007$$lsname=FRANCE 5 HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/740.m3u8$$lsname=FRANCE 5 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1434.ts;streamtype=TSDOWNLOADER&amp;name=M6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1434.m3u8$$lsname=M6 (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02j$$lsname=M6 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1434.m3u8$$lsname=M6 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/739.ts;streamtype=TSDOWNLOADER&amp;name=M6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 HD (F4M source #01)</link>
@@ -38,13 +43,14 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ARTE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/885.ts;streamtype=TSDOWNLOADER&amp;name=ARTE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ARTE (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/885.m3u8$$lsname=ARTE (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02r$$lsname=ARTE (HTTP source #01)</link>
 <link><link>$doregex[getm3u8]$$lsname=ARTE (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1729</page><referer>http://www.filmon.com/tv/channel/export?channel id=1729&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ARTE (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C8[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/817.ts;streamtype=TSDOWNLOADER&amp;name=C8 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C8 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/20399.ts;streamtype=TSDOWNLOADER&amp;name=C8 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C8 (F4M source #05)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/817.m3u8$$lsname=C8 (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02n$$lsname=C8 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/817.m3u8$$lsname=C8 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/C8.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] W9[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/736.ts;streamtype=TSDOWNLOADER&amp;name=W9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 (F4M source #01)</link>
@@ -54,34 +60,41 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2655.ts;streamtype=TSDOWNLOADER&amp;name=W9 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 HD (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2655.m3u8$$lsname=W9 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/W9.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TMC[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a02p$$lsname=TMC (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TMC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TMC HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1099.ts;streamtype=TSDOWNLOADER&amp;name=TMC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TMC HD (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1099.m3u8$$lsname=TMC HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TMC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NT1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1571.ts;streamtype=TSDOWNLOADER&amp;name=NT1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NT1 (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1571.m3u8$$lsname=NT1 (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02t$$lsname=NT1 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1571.m3u8$$lsname=NT1 (HTTP source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/nn/nt1_fr.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NRJ12[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/966.ts;streamtype=TSDOWNLOADER&amp;name=NRJ12 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ12 (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/966.m3u8$$lsname=NRJ12 (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02y$$lsname=NRJ12 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/966.m3u8$$lsname=NRJ12 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NRJ12.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NRJ12 HD[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://038bc750dfbbe978d4f6933ea0648bde5ce32276&amp;mode=1&amp;name=Acestream+NRJ12 HD$$lsname=NRJ12 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NRJ12.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] LA CHAINE PARLAMENTAIRE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/22127.ts;streamtype=TSDOWNLOADER&amp;name=LA CHAINE PARLAMENTAIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=LA CHAINE PARLAMENTAIRE (F4M source #05)</link>
+<link>http://185.93.3.84:5019/play/a02s$$lsname=LA CHAINE PARLAMENTAIRE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LCP.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 4[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://d640a45fdc6d736a6cbe49274234489f4818b047&amp;mode=1&amp;name=Acestream+FRANCE 4$$lsname=FRANCE 4 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 4 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/741.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 4 HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/741.m3u8$$lsname=FRANCE 4 HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a01m$$lsname=FRANCE 4 HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/741.m3u8$$lsname=FRANCE 4 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/816.ts;streamtype=TSDOWNLOADER&amp;name=BFM TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM TV (F4M source #01)</link>
-<link>http://bfmtvalive1-a.akamaihd.net/764d0cb6f231489aa3b987832911bc77/eu-central-1/876450610001/dd257bd6bff64eccb0a29b54cc705a07/playlist_ssaiM.m3u8$$lsname=BFM TV (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02z$$lsname=BFM TV (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/816.m3u8$$lsname=BFM TV (HTTP source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=BFM TV (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/2765</page><referer>http://www.filmon.com/tv/channel/export?channel id=2765&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BFM TV (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://2d5c99fd53e2d592a5efbefe44c90e8cad292f1a&amp;mode=1&amp;name=Acestream+BFM TV$$lsname=BFM TV (PLEXUS source #01)</link>
@@ -91,7 +104,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GULLI[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/837.ts;streamtype=TSDOWNLOADER&amp;name=GULLI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GULLI (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/837.m3u8$$lsname=GULLI (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02i$$lsname=GULLI (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/837.m3u8$$lsname=GULLI (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://5dd558a03fba438753494d109e7b013b40590d8f&amp;mode=1&amp;name=Acestream+GULLI$$lsname=GULLI (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GULLI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE Ô[/B][/COLOR]</title>
@@ -99,22 +113,30 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE Ô HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/745.ts;streamtype=TSDOWNLOADER&amp;name=FRANCE Ô HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE Ô HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/745.m3u8$$lsname=FRANCE Ô HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a01f$$lsname=FRANCE Ô HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/745.m3u8$$lsname=FRANCE Ô HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HD1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/15239.ts;streamtype=TSDOWNLOADER&amp;name=HD1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HD1 (F4M source #05)</link>
+<link>http://185.93.3.84:5019/play/a02w$$lsname=HD1 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HD1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] L'EQUIPE 21[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1995.ts;streamtype=TSDOWNLOADER&amp;name=L'EQUIPE 21 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=L'EQUIPE 21 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/15245.ts;streamtype=TSDOWNLOADER&amp;name=L'EQUIPE 21 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=L'EQUIPE 21 (F4M source #05)</link>
 <link>http://ec.playmedia.fr/lequipe21/live/chunklist_w811887822.m3u8$$lsname=L'EQUIPE 21 (HTTP source #01)</link>
 <link>http://ec.playmedia.fr/lequipe21/live/playlist.m3u8$$lsname=L'EQUIPE 21 (HTTP source #02)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1995.m3u8$$lsname=L'EQUIPE 21 (HTTP source #03)</link>
+<link>http://185.93.3.84:5019/play/a02u$$lsname=L'EQUIPE 21 (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LEQUIPE.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] 6TER[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a02x$$lsname=6TER (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/6TER.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 6TER HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2693.ts;streamtype=TSDOWNLOADER&amp;name=6TER HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=6TER HD (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2693.m3u8$$lsname=6TER HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/6TER.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NUMERO 23[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a02l$$lsname=NUMERO 23 (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NUMERO23.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NUMERO 23 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2741.ts;streamtype=TSDOWNLOADER&amp;name=NUMERO 23 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NUMERO 23 HD (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/20397.ts;streamtype=TSDOWNLOADER&amp;name=NUMERO 23 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NUMERO 23 HD (F4M source #05)</link>
@@ -128,7 +150,8 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHERIE 25[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/967.ts;streamtype=TSDOWNLOADER&amp;name=CHERIE 25 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHERIE 25 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/15209.ts;streamtype=TSDOWNLOADER&amp;name=CHERIE 25 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHERIE 25 (F4M source #05)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/967.m3u8$$lsname=CHERIE 25 (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02m$$lsname=CHERIE 25 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/967.m3u8$$lsname=CHERIE 25 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHERIE25.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] LCI[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2795.ts;streamtype=TSDOWNLOADER&amp;name=LCI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=LCI (F4M source #01)</link>
@@ -158,7 +181,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 3[/B][/COLOR]</title>
 <link>http://163.172.105.25:80/live?channelId=177&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=beiN SPORTS 3 (HTTP source #01)</link>
-<link>http://163.172.105.25:80/live?channelId=177&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=beiN SPORTS 3 (HTTP source #02)</link>
+<link>http://163.172.105.25:80/live?channelId=177&amp;deviceMac=00:1A:79:3C:C9:5C&amp;uid=3303$$lsname=beiN SPORTS 3 (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 3 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/988.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 3 HD (F4M source #01)</link>
@@ -185,21 +208,31 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2128.ts;streamtype=TSDOWNLOADER&amp;name=beiN SPORTS MAX 8 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 8 FR (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2128.m3u8$$lsname=beiN SPORTS MAX 8 FR (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS8MAX.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 1[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a00d$$lsname=SFR SPORT 1 (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 1 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2791.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 1 HD (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2791.m3u8$$lsname=SFR SPORT 1 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT1.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 2[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a00e$$lsname=SFR SPORT 2 (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 2 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2792.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 2 HD (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2792.m3u8$$lsname=SFR SPORT 2 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT2.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 3[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a00g$$lsname=SFR SPORT 3 (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 3 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2793.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 3 HD (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2793.m3u8$$lsname=SFR SPORT 3 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 5[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2912.ts;streamtype=TSDOWNLOADER&amp;name=SFR SPORT 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 5 (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2912.m3u8$$lsname=SFR SPORT 5 (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a00m$$lsname=SFR SPORT 5 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2912.m3u8$$lsname=SFR SPORT 5 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 1[/B][/COLOR]</title>
 <link>http://163.172.105.25:80/live?channelId=367&deviceMac=00:1A:79:3C:C9:5C&uid=3303$$lsname=ELEVEN SPORTS 1 (HTTP source #01)</link>
@@ -224,15 +257,20 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 HD FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/836.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 1 HD FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 HD FR (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/836.m3u8$$lsname=EUROSPORT 1 HD FR (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a00p$$lsname=EUROSPORT 1 HD FR (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/836.m3u8$$lsname=EUROSPORT 1 HD FR (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 HD FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/752.ts;streamtype=TSDOWNLOADER&amp;name=EUROSPORT 2 HD FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 HD FR (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/752.m3u8$$lsname=EUROSPORT 2 HD FR (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a00s$$lsname=EUROSPORT 2 HD FR (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/752.m3u8$$lsname=EUROSPORT 2 HD FR (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GAME ONE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2797.ts;streamtype=TSDOWNLOADER&amp;name=GAME ONE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GAME ONE (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2797.m3u8$$lsname=GAME ONE (HTTP source #01)</link>
+<thumbnail>https://vignette.wikia.nocookie.net/international-entertainment-project/images/3/38/Logo_game_one.png/revision/latest?cb=20171015005822</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] GAME ONE HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a01x$$lsname=GAME ONE HD (HTTP source #01)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/international-entertainment-project/images/3/38/Logo_game_one.png/revision/latest?cb=20171015005822</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TEVA HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/748.ts;streamtype=TSDOWNLOADER&amp;name=TEVA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TEVA HD (F4M source #01)</link>
@@ -279,6 +317,9 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1139.ts;streamtype=TSDOWNLOADER&amp;name=DISNEY CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CINEMA (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1139.m3u8$$lsname=DISNEY CINEMA (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCINEMAGIC.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CINEMA HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a027$$lsname=DISNEY CINEMA HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCINEMAGIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ PREMIER HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/718.ts;streamtype=TSDOWNLOADER&amp;name=CINE+ PREMIER HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ PREMIER HD (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/718.m3u8$$lsname=CINE+ PREMIER HD (HTTP source #01)</link>
@@ -303,21 +344,30 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1098.ts;streamtype=TSDOWNLOADER&amp;name=ACTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ACTION (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1098.m3u8$$lsname=ACTION (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ACTION.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] ACTION HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a023$$lsname=ACTION HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ACTION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TCM CINEMA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2331.ts;streamtype=TSDOWNLOADER&amp;name=TCM CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TCM CINEMA (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2331.m3u8$$lsname=TCM CINEMA (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TCMCINEMA.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TCM CINEMA HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a028$$lsname=TCM CINEMA HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TCMCINEMA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PARAMOUNT CHANNEL HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/721.ts;streamtype=TSDOWNLOADER&amp;name=PARAMOUNT CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PARAMOUNT CHANNEL HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/721.m3u8$$lsname=PARAMOUNT CHANNEL HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a01v$$lsname=PARAMOUNT CHANNEL HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/721.m3u8$$lsname=PARAMOUNT CHANNEL HD (HTTP source #02)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/5/59/Paramount_Channel.svg/revision/latest/scale-to-width-down/208?cb=20130908121353</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+ HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1169.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1169.m3u8$$lsname=PLANETE+ HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02h$$lsname=PLANETE+ HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1169.m3u8$$lsname=PLANETE+ HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PLANETE+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NAT GEO CH HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/751.ts;streamtype=TSDOWNLOADER&amp;name=NAT GEO CH HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO CH HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/751.m3u8$$lsname=NAT GEO CH HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a00z$$lsname=NAT GEO CH HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/751.m3u8$$lsname=NAT GEO CH HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NAT GEO WILD HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/756.ts;streamtype=TSDOWNLOADER&amp;name=NAT GEO WILD HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO WILD HD (F4M source #01)</link>
@@ -327,6 +377,12 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2130.ts;streamtype=TSDOWNLOADER&amp;name=VOYAGE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VOYAGE (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2130.m3u8$$lsname=VOYAGE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VOYAGE.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] VOYAGE HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a01d$$lsname=VOYAGE HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VOYAGE.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] E! ENTERTAINMENT[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a01n$$lsname=E! ENTERTAINMENT (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/E!.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6 MUSIQUE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1063.ts;streamtype=TSDOWNLOADER&amp;name=M6 MUSIQUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 MUSIQUE (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1063.m3u8$$lsname=M6 MUSIQUE (HTTP source #01)</link>
@@ -340,6 +396,9 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3244.ts;streamtype=TSDOWNLOADER&amp;name=TRACE URBAN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TRACE URBAN (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/3244.m3u8$$lsname=TRACE URBAN (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRACEURBAN.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TRACE URBAN HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a01p$$lsname=TRACE URBAN HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRACEURBAN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV5 MONDE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1105.ts;streamtype=TSDOWNLOADER&amp;name=TV5 MONDE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV5 MONDE (F4M source #01)</link>
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/index.m3u8$$lsname=TV5 MONDE (HTTP source #01)</link>
@@ -350,11 +409,13 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV BREIZH[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2309.ts;streamtype=TSDOWNLOADER&amp;name=TV BREIZH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV BREIZH (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/15278.ts;streamtype=TSDOWNLOADER&amp;name=TV BREIZH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV BREIZH (F4M source #05)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2309.m3u8$$lsname=TV BREIZH (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02a$$lsname=TV BREIZH (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2309.m3u8$$lsname=TV BREIZH (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVBREIZH.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] COMEDIE+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/717.ts;streamtype=TSDOWNLOADER&amp;name=COMEDIE+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMEDIE+ (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/717.m3u8$$lsname=COMEDIE+ (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a026$$lsname=COMEDIE+ (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/717.m3u8$$lsname=COMEDIE+ (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/COMEDIEPLUS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 13E RUE HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/987.ts;streamtype=TSDOWNLOADER&amp;name=13E RUE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=13E RUE HD (F4M source #01)</link>
@@ -364,14 +425,21 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/834.ts;streamtype=TSDOWNLOADER&amp;name=SYFY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/834.m3u8$$lsname=SYFY (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SYFY.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SYFY HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a01o$$lsname=SYFY HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SYFY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SERIE CLUB HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1134.ts;streamtype=TSDOWNLOADER&amp;name=SERIE CLUB HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SERIE CLUB HD (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1134.m3u8$$lsname=SERIE CLUB HD (HTTP source #01)</link>
 <thumbnail>https://vignette1.wikia.nocookie.net/logopedia/images/e/ec/SERIE_CLUB_2013.png/revision/latest?cb=20150314142323</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3259.ts;streamtype=TSDOWNLOADER&amp;name=MTV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/3259.m3u8$$lsname=MTV HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02g$$lsname=MTV HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/3259.m3u8$$lsname=MTV HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTV.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MCM[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a022$$lsname=MCM (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MCM.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MANGAS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1104.ts;streamtype=TSDOWNLOADER&amp;name=MANGAS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MANGAS (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1104.m3u8$$lsname=MANGAS (HTTP source #01)</link>
@@ -416,7 +484,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYJUNIOR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TIJI[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2746.ts;streamtype=TSDOWNLOADER&amp;name=TIJI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TIJI (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2746.m3u8$$lsname=TIJI (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a00y$$lsname=TIJI (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2746.m3u8$$lsname=TIJI (HTTP source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/2/2e/Tiji_logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PIWI+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2607.ts;streamtype=TSDOWNLOADER&amp;name=PIWI+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PIWI+ (F4M source #01)</link>
@@ -428,7 +497,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BOOMERANG.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CARTOON NETWORK[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/723.ts;streamtype=TSDOWNLOADER&amp;name=CARTOON NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CARTOON NETWORK (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/723.m3u8$$lsname=CARTOON NETWORK (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a01t$$lsname=CARTOON NETWORK (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/723.m3u8$$lsname=CARTOON NETWORK (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CARTOONNETWORK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3151.ts;streamtype=TSDOWNLOADER&amp;name=NICKELODEON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON (F4M source #01)</link>
@@ -442,13 +512,17 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/985.ts;streamtype=TSDOWNLOADER&amp;name=CANAL J [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL J (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/985.m3u8$$lsname=CANAL J (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALJ.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL J HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a01u$$lsname=CANAL J HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALJ.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELETOON+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/838.ts;streamtype=TSDOWNLOADER&amp;name=TELETOON+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELETOON+ (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/838.m3u8$$lsname=TELETOON+ (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TELETOON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BOING[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/986.ts;streamtype=TSDOWNLOADER&amp;name=BOING [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOING (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/986.m3u8$$lsname=BOING (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a01k$$lsname=BOING (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/986.m3u8$$lsname=BOING (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BOING.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TOONAMI HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3643.ts;streamtype=TSDOWNLOADER&amp;name=TOONAMI HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TOONAMI HD (F4M source #01)</link>
@@ -458,6 +532,9 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1137.ts;streamtype=TSDOWNLOADER&amp;name=INFO SPORT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=INFO SPORT+ (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1137.m3u8$$lsname=INFO SPORT+ (HTTP source #01)</link>
 <thumbnail>https://4.bp.blogspot.com/-_bAyCgweAJs/WUxEs-UJe3I/AAAAAAAAHEE/LyMpsR8MX4EZQzZCTw8tZEpdX-k8JndfwCLcBGAs/s1600/canalplus_fr_infosport_plus.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] INFO SPORT+ HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a01y$$lsname=INFO SPORT+ HD (HTTP source #01)</link>
+<thumbnail>https://4.bp.blogspot.com/-_bAyCgweAJs/WUxEs-UJe3I/AAAAAAAAHEE/LyMpsR8MX4EZQzZCTw8tZEpdX-k8JndfwCLcBGAs/s1600/canalplus_fr_infosport_plus.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AB MOTEURS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2879.ts;streamtype=TSDOWNLOADER&amp;name=AB MOTEURS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB MOTEURS (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/20402.ts;streamtype=TSDOWNLOADER&amp;name=AB MOTEURS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB MOTEURS (F4M source #05)</link>
@@ -466,6 +543,9 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EQUIDIA LIVE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/835.ts;streamtype=TSDOWNLOADER&amp;name=EQUIDIA LIVE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EQUIDIA LIVE (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/835.m3u8$$lsname=EQUIDIA LIVE (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EQUIDIALIVE.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] EQUIDIA LIVE HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a020$$lsname=EQUIDIA LIVE HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EQUIDIALIVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MOTORSPORT.TV[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://9cf5cf9ac137d61ff752224f5f727dd97c35e706&amp;mode=1&amp;name=Acestream+MOTORSPORT.TV$$lsname=MOTORSPORT.TV (PLEXUS source #01)</link>
@@ -477,11 +557,13 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+ CI[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/818.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ CI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ CI (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/15263.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ CI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ CI (F4M source #05)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/818.m3u8$$lsname=PLANETE+ CI (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a01z$$lsname=PLANETE+ CI (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/818.m3u8$$lsname=PLANETE+ CI (HTTP source #02)</link>
 <thumbnail>http://bit.ly/IMG_PLANETECI</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+ A&E[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1892.ts;streamtype=TSDOWNLOADER&amp;name=PLANETE+ A&E [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ A&E (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1892.m3u8$$lsname=PLANETE+ A&E (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02b$$lsname=PLANETE+ A&E (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1892.m3u8$$lsname=PLANETE+ A&E (HTTP source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/pp/planete_plus_action_experience.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY CHANNEL HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/887.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY CHANNEL HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY CHANNEL HD (F4M source #01)</link>
@@ -489,7 +571,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SCIENCE HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1122.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY SCIENCE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SCIENCE HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1122.m3u8$$lsname=DISCOVERY SCIENCE HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a021$$lsname=DISCOVERY SCIENCE HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1122.m3u8$$lsname=DISCOVERY SCIENCE HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSCIENCE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] USHUAIA TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/737.ts;streamtype=TSDOWNLOADER&amp;name=USHUAIA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=USHUAIA TV (F4M source #01)</link>
@@ -497,12 +580,16 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/USHUAIA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HISTOIRE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1064.ts;streamtype=TSDOWNLOADER&amp;name=HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTOIRE (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1064.m3u8$$lsname=HISTOIRE (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a01e$$lsname=HISTOIRE (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1064.m3u8$$lsname=HISTOIRE (HTTP source #02)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/hh/histoire_fr.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TOUTE L'HISTOIRE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2200.ts;streamtype=TSDOWNLOADER&amp;name=TOUTE L'HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TOUTE L'HISTOIRE (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2200.m3u8$$lsname=TOUTE L'HISTOIRE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TOUTELHISTOIRE.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SCIENCE & VIE TV HD[/B][/COLOR]</title>
+<link>http://185.93.3.84:5019/play/a00c$$lsname=SCIENCE & VIE TV HD (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/fr/7/71/Science_et_Vie_TV_logo_2015.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ANIMAUX[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1143.ts;streamtype=TSDOWNLOADER&amp;name=ANIMAUX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ANIMAUX (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1143.m3u8$$lsname=ANIMAUX (HTTP source #01)</link>
@@ -530,11 +617,13 @@
 <link>plugin://program.plexus/?url=acestream://d1caf1bbd1162a11ddbfd95fde1a2f0e5dd51c3b&amp;mode=1&amp;name=Acestream+MEZZO$$lsname=MEZZO (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEZZO LIVE HD[/B][/COLOR]</title>
-<link>http://217.64.25.182:8000/play/a02l/index.m3u8$$lsname=MEZZO LIVE HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02e$$lsname=MEZZO LIVE HD (HTTP source #01)</link>
+<link>http://217.64.25.182:8000/play/a02l/index.m3u8$$lsname=MEZZO LIVE HD (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://6f159dd2dffa56733b7dea3cb2d5fb44118cd71c&amp;mode=1&amp;name=Acestream+MEZZO LIVE HD$$lsname=MEZZO LIVE HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZOLIVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MCM TOP[/B][/COLOR]</title>
-<link>http://ott-cdn.ucom.am/s49/index.m3u8$$lsname=MCM TOP (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02c$$lsname=MCM TOP (HTTP source #01)</link>
+<link>http://ott-cdn.ucom.am/s49/index.m3u8$$lsname=MCM TOP (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://6928bca413ba15d42c479ed4d52af98e3d6e9474&amp;mode=1&amp;name=Acestream+MCM TOP$$lsname=MCM TOP (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MCMTOP.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 EUROPE[/B][/COLOR]</title>
@@ -595,7 +684,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
 <link>http://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #01)</link>
-<link>http://217.33.10.154:8000/play/a00p/index.m3u8$$lsname=BLOOMBERG (HTTP source #02)</link>
+<link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8$$lsname=BLOOMBERG (HTTP source #02)</link>
+<link>http://217.33.10.154:8000/play/a00p/index.m3u8$$lsname=BLOOMBERG (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://84575f53dea0a0b703f2a8b5ca3d8f8a70ae32d2&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://02dd8869df5a293bf5d8b30b669f923593a9484a&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>

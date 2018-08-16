@@ -278,7 +278,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCWORLDNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Bloomberg[/B][/COLOR]</title>
 <link>http://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8$$lsname=Bloomberg (HTTP source #01)</link>
-<link>http://217.33.10.154:8000/play/a00p/index.m3u8$$lsname=Bloomberg (HTTP source #02)</link>
+<link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8$$lsname=Bloomberg (HTTP source #02)</link>
+<link>http://217.33.10.154:8000/play/a00p/index.m3u8$$lsname=Bloomberg (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://84575f53dea0a0b703f2a8b5ca3d8f8a70ae32d2&amp;mode=1&amp;name=Acestream+Bloomberg$$lsname=Bloomberg (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://02dd8869df5a293bf5d8b30b669f923593a9484a&amp;mode=1&amp;name=Acestream+Bloomberg$$lsname=Bloomberg (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
@@ -310,6 +311,7 @@
 <link>plugin://program.plexus/?url=acestream://7b3483c662170561f43825d0bbe10e6551fb87ce&amp;mode=1&amp;name=Acestream+France 24 FR$$lsname=France 24 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sport1[/B][/COLOR]</title>
+<link>http://185.93.3.84:5014/play/a005$$lsname=Sport1 (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernsehen/deutsch/sport1.html$$lsname=Sport1 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORT1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sport1 HD[/B][/COLOR]</title>
@@ -318,7 +320,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORT1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sport1+ HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2540.ts;streamtype=TSDOWNLOADER&amp;name=Sport1+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=Sport1+ HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2540.m3u8$$lsname=Sport1+ HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5014/play/a004$$lsname=Sport1+ HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2540.m3u8$$lsname=Sport1+ HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORT1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sport1 US HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2202.ts;streamtype=TSDOWNLOADER&amp;name=Sport1 US HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=Sport1 US HD (F4M source #01)</link>
@@ -336,7 +339,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sky Sport News[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2739.ts;streamtype=TSDOWNLOADER&amp;name=Sky Sport News [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=Sky Sport News (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2739.m3u8$$lsname=Sky Sport News (HTTP source #01)</link>
+<link>http://185.93.3.84:5014/play/a006$$lsname=Sky Sport News (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2739.m3u8$$lsname=Sky Sport News (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernsehen/deutsch/skysportnewshd.html$$lsname=Sky Sport News (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://abe301143841d17ea2c6813d42221d5ed6227430&amp;mode=1&amp;name=Acestream+Sky Sport News$$lsname=Sky Sport News (PLEXUS source #01)</link>
 <thumbnail>http://i.imgur.com/dQMc5EO.png</thumbnail></item>
@@ -345,7 +349,8 @@
 <thumbnail>http://i.imgur.com/dQMc5EO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sky Sport 1 DE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3165.ts;streamtype=TSDOWNLOADER&amp;name=Sky Sport 1 DE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=Sky Sport 1 DE (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/3165.m3u8$$lsname=Sky Sport 1 DE (HTTP source #01)</link>
+<link>http://185.93.3.84:5014/play/a002$$lsname=Sky Sport 1 DE (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/3165.m3u8$$lsname=Sky Sport 1 DE (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/deportes/sky1ger.php$$lsname=Sky Sport 1 DE (SD source #01)</link>
 <thumbnail>http://i.imgur.com/GM9BhHH.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sky Sport 1 HD DE[/B][/COLOR]</title>
@@ -354,7 +359,8 @@
 <thumbnail>http://i.imgur.com/GM9BhHH.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sky Sport 2 DE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2632.ts;streamtype=TSDOWNLOADER&amp;name=Sky Sport 2 DE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=Sky Sport 2 DE (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2632.m3u8$$lsname=Sky Sport 2 DE (HTTP source #01)</link>
+<link>http://185.93.3.84:5014/play/a001$$lsname=Sky Sport 2 DE (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2632.m3u8$$lsname=Sky Sport 2 DE (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/deportes/sky2ger.php$$lsname=Sky Sport 2 DE (SD source #01)</link>
 <thumbnail>http://i.imgur.com/JM9osWD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sky Sport 2 HD DE[/B][/COLOR]</title>
@@ -371,13 +377,15 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTAUSTRIA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORT BUNDESLIGA 1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2740.ts;streamtype=TSDOWNLOADER&amp;name=SKY SPORT BUNDESLIGA 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORT BUNDESLIGA 1 (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2740.m3u8$$lsname=SKY SPORT BUNDESLIGA 1 (HTTP source #01)</link>
+<link>http://185.93.3.84:5014/play/a007$$lsname=SKY SPORT BUNDESLIGA 1 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2740.m3u8$$lsname=SKY SPORT BUNDESLIGA 1 (HTTP source #02)</link>
 <link><link>http:$doregex[getLink]$$lsname=SKY SPORT BUNDESLIGA 1 (HTTP #source 05)</link><regex><name>getLink</name><expres><![CDATA["file": "(.*?)"]]></expres><page>https://www.streamlive.to/view/72887/Sky Bundesliga 1</page><cookieJar></cookieJar></regex>$$lsname=SKY SPORT BUNDESLIGA 1 (HTTP source #05)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/3/31/Sky_Sport_Bundesliga_HD_Logo_2016.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORT BUNDESLIGA 1 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/300.ts;streamtype=TSDOWNLOADER&amp;name=SKY SPORT BUNDESLIGA 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORT BUNDESLIGA 1 HD (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/15173.ts;streamtype=TSDOWNLOADER&amp;name=SKY SPORT BUNDESLIGA 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORT BUNDESLIGA 1 HD (F4M source #05)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/300.m3u8$$lsname=SKY SPORT BUNDESLIGA 1 HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5014/play/a003$$lsname=SKY SPORT BUNDESLIGA 1 HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/300.m3u8$$lsname=SKY SPORT BUNDESLIGA 1 HD (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/skysportbundesliga1.php$$lsname=SKY SPORT BUNDESLIGA 1 HD (SD source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/3/31/Sky_Sport_Bundesliga_HD_Logo_2016.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORT BUNDESLIGA 2 HD[/B][/COLOR]</title>
@@ -494,7 +502,8 @@
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3258.ts;streamtype=TSDOWNLOADER&amp;name=MTV Live HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV Live HD (F4M source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVLIVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Mezzo Live HD[/B][/COLOR]</title>
-<link>http://217.64.25.182:8000/play/a02l/index.m3u8$$lsname=Mezzo Live HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02e$$lsname=Mezzo Live HD (HTTP source #01)</link>
+<link>http://217.64.25.182:8000/play/a02l/index.m3u8$$lsname=Mezzo Live HD (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://6f159dd2dffa56733b7dea3cb2d5fb44118cd71c&amp;mode=1&amp;name=Acestream+Mezzo Live HD$$lsname=Mezzo Live HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZOLIVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 Classic[/B][/COLOR]</title>

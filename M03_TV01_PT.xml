@@ -59,7 +59,8 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed/cmtv-ctpxp$$lsname=CM TV (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CMTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV+[/B][/COLOR]</title>
-<link>http://ca.stablechannels.tv:25461/live/u5Wu06SKb/vJt1Aq651n/4048.m3u8$$lsname=SPORT TV+ (HTTP source #01)</link>
+<link>http://185.93.3.84:5016/play/a006$$lsname=SPORT TV+ (HTTP source #01)</link>
+<link>http://ca.stablechannels.tv:25461/live/u5Wu06SKb/vJt1Aq651n/4048.m3u8$$lsname=SPORT TV+ (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV+ HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3185.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV+ HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV+ HD (F4M source #01)</link>
@@ -115,7 +116,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 1 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1797.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 1 HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/858.m3u8$$lsname=SPORT TV 1 HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5016/play/a001$$lsname=SPORT TV 1 HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/858.m3u8$$lsname=SPORT TV 1 HD (HTTP source #02)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=SPORT TV 1 HD (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/mychan2/1/720/450</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer>$$lsname=SPORT TV 1 HD (HTTP source #04)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6 0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 1 HD (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get unpacked(page data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/s6m0vsdisiufp7</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 1 HD (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/channels/pt/sporttv1.html$$lsname=SPORT TV 1 HD (SD source #01)</link>
@@ -133,7 +135,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 2 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2827.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 2 HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2827.m3u8$$lsname=SPORT TV 2 HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5016/play/a002$$lsname=SPORT TV 2 HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2827.m3u8$$lsname=SPORT TV 2 HD (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.pt/2018/01/sport-tv-2-l-2.html$$lsname=SPORT TV 2 HD (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/stv2.html?dll=001$$lsname=SPORT TV 2 HD (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2.png</thumbnail></item>
@@ -145,14 +148,16 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 3 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2828.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 3 HD (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2828.m3u8$$lsname=SPORT TV 3 HD (HTTP source #01)</link>
-<link>http://ca.stablechannels.tv:25461/live/u5Wu06SKb/vJt1Aq651n/4044.m3u8$$lsname=SPORT TV 3 HD (HTTP source #02)</link>
+<link>http://185.93.3.84:5016/play/a003$$lsname=SPORT TV 3 HD (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2828.m3u8$$lsname=SPORT TV 3 HD (HTTP source #02)</link>
+<link>http://ca.stablechannels.tv:25461/live/u5Wu06SKb/vJt1Aq651n/4044.m3u8$$lsname=SPORT TV 3 HD (HTTP source #03)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6 0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 3 HD (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get unpacked(page data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>http://whostreams.net/embed/5bw0ttm</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 3 HD (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/channels/pt/sporttv3.html$$lsname=SPORT TV 3 HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/855.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 4 (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/855.m3u8$$lsname=SPORT TV 4 (HTTP source #01)</link>
+<link>http://185.93.3.84:5016/play/a004$$lsname=SPORT TV 4 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/855.m3u8$$lsname=SPORT TV 4 (HTTP source #02)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6 0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 4 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get unpacked(page data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/3ant1pjxw3</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 4 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4 HD[/B][/COLOR]</title>
@@ -164,8 +169,9 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 5[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2475.ts;streamtype=TSDOWNLOADER&amp;name=SPORT TV 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 5 (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2475.m3u8$$lsname=SPORT TV 5 (HTTP source #01)</link>
-<link>http://ca.stablechannels.tv:25461/live/u5Wu06SKb/vJt1Aq651n/4042.m3u8$$lsname=SPORT TV 5 (HTTP source #02)</link>
+<link>http://185.93.3.84:5016/play/a005$$lsname=SPORT TV 5 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2475.m3u8$$lsname=SPORT TV 5 (HTTP source #02)</link>
+<link>http://ca.stablechannels.tv:25461/live/u5Wu06SKb/vJt1Aq651n/4042.m3u8$$lsname=SPORT TV 5 (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt5.php$$lsname=SPORT TV 5 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 5 HD[/B][/COLOR]</title>
@@ -428,7 +434,8 @@
 <link>plugin://program.plexus/?url=acestream://d1caf1bbd1162a11ddbfd95fde1a2f0e5dd51c3b&amp;mode=1&amp;name=Acestream+MEZZO$$lsname=MEZZO (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEZZO LIVE HD[/B][/COLOR]</title>
-<link>http://217.64.25.182:8000/play/a02l/index.m3u8$$lsname=MEZZO LIVE HD (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02e$$lsname=MEZZO LIVE HD (HTTP source #01)</link>
+<link>http://217.64.25.182:8000/play/a02l/index.m3u8$$lsname=MEZZO LIVE HD (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://6f159dd2dffa56733b7dea3cb2d5fb44118cd71c&amp;mode=1&amp;name=Acestream+MEZZO LIVE HD$$lsname=MEZZO LIVE HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZOLIVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY[/B][/COLOR]</title>
@@ -499,7 +506,8 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
 <link>http://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #01)</link>
-<link>http://217.33.10.154:8000/play/a00p/index.m3u8$$lsname=BLOOMBERG (HTTP source #02)</link>
+<link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8$$lsname=BLOOMBERG (HTTP source #02)</link>
+<link>http://217.33.10.154:8000/play/a00p/index.m3u8$$lsname=BLOOMBERG (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://84575f53dea0a0b703f2a8b5ca3d8f8a70ae32d2&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://02dd8869df5a293bf5d8b30b669f923593a9484a&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
@@ -526,6 +534,7 @@
 <link>http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/index_700_av-p.m3u8$$lsname=CBSN (HTTP source #01)</link>
 <link>http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/index_2200_av-p.m3u8$$lsname=CBSN (HTTP source #02)</link>
 <link>http://cbsnewshd-lh.akamaihd.net:80/i/CBSNHD_7@199302/index_1200_av-b.m3u8$$lsname=CBSN (HTTP source #03)</link>
+<link>http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8$$lsname=CBSN (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://4060b3d6a5dbe8f73e5c96b04e4015697cb0d6ec&amp;mode=1&amp;name=Acestream+CBSN$$lsname=CBSN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RAI NEWS 24[/B][/COLOR]</title>
@@ -533,7 +542,6 @@
 <link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/14239.ts;streamtype=TSDOWNLOADER&amp;name=RAI NEWS 24 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RAI NEWS 24 (F4M source #05)</link>
 <link>http://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews_1800/chunklist.m3u8$$lsname=RAI NEWS 24 (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1424.m3u8$$lsname=RAI NEWS 24 (HTTP source #02)</link>
-<link>http://86.82.79.91:9440/play/a00p$$lsname=RAI NEWS 24 (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://a46c99fe7e30eb497a1f9b84a8f80d5d6f37a77f&amp;mode=1&amp;name=Acestream+RAI NEWS 24$$lsname=RAI NEWS 24 (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://b32be6867d7697c8f540a47f3cde2b27d2d27915&amp;mode=1&amp;name=Acestream+RAI NEWS 24$$lsname=RAI NEWS 24 (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAINEWS24.png</thumbnail></item>
@@ -644,7 +652,8 @@ def GetLSProData(page data,Cookie Jar,m,url = 'http://livestream.com/accounts/11
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GALICIATV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1434.ts;streamtype=TSDOWNLOADER&amp;name=M6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/1434.m3u8$$lsname=M6 (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02j$$lsname=M6 (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/1434.m3u8$$lsname=M6 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV5 MONDE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1105.ts;streamtype=TSDOWNLOADER&amp;name=TV5 MONDE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV5 MONDE (F4M source #01)</link>
@@ -654,7 +663,6 @@ def GetLSProData(page data,Cookie Jar,m,url = 'http://livestream.com/accounts/11
 <link>plugin://program.plexus/?url=acestream://580bdaf82127de51d78d035aa59f620cc2d9e780&amp;mode=1&amp;name=Acestream+TV5 MONDE$$lsname=TV5 MONDE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TV5MONDE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RAI 1[/B][/COLOR]</title>
-<link>http://86.82.79.91:9440/play/a00l$$lsname=RAI 1 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://35dd0c9aac23af8a5b317c55ac2a2cdb76511947&amp;mode=1&amp;name=Acestream+RAI 1$$lsname=RAI 1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAI1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] KURIAKOS TV[/B][/COLOR]</title>
@@ -717,7 +725,7 @@ def GetLSProData(page data,Cookie Jar,m,url = 'http://livestream.com/accounts/11
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSHOWCASE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ARTE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/885.ts;streamtype=TSDOWNLOADER&amp;name=ARTE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ARTE (F4M source #01)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/885.m3u8$$lsname=ARTE (HTTP source #01)</link>
+<link>http://185.93.3.84:5019/play/a02r$$lsname=ARTE (HTTP source #01)</link>
 <link><link>$doregex[getm3u8]$$lsname=ARTE (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1729</page><referer>http://www.filmon.com/tv/channel/export?channel id=1729&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ARTE (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] REDE TV![/B][/COLOR]</title>
