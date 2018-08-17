@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+"<item><title>I CAN ONLY IMAGINE [Leg] </title><link>http://govid.ga/alemao/vidembed/I.C4n.Only.Imagin3.18.H.mp4|referer=http://megafilmesonlinehd.org/</link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/470878.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]I Can Only Imagine[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] Andrew Erwin, Jon Erwin
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 110 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/12
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2018
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] Dennis Quaid, Cloris Leachman, J Michael Finley, Brody Rose, Madeline Carroll, Gianna Simone, Kevin Downes, Jason Burkey, Rhoda Griffis, Tanya Clarke, Nicole DuPort, Priscilla C. Shirer, Taegen Burns, Trace Adkins
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] </info></item>"
 "<item><title>INVISIVEL [Leg] </title><link><link>$doregex[getUrl]</link>
 <regex>
 <name>getUrl</name>
@@ -26,17 +34,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Madison Wolfe, Zoe Saldana, Imogen Poots, Noel Clarke, Ciara O'Callaghan, Sydney Wade, Rory Jackson
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Barbara Thorson é uma aluna do 5º ano esperta e de língua afiada, que não tem medo de nada. Porque haveria de ter? Afinal de contas, é a única miúda da escola que anda com um martelo de guerra ancestral nórdico na mala e vive a vida a matar gigantes. Pelo menos, é o que ela conta por aí...
 Adaptado da novela gráfica de Joe Kelly, "Eu Mato Gigantes" é a história bizarra e agridoce de uma jovem  que tenta derrotar os seus monstros, reais ou imaginários, à medida que o mundo que construiu com empenho começa a desmoronar-se aos pés de gigantes de uma dimensão que nenhuma criança conseguirá alguma vez enfrentar.</info></item>"
-"<item><title>AMAR PABLO E ODIAR ESCOBAR [Leg] </title><link><link>$doregex[getUrl]</link>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
-  return re.findall('file.+?[\'"](h.+?/L/)',requests.get(re.findall('location.href=[\'"]([^\'"]+)',page_data)[0],headers={'Referer':'http://www.thenightfilmes.net/player/embed.php?type=l&v=nc/L/ESCOBARATRAI%C3%87%C3%83OHDLEG','User-Agent':'Mozilla/5.0'}).content.decode('ascii','ignore'))[0]+'ESCOBARATRAI%C3%87%C3%83OHDLEG.mp4'
-]]></expres>
-<page>http://www.thenightfilmes.net/player/embed.php?type=l&amp;v=nc/L/ESCOBARATRAI%C3%87%C3%83OHDLEG</page>
-<referer>http://www.cineaticos.com/primeira-imagem-da-mulher-de-jensen-ackles-em-supernatural-e-revelada-veja/</referer>
-</regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/425336_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Loving Pablo[/B][/COLOR]
+"<item><title>AMAR PABLO E ODIAR ESCOBAR [Leg] </title><urlsolve>https://streamango.com/embed/bqkbrobqrefmnmof/</urlsolve><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/425336_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Loving Pablo[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama, Crime
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Fernando León de Aranoa
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 123 m
@@ -44,7 +42,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 [B][COLOR deepskyblue]Ano:[/B][/COLOR] 2017
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] Javier Bardem, Penélope Cruz, Peter Sarsgaard, Julieth Restrepo, David Ojalvo, David Valencia, Joavany Alvarez
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] A história da ascensão e queda do senhor da droga colombiano, Pablo Escobar Gaviria (Javier Bardem), fundador do cartel de Medellín, contada pela sua amante Virgínia Vallejo, já então uma jornalista conhecida com o seu próprio programa de televisão</info></item>"
-"<item><title>COM AMOR, SIMON [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/com-amor-simon/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/449176_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Love, Simon[/B][/COLOR]
+"<item><title>COM AMOR, SIMON [Leg] </title><urlsolve>https://estream.to/embed-vxpl93qrnozp.html</urlsolve><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/449176_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Love, Simon[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Marty Bowen
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 110 m
@@ -63,7 +61,7 @@ Resolver estas as duas questões revela-se divertido, assustador e muda para sem
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] "O Segredo dos Kenndy" relata os acontecimentos em redor dos sete dias mais difíceis na carreira do Senador Ted Kennedy (Jason Clarke).
 Tudo começa na véspera da Chegada à Lua, a 18 de julho de 1969, numa festa para celebrar a reunião dos vários colaboradores da campanha de Bobby Kennedy, numa casa na Ilha de Chappaquiddick. Com o legado presidencial do irmão John a pesar-lhe sobre os ombros, visto que a sua promessa de levar o homem à lua está prestes a concretizar-se , Ted cedo abandona a festa, oferecendo-se para dar uma fatídica boleia a Mary Jo Kopechne (Kate Mara), uma jovem e promissora estratega política.
 Ao chegar a uma ponte sinuosa, o carro despista-se e cai para as águas traiçoeiras. Kennedy escapa, mas a jovem fica presa na viatura. Ted Kennedy demora nove horas a comunicar o acidente às autoridades. O Senador defronta-se com a integridade do seu código moral e a necessidade de proteger o legado da família, enquanto, ao mesmo tempo, tenta manter vivas as suas ambições políticas.</info></item>"
-"<item><title>OPERAÇÃO ENTEBBE [Leg] </title><urlsolve>https://estream.to/79sus910x4bc.html</urlsolve><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/433627_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]7 Days in Entebbe[/B][/COLOR]
+"<item><title>OPERAÇÃO ENTEBBE [Leg] </title><urlsolve>https://streamango.com/embed/tkrmqdsoolkonqbb/</urlsolve><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/433627_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]7 Days in Entebbe[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama, Thriller
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] José Padilha
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 107 m
@@ -92,6 +90,15 @@ Israel finge negociar, mas em segredo prepara uma minuciosa e arriscada operaç�
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Christine "Lady Bird" McPherson (Saoirse Ronan) não o reconhece, mas tem uma personalidade igual à da mãe, Marion (Laurie Metcalf) - apaixonada, opinativa e profundamente teimosa.
 Marion trabalha incansavelmente como enfermeira para sustentar a família após Larry (Tracy Letts), seu marido e pai de Lady Bird, ter perdido o emprego na sequência da crise económica.
 O filme explora o humor e os sentimentos presentes na turbulenta ligação entre uma mãe e a sua filha adolescente. Passado em Sacramento, na Califórnia, em 2002, no meio de um cenário de rápida mudança da economia americana, "Lady Bird" traça um retrato das relações que nos moldam, das crenças que nos definem e da incomparável beleza do sítio a que chamamos "lar".</info></item>"
+"<item><title>MARIA MADALENA [Leg] </title><link>https://streamango.com/embed/tspppnacapledmel/</link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/407439_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Mary Magdalene[/B][/COLOR]
+[B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
+[B][COLOR deepskyblue]Realização:[/B][/COLOR] Garth Davis
+[B][COLOR deepskyblue]Duração:[/B][/COLOR] 120 m
+[B][COLOR deepskyblue]Class.Etária:[/B][/COLOR] M/12
+[B][COLOR deepskyblue]Ano:[/B][/COLOR] 2017
+[B][COLOR deepskyblue]Actores:[/B][/COLOR] Rooney Mara, Chiwetel Ejiofor, Joaquin Phoenix, Ryan Corr, Lior Raz, Tahar Rahim
+[B][COLOR deepskyblue]Sinopse:[/B][/COLOR] Retrato autêntico e humano da enigmática figura bíblica de Maria Madalena (Rooney Mara), uma jovem em busca de um novo modo de vida.
+Contrariando os costumes da época, Maria Madalena desafia a sua família conservadora para se juntar a um movimento social liderado pelo carismático Jesus de Nazaré (Joaquim Phoenix) e rapidamente descobre o seu lugar no centro de uma viagem que terminará em Jerusalém.</info></item>"
 "<item><title>12 INDOMÁVEIS [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/12-herois/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/429351_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]12 Strong[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Nicolai Fuglsig
@@ -185,7 +192,7 @@ Em pouco tempo, Mae apercebe-se de que a sua participação na experiência e ca
 Esta é a história de Bela, uma jovem brilhante, bonita e independente, aprisionada por um Monstro no seu castelo. Apesar dos receios iniciais, torna-se amiga das personagens encantadas que nele vivem e consegue reconhecer a alma e coração do verdadeiro Príncipe que vive encerrado por detrás do terrível exterior do Monstro.
 Emma Watson é Bela e Dan Stevens interpreta o Monstro. Luke Evans surge como Gaston, o bonito mas pouco inteligente aldeão que quer conquistar Bela; Kevin Kline é Maurice, o excêntrico e amável pai de Bela; e Josh Gad é Le Fou, o ajudante de Gaston.
 O pessoal do castelo é interpretado por Ewan McGregor, como o candelabro Lumière; Gugu Mbatha-Raw como Espanador; Audra McDonald faz de Armário; Ian McKellen surge como o Relógio; Nathan Mack é a chávena Chip; e Emma Thompson aparece na forma do bule, a Senhora Samovar.</info></item>"
-"<item><title>LA LA LAND [Leg] </title><urlsolve><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/la-la-land-cantando-estacoes/</page></regex></urlsolve><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/313369_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]La La Land[/B][/COLOR]
+"<item><title>LA LA LAND [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/la-la-land-cantando-estacoes/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/313369_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]La La Land[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Drama
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Damien Chazelle
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 128 m
