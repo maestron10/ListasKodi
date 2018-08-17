@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-"<item><title>GOTTI - UM VERDADEIRO PADRINHO AMERICANO [Leg] </title><link><link>$doregex[getUrl]</link>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
-  return re.findall('file.+?[\'"](h.+?/L/)',requests.get(re.findall('location.href=[\'"]([^\'"]+)',page_data)[0],headers={'Referer':'http://www.thenightfilmes.net/player/embed.php?type=l&v=nc/L/','User-Agent':'Mozilla/5.0'}).content.decode('ascii','ignore'))[0]+'GOTTILEG.mp4'
-]]></expres>
-<page>http://www.thenightfilmes.net/player/embed.php?type=l&amp;v=nc/L/GOTTILEG</page>
-<referer>http://www.thenightfilmes.net</referer>
-</regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/339103_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Gotti[/B][/COLOR]
+"<item><title>GOTTI - UM VERDADEIRO PADRINHO AMERICANO [Leg] </title><link>http://megafilmes.ga/alemao/vidembed/G0tti.2018.720p.LEG.mp4|referer=http://megafilmesonlinehd.org/assistir-gotti-legendado-hd-online.html</link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/339103_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Gotti[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Crime, Drama, Histórico
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] Kevin Connolly
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 105 m
@@ -17,7 +7,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 [B][COLOR deepskyblue]Ano:[/B][/COLOR] 2017
 [B][COLOR deepskyblue]Actores:[/B][/COLOR] John Travolta, Kelly Preston, Stacy Keach, Pruitt Taylor Vince, Ella Bleu Travolta, Lydia Hull, Spencer Lofranco, Jordan Trovillion, Ashley Cusato, Nico Bustamante, Megan Leonard, Ashley Drew Fisher, Patrick Borriello, Luis Da Silva Jr., Leo Rossi, Michael Woods, William DeMeo, Tyler Jon Olson, Anita Farmer Bergman, Chris Kerson
 [B][COLOR deepskyblue]Sinopse:[/B][/COLOR] John Gotti ascende ao topo do submundo criminoso de Nova Iorque e torna-se líder da família Gambino. A sua vida sofre uma reviravolta após uma tragédia, múltiplos julgamentos e uma pena de prisão.</info></item>"
-"<item><title>NOITE DE JOGO [Leg] </title><link><link>$doregex[TeamBluePlay]|Referer=http://netcine.us/</link><regex><name>TeamBluePlay</name><expres>file: "(.*ALTO.*?)"</expres><page>$doregex[TeamBluePlayOne]</page></regex><regex><name>TeamBluePlayOne</name><expres>src="(.*)" fra</expres><page>$doregex[TeamBluePlayTwo]</page></regex><regex><name>TeamBluePlayTwo</name><expres>src="(.*LEG.*?)" fra</expres><page>http://netcine.us/a-noite-do-jogo/</page></regex></link><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/445571_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Game Night[/B][/COLOR]
+"<item><title>NOITE DE JOGO [Leg] </title><urlsolve>https://vidoza.net/dn4xa7g9qt6f.html</urlsolve><thumbnail>https://filmspot.com.pt/images/filmes/posters/big/445571_pt.jpg</thumbnail><fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/CINEMA.jpg</fanart><info>[B][COLOR deepskyblue]Título Original:[/B][/COLOR] [B][COLOR red]Game Night[/B][/COLOR]
 [B][COLOR deepskyblue]Género:[/B][/COLOR] Crime, Comédia, Terror, Ação
 [B][COLOR deepskyblue]Realização:[/B][/COLOR] John Francis Daley, Jonathan Goldstein
 [B][COLOR deepskyblue]Duração:[/B][/COLOR] 100 m
