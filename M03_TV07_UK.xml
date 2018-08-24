@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ABC TV[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/11568.ts;streamtype=TSDOWNLOADER&amp;name=ABC TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ABC TV (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/11568.ts;streamtype=TSDOWNLOADER&amp;name=ABC TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ABC TV (F4M source #05)</link>
 <link>http://live.field59.com/wwsb/ngrp:wwsb1_all/playlist.m3u8$$lsname=ABC TV (HTTP source #01)</link>
+<link>http://185.41.23.27:5566/7/index.m3u8?auth=Free:Free$$lsname=ABC TV (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ABC TV$$lsname=ABC TV (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TNT[/B][/COLOR]</title>
@@ -12,16 +11,15 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TBS$$lsname=TBS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TBS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TBS HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.x10.mx/hls?vid=photocall.x10.mx/u3eyuzdwym/kr?ch=TBS_HD$$lsname=TBS HD (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TBS HD$$lsname=TBS HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TBS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AMC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2733.ts;streamtype=TSDOWNLOADER&amp;name=AMC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AMC (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/21186.ts;streamtype=TSDOWNLOADER&amp;name=AMC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AMC (F4M source #04)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2733.m3u8;streamtype=HLSRETRY&amp;name=AMC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AMC (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2733.m3u8$$lsname=AMC (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+AMC$$lsname=AMC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AMC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY CHANNEL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/20515.ts;streamtype=TSDOWNLOADER&amp;name=DISCOVERY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY CHANNEL (F4M source #04)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DISCOVERY CHANNEL$$lsname=DISCOVERY CHANNEL (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC AMERICA[/B][/COLOR]</title>
@@ -55,10 +53,10 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CRIME & INVESTIGATION HD$$lsname=CRIME & INVESTIGATION HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CRIMEINVESTIGATION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] truTV[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.x10.mx/hls?vid=photocall.x10.mx/u3eyuzdwym/kr?ch=TRU_TV_HD$$lsname=truTV (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+truTV$$lsname=truTV (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRUTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] WGN AMERICA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/18872.ts;streamtype=TSDOWNLOADER&amp;name=WGN AMERICA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=WGN AMERICA (F4M source #04)</link>
 <link>http://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/master.m3u8$$lsname=WGN AMERICA (HTTP source #01)</link>
 <link>http://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/index_1000_av-p.m3u8$$lsname=WGN AMERICA (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+WGN AMERICA$$lsname=WGN AMERICA (PLEXUS source #01)</link>
@@ -77,31 +75,26 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DW$$lsname=DW (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DW.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ABC NEWS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/483.ts;streamtype=TSDOWNLOADER&amp;name=ABC NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ABC NEWS (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/20374.ts;streamtype=TSDOWNLOADER&amp;name=ABC NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ABC NEWS (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/19387.ts;streamtype=TSDOWNLOADER&amp;name=ABC NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ABC NEWS (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/483.m3u8;streamtype=HLSRETRY&amp;name=ABC NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ABC NEWS (F4M source #01)</link>
 <link>http://abclive2-lh.akamaihd.net/i/abc_live11@423404/index_1200_av-p.m3u8$$lsname=ABC NEWS (HTTP source #01)</link>
 <link>http://abcnews24mha-lh.akamaihd.net/i/abcnews24nospe_1@70019/index_750_av-p.m3u8$$lsname=ABC NEWS (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ABC NEWS$$lsname=ABC NEWS (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://a2e2fa5531a84cc655a77bb242fdbc4986008f92&amp;mode=1&amp;name=Acestream+ABC NEWS$$lsname=ABC NEWS (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABCNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX NEWS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2731.ts;streamtype=TSDOWNLOADER&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/11602.ts;streamtype=TSDOWNLOADER&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #04)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2731.m3u8;streamtype=HLSRETRY&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #01)</link>
 <link>http://fnurtmp-f.akamaihd.net/i/FNCPREV_1@143121/index_300_av-b.m3u8$$lsname=FOX NEWS (HTTP source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2731.m3u8$$lsname=FOX NEWS (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FOX NEWS$$lsname=FOX NEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX 1[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FOX 1$$lsname=FOX 1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX 5[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/18882.ts;streamtype=TSDOWNLOADER&amp;name=FOX 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX 5 (F4M source #04)</link>
 <link>http://api.new.livestream.com/accounts/9263055/events/3189799/live.m3u8$$lsname=FOX 5 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FOX 5$$lsname=FOX 5 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX 23[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/7789.ts;streamtype=TSDOWNLOADER&amp;name=FOX 23 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX 23 (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/7789.ts;streamtype=TSDOWNLOADER&amp;name=FOX 23 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX 23 (F4M source #05)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FOX 23$$lsname=FOX 23 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX23.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX 29[/B][/COLOR]</title>
@@ -132,8 +125,6 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CNBC$$lsname=CNBC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBSN[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/7786.ts;streamtype=TSDOWNLOADER&amp;name=CBSN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBSN (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/9468.ts;streamtype=TSDOWNLOADER&amp;name=CBSN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBSN (F4M source #05)</link>
 <link>http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/index_700_av-p.m3u8$$lsname=CBSN (HTTP source #01)</link>
 <link>http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/index_2200_av-p.m3u8$$lsname=CBSN (HTTP source #02)</link>
 <link>http://cbsnewshd-lh.akamaihd.net:80/i/CBSNHD_7@199302/index_1200_av-b.m3u8$$lsname=CBSN (HTTP source #03)</link>
@@ -142,15 +133,11 @@
 <link>plugin://program.plexus/?url=acestream://4060b3d6a5dbe8f73e5c96b04e4015697cb0d6ec&amp;mode=1&amp;name=Acestream+CBSN$$lsname=CBSN (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MSNBC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/18688.ts;streamtype=TSDOWNLOADER&amp;name=MSNBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MSNBC (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/18688.ts;streamtype=TSDOWNLOADER&amp;name=MSNBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MSNBC (F4M source #05)</link>
 <link>http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8$$lsname=MSNBC (HTTP source #01)</link>
 <link>http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/index_2596_av-p.m3u8$$lsname=MSNBC (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+MSNBC$$lsname=MSNBC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MSNBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/11234.ts;streamtype=TSDOWNLOADER&amp;name=BLOOMBERG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BLOOMBERG (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/11234.ts;streamtype=TSDOWNLOADER&amp;name=BLOOMBERG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BLOOMBERG (F4M source #05)</link>
 <link>https://liveprodeuwest.global.ssl.fastly.net/btv/desktop/eu_live.m3u8$$lsname=BLOOMBERG (HTTP source #01)</link>
 <link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8$$lsname=BLOOMBERG (HTTP source #02)</link>
 <link>https://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #03)</link>
@@ -158,7 +145,6 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RT AMERICA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/18864.ts;streamtype=TSDOWNLOADER&amp;name=RT AMERICA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RT AMERICA (F4M source #04)</link>
 <link>https://secure-streams.akamaized.net/rt-usa/index.m3u8$$lsname=RT AMERICA (HTTP source #01)</link>
 <link>https://secure-streams.akamaized.net/rt-usa/index2500.m3u8$$lsname=RT AMERICA (HTTP source #02)</link>
 <link>http://secure-streams.akamaized.net/rt-usa/index2500.m3u8$$lsname=RT AMERICA (HTTP source #03)</link>
@@ -171,26 +157,23 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NATIONAL GEOGRAPHIC$$lsname=NATIONAL GEOGRAPHIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C-SPAN[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/16688.ts;streamtype=TSDOWNLOADER&amp;name=C-SPAN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C-SPAN (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/16688.ts;streamtype=TSDOWNLOADER&amp;name=C-SPAN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C-SPAN (F4M source #05)</link>
 <link>http://cspan1-lh.akamaihd.net/i/cspan1_1@304727/master.m3u8$$lsname=C-SPAN (HTTP source #01)</link>
 <link>http://cspan1-lh.akamaihd.net/i/cspan1_1@304727/index_1000_av-p.m3u8$$lsname=C-SPAN (HTTP source #02)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=cspan_1$$lsname=C-SPAN (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+C-SPAN$$lsname=C-SPAN (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://d5f169fa3c197609521b291baaf7ea1a33fd3fe6&amp;mode=1&amp;name=Acestream+C-SPAN$$lsname=C-SPAN (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CSPAN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C-SPAN 2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/16689.ts;streamtype=TSDOWNLOADER&amp;name=C-SPAN 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C-SPAN 2 (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/16689.ts;streamtype=TSDOWNLOADER&amp;name=C-SPAN 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C-SPAN 2 (F4M source #05)</link>
 <link>http://cspan2-lh.akamaihd.net/i/cspan2_1@304728/master.m3u8$$lsname=C-SPAN 2 (HTTP source #01)</link>
 <link>http://cspan2-lh.akamaihd.net/i/cspan2_1@304728/index_1000_av-p.m3u8$$lsname=C-SPAN 2 (HTTP source #02)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=cspan_2$$lsname=C-SPAN 2 (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+C-SPAN 2$$lsname=C-SPAN 2 (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://7edc0d51f5000716d7787437b49ff1351220e1ba&amp;mode=1&amp;name=Acestream+C-SPAN 2$$lsname=C-SPAN 2 (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CSPAN2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C-SPAN 3[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/16690.ts;streamtype=TSDOWNLOADER&amp;name=C-SPAN 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C-SPAN 3 (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/16690.ts;streamtype=TSDOWNLOADER&amp;name=C-SPAN 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C-SPAN 3 (F4M source #05)</link>
 <link>http://cspan3-lh.akamaihd.net/i/cspan3_1@304729/master.m3u8$$lsname=C-SPAN 3 (HTTP source #01)</link>
 <link>http://cspan3-lh.akamaihd.net/i/cspan3_1@304729/index_1000_av-p.m3u8$$lsname=C-SPAN 3 (HTTP source #02)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=cspan_3$$lsname=C-SPAN 3 (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+C-SPAN 3$$lsname=C-SPAN 3 (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://608f0da1f65431ee4e62d891d6bd33f6c0ffc6a8&amp;mode=1&amp;name=Acestream+C-SPAN 3$$lsname=C-SPAN 3 (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CSPAN3.png</thumbnail></item>
@@ -219,7 +202,6 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ANIMAL PLANET HD$$lsname=ANIMAL PLANET HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIMALPLANET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TRAVEL CHANNEL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/20265.ts;streamtype=TSDOWNLOADER&amp;name=TRAVEL CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TRAVEL CHANNEL (F4M source #04)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TRAVEL CHANNEL$$lsname=TRAVEL CHANNEL (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRAVELCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FASHION TV[/B][/COLOR]</title>
@@ -232,7 +214,6 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+H2$$lsname=H2 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/H2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VICELAND[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/18871.ts;streamtype=TSDOWNLOADER&amp;name=VICELAND [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VICELAND (F4M source #04)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+VICELAND$$lsname=VICELAND (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VICELAND.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VICELAND HD[/B][/COLOR]</title>
@@ -281,14 +262,12 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NICK2$$lsname=NICK2 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICK2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKTOONS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/20259.ts;streamtype=TSDOWNLOADER&amp;name=NICKTOONS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKTOONS (F4M source #04)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NICKTOONS$$lsname=NICKTOONS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKTOONS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICK JR[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NICK JR$$lsname=NICK JR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKJR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CARTOON NETWORK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/7806.ts;streamtype=TSDOWNLOADER&amp;name=CARTOON NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CARTOON NETWORK (F4M source #05)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CARTOON NETWORK$$lsname=CARTOON NETWORK (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CARTOONNETWORK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BOOMERANG[/B][/COLOR]</title>
@@ -319,9 +298,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+HALLMARK MOVIES & MYSTERIES HD$$lsname=HALLMARK MOVIES & MYSTERIES HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HALLMARKMOVIES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] WWE NETWORK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3128.ts;streamtype=TSDOWNLOADER&amp;name=WWE NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=WWE NETWORK (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/21064.ts;streamtype=TSDOWNLOADER&amp;name=WWE NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=WWE NETWORK (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/21064.ts;streamtype=TSDOWNLOADER&amp;name=WWE NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=WWE NETWORK (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3128.m3u8;streamtype=HLSRETRY&amp;name=WWE NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=WWE NETWORK (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/3128.m3u8$$lsname=WWE NETWORK (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/wwenetwork.php$$lsname=WWE NETWORK (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+WWE NETWORK$$lsname=WWE NETWORK (PLEXUS source #01)</link>
@@ -369,8 +346,8 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+AMAZING MUSIC$$lsname=AMAZING MUSIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AMAZINGMUSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BYU TV[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/18816.ts;streamtype=TSDOWNLOADER&amp;name=BYU TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BYU TV (F4M source #04)</link>
 <link>http://byubhls-i.akamaihd.net/hls/live/267187/byutvhls/master_4064.m3u8$$lsname=BYU TV (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l3?ch=byutvglobal$$lsname=BYU TV (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+BYU TV$$lsname=BYU TV (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BYUTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN USA[/B][/COLOR]</title>
@@ -380,12 +357,12 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ESPN USA$$lsname=ESPN USA (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN USA HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2732.ts;streamtype=TSDOWNLOADER&amp;name=ESPN USA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ESPN USA HD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2732.m3u8;streamtype=HLSRETRY&amp;name=ESPN USA HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ESPN USA HD (F4M source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/espn.php$$lsname=ESPN USA HD (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ESPN USA HD$$lsname=ESPN USA HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN 2 USA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2735.ts;streamtype=TSDOWNLOADER&amp;name=ESPN 2 USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ESPN 2 USA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2735.m3u8;streamtype=HLSRETRY&amp;name=ESPN 2 USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ESPN 2 USA (F4M source #01)</link>
 <link>http://161.0.157.8/PLTV/88888888/224/3221226881/index.m3u8$$lsname=ESPN 2 USA (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2735.m3u8$$lsname=ESPN 2 USA (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ESPN 2 USA$$lsname=ESPN 2 USA (PLEXUS source #01)</link>
@@ -397,7 +374,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ESPN CLASSIC$$lsname=ESPN CLASSIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPNCLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://shacktv.com:8080/live/video/video/221.ts;streamtype=TSDOWNLOADER&amp;name=ELEVEN SPORTS 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://shacktv.com:8080/live/video/video/221.ts;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 (F4M source #05)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ELEVEN SPORTS 1$$lsname=ELEVEN SPORTS 1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 1 HD[/B][/COLOR]</title>
@@ -410,15 +387,12 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ESPN NEWS HD$$lsname=ESPN NEWS HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPNNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NFL NETWORK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2730.ts;streamtype=TSDOWNLOADER&amp;name=NFL NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NFL NETWORK (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/18861.ts;streamtype=TSDOWNLOADER&amp;name=NFL NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NFL NETWORK (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/18861.ts;streamtype=TSDOWNLOADER&amp;name=NFL NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NFL NETWORK (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2730.m3u8;streamtype=HLSRETRY&amp;name=NFL NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NFL NETWORK (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2730.m3u8$$lsname=NFL NETWORK (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/nflnetwork.php$$lsname=NFL NETWORK (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NFL NETWORK$$lsname=NFL NETWORK (PLEXUS source #01)</link>
 <thumbnail>http://www.morethanjustsports.com/Files/2010/11/screen_nflNetwork.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NFL NOW[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/18874.ts;streamtype=TSDOWNLOADER&amp;name=NFL NOW [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NFL NOW (F4M source #04)</link>
 <link>https://svglive3-event.level3.nfl.com/nflent3/live/nfl_now/NFLNOW_1200k.m3u8$$lsname=NFL NOW (HTTP source #01)</link>
 <link>http://svglive3-event.level3.nfl.com/nflent3/live/nfl_now/NFLNOW.m3u8$$lsname=NFL NOW (HTTP source #02)</link>
 <link>http://svglive3-event.level3.nfl.com/nflent3/live/now/NFLNOW.m3u8$$lsname=NFL NOW (HTTP source #03)</link>
@@ -440,7 +414,6 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NHL$$lsname=NHL (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/NHL_Logo_former.svg/996px-NHL_Logo_former.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NBC SPORTS[/B][/COLOR]</title>
-<link>http://31.220.0.134:8081/live/nbcsns/playlist.m3u8$$lsname=NBC SPORTS (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NBC SPORTS$$lsname=NBC SPORTS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NBCSPORTS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NBC SPORTS HD[/B][/COLOR]</title>
@@ -459,16 +432,14 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CBS SPORTS NETWORK HD$$lsname=CBS SPORTS NETWORK HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSSPORTS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS 1 USA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2706.ts;streamtype=TSDOWNLOADER&amp;name=FOX SPORTS 1 USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX SPORTS 1 USA (F4M source #01)</link>
-<link>http://163.172.14.210:80/live?channelId=235&deviceMac=00:1A:79:3C:C9:56&uid=11905$$lsname=FOX SPORTS 1 USA (HTTP source #01)</link>
-<link>http://163.172.14.210:80/live?channelId=235&amp;deviceMac=00:1A:79:3C:C9:56&amp;uid=11905$$lsname=FOX SPORTS 1 USA (HTTP source #02)</link>
-<link>http://5.189.187.55:8000/live/Fadil/skype/2706.m3u8$$lsname=FOX SPORTS 1 USA (HTTP source #03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2706.m3u8;streamtype=HLSRETRY&amp;name=FOX SPORTS 1 USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX SPORTS 1 USA (F4M source #01)</link>
+<link>http://5.189.187.55:8000/live/Fadil/skype/2706.m3u8$$lsname=FOX SPORTS 1 USA (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/foxsports1.php$$lsname=FOX SPORTS 1 USA (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FOX SPORTS 1 USA$$lsname=FOX SPORTS 1 USA (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://77761cd24977c487f8cd864832dfc4696e57eb6c&amp;mode=1&amp;name=Acestream+FOX SPORTS 1 USA$$lsname=FOX SPORTS 1 USA (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS 2 USA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2859.ts;streamtype=TSDOWNLOADER&amp;name=FOX SPORTS 2 USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX SPORTS 2 USA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2859.m3u8;streamtype=HLSRETRY&amp;name=FOX SPORTS 2 USA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX SPORTS 2 USA (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2859.m3u8$$lsname=FOX SPORTS 2 USA (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/foxsports2.php$$lsname=FOX SPORTS 2 USA (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FOX SPORTS 2 USA$$lsname=FOX SPORTS 2 USA (PLEXUS source #01)</link>
@@ -483,12 +454,12 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+THE TENNIS CHANNEL$$lsname=THE TENNIS CHANNEL (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/THETENNISCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FIGHT NETWORK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3131.ts;streamtype=TSDOWNLOADER&amp;name=FIGHT NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FIGHT NETWORK (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3131.m3u8;streamtype=HLSRETRY&amp;name=FIGHT NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FIGHT NETWORK (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/3131.m3u8$$lsname=FIGHT NETWORK (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FIGHT NETWORK$$lsname=FIGHT NETWORK (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FIGHTNET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BEIN SPORTS US[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2729.ts;streamtype=TSDOWNLOADER&amp;name=BEIN SPORTS US [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BEIN SPORTS US (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2729.m3u8;streamtype=HLSRETRY&amp;name=BEIN SPORTS US [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BEIN SPORTS US (F4M source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2729.m3u8$$lsname=BEIN SPORTS US (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/beinsportsusa.php$$lsname=BEIN SPORTS US (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+BEIN SPORTS US$$lsname=BEIN SPORTS US (PLEXUS source #01)</link>
@@ -500,43 +471,31 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+OUTDOOR CHANNEL HD$$lsname=OUTDOOR CHANNEL HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OUTDOORCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Network (National)[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/9476.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Network (National) [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Network (National) (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/9476.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Network (National) [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Network (National) (F4M source #05)</link>
 <link>http://p12n-lh.akamaihd.net/i/network_delivery@428818/master.m3u8$$lsname=PAC 12 Network (National) (HTTP source #01)</link>
 <link>http://p12n-lh.akamaihd.net/i/network_delivery@428818/index_2328_av-b.m3u8$$lsname=PAC 12 Network (National) (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PAC 12 Network (National)$$lsname=PAC 12 Network (National) (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://26143ad54a4741e85d5744b385a6810f59a6d517&amp;mode=1&amp;name=Acestream+PAC 12 Network (National)$$lsname=PAC 12 Network (National) (PLEXUS source #02)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Arizona[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/9470.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Arizona [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Arizona (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/9470.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Arizona [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Arizona (F4M source #05)</link>
 <link>http://p12a-lh.akamaihd.net/i/arizona_delivery@199730/master.m3u8$$lsname=PAC 12 Arizona (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PAC 12 Arizona$$lsname=PAC 12 Arizona (PLEXUS source #01)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Bay Area[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/9472.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Bay Area [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Bay Area (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/9472.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Bay Area [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Bay Area (F4M source #05)</link>
 <link>http://p12b-lh.akamaihd.net/i/bayarea_delivery@429334/master.m3u8$$lsname=PAC 12 Bay Area (HTTP source #01)</link>
 <link>http://p12b-lh.akamaihd.net/i/bayarea_delivery@429334/index_2328_av-b.m3u8$$lsname=PAC 12 Bay Area (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PAC 12 Bay Area$$lsname=PAC 12 Bay Area (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://7edf355356eec3c8ac1233c581abe3ef4b3c9ee7&amp;mode=1&amp;name=Acestream+PAC 12 Bay Area$$lsname=PAC 12 Bay Area (PLEXUS source #02)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Moutain[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/9473.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Moutain [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Moutain (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/9473.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Moutain [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Moutain (F4M source #05)</link>
 <link>http://p12m-lh.akamaihd.net/i/mountain_delivery@428912/master.m3u8$$lsname=PAC 12 Moutain (HTTP source #01)</link>
 <link>http://p12m-lh.akamaihd.net/i/mountain_delivery@428912/index_1164_av-p.m3u8$$lsname=PAC 12 Moutain (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PAC 12 Moutain$$lsname=PAC 12 Moutain (PLEXUS source #01)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Oregon[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/9474.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Oregon [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Oregon (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/9474.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Oregon [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Oregon (F4M source #05)</link>
 <link>http://p12o-lh.akamaihd.net/i/oregon_delivery@103261/master.m3u8$$lsname=PAC 12 Oregon (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PAC 12 Oregon$$lsname=PAC 12 Oregon (PLEXUS source #01)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Washington[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/9475.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Washington [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Washington (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/9475.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Washington [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Washington (F4M source #05)</link>
 <link>http://p12w-lh.akamaihd.net/i/washington_delivery@426584/master.m3u8$$lsname=PAC 12 Washington (HTTP source #01)</link>
 <link>http://p12w-lh.akamaihd.net/i/washington_delivery@426584/index_1164_av-p.m3u8$$lsname=PAC 12 Washington (HTTP source #02)</link>
 <link>http://p12w-lh.akamaihd.net/i/washington_delivery@426584/index_2328_av-b.m3u8$$lsname=PAC 12 Washington (HTTP source #03)</link>
@@ -544,8 +503,7 @@
 <link>plugin://program.plexus/?url=acestream://967af849c282b692e736757dcf7491a24fb9d098&amp;mode=1&amp;name=Acestream+PAC 12 Washington$$lsname=PAC 12 Washington (PLEXUS source #02)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Los Angeles[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2728.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Los Angeles [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Los Angeles (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/9471.ts;streamtype=TSDOWNLOADER&amp;name=PAC 12 Los Angeles [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Los Angeles (F4M source #04)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2728.m3u8;streamtype=HLSRETRY&amp;name=PAC 12 Los Angeles [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PAC 12 Los Angeles (F4M source #01)</link>
 <link>http://p12l-lh.akamaihd.net/i/la_delivery@425541/master.m3u8$$lsname=PAC 12 Los Angeles (HTTP source #01)</link>
 <link>http://p12l-lh.akamaihd.net/i/la_delivery@425541/index_1164_av-p.m3u8$$lsname=PAC 12 Los Angeles (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PAC 12 Los Angeles$$lsname=PAC 12 Los Angeles (PLEXUS source #01)</link>
@@ -564,13 +522,12 @@
 #N/D
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET 360[/B][/COLOR]</title>
 <link>http://163.172.14.210:80/live?channelId=227&deviceMac=00:1A:79:3C:C9:56&uid=11905$$lsname=SPORTSNET 360 (HTTP source #01)</link>
-<link>http://163.172.14.210:80/live?channelId=227&amp;deviceMac=00:1A:79:3C:C9:56&amp;uid=11905$$lsname=SPORTSNET 360 (HTTP source #02)</link>
-<link>http://31.220.2.57:8081/live/sneast/chunks.m3u8$$lsname=SPORTSNET 360 (HTTP source #03)</link>
+<link>http://163.172.14.210:80/live?channelId=227&amp;deviceMac=00:1A:79:3C:C9:56&amp;uid=11905$$lsname=SPORTSNET 360 (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SPORTSNET 360$$lsname=SPORTSNET 360 (PLEXUS source #01)</link>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/6/67/230px-SN_360_logo.svg.png/revision/latest/scale-to-width-down/200?cb=20140805003412</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET ONE[/B][/COLOR]</title>
 <link>http://163.172.14.210:80/live?channelId=229&deviceMac=00:1A:79:3C:C9:56&uid=11905$$lsname=SPORTSNET ONE (HTTP source #01)</link>
-<link>http://163.172.14.210:80/live?channelId=229&amp;deviceMac=00:1A:79:3C:C9:56&amp;uid=11905$$lsname=SPORTSNET ONE (HTTP source #02)</link>
+<link>http://163.172.14.210:80/live?channelId=229&amp;deviceMac=00:1A:79:3C:C9:56&amp;uid=11905$$lsname=SPORTSNET ONE (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/sportsnetone.php$$lsname=SPORTSNET ONE (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SPORTSNET ONE$$lsname=SPORTSNET ONE (PLEXUS source #01)</link>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/1/18/1000px-Sportsnetone2011_svg.png/revision/latest/scale-to-width-down/390?cb=20120424202314</thumbnail></item>
@@ -583,22 +540,17 @@
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/d/d4/Sportsnet_pacific.png/revision/latest?cb=20120212023043</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET WORLD[/B][/COLOR]</title>
 <link>http://163.172.14.210:80/live?channelId=234&deviceMac=00:1A:79:3C:C9:56&uid=11905$$lsname=SPORTSNET WORLD (HTTP source #01)</link>
-<link>http://163.172.14.210:80/live?channelId=234&amp;deviceMac=00:1A:79:3C:C9:56&amp;uid=11905$$lsname=SPORTSNET WORLD (HTTP source #02)</link>
+<link>http://163.172.14.210:80/live?channelId=234&amp;deviceMac=00:1A:79:3C:C9:56&amp;uid=11905$$lsname=SPORTSNET WORLD (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/sportsnetworld.php$$lsname=SPORTSNET WORLD (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SPORTSNET WORLD$$lsname=SPORTSNET WORLD (PLEXUS source #01)</link>
 <thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/8/8f/250px-SportsnetWorld.svg.png/revision/latest?cb=20111112195204</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/20254.ts;streamtype=TSDOWNLOADER&amp;name=TSN1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TSN1 (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/20254.ts;streamtype=TSDOWNLOADER&amp;name=TSN1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TSN1 (F4M source #05)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TSN1$$lsname=TSN1 (PLEXUS source #01)</link>
 <thumbnail>http://i.imgur.com/ZJ8xW1t.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/20255.ts;streamtype=TSDOWNLOADER&amp;name=TSN2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TSN2 (F4M source #04)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/20255.ts;streamtype=TSDOWNLOADER&amp;name=TSN2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TSN2 (F4M source #05)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TSN2$$lsname=TSN2 (PLEXUS source #01)</link>
 <thumbnail>http://i.imgur.com/l1NJsdM.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN3[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/kilitcaglar/6584merder/20256.ts;streamtype=TSDOWNLOADER&amp;name=TSN3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TSN3 (F4M source #04)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TSN3$$lsname=TSN3 (PLEXUS source #01)</link>
 <thumbnail>http://i.imgur.com/BsMyeWs.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN4[/B][/COLOR]</title>
@@ -631,7 +583,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+HBO$$lsname=HBO (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3130.ts;streamtype=TSDOWNLOADER&amp;name=HBO HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HBO HD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3130.m3u8;streamtype=HLSRETRY&amp;name=HBO HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HBO HD (F4M source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+HBO HD$$lsname=HBO HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO2[/B][/COLOR]</title>
@@ -742,7 +694,6 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PBS$$lsname=PBS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PBSCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PBS HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fullhdp.servep2p.com:3500/live/xip.ddns.net/kelibia2/18878.ts;streamtype=TSDOWNLOADER&amp;name=PBS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PBS HD (F4M source #04)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PBS HD$$lsname=PBS HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PBSCHANNEL.png</thumbnail></item>
 Copyright © 2018 - TeamBlue
