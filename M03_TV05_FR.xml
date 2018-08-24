@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TF1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27461.ts;streamtype=HLSRETRY&amp;name=TF1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TF1 (F4M source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/p4?ch=tf1$$lsname=TF1 (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TF1$$lsname=TF1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TF1.png</thumbnail></item>
@@ -9,6 +10,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TF1 HD$$lsname=TF1 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TF1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 2[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27508.ts;streamtype=HLSRETRY&amp;name=FRANCE 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 2 (F4M source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE 2 (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1717</page><referer>http://www.filmon.com/tv/channel/export?channel id=1717&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE 2 (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FRANCE 2$$lsname=FRANCE 2 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE2.png</thumbnail></item>
@@ -18,6 +20,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FRANCE 2 HD$$lsname=FRANCE 2 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 3[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27506.ts;streamtype=HLSRETRY&amp;name=FRANCE 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 3 (F4M source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE 3 (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1723</page><referer>http://www.filmon.com/tv/channel/export?channel id=1723&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE 3 (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FRANCE 3$$lsname=FRANCE 3 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE3.png</thumbnail></item>
@@ -27,6 +30,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FRANCE 3 HD$$lsname=FRANCE 3 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27533.ts;streamtype=HLSRETRY&amp;name=CANAL+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ (F4M source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/canal-plus-francia-online/$$lsname=CANAL+ (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CANAL+$$lsname=CANAL+ (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+.png</thumbnail></item>
@@ -36,6 +40,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CANAL+ HD$$lsname=CANAL+ HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 5[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27504.ts;streamtype=HLSRETRY&amp;name=FRANCE 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 5 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FRANCE 5$$lsname=FRANCE 5 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 5 HD[/B][/COLOR]</title>
@@ -45,6 +50,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1434.m3u8;streamtype=HLSRETRY&amp;name=M6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27494.ts;streamtype=HLSRETRY&amp;name=M6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1434.m3u8$$lsname=M6 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+M6$$lsname=M6 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
@@ -55,6 +61,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ARTE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/885.m3u8;streamtype=HLSRETRY&amp;name=ARTE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ARTE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27560.ts;streamtype=HLSRETRY&amp;name=ARTE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ARTE (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/885.m3u8$$lsname=ARTE (HTTP source #01)</link>
 <link><link>$doregex[getm3u8]$$lsname=ARTE (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1729</page><referer>http://www.filmon.com/tv/channel/export?channel id=1729&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ARTE (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/p5?ch=arte_fr$$lsname=ARTE (SD source #01)</link>
@@ -65,6 +72,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C8[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/817.m3u8;streamtype=HLSRETRY&amp;name=C8 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C8 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27538.ts;streamtype=HLSRETRY&amp;name=C8 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=C8 (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/817.m3u8$$lsname=C8 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+C8$$lsname=C8 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/C8.png</thumbnail></item>
@@ -73,6 +81,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/C8.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] W9[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/736.m3u8;streamtype=HLSRETRY&amp;name=W9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27453.ts;streamtype=HLSRETRY&amp;name=W9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=W9 (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/736.m3u8$$lsname=W9 (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+W9$$lsname=W9 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/W9.png</thumbnail></item>
@@ -87,11 +96,13 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TMC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TMC HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1099.m3u8;streamtype=HLSRETRY&amp;name=TMC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TMC HD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27459.ts;streamtype=HLSRETRY&amp;name=TMC HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TMC HD (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1099.m3u8$$lsname=TMC HD (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TMC HD$$lsname=TMC HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TMC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NT1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1571.m3u8;streamtype=HLSRETRY&amp;name=NT1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NT1 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27489.ts;streamtype=HLSRETRY&amp;name=NT1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NT1 (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1571.m3u8$$lsname=NT1 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NT1$$lsname=NT1 (PLEXUS source #01)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/nn/nt1_fr.png</thumbnail></item>
@@ -104,12 +115,14 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NRJ12$$lsname=NRJ12 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NRJ12.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NRJ12 HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27490.ts;streamtype=HLSRETRY&amp;name=NRJ12 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ12 HD (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NRJ12 HD$$lsname=NRJ12 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NRJ12.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] LA CHAINE PARLAMENTAIRE[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+LA CHAINE PARLAMENTAIRE$$lsname=LA CHAINE PARLAMENTAIRE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LCP.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 4[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27505.ts;streamtype=HLSRETRY&amp;name=FRANCE 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 4 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FRANCE 4$$lsname=FRANCE 4 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 4 HD[/B][/COLOR]</title>
@@ -119,6 +132,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/816.m3u8;streamtype=HLSRETRY&amp;name=BFM TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27550.ts;streamtype=HLSRETRY&amp;name=BFM TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM TV (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/816.m3u8$$lsname=BFM TV (HTTP source #01)</link>
 <link><link>$doregex[getm3u8]$$lsname=BFM TV (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/2765</page><referer>http://www.filmon.com/tv/channel/export?channel id=2765&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BFM TV (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+BFM TV$$lsname=BFM TV (PLEXUS source #01)</link>
@@ -129,6 +143,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+BFM TV HD$$lsname=BFM TV HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] I>TELE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27452.ts;streamtype=HLSRETRY&amp;name=I>TELE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=I>TELE (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+I>TELE$$lsname=I>TELE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITELE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] I>TELE HD[/B][/COLOR]</title>
@@ -136,6 +151,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITELE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GULLI[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/837.m3u8;streamtype=HLSRETRY&amp;name=GULLI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GULLI (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27499.ts;streamtype=HLSRETRY&amp;name=GULLI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GULLI (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/837.m3u8$$lsname=GULLI (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+GULLI$$lsname=GULLI (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GULLI.png</thumbnail></item>
@@ -143,6 +159,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+GULLI HD$$lsname=GULLI HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GULLI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE Ô[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27503.ts;streamtype=HLSRETRY&amp;name=FRANCE Ô [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE Ô (F4M source #02)</link>
 <link><link>$doregex[getm3u8]$$lsname=FRANCE O (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/3884</page><referer>http://www.filmon.com/tv/channel/export?channel id=3884&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=FRANCE Ô (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FRANCE Ô$$lsname=FRANCE Ô (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCEO.png</thumbnail></item>
@@ -152,6 +169,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FRANCE Ô HD$$lsname=FRANCE Ô HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HD1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27498.ts;streamtype=HLSRETRY&amp;name=HD1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HD1 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+HD1$$lsname=HD1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HD1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HD1 HD[/B][/COLOR]</title>
@@ -159,6 +177,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HD1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] L'EQUIPE 21[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1995.m3u8;streamtype=HLSRETRY&amp;name=L'EQUIPE 21 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=L'EQUIPE 21 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27495.ts;streamtype=HLSRETRY&amp;name=L'EQUIPE 21 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=L'EQUIPE 21 (F4M source #02)</link>
 <link>http://ec.playmedia.fr/lequipe21/live/chunklist_w811887822.m3u8$$lsname=L'EQUIPE 21 (HTTP source #01)</link>
 <link>http://ec.playmedia.fr/lequipe21/live/playlist.m3u8$$lsname=L'EQUIPE 21 (HTTP source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1995.m3u8$$lsname=L'EQUIPE 21 (HTTP source #03)</link>
@@ -170,6 +189,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+L'EQUIPE 21 HD$$lsname=L'EQUIPE 21 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LEQUIPE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 6TER[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27557.ts;streamtype=HLSRETRY&amp;name=6TER [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=6TER (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+6TER$$lsname=6TER (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/6TER.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 6TER HD[/B][/COLOR]</title>
@@ -178,6 +198,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+6TER HD$$lsname=6TER HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/6TER.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NUMERO 23[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27488.ts;streamtype=HLSRETRY&amp;name=NUMERO 23 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NUMERO 23 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NUMERO 23$$lsname=NUMERO 23 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NUMERO23.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NUMERO 23 HD[/B][/COLOR]</title>
@@ -187,6 +208,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NUMERO23.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RMC DECOUVERTE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2388.m3u8;streamtype=HLSRETRY&amp;name=RMC DECOUVERTE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RMC DECOUVERTE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27473.ts;streamtype=HLSRETRY&amp;name=RMC DECOUVERTE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RMC DECOUVERTE (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2388.m3u8$$lsname=RMC DECOUVERTE (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+RMC DECOUVERTE$$lsname=RMC DECOUVERTE (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/7/73/Logo_RMC_D%C3%A9couverte_2012.png</thumbnail></item>
@@ -195,6 +217,7 @@
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/7/73/Logo_RMC_D%C3%A9couverte_2012.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHERIE 25[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/967.m3u8;streamtype=HLSRETRY&amp;name=CHERIE 25 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHERIE 25 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27526.ts;streamtype=HLSRETRY&amp;name=CHERIE 25 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHERIE 25 (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/967.m3u8$$lsname=CHERIE 25 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CHERIE 25$$lsname=CHERIE 25 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHERIE25.png</thumbnail></item>
@@ -211,13 +234,16 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+LCI HD$$lsname=LCI HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/LCI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PARIS PREMIERE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27479.ts;streamtype=HLSRETRY&amp;name=PARIS PREMIERE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PARIS PREMIERE (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PARIS PREMIERE$$lsname=PARIS PREMIERE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PARISPREMIERE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PARIS PREMIERE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27479.ts;streamtype=HLSRETRY&amp;name=PARIS PREMIERE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PARIS PREMIERE (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PARIS PREMIERE$$lsname=PARIS PREMIERE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PARISPREMIERE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTL9[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/815.m3u8;streamtype=HLSRETRY&amp;name=RTL9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL9 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27472.ts;streamtype=HLSRETRY&amp;name=RTL9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTL9 (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/815.m3u8$$lsname=RTL9 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+RTL9$$lsname=RTL9 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTL9.png</thumbnail></item>
@@ -225,6 +251,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+RTL9 HD$$lsname=RTL9 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTL9.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27544.ts;streamtype=HLSRETRY&amp;name=beiN SPORTS 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 1 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+beiN SPORTS 1$$lsname=beiN SPORTS 1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 1 HD[/B][/COLOR]</title>
@@ -240,6 +267,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+beiN SPORTS 1 4K$$lsname=beiN SPORTS 1 4K (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 2[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27543.ts;streamtype=HLSRETRY&amp;name=beiN SPORTS 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 2 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+beiN SPORTS 2$$lsname=beiN SPORTS 2 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 2 HD[/B][/COLOR]</title>
@@ -255,6 +283,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+beiN SPORTS 2 4K$$lsname=beiN SPORTS 2 4K (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 3[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27542.ts;streamtype=HLSRETRY&amp;name=beiN SPORTS 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS 3 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+beiN SPORTS 3$$lsname=beiN SPORTS 3 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS 3 HD[/B][/COLOR]</title>
@@ -271,21 +300,25 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 4 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2125.m3u8;streamtype=HLSRETRY&amp;name=beiN SPORTS MAX 4 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 4 FR (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27548.ts;streamtype=HLSRETRY&amp;name=beiN SPORTS MAX 4 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 4 FR (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2125.m3u8$$lsname=beiN SPORTS MAX 4 FR (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+beiN SPORTS MAX 4 FR$$lsname=beiN SPORTS MAX 4 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS4MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 5 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2126.m3u8;streamtype=HLSRETRY&amp;name=beiN SPORTS MAX 5 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 5 FR (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27547.ts;streamtype=HLSRETRY&amp;name=beiN SPORTS MAX 5 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 5 FR (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2126.m3u8$$lsname=beiN SPORTS MAX 5 FR (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+beiN SPORTS MAX 5 FR$$lsname=beiN SPORTS MAX 5 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS5MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 6 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2129.m3u8;streamtype=HLSRETRY&amp;name=beiN SPORTS MAX 6 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 6 FR (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27546.ts;streamtype=HLSRETRY&amp;name=beiN SPORTS MAX 6 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 6 FR (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2129.m3u8$$lsname=beiN SPORTS MAX 6 FR (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+beiN SPORTS MAX 6 FR$$lsname=beiN SPORTS MAX 6 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS6MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS MAX 7 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2127.m3u8;streamtype=HLSRETRY&amp;name=beiN SPORTS MAX 7 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 7 FR (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27545.ts;streamtype=HLSRETRY&amp;name=beiN SPORTS MAX 7 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=beiN SPORTS MAX 7 FR (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2127.m3u8$$lsname=beiN SPORTS MAX 7 FR (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+beiN SPORTS MAX 7 FR$$lsname=beiN SPORTS MAX 7 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS7MAX.png</thumbnail></item>
@@ -301,6 +334,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+beiN SPORTS MAX 10 FR$$lsname=beiN SPORTS MAX 10 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTS10MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27468.ts;streamtype=HLSRETRY&amp;name=SFR SPORT 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 1 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SFR SPORT 1$$lsname=SFR SPORT 1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 1 HD[/B][/COLOR]</title>
@@ -309,6 +343,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SFR SPORT 1 HD$$lsname=SFR SPORT 1 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 2[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27467.ts;streamtype=HLSRETRY&amp;name=SFR SPORT 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 2 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SFR SPORT 2$$lsname=SFR SPORT 2 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 2 HD[/B][/COLOR]</title>
@@ -317,6 +352,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SFR SPORT 2 HD$$lsname=SFR SPORT 2 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 3[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27466.ts;streamtype=HLSRETRY&amp;name=SFR SPORT 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SFR SPORT 3 (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SFR SPORT 3$$lsname=SFR SPORT 3 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SFRSPORT3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SFR SPORT 3 HD[/B][/COLOR]</title>
@@ -380,6 +416,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ELEVEN SPORTS 3 HD$$lsname=ELEVEN SPORTS 3 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 FR[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27510.ts;streamtype=HLSRETRY&amp;name=EUROSPORT 1 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 FR (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+EUROSPORT 1 FR$$lsname=EUROSPORT 1 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 HD FR[/B][/COLOR]</title>
@@ -388,6 +425,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+EUROSPORT 1 HD FR$$lsname=EUROSPORT 1 HD FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 FR[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27509.ts;streamtype=HLSRETRY&amp;name=EUROSPORT 2 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 FR (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+EUROSPORT 2 FR$$lsname=EUROSPORT 2 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 HD FR[/B][/COLOR]</title>
@@ -397,6 +435,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GAME ONE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2797.m3u8;streamtype=HLSRETRY&amp;name=GAME ONE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GAME ONE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27501.ts;streamtype=HLSRETRY&amp;name=GAME ONE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GAME ONE (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2797.m3u8$$lsname=GAME ONE (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+GAME ONE$$lsname=GAME ONE (PLEXUS source #01)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/international-entertainment-project/images/3/38/Logo_game_one.png/revision/latest?cb=20171015005822</thumbnail></item>
@@ -404,6 +443,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+GAME ONE HD$$lsname=GAME ONE HD (PLEXUS source #01)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/international-entertainment-project/images/3/38/Logo_game_one.png/revision/latest?cb=20171015005822</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TEVA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27462.ts;streamtype=HLSRETRY&amp;name=TEVA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TEVA (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TEVA$$lsname=TEVA (PLEXUS source #01)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/9/93/Tevaq2g.png/revision/latest?cb=20171014172952</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TEVA HD[/B][/COLOR]</title>
@@ -413,6 +453,7 @@
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/9/93/Tevaq2g.png/revision/latest?cb=20171014172952</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AB 1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/833.m3u8;streamtype=HLSRETRY&amp;name=AB 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB 1 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27564.ts;streamtype=HLSRETRY&amp;name=AB 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB 1 (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/833.m3u8$$lsname=AB 1 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+AB 1$$lsname=AB 1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AB1.png</thumbnail></item>
@@ -420,6 +461,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+AB 1 HD$$lsname=AB 1 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AB1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ CINEMA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27532.ts;streamtype=HLSRETRY&amp;name=CANAL+ CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ CINEMA (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CANAL+ CINEMA$$lsname=CANAL+ CINEMA (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+CINEMA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ CINEMA HD[/B][/COLOR]</title>
@@ -428,6 +470,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CANAL+ CINEMA HD$$lsname=CANAL+ CINEMA HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+CINEMA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ SPORT[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27529.ts;streamtype=HLSRETRY&amp;name=CANAL+ SPORT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ SPORT (F4M source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/canal-plus-francia-sport/$$lsname=CANAL+ SPORT (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CANAL+ SPORT$$lsname=CANAL+ SPORT (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+SPORT.png</thumbnail></item>
@@ -446,6 +489,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CANAL+ SERIES HD$$lsname=CANAL+ SERIES HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+SERIES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ FAMILY[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27531.ts;streamtype=HLSRETRY&amp;name=CANAL+ FAMILY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ FAMILY (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CANAL+ FAMILY$$lsname=CANAL+ FAMILY (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+FAMILY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ FAMILY HD[/B][/COLOR]</title>
@@ -454,6 +498,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CANAL+ FAMILY HD$$lsname=CANAL+ FAMILY HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+FAMILY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ DECALE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27535.ts;streamtype=HLSRETRY&amp;name=CANAL+ DECALE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL+ DECALE (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CANAL+ DECALE$$lsname=CANAL+ DECALE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+DECALE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+ DECALE HD[/B][/COLOR]</title>
@@ -463,6 +508,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+DECALE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1121.m3u8;streamtype=HLSRETRY&amp;name=DISNEY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27513.ts;streamtype=HLSRETRY&amp;name=DISNEY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1121.m3u8$$lsname=DISNEY CHANNEL (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DISNEY CHANNEL$$lsname=DISNEY CHANNEL (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
@@ -476,6 +522,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CINEMA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1139.m3u8;streamtype=HLSRETRY&amp;name=DISNEY CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CINEMA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27518.ts;streamtype=HLSRETRY&amp;name=DISNEY CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CINEMA (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1139.m3u8$$lsname=DISNEY CINEMA (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DISNEY CINEMA$$lsname=DISNEY CINEMA (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCINEMAGIC.png</thumbnail></item>
@@ -483,6 +530,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DISNEY CINEMA HD$$lsname=DISNEY CINEMA HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCINEMAGIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ PREMIER[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27519.ts;streamtype=HLSRETRY&amp;name=CINE+ PREMIER [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ PREMIER (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CINE+ PREMIER$$lsname=CINE+ PREMIER (PLEXUS source #01)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_cine_plus_premier.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ PREMIER HD[/B][/COLOR]</title>
@@ -491,6 +539,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CINE+ PREMIER HD$$lsname=CINE+ PREMIER HD (PLEXUS source #01)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_cine_plus_premier.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS MAX[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27480.ts;streamtype=HLSRETRY&amp;name=OCS MAX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS MAX (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+OCS MAX$$lsname=OCS MAX (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSMAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS MAX HD[/B][/COLOR]</title>
@@ -499,6 +548,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+OCS MAX HD$$lsname=OCS MAX HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSMAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS CITY[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27482.ts;streamtype=HLSRETRY&amp;name=OCS CITY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS CITY (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+OCS CITY$$lsname=OCS CITY (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSCITY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS CITY HD[/B][/COLOR]</title>
@@ -507,6 +557,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+OCS CITY HD$$lsname=OCS CITY HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSCITY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS CHOC[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27483.ts;streamtype=HLSRETRY&amp;name=OCS CHOC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS CHOC (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+OCS CHOC$$lsname=OCS CHOC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSCHOC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS CHOC HD[/B][/COLOR]</title>
@@ -515,6 +566,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+OCS CHOC HD$$lsname=OCS CHOC HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OCSCHOC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS GEANTS[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27481.ts;streamtype=HLSRETRY&amp;name=OCS GEANTS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OCS GEANTS (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+OCS GEANTS$$lsname=OCS GEANTS (PLEXUS source #01)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/oo/ocs_geants.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OCS GEANTS HD[/B][/COLOR]</title>
@@ -524,6 +576,7 @@
 <thumbnail>http://www.lyngsat-logo.com/hires/oo/ocs_geants.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ACTION[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1098.m3u8;streamtype=HLSRETRY&amp;name=ACTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ACTION (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27562.ts;streamtype=HLSRETRY&amp;name=ACTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ACTION (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1098.m3u8$$lsname=ACTION (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ACTION$$lsname=ACTION (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ACTION.png</thumbnail></item>
@@ -532,6 +585,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ACTION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TCM CINEMA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2331.m3u8;streamtype=HLSRETRY&amp;name=TCM CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TCM CINEMA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27464.ts;streamtype=HLSRETRY&amp;name=TCM CINEMA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TCM CINEMA (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2331.m3u8$$lsname=TCM CINEMA (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TCM CINEMA$$lsname=TCM CINEMA (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TCMCINEMA.png</thumbnail></item>
@@ -539,6 +593,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TCM CINEMA HD$$lsname=TCM CINEMA HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TCMCINEMA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PARAMOUNT CHANNEL[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27476.ts;streamtype=HLSRETRY&amp;name=PARAMOUNT CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PARAMOUNT CHANNEL (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PARAMOUNT CHANNEL$$lsname=PARAMOUNT CHANNEL (PLEXUS source #01)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/5/59/Paramount_Channel.svg/revision/latest/scale-to-width-down/208?cb=20130908121353</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PARAMOUNT CHANNEL HD[/B][/COLOR]</title>
@@ -547,6 +602,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PARAMOUNT CHANNEL HD$$lsname=PARAMOUNT CHANNEL HD (PLEXUS source #01)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/5/59/Paramount_Channel.svg/revision/latest/scale-to-width-down/208?cb=20130908121353</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27474.ts;streamtype=HLSRETRY&amp;name=PLANETE+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PLANETE+$$lsname=PLANETE+ (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PLANETE+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+ HD[/B][/COLOR]</title>
@@ -555,6 +611,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PLANETE+ HD$$lsname=PLANETE+ HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PLANETE+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NAT GEO CH[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27486.ts;streamtype=HLSRETRY&amp;name=NAT GEO CH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO CH (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NAT GEO CH$$lsname=NAT GEO CH (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NAT GEO CH HD[/B][/COLOR]</title>
@@ -563,6 +620,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NAT GEO CH HD$$lsname=NAT GEO CH HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NAT GEO WILD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27487.ts;streamtype=HLSRETRY&amp;name=NAT GEO WILD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NAT GEO WILD (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NAT GEO WILD$$lsname=NAT GEO WILD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEOWILD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NAT GEO WILD HD[/B][/COLOR]</title>
@@ -572,6 +630,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VOYAGE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2130.m3u8;streamtype=HLSRETRY&amp;name=VOYAGE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VOYAGE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27454.ts;streamtype=HLSRETRY&amp;name=VOYAGE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VOYAGE (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2130.m3u8$$lsname=VOYAGE (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+VOYAGE$$lsname=VOYAGE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VOYAGE.png</thumbnail></item>
@@ -583,10 +642,12 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/E!.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] M6 MUSIQUE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1063.m3u8;streamtype=HLSRETRY&amp;name=M6 MUSIQUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 MUSIQUE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27493.ts;streamtype=HLSRETRY&amp;name=M6 MUSIQUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=M6 MUSIQUE (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1063.m3u8$$lsname=M6 MUSIQUE (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+M6 MUSIQUE$$lsname=M6 MUSIQUE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6MUSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV HITS[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/26234.ts;streamtype=HLSRETRY&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://b6e4624357589f6d84a22948304f8803336dc3d7&amp;mode=1&amp;name=Acestream+MTV HITS$$lsname=MTV HITS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVHITS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TRACE URBAN[/B][/COLOR]</title>
@@ -605,6 +666,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRACETROPICAL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV5 MONDE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1105.m3u8;streamtype=HLSRETRY&amp;name=TV5 MONDE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV5 MONDE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/415.ts;streamtype=HLSRETRY&amp;name=TV5 MONDE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV5 MONDE (F4M source #02)</link>
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/index.m3u8$$lsname=TV5 MONDE (HTTP source #01)</link>
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/v3plusinfo247hls_1_2.m3u8$$lsname=TV5 MONDE (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TV5 MONDE$$lsname=TV5 MONDE (PLEXUS source #01)</link>
@@ -615,15 +677,18 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TV5MONDE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV BREIZH[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2309.m3u8;streamtype=HLSRETRY&amp;name=TV BREIZH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV BREIZH (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27457.ts;streamtype=HLSRETRY&amp;name=TV BREIZH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV BREIZH (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2309.m3u8$$lsname=TV BREIZH (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TV BREIZH$$lsname=TV BREIZH (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVBREIZH.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] COMEDIE+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/717.m3u8;streamtype=HLSRETRY&amp;name=COMEDIE+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMEDIE+ (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27537.ts;streamtype=HLSRETRY&amp;name=COMEDIE+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMEDIE+ (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/717.m3u8$$lsname=COMEDIE+ (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+COMEDIE+$$lsname=COMEDIE+ (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/COMEDIEPLUS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 13E RUE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27558.ts;streamtype=HLSRETRY&amp;name=13E RUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=13E RUE (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+13E RUE$$lsname=13E RUE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/13EMERUE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] 13E RUE HD[/B][/COLOR]</title>
@@ -633,6 +698,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/13EMERUE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SYFY[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/834.m3u8;streamtype=HLSRETRY&amp;name=SYFY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27465.ts;streamtype=HLSRETRY&amp;name=SYFY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/834.m3u8$$lsname=SYFY (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SYFY$$lsname=SYFY (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SYFY.png</thumbnail></item>
@@ -640,6 +706,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SYFY HD$$lsname=SYFY HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SYFY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SERIE CLUB[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27469.ts;streamtype=HLSRETRY&amp;name=SERIE CLUB [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SERIE CLUB (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SERIE CLUB$$lsname=SERIE CLUB (PLEXUS source #01)</link>
 <thumbnail>https://vignette1.wikia.nocookie.net/logopedia/images/e/ec/SERIE_CLUB_2013.png/revision/latest?cb=20150314142323</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SERIE CLUB HD[/B][/COLOR]</title>
@@ -660,6 +727,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MCM.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MANGAS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1104.m3u8;streamtype=HLSRETRY&amp;name=MANGAS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MANGAS (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27492.ts;streamtype=HLSRETRY&amp;name=MANGAS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MANGAS (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1104.m3u8$$lsname=MANGAS (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+MANGAS$$lsname=MANGAS (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/e/e4/Mangas_%28TV%29_logo_2015.png</thumbnail></item>
@@ -667,6 +735,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+MANGAS HD$$lsname=MANGAS HD (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/e/e4/Mangas_%28TV%29_logo_2015.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ENORME TV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27512.ts;streamtype=HLSRETRY&amp;name=ENORME TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ENORME TV (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ENORME TV$$lsname=ENORME TV (PLEXUS source #01)</link>
 <thumbnail>http://www.atlantistv.fr/wp-content/uploads/2015/02/ENORME_TV_LOGO1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ENORME TV HD[/B][/COLOR]</title>
@@ -689,6 +758,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+GONG MAX HD$$lsname=GONG MAX HD (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/f/f0/Small_logo_GONG_black.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ FRISSON[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27521.ts;streamtype=HLSRETRY&amp;name=CINE+ FRISSON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FRISSON (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CINE+ FRISSON$$lsname=CINE+ FRISSON (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+FRISSON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ FRISSON HD[/B][/COLOR]</title>
@@ -697,6 +767,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CINE+ FRISSON HD$$lsname=CINE+ FRISSON HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+FRISSON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ EMOTION[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27524.ts;streamtype=HLSRETRY&amp;name=CINE+ EMOTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ EMOTION (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CINE+ EMOTION$$lsname=CINE+ EMOTION (PLEXUS source #01)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_cine_plus_emotion.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ EMOTION HD[/B][/COLOR]</title>
@@ -706,6 +777,7 @@
 <thumbnail>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_cine_plus_emotion.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ FAMIZ[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2657.m3u8;streamtype=HLSRETRY&amp;name=CINE+ FAMIZ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FAMIZ (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27522.ts;streamtype=HLSRETRY&amp;name=CINE+ FAMIZ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ FAMIZ (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2657.m3u8$$lsname=CINE+ FAMIZ (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CINE+ FAMIZ$$lsname=CINE+ FAMIZ (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+FAMIZ.png</thumbnail></item>
@@ -716,11 +788,13 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+CLUB.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE+ CLASSIC[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/722.m3u8;streamtype=HLSRETRY&amp;name=CINE+ CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLASSIC (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27525.ts;streamtype=HLSRETRY&amp;name=CINE+ CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE+ CLASSIC (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/722.m3u8$$lsname=CINE+ CLASSIC (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CINE+ CLASSIC$$lsname=CINE+ CLASSIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINE+CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE POLAR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1635.m3u8;streamtype=HLSRETRY&amp;name=CINE POLAR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE POLAR (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27520.ts;streamtype=HLSRETRY&amp;name=CINE POLAR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE POLAR (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1635.m3u8$$lsname=CINE POLAR (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CINE POLAR$$lsname=CINE POLAR (PLEXUS source #01)</link>
 <thumbnail>http://media-recherche.ina.fr/image/VQTaZJ8u-IvY5HF3jok4b_5MEuIJLpe2Z_5I__mXl8fFz-2afcolNsx06XuI53U-RhfJYdetP_730TgpTFwTkl1pTFCAAOIzPLga9tWYYas.jpg</thumbnail></item>
@@ -729,6 +803,7 @@
 #N/D
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CINE FX[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1125.m3u8;streamtype=HLSRETRY&amp;name=CINE FX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE FX (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27523.ts;streamtype=HLSRETRY&amp;name=CINE FX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CINE FX (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1125.m3u8$$lsname=CINE FX (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CINE FX$$lsname=CINE FX (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CINEFX.png</thumbnail></item>
@@ -749,6 +824,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SUNDANCCE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY JUNIOR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1634.m3u8;streamtype=HLSRETRY&amp;name=DISNEY JUNIOR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY JUNIOR (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27517.ts;streamtype=HLSRETRY&amp;name=DISNEY JUNIOR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY JUNIOR (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1634.m3u8$$lsname=DISNEY JUNIOR (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DISNEY JUNIOR$$lsname=DISNEY JUNIOR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYJUNIOR.png</thumbnail></item>
@@ -756,20 +832,24 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DISNEY JUNIOR HD$$lsname=DISNEY JUNIOR HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYJUNIOR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON JUNIOR[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27484.ts;streamtype=HLSRETRY&amp;name=NICKELODEON JUNIOR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON JUNIOR (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NICKELODEON JUNIOR$$lsname=NICKELODEON JUNIOR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKJR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TIJI[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2746.m3u8;streamtype=HLSRETRY&amp;name=TIJI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TIJI (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27460.ts;streamtype=HLSRETRY&amp;name=TIJI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TIJI (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2746.m3u8$$lsname=TIJI (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TIJI$$lsname=TIJI (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/2/2e/Tiji_logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PIWI+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2607.m3u8;streamtype=HLSRETRY&amp;name=PIWI+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PIWI+ (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27475.ts;streamtype=HLSRETRY&amp;name=PIWI+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PIWI+ (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2607.m3u8$$lsname=PIWI+ (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PIWI+$$lsname=PIWI+ (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PIWI+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BOOMERANG[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1103.m3u8;streamtype=HLSRETRY&amp;name=BOOMERANG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOOMERANG (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27540.ts;streamtype=HLSRETRY&amp;name=BOOMERANG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOOMERANG (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1103.m3u8$$lsname=BOOMERANG (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+BOOMERANG$$lsname=BOOMERANG (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BOOMERANG.png</thumbnail></item>
@@ -778,11 +858,13 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BOOMERANG.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CARTOON NETWORK[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/723.m3u8;streamtype=HLSRETRY&amp;name=CARTOON NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CARTOON NETWORK (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27528.ts;streamtype=HLSRETRY&amp;name=CARTOON NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CARTOON NETWORK (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/723.m3u8$$lsname=CARTOON NETWORK (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CARTOON NETWORK$$lsname=CARTOON NETWORK (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CARTOONNETWORK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3151.m3u8;streamtype=HLSRETRY&amp;name=NICKELODEON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27485.ts;streamtype=HLSRETRY&amp;name=NICKELODEON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/3151.m3u8$$lsname=NICKELODEON (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+NICKELODEON$$lsname=NICKELODEON (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
@@ -791,6 +873,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY XD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3283.m3u8;streamtype=HLSRETRY&amp;name=DISNEY XD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY XD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27516.ts;streamtype=HLSRETRY&amp;name=DISNEY XD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY XD (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/3283.m3u8$$lsname=DISNEY XD (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DISNEY XD$$lsname=DISNEY XD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYXD.png</thumbnail></item>
@@ -799,6 +882,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYXD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL J[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/985.m3u8;streamtype=HLSRETRY&amp;name=CANAL J [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL J (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27534.ts;streamtype=HLSRETRY&amp;name=CANAL J [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANAL J (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/985.m3u8$$lsname=CANAL J (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CANAL J$$lsname=CANAL J (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALJ.png</thumbnail></item>
@@ -807,6 +891,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALJ.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELETOON+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/838.m3u8;streamtype=HLSRETRY&amp;name=TELETOON+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELETOON+ (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27463.ts;streamtype=HLSRETRY&amp;name=TELETOON+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELETOON+ (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/838.m3u8$$lsname=TELETOON+ (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TELETOON+$$lsname=TELETOON+ (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TELETOON.png</thumbnail></item>
@@ -821,6 +906,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BOING[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/986.m3u8;streamtype=HLSRETRY&amp;name=BOING [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOING (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27549.ts;streamtype=HLSRETRY&amp;name=BOING [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOING (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/986.m3u8$$lsname=BOING (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+BOING$$lsname=BOING (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BOING.png</thumbnail></item>
@@ -837,6 +923,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BABYTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] INFO SPORT+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1137.m3u8;streamtype=HLSRETRY&amp;name=INFO SPORT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=INFO SPORT+ (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27496.ts;streamtype=HLSRETRY&amp;name=INFO SPORT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=INFO SPORT+ (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1137.m3u8$$lsname=INFO SPORT+ (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+INFO SPORT+$$lsname=INFO SPORT+ (PLEXUS source #01)</link>
 <thumbnail>https://4.bp.blogspot.com/-_bAyCgweAJs/WUxEs-UJe3I/AAAAAAAAHEE/LyMpsR8MX4EZQzZCTw8tZEpdX-k8JndfwCLcBGAs/s1600/canalplus_fr_infosport_plus.png</thumbnail></item>
@@ -845,6 +932,7 @@
 <thumbnail>https://4.bp.blogspot.com/-_bAyCgweAJs/WUxEs-UJe3I/AAAAAAAAHEE/LyMpsR8MX4EZQzZCTw8tZEpdX-k8JndfwCLcBGAs/s1600/canalplus_fr_infosport_plus.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AB MOTEURS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2879.m3u8;streamtype=HLSRETRY&amp;name=AB MOTEURS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB MOTEURS (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27565.ts;streamtype=HLSRETRY&amp;name=AB MOTEURS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AB MOTEURS (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2879.m3u8$$lsname=AB MOTEURS (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+AB MOTEURS$$lsname=AB MOTEURS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABMOTEURS.png</thumbnail></item>
@@ -860,6 +948,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+EQUIDIA LIVE HD$$lsname=EQUIDIA LIVE HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EQUIDIALIVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EQUIDIA LIFE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27511.ts;streamtype=HLSRETRY&amp;name=EQUIDIA LIFE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EQUIDIA LIFE (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+EQUIDIA LIFE$$lsname=EQUIDIA LIFE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EQUIDIALIFE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EQUIDIA LIFE HD[/B][/COLOR]</title>
@@ -875,6 +964,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+MOTORSPORT.TV$$lsname=MOTORSPORT.TV (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOTORSPORTTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GOLF CHANNEL[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27500.ts;streamtype=HLSRETRY&amp;name=GOLF CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GOLF CHANNEL (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+GOLF CHANNEL$$lsname=GOLF CHANNEL (PLEXUS source #01)</link>
 <thumbnail>https://4e0ab98dwwv2ll5wc23bd0c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/Golf_Channel.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GOLF CHANNEL HD[/B][/COLOR]</title>
@@ -890,15 +980,18 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GOLF+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+ CI[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/818.m3u8;streamtype=HLSRETRY&amp;name=PLANETE+ CI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ CI (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27477.ts;streamtype=HLSRETRY&amp;name=PLANETE+ CI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ CI (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/818.m3u8$$lsname=PLANETE+ CI (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PLANETE+ CI$$lsname=PLANETE+ CI (PLEXUS source #01)</link>
 <thumbnail>http://bit.ly/IMG_PLANETECI</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PLANETE+ A&E[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1892.m3u8;streamtype=HLSRETRY&amp;name=PLANETE+ A&E [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ A&E (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27478.ts;streamtype=HLSRETRY&amp;name=PLANETE+ A&E [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PLANETE+ A&E (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1892.m3u8$$lsname=PLANETE+ A&E (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+PLANETE+ A&E$$lsname=PLANETE+ A&E (PLEXUS source #01)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/pp/planete_plus_action_experience.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY CHANNEL[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27515.ts;streamtype=HLSRETRY&amp;name=DISCOVERY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY CHANNEL (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DISCOVERY CHANNEL$$lsname=DISCOVERY CHANNEL (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY CHANNEL HD[/B][/COLOR]</title>
@@ -907,6 +1000,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DISCOVERY CHANNEL HD$$lsname=DISCOVERY CHANNEL HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SCIENCE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27514.ts;streamtype=HLSRETRY&amp;name=DISCOVERY SCIENCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SCIENCE (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+DISCOVERY SCIENCE$$lsname=DISCOVERY SCIENCE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSCIENCE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SCIENCE HD[/B][/COLOR]</title>
@@ -916,6 +1010,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSCIENCE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] USHUAIA TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/737.m3u8;streamtype=HLSRETRY&amp;name=USHUAIA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=USHUAIA TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27455.ts;streamtype=HLSRETRY&amp;name=USHUAIA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=USHUAIA TV (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/737.m3u8$$lsname=USHUAIA TV (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+USHUAIA TV$$lsname=USHUAIA TV (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/USHUAIA.png</thumbnail></item>
@@ -924,11 +1019,13 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/USHUAIA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HISTOIRE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1064.m3u8;streamtype=HLSRETRY&amp;name=HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTOIRE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27497.ts;streamtype=HLSRETRY&amp;name=HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTOIRE (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1064.m3u8$$lsname=HISTOIRE (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+HISTOIRE$$lsname=HISTOIRE (PLEXUS source #01)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/hh/histoire_fr.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TOUTE L'HISTOIRE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2200.m3u8;streamtype=HLSRETRY&amp;name=TOUTE L'HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TOUTE L'HISTOIRE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27456.ts;streamtype=HLSRETRY&amp;name=TOUTE L'HISTOIRE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TOUTE L'HISTOIRE (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2200.m3u8$$lsname=TOUTE L'HISTOIRE (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TOUTE L'HISTOIRE$$lsname=TOUTE L'HISTOIRE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TOUTELHISTOIRE.png</thumbnail></item>
@@ -936,6 +1033,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+TOUTE L'HISTOIRE HD$$lsname=TOUTE L'HISTOIRE HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TOUTELHISTOIRE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SCIENCE & VIE TV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27471.ts;streamtype=HLSRETRY&amp;name=SCIENCE & VIE TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SCIENCE & VIE TV (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SCIENCE & VIE TV$$lsname=SCIENCE & VIE TV (PLEXUS source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/7/71/Science_et_Vie_TV_logo_2015.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SCIENCE & VIE TV HD[/B][/COLOR]</title>
@@ -943,6 +1041,7 @@
 <thumbnail>https://upload.wikimedia.org/wikipedia/fr/7/71/Science_et_Vie_TV_logo_2015.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ANIMAUX[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1143.m3u8;streamtype=HLSRETRY&amp;name=ANIMAUX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ANIMAUX (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27561.ts;streamtype=HLSRETRY&amp;name=ANIMAUX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ANIMAUX (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1143.m3u8$$lsname=ANIMAUX (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+ANIMAUX$$lsname=ANIMAUX (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIMAUX.png</thumbnail></item>
@@ -951,6 +1050,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIMAUX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHASSE & PECHE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1172.m3u8;streamtype=HLSRETRY&amp;name=CHASSE & PECHE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHASSE & PECHE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27527.ts;streamtype=HLSRETRY&amp;name=CHASSE & PECHE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHASSE & PECHE (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1172.m3u8$$lsname=CHASSE & PECHE (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CHASSE & PECHE$$lsname=CHASSE & PECHE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHASSE&PECHE.png</thumbnail></item>
@@ -965,6 +1065,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NRJ HITS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3277.m3u8;streamtype=HLSRETRY&amp;name=NRJ HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ HITS (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27491.ts;streamtype=HLSRETRY&amp;name=NRJ HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NRJ HITS (F4M source #02)</link>
 <link>http://5.196.138.6:1935/live/nrjbelgique/chunklist_w1339281553.m3u8$$lsname=NRJ HITS (HTTP source #01)</link>
 <link>http://5.196.138.6:1935/live/nrjbelgique/playlist.m3u8$$lsname=NRJ HITS (HTTP source #02)</link>
 <link>http://5.196.138.6:1935/live/ngrp:nrjbelgique_all/chunklist_w1975319451_b1496608.m3u8$$lsname=NRJ HITS (HTTP source #03)</link>
@@ -987,6 +1088,7 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+MEZZO LIVE$$lsname=MEZZO LIVE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZOLIVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEZZO LIVE HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/269.ts;streamtype=HLSRETRY&amp;name=MEZZO LIVE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MEZZO LIVE HD (F4M source #02)</link>
 <link>http://217.64.25.182:8000/play/a02l/index.m3u8$$lsname=MEZZO LIVE HD (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+MEZZO LIVE HD$$lsname=MEZZO LIVE HD (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://59d3e0f5e1b5034986f94fbf11a57d0355906444&amp;mode=1&amp;name=Acestream+MEZZO LIVE HD$$lsname=MEZZO LIVE HD (PLEXUS source #02)</link>
@@ -1005,15 +1107,18 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+I-CONCERTS$$lsname=I-CONCERTS (PLEXUS source #01)</link>
 <thumbnail>http://dtg.org.uk/images/logos/logo_iConcerts.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] I-CONCERTS HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/268.ts;streamtype=HLSRETRY&amp;name=I-CONCERTS HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=I-CONCERTS HD (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+I-CONCERTS HD$$lsname=I-CONCERTS HD (PLEXUS source #01)</link>
 <thumbnail>http://dtg.org.uk/images/logos/logo_iConcerts.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 EUROPE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2387.m3u8;streamtype=HLSRETRY&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/281.ts;streamtype=HLSRETRY&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2387.m3u8$$lsname=VH1 EUROPE (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.elementfx.com/hls?vid=photocall.elementfx.com/u3eyuzdwym/kr?ch=VH1_HD$$lsname=VH1 EUROPE (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://1136679c38692a57e278191719809344b4cc892a&amp;mode=1&amp;name=Acestream+VH1 EUROPE$$lsname=VH1 EUROPE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1EUROPE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 CLASSIC[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/280.ts;streamtype=HLSRETRY&amp;name=VH1 CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 CLASSIC (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2432.m3u8$$lsname=VH1 CLASSIC (HTTP source #01)</link>
 <link>http://217.64.25.182:8000/play/a01i/index.m3u8$$lsname=VH1 CLASSIC (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.x10host.com/hls?vid=photocall.x10host.com/u3eyuzdwym/kr2?ch=VH1_CLASSIC$$lsname=VH1 CLASSIC (SD source #01)</link>
@@ -1021,6 +1126,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 FR[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/1165.m3u8;streamtype=HLSRETRY&amp;name=FRANCE 24 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 FR (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27502.ts;streamtype=HLSRETRY&amp;name=FRANCE 24 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 FR (F4M source #02)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 FR (HTTP source #01)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master.m3u8$$lsname=FRANCE 24 FR (HTTP source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/1165.m3u8$$lsname=FRANCE 24 FR (HTTP source #03)</link>
@@ -1028,6 +1134,7 @@
 <link>plugin://program.plexus/?url=acestream://04c367f3523ced32a8651b8895e0413f3ebe6e2d&amp;mode=1&amp;name=Acestream+FRANCE 24 FR$$lsname=FRANCE 24 FR (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 EN[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/313.ts;streamtype=HLSRETRY&amp;name=FRANCE 24 EN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 EN (F4M source #02)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 EN (HTTP source #01)</link>
 <link>http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8$$lsname=FRANCE 24 EN (HTTP source #02)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master.m3u8$$lsname=FRANCE 24 EN (HTTP source #03)</link>
@@ -1042,6 +1149,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM BUSINESS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3942.m3u8;streamtype=HLSRETRY&amp;name=BFM BUSINESS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM BUSINESS (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27552.ts;streamtype=HLSRETRY&amp;name=BFM BUSINESS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM BUSINESS (F4M source #02)</link>
 <link>http://bfmlive-i.akamaihd.net/hls/live/254438/876450612001/DVMR_BFMBusiness2/master.m3u8$$lsname=BFM BUSINESS (HTTP source #01)</link>
 <link>http://bfmlive-i.akamaihd.net/hls/live/254438/876450612001/DVMR_BFMBusiness2/master-4.m3u8$$lsname=BFM BUSINESS (HTTP source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/3942.m3u8$$lsname=BFM BUSINESS (HTTP source #03)</link>
@@ -1053,42 +1161,50 @@
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+BFM BUSINESS HD$$lsname=BFM BUSINESS HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMBUSINESS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC WORLD NEWS[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/421.ts;streamtype=HLSRETRY&amp;name=BBC WORLD NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC WORLD NEWS (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://603464cf7bbacead3f4cbda6ac501bb2a3d12267&amp;mode=1&amp;name=Acestream+BBC WORLD NEWS$$lsname=BBC WORLD NEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCWORLDNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY NEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/781.m3u8;streamtype=HLSRETRY&amp;name=SKY NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY NEWS (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/419.ts;streamtype=HLSRETRY&amp;name=SKY NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY NEWS (F4M source #02)</link>
 <link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8$$lsname=SKY NEWS (HTTP source #01)</link>
 <link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/05.m3u8$$lsname=SKY NEWS (HTTP source #02)</link>
 <link>http://5.81.133.107:9981/stream/channelid/743193321$$lsname=SKY NEWS (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+SKY NEWS$$lsname=SKY NEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/21442.ts;streamtype=HLSRETRY&amp;name=CNN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNN (F4M source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX NEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/2731.m3u8;streamtype=HLSRETRY&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/416.ts;streamtype=HLSRETRY&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #02)</link>
 <link>http://fnurtmp-f.akamaihd.net/i/FNCPREV_1@143121/index_300_av-b.m3u8$$lsname=FOX NEWS (HTTP source #01)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/2731.m3u8$$lsname=FOX NEWS (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FOX NEWS$$lsname=FOX NEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/298.ts;streamtype=HLSRETRY&amp;name=BLOOMBERG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BLOOMBERG (F4M source #02)</link>
 <link>http://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #01)</link>
 <link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8$$lsname=BLOOMBERG (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://2d45049203c7d16afc756f12371edc5ca0aa57fd&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://02dd8869df5a293bf5d8b30b669f923593a9484a&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNBC[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/21443.ts;streamtype=HLSRETRY&amp;name=CNBC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CNBC (F4M source #02)</link>
 <link>http://stitcher.pluto.tv/stitch/hls/channel/57ebfd64f70792b24b5bd9a6/master.m3u8?deviceType=&deviceMake=&deviceModel=&sid=2&deviceId=&deviceVersion=&appVersion=&deviceDNT=&userId=&advertisingId=&deviceLat=&deviceLon=-&app_name=&appName=&appStoreUrl=&profileLimit=high$$lsname=CNBC (HTTP source #01)</link>
 <link>http://93.87.85.71/PLTV/88888888/224/3221226774/index.m3u8?rrsip=93.87.85.10&zoneoffset=0&servicetype=1&icpid=SSPID&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=kMPT1CuzvmP5azfOIIpcU74pEQwVtxY%2FuC5XlCvYDSyNcovykKO5JnJcY39jlvqzPX0aIzOnpikWu3zR45yt8ZrRlLf7DOt3X9zpzG7VTVVPWgPso7mD8mG87PrkwgA9cUL0yoetz%2BvKdx%2Fd54YxqItYB1ayo8ZvEJFS8LuNff4%3D%3A20180117221111%3AUTC%2C667280775442361405%2C89.172.240.222%2C20180117221111%2Curn%3AHuawei%3AliveTV%3AXTV100001815%2CE1AEBA0D093C19B037E317D73D194EA6%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2Cguest%2C0%2Cguest%2C%2C2%2CEND&GuardEncType=2&from=2&hms_devid=4$$lsname=CNBC (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+CNBC$$lsname=CNBC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOOT+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/884.m3u8;streamtype=HLSRETRY&amp;name=FOOT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOOT+ (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27507.ts;streamtype=HLSRETRY&amp;name=FOOT+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOOT+ (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/884.m3u8$$lsname=FOOT+ (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+FOOT+$$lsname=FOOT+ (PLEXUS source #01)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/9/97/Foot_2011.png/revision/latest?cb=20111122222217</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BFM SPORT[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://5.189.187.55:8000/live/Fadil/skype/3245.m3u8;streamtype=HLSRETRY&amp;name=BFM SPORT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM SPORT (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/danielsantos/pl3TgXyGPR/27551.ts;streamtype=HLSRETRY&amp;name=BFM SPORT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BFM SPORT (F4M source #02)</link>
 <link>http://5.189.187.55:8000/live/Fadil/skype/3245.m3u8$$lsname=BFM SPORT (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=Acestream+BFM SPORT$$lsname=BFM SPORT (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BFMSPORT.png</thumbnail></item>
