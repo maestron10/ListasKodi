@@ -62,6 +62,7 @@
 <link>https://liveprodeuwest.global.ssl.fastly.net/btv/desktop/eu_live.m3u8$$lsname=BLOOMBERG (HTTP source #01)</link>
 <link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8$$lsname=BLOOMBERG (HTTP source #02)</link>
 <link>https://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #03)</link>
+<link>http://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #04)</link>
 <link><link>$doregex[getm3u8]$$lsname=BLOOMBERG (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/81</page><referer>http://www.filmon.com/tv/channel/export?channel id=81&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BLOOMBERG (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RT AMERICA[/B][/COLOR]</title>
@@ -131,6 +132,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://shacktv.com:8080/live/video/video/221.ts;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 (F4M source #05)</link>
 <link>http://shacktv.com:8080/live/video/video/221.ts$$lsname=ELEVEN SPORTS 1 (HTTP source #01)</link>
+<link>http://vapi.vaders.tv/play/79442.m3u8?token=eyJ1c2VybmFtZSI6ImdrY2UzYWNma2giLCJwYXNzd29yZCI6ImllcHNibm14cmwifQ==$$lsname=ELEVEN SPORTS 1 (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NFL NETWORK[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://telexin.digitalabs.eu:8000/live/Alexuco88/fYTqwrk54jvjkbn/1885.m3u8;streamtype=HLSRETRY&amp;name=NFL NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NFL NETWORK (F4M source #01)</link>
