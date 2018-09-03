@@ -59,10 +59,12 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV+[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/9499.m3u8;streamtype=HLSRETRY&amp;name=SPORT TV+ [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV+ (F4M source #05)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/9499.m3u8$$lsname=SPORT TV+ (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/9499.m3u8$$lsname=SPORT TV+ (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV+ FHD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/19589.m3u8;streamtype=HLSRETRY&amp;name=SPORT TV+ FHD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV+ FHD (F4M source #05)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/19589.m3u8$$lsname=SPORT TV+ FHD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/19589.m3u8$$lsname=SPORT TV+ FHD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV+.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOBO[/B][/COLOR]</title>
 <link><link>$doregex[TeamBlue]$$lsname=GLOBO  (HTTP source #05)</link><regex><name>TeamBlue</name><expres>"(.*m3u8.*?)"</expres><page>http://www.freelivestream.tv/mediaPlayer.php?file=sptv</page><referer>http://www.freelivestream.tv/</referer></regex>$$lsname=GLOBO (HTTP source #05)</link>
@@ -91,12 +93,14 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTPMEMORIA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 1[/B][/COLOR]</title>
 <link>http://77.54.248.94:9981/stream/channelid/2135667$$lsname=SPORT TV 1 (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/7846.m3u8$$lsname=SPORT TV 1 (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed.php?ch=live1-rbi6c$$lsname=SPORT TV 1 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.net/sport-tv1-live-sport-tv1-slovenia-free-sport-tv1-watch-sport-tv1/$$lsname=SPORT TV 1 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 1 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/3221.m3u8;streamtype=HLSRETRY&amp;name=SPORT TV 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 1 HD (F4M source #05)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/3221.m3u8$$lsname=SPORT TV 1 HD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/3221.m3u8$$lsname=SPORT TV 1 HD (HTTP source #02)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=SPORT TV 1 HD (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/mychan2/1/720/450</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer>$$lsname=SPORT TV 1 HD (HTTP source #04)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6 0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 1 HD (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get unpacked(page data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/s6m0vsdisiufp7</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 1 HD (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/channels/pt/sporttv1.html$$lsname=SPORT TV 1 HD (SD source #01)</link>
@@ -105,10 +109,12 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 1 FHD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/17744.m3u8;streamtype=HLSRETRY&amp;name=SPORT TV 1 FHD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 1 FHD (F4M source #05)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/17744.m3u8$$lsname=SPORT TV 1 FHD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/17744.m3u8$$lsname=SPORT TV 1 FHD (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/stv1.html?dll=001$$lsname=SPORT TV 1 FHD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 2[/B][/COLOR]</title>
 <link>http://77.54.248.94:9981/stream/channelid/1550043205$$lsname=SPORT TV 2 (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/7845.m3u8$$lsname=SPORT TV 2 (HTTP source #02)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6 0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 2 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get unpacked(page data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>http://whostreams.net/embed/2dbrbt50ibw21jq</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 2 (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt2.php$$lsname=SPORT TV 2 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2.png</thumbnail></item>
@@ -119,9 +125,11 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 2 FHD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/3222.m3u8;streamtype=HLSRETRY&amp;name=SPORT TV 2 FHD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 2 FHD (F4M source #05)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/3222.m3u8$$lsname=SPORT TV 2 FHD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/3222.m3u8$$lsname=SPORT TV 2 FHD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 3[/B][/COLOR]</title>
 <link>http://77.54.248.94:9981/stream/channelid/1669467421$$lsname=SPORT TV 3 (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/7844.m3u8$$lsname=SPORT TV 3 (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt3.php$$lsname=SPORT TV 3 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/sport-tv-3-ver-ao-vivo/$$lsname=SPORT TV 3 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV3.png</thumbnail></item>
@@ -132,9 +140,11 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 3 FHD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/3223.m3u8;streamtype=HLSRETRY&amp;name=SPORT TV 3 FHD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 3 FHD (F4M source #05)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/3223.m3u8$$lsname=SPORT TV 3 FHD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/3223.m3u8$$lsname=SPORT TV 3 FHD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4[/B][/COLOR]</title>
 <link>http://77.54.248.94:9981/stream/channelid/2090972347$$lsname=SPORT TV 4 (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/7843.m3u8$$lsname=SPORT TV 4 (HTTP source #02)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6 0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=SPORT TV 4 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get unpacked(page data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/3ant1pjxw3</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=SPORT TV 4 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4 HD[/B][/COLOR]</title>
@@ -144,9 +154,11 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4 FHD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/3224.m3u8;streamtype=HLSRETRY&amp;name=SPORT TV 4 FHD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 4 FHD (F4M source #05)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/3224.m3u8$$lsname=SPORT TV 4 FHD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/3224.m3u8$$lsname=SPORT TV 4 FHD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 5[/B][/COLOR]</title>
 <link>http://77.54.248.94:9981/stream/channelid/806400516$$lsname=SPORT TV 5 (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/7842.m3u8$$lsname=SPORT TV 5 (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/pt5.php$$lsname=SPORT TV 5 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 5 HD[/B][/COLOR]</title>
@@ -156,21 +168,27 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 5 FHD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/16297.m3u8;streamtype=HLSRETRY&amp;name=SPORT TV 5 FHD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 5 FHD (F4M source #05)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/16297.m3u8$$lsname=SPORT TV 5 FHD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/16297.m3u8$$lsname=SPORT TV 5 FHD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4K[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/18962.m3u8;streamtype=HLSRETRY&amp;name=SPORT TV 4K [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORT TV 4K (F4M source #05)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/18962.m3u8$$lsname=SPORT TV 4K (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/18962.m3u8$$lsname=SPORT TV 4K (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4K.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BENFICA TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/3308.m3u8;streamtype=HLSRETRY&amp;name=BENFICA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BENFICA TV (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/3308.m3u8;streamtype=HLSRETRY&amp;name=BENFICA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BENFICA TV (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/3308.m3u8$$lsname=BENFICA TV (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/3308.m3u8$$lsname=BENFICA TV (HTTP source #02)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6 0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=BENFICA TV (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get unpacked(page data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/pst4nwvms</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>http://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=BENFICA TV (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed/btv-md504$$lsname=BENFICA TV (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://firstrowas1.cc/embed/MyPAl2yq4Y$$lsname=BENFICA TV (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BENFICATV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BENFICA TV HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/5541.m3u8;streamtype=HLSRETRY&amp;name=BENFICA TV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BENFICA TV HD (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/5541.m3u8;streamtype=HLSRETRY&amp;name=BENFICA TV HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BENFICA TV HD (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/5541.m3u8$$lsname=BENFICA TV HD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/5541.m3u8$$lsname=BENFICA TV HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BENFICATV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTING TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/3305.m3u8;streamtype=HLSRETRY&amp;name=SPORTING TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORTING TV (F4M source #05)</link>
@@ -182,15 +200,21 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTINGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 PT[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/7851.m3u8;streamtype=HLSRETRY&amp;name=EUROSPORT 1 PT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 PT (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/7851.m3u8;streamtype=HLSRETRY&amp;name=EUROSPORT 1 PT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 PT (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/7851.m3u8$$lsname=EUROSPORT 1 PT (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/7851.m3u8$$lsname=EUROSPORT 1 PT (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 HD PT[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/3234.m3u8;streamtype=HLSRETRY&amp;name=EUROSPORT 1 HD PT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 HD PT (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/3234.m3u8;streamtype=HLSRETRY&amp;name=EUROSPORT 1 HD PT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 HD PT (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/3234.m3u8$$lsname=EUROSPORT 1 HD PT (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/3234.m3u8$$lsname=EUROSPORT 1 HD PT (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 PT[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/9482.m3u8;streamtype=HLSRETRY&amp;name=EUROSPORT 2 PT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 PT (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/9482.m3u8;streamtype=HLSRETRY&amp;name=EUROSPORT 2 PT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 PT (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/9482.m3u8$$lsname=EUROSPORT 2 PT (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/9482.m3u8$$lsname=EUROSPORT 2 PT (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/lm/lm/26141.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 (F4M source #05)</link>
@@ -198,7 +222,9 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 1 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/23325.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 HD (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23325.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 HD (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/23325.m3u8$$lsname=ELEVEN SPORTS 1 HD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23325.m3u8$$lsname=ELEVEN SPORTS 1 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 2[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/lm/lm/26142.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 (F4M source #05)</link>
@@ -206,7 +232,9 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 2 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/23320.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 HD (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23320.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 HD (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/23320.m3u8$$lsname=ELEVEN SPORTS 2 HD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23320.m3u8$$lsname=ELEVEN SPORTS 2 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 3[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/lm/lm/26143.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 (F4M source #05)</link>
@@ -214,7 +242,9 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 3 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/23321.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 HD (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23321.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 HD (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/23321.m3u8$$lsname=ELEVEN SPORTS 3 HD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23321.m3u8$$lsname=ELEVEN SPORTS 3 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 4[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/lm/lm/26144.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 4 (F4M source #05)</link>
@@ -222,7 +252,9 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 4 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/23322.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 4 HD (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23322.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 4 HD (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/23322.m3u8$$lsname=ELEVEN SPORTS 4 HD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23322.m3u8$$lsname=ELEVEN SPORTS 4 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 5[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/lm/lm/26145.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 5 (F4M source #05)</link>
@@ -230,7 +262,9 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 5 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/23323.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 5 HD (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23323.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 5 HD (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/23323.m3u8$$lsname=ELEVEN SPORTS 5 HD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23323.m3u8$$lsname=ELEVEN SPORTS 5 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 6[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://leaderpro.pt:25461/live/lm/lm/26146.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 6 (F4M source #05)</link>
@@ -238,7 +272,9 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 6 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://cdntraffice.com:80/live/balmer6m/d39faA672/23324.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 6 HD (F4M source #05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23324.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 6 HD (F4M source #06)</link>
 <link>http://cdntraffice.com:80/live/balmer6m/d39faA672/23324.m3u8$$lsname=ELEVEN SPORTS 6 HD (HTTP source #01)</link>
+<link>http://mag.clientportal.link:80/live/YRSSZvS577/79xBxG577/23324.m3u8$$lsname=ELEVEN SPORTS 6 HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MOTORSPORT.TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/p1?ch=motor$$lsname=MOTORSPORT.TV (SD source #01)</link>
