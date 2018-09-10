@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]VARIOS CANAIS NO FIM DA LISTA[/B][/COLOR]</title>
 <link>http://fui.me</link>
@@ -19,7 +19,7 @@
    <regex>
    <name>hash</name>
    <expres>this.loadPlayer\("(.*?)"</expres>
-   <page>http://cdn.arenavision.biz/$doregex[canal]</page>
+   <page>http://cdn5.arenavision.link/$doregex[canal]</page>
    <referer>https://arenavision.us/</referer>
    <setcookie>beget=begetok</setcookie>
    </regex>
@@ -63,8 +63,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
    <regex>
    <name>hash</name>
    <expres>this.loadPlayer\("(.*?)"</expres>
-   <page>http://cdn.arenavision.biz/$doregex[canal]</page>
-   <referer>http://cdn.arenavision.biz</referer>
+   <page>http://cdn5.arenavision.link/$doregex[canal]</page>
+   <referer>http://cdn5.arenavision.link</referer>
    <setcookie>beget=begetok</setcookie>
    </regex>
    <regex>
@@ -77,7 +77,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[87px\">(.*?)<[\w\W\s]{0,30}">(.*?)<[\w\W\s]{0,32}">(.*?)<[\w\W\s]{0,32}">(.*?)<[\w\W\s]{0,32}">(.*?)<[\w\W\s]{0,52}"(>[0-9]+)]]></expres>
 <page>http://arenavision.us/guide</page>
 <Agent>Mozilla</Agent>
-<referer>http://cdn.arenavision.biz</referer>
+<referer>http://cdn5.arenavision.link</referer>
 <setcookie>beget=begetok</setcookie>
  </regex>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
@@ -92,7 +92,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/01</page>
+<page>http://cdn5.arenavision.link/01</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -104,7 +104,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/02</page>
+<page>http://cdn5.arenavision.link/02</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -116,7 +116,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/03</page>
+<page>http://cdn5.arenavision.link/03</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -128,7 +128,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/04</page>
+<page>http://cdn5.arenavision.link/04</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -140,7 +140,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/05</page>
+<page>http://cdn5.arenavision.link/05</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -152,7 +152,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/06</page>
+<page>http://cdn5.arenavision.link/06</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -164,7 +164,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/07</page>
+<page>http://cdn5.arenavision.link/07</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -176,7 +176,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/08</page>
+<page>http://cdn5.arenavision.link/08</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -188,7 +188,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/09</page>
+<page>http://cdn5.arenavision.link/09</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -200,7 +200,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/10</page>
+<page>http://cdn5.arenavision.link/10</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -212,7 +212,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/11</page>
+<page>http://cdn5.arenavision.link/11</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -224,7 +224,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/12</page>
+<page>http://cdn5.arenavision.link/12</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -236,7 +236,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/13</page>
+<page>http://cdn5.arenavision.link/13</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -248,7 +248,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/14</page>
+<page>http://cdn5.arenavision.link/14</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -260,7 +260,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/15</page>
+<page>http://cdn5.arenavision.link/15</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -272,7 +272,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/16</page>
+<page>http://cdn5.arenavision.link/16</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -284,7 +284,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/17</page>
+<page>http://cdn5.arenavision.link/17</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -296,7 +296,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/18</page>
+<page>http://cdn5.arenavision.link/18</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -308,7 +308,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/19</page>
+<page>http://cdn5.arenavision.link/19</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -320,7 +320,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/20</page>
+<page>http://cdn5.arenavision.link/20</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -332,7 +332,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/21</page>
+<page>http://cdn5.arenavision.link/21</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -344,7 +344,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/22</page>
+<page>http://cdn5.arenavision.link/22</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -356,7 +356,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/23</page>
+<page>http://cdn5.arenavision.link/23</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -368,7 +368,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/24</page>
+<page>http://cdn5.arenavision.link/24</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -380,7 +380,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/25</page>
+<page>http://cdn5.arenavision.link/25</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -392,7 +392,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/26</page>
+<page>http://cdn5.arenavision.link/26</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -404,7 +404,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/27</page>
+<page>http://cdn5.arenavision.link/27</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -416,7 +416,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/28</page>
+<page>http://cdn5.arenavision.link/28</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -428,7 +428,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/29</page>
+<page>http://cdn5.arenavision.link/29</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -440,7 +440,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/30</page>
+<page>http://cdn5.arenavision.link/30</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -452,7 +452,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/31</page>
+<page>http://cdn5.arenavision.link/31</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -464,7 +464,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/32</page>
+<page>http://cdn5.arenavision.link/32</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -476,7 +476,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/33</page>
+<page>http://cdn5.arenavision.link/33</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -488,7 +488,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/34</page>
+<page>http://cdn5.arenavision.link/34</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -500,7 +500,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/35</page>
+<page>http://cdn5.arenavision.link/35</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -512,7 +512,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/36</page>
+<page>http://cdn5.arenavision.link/36</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -524,7 +524,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/37</page>
+<page>http://cdn5.arenavision.link/37</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -536,7 +536,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/38</page>
+<page>http://cdn5.arenavision.link/38</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -548,7 +548,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/39</page>
+<page>http://cdn5.arenavision.link/39</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -560,7 +560,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/40</page>
+<page>http://cdn5.arenavision.link/40</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -572,7 +572,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/41</page>
+<page>http://cdn5.arenavision.link/41</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -584,7 +584,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/42</page>
+<page>http://cdn5.arenavision.link/42</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -596,7 +596,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/43</page>
+<page>http://cdn5.arenavision.link/43</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -608,7 +608,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn.arenavision.biz/44</page>
+<page>http://cdn5.arenavision.link/44</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -616,7 +616,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: EUROSPORT 1 DE[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://1697bc9ccc3f6ad77a1c8615303165b8bec56fd8&amp;mode=1&amp;name=EUROSPORT 1 DE</link>
+<link>plugin://program.plexus/?url=acestream://d6a3bba6ef84b32460c99b94beb8b429edc0f5d0&amp;mode=1&amp;name=EUROSPORT 1 DE</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail>
 </item>
 <item>
@@ -626,7 +626,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]IT: RAI SPORT 1[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://2a13df30cd859435c4001c3daf9c087db0701fa8&amp;mode=1&amp;name=RAI SPORT 1</link>
+<link>plugin://program.plexus/?url=acestream://c3f4c54d1133be672416ecba1f983247fa1e05f4&amp;mode=1&amp;name=RAI SPORT 1</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAISPORT1.png</thumbnail>
 </item>
 <item>
@@ -671,12 +671,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]PT: MTV HITS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://f554349ebb42826f5de358620e366c2635fcc8b9&amp;mode=1&amp;name=MTV HITS</link>
+<link>plugin://program.plexus/?url=acestream://b6e4624357589f6d84a22948304f8803336dc3d7&amp;mode=1&amp;name=MTV HITS</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVHITS.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]PT: MTV ROCKS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://7ecccf15e34cdc7281b71930c8db8dc277fe7aa8&amp;mode=1&amp;name=MTV ROCKS</link>
+<link>plugin://program.plexus/?url=acestream://9afbff6d3ff305606efc8d2ff18dfdf5c206eb59&amp;mode=1&amp;name=MTV ROCKS</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVROCKS.png</thumbnail>
 </item>
 <item>
@@ -686,24 +686,19 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]PT: VH1 EUROPE[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://ae7b58c7042c4494086c3b2362ce8f67807e8495&amp;mode=1&amp;name=VH1 EUROPE</link>
+<link>plugin://program.plexus/?url=acestream://1136679c38692a57e278191719809344b4cc892a&amp;mode=1&amp;name=VH1 EUROPE</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1EUROPE.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]PT: BBC WORLD NEWS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://8315c73fc08e0886a9bbe5aa103c059de67fa102&amp;mode=1&amp;name=BBC WORLD NEWS</link>
+<link>plugin://program.plexus/?url=acestream://603464cf7bbacead3f4cbda6ac501bb2a3d12267&amp;mode=1&amp;name=BBC WORLD NEWS</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCWORLDNEWS.png</thumbnail>
 </item>
-<item>
-<title>[B][COLOR lawngreen]• [COLOR white]PT: CNN[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://a856c340147528a71c4cbe8d230a9b522ad2adc9&amp;mode=1&amp;name=CNN</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail>
-</item>
-<item>
-<title>[B][COLOR lawngreen]• [COLOR white]PT: AL JAZEERA[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://752255d68f97f797b83c74baf87329944c685b90&amp;mode=1&amp;name=AL JAZEERA</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ALJAZEERA.png</thumbnail>
-</item>
+#N/D
+#N/D
+#N/D
+#N/D
+#N/D
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]PT: CANCAO NOVA[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://e33042c88543045fa48510bd5c8693fc9eee0bcc&amp;mode=1&amp;name=CANCAO NOVA</link>
@@ -711,12 +706,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: 3SAT[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://54cfc128455b04230be472c92ec63da405123656&amp;mode=1&amp;name=3SAT</link>
+<link>plugin://program.plexus/?url=acestream://c4ecfcfea76db92d8d4fb26dbe54d04965cdec44&amp;mode=1&amp;name=3SAT</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/3SAT.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: ANIXE[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://1dcaeb5078503efbe82883b33b881207a88f56d8&amp;mode=1&amp;name=ANIXE</link>
+<link>plugin://program.plexus/?url=acestream://043df60a907fb7e178830a615d13790812e6d1be&amp;mode=1&amp;name=ANIXE</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIXE.png</thumbnail>
 </item>
 <item>
@@ -726,12 +721,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: DISNEY CHANNEL[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://fd00e76469b530c4fb72e0af1a80f08f99da9873&amp;mode=1&amp;name=DISNEY CHANNEL</link>
+<link>plugin://program.plexus/?url=acestream://8dd67feaf7250ec52ee04f00b915358d2644209f&amp;mode=1&amp;name=DISNEY CHANNEL</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: DELUXE MUSIC[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://1e520ccd08d8c94c485bbfed7bad1460737700b4&amp;mode=1&amp;name=DELUXE MUSIC</link>
+<link>plugin://program.plexus/?url=acestream://23ccc5d5b25482c58d87ae16f04e9cfd9d60a866&amp;mode=1&amp;name=DELUXE MUSIC</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DELUXEMUSIC.png</thumbnail>
 </item>
 <item>
@@ -745,38 +740,33 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DW.png</thumbnail>
 </item>
 <item>
-<title>[B][COLOR lawngreen]• [COLOR white]DE: DW[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://547942596d9938c787337bc3e22d033883c5870a&amp;mode=1&amp;name=DW</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DW.png</thumbnail>
-</item>
-<item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: EURONEWS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://aa2c0ea12cbfeefad76c2d5a29698170bb9ce043&amp;mode=1&amp;name=EURONEWS</link>
+<link>plugin://program.plexus/?url=acestream://ee3a4c445bc0a7775955a334d1508a64272b4c63&amp;mode=1&amp;name=EURONEWS</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: EUROSPORT 1 DE[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://1697bc9ccc3f6ad77a1c8615303165b8bec56fd8&amp;mode=1&amp;name=EUROSPORT 1 DE</link>
+<link>plugin://program.plexus/?url=acestream://d6a3bba6ef84b32460c99b94beb8b429edc0f5d0&amp;mode=1&amp;name=EUROSPORT 1 DE</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: KIKA[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://67592dde99bf74b24d08b4847c0c0bcc951119c5&amp;mode=1&amp;name=KIKA</link>
+<link>plugin://program.plexus/?url=acestream://30c7e887245da2ff990a04e6c1c422e4b0226184&amp;mode=1&amp;name=KIKA</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/KIKA.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: NITRO[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://28557e9aee9d553eefdd09777ebc008e6cea1485&amp;mode=1&amp;name=NITRO</link>
+<link>plugin://program.plexus/?url=acestream://e42597551b0ea449608fefbb2ec317282b778553&amp;mode=1&amp;name=NITRO</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTLNITRO.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: RTL II[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://1fafca205cd183b4f5476bc1aebc9bef1db9c439&amp;mode=1&amp;name=RTL II</link>
+<link>plugin://program.plexus/?url=acestream://934a7fa853f432ee269e7759be284ab6ac08426b&amp;mode=1&amp;name=RTL II</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTL2.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: RTLPLUS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://a0cb9a0574758bf4ecdee8f2fdb37c24def07d59&amp;mode=1&amp;name=RTLPLUS</link>
+<link>plugin://program.plexus/?url=acestream://87fc33abfc2712ba99bc0fa9976f9cfd40b63934&amp;mode=1&amp;name=RTLPLUS</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/6/65/RTLplus_Logo_2016.png</thumbnail>
 </item>
 <item>
@@ -786,7 +776,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: SUPER RTL[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://9569c8aa0a3154202b110fde8acfd5ee9d05fbab&amp;mode=1&amp;name=SUPER RTL</link>
+<link>plugin://program.plexus/?url=acestream://64c7a3f874555ad3d4d381d183f58b9da4023f55&amp;mode=1&amp;name=SUPER RTL</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SUPERRTL.png</thumbnail>
 </item>
 <item>
@@ -796,22 +786,22 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: TOGGO PLUS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://d6ed61de085c15fafb51e0d8c4c21abca562f1f8&amp;mode=1&amp;name=TOGGO PLUS</link>
+<link>plugin://program.plexus/?url=acestream://d735d189711f87a499b9b92fb1c3a06e316d4a1c&amp;mode=1&amp;name=TOGGO PLUS</link>
 <thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/3/35/Toggo2013.png/revision/latest/scale-to-width-down/220?cb=20140116181412</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: VOX[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://06827cc24dea6d3cac0c334662bf5400fa24d86c&amp;mode=1&amp;name=VOX</link>
+<link>plugin://program.plexus/?url=acestream://1379f02ffb5429e10aa8ca24c59a4159087122de&amp;mode=1&amp;name=VOX</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VOX.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: ZDF[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://d82ec272d6c584e5e396e64d934f28f7439af645&amp;mode=1&amp;name=ZDF</link>
+<link>plugin://program.plexus/?url=acestream://564983984020f440146d1aad5965580c108f91a9&amp;mode=1&amp;name=ZDF</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ZDF.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: ZDFINFO[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://fefa748e5f46b30e130c4dd8c06217141c8bea36&amp;mode=1&amp;name=ZDFINFO</link>
+<link>plugin://program.plexus/?url=acestream://d68d0c130ab92d81a45992bbfeb7fac3cf4b1afa&amp;mode=1&amp;name=ZDFINFO</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ZDFINFO.png</thumbnail>
 </item>
 <title>[B][COLOR lawngreen]• [COLOR white][COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
@@ -839,27 +829,27 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]FR: EURONEWS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://704980a2dd9e61794a02f0e0da9ea923cff0b714&amp;mode=1&amp;name=EURONEWS</link>
+<link>plugin://program.plexus/?url=acestream://3f99c1131e72f6912621ceed34814d9ad8da2f67&amp;mode=1&amp;name=EURONEWS</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]FR: FRANCE 24 FR[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://2ab1c73100df40866fc060fee81fe35204beba8e&amp;mode=1&amp;name=FRANCE 24 FR</link>
+<link>plugin://program.plexus/?url=acestream://04c367f3523ced32a8651b8895e0413f3ebe6e2d&amp;mode=1&amp;name=FRANCE 24 FR</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]FR: MEZZO[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://da486c06c9db3efd95e9208cf3b1f26d8363656d&amp;mode=1&amp;name=MEZZO</link>
+<link>plugin://program.plexus/?url=acestream://7e9a662ff63256e7cadc7f0cb406a6f8b2321f7b&amp;mode=1&amp;name=MEZZO</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZO.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]FR: MEZZO LIVE HD[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://d0e9ab9b010ea032e3d61cb7861a8d2d3c461793&amp;mode=1&amp;name=MEZZO LIVE HD</link>
+<link>plugin://program.plexus/?url=acestream://59d3e0f5e1b5034986f94fbf11a57d0355906444&amp;mode=1&amp;name=MEZZO LIVE HD</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZOLIVE.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]FR: TV5 MONDE[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://fbd339870b2f6b9c7e27190d0a7119e5ac0581cd&amp;mode=1&amp;name=TV5 MONDE</link>
+<link>plugin://program.plexus/?url=acestream://ede3f7abf19cb44e232136b419583c48523cfeaf&amp;mode=1&amp;name=TV5 MONDE</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TV5MONDE.png</thumbnail>
 </item>
 <item>
@@ -879,32 +869,32 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]IT: RAI 3[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://a309812693d64e50666885d240b6a98730d28ec4&amp;mode=1&amp;name=RAI 3</link>
+<link>plugin://program.plexus/?url=acestream://78d057aa8bf1a5092f47569133886fb1b21a0cee&amp;mode=1&amp;name=RAI 3</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAI3.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]IT: RAI 4 HD[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://d2e61e1741b2dfce1dbf3efa6382361efc34f78f&amp;mode=1&amp;name=RAI 4 HD</link>
+<link>plugin://program.plexus/?url=acestream://d9b1ce66912c0a2e135f6229f82dee8dd4325e68&amp;mode=1&amp;name=RAI 4 HD</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAI4.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]IT: RAI MOVIE HD[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://5f372bc1bb5dba7e7ae807181bb44204fcfda321&amp;mode=1&amp;name=RAI MOVIE HD</link>
+<link>plugin://program.plexus/?url=acestream://de7a9fb6370ad885900ea320a0e7ec7d4fe2c819&amp;mode=1&amp;name=RAI MOVIE HD</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAIMOVIE.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]IT: RAI NEWS 24[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://8b1ced4e6fc4dd413b9c24abfd4a1972aa380676&amp;mode=1&amp;name=RAI NEWS 24</link>
+<link>plugin://program.plexus/?url=acestream://3e4bd98dfa34373ceed392e88ef3bfce07fad334&amp;mode=1&amp;name=RAI NEWS 24</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAINEWS24.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]IT: RAI PREMIUM HD[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://79216272bc4ed8eae35111bdefbe4cc32680dbe4&amp;mode=1&amp;name=RAI PREMIUM HD</link>
+<link>plugin://program.plexus/?url=acestream://3e6c0960fa5f0062b81db29e49aa594b496dd34e&amp;mode=1&amp;name=RAI PREMIUM HD</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAIPREMIUM.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]IT: SUPER TENNIS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://067eb93a22033574fdb2e8208ec1d0f01dcd2c9f&amp;mode=1&amp;name=SUPER TENNIS</link>
+<link>plugin://program.plexus/?url=acestream://aa285093f23002fcb9642d165a8ceb2827de31f6&amp;mode=1&amp;name=SUPER TENNIS</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SUPERTENNIS.png</thumbnail>
 </item>
 <item>
@@ -914,7 +904,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]UK: MOVIES4MEN[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://5efddbf5e2376d01715a609cc50df0860422531a&amp;mode=1&amp;name=MOVIES4MEN</link>
+<link>plugin://program.plexus/?url=acestream://070aa040d76c10905c513d2cf11f38b23abded4d&amp;mode=1&amp;name=MOVIES4MEN</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOVIES4MEN.png</thumbnail>
 </item>
 <item>
