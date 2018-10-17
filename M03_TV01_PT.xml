@@ -6,7 +6,6 @@
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp1_5ch5h264.stream/chunklist.m3u8$$lsname=RTP 1 (HTTP source #01)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtp1_5ch5h264.stream/playlist.m3u8$$lsname=RTP 1 (HTTP source #02)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtp1_5ch5h264.stream/playlist.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36$$lsname=RTP 1 (HTTP source #03)</link>
-<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtp1_5ch5h264.stream/playlist.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36$$lsname=RTP 1 (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=rtp1$$lsname=RTP 1 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=$$lsname=RTP 1 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP1.png</thumbnail></item>
@@ -24,6 +23,8 @@
 <link>plugin://plugin.video.f4mTester/?url=http://277.ath.cx:80/live/jnORazN9Un/MBNXwtk04L/538.m3u8;streamtype=HLSRETRY&amp;name=RTP 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP 2 (F4M source #04)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtp2_5ch3h264.stream/playlist.pt.m3u8$$lsname=RTP 2 (HTTP source #01)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp2_5ch3h264.stream/chunklist.m3u8$$lsname=RTP 2 (HTTP source #02)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtp2_5ch3h264.stream/playlist.pt.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36$$lsname=RTP 2 (HTTP source #03)</link>
+<link>https://streaming-live.rtp.pt/liverepeater/smil:rtp2.smil/chunklist_b640000_slpt.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36&Referer=http://www.rtp.pt/play/$$lsname=RTP 2 (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=rtp2$$lsname=RTP 2 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=$$lsname=RTP 2 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP2.png</thumbnail></item>
@@ -40,6 +41,7 @@
 <link>plugin://plugin.video.f4mTester/?url= ;streamtype=HLSRETRY&amp;name=SIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SIC (F4M source #04)</link>
 <link>http://live.impresa.pt/live/sic/sic.m3u8$$lsname=SIC (HTTP source #01)</link>
 <link>http://live.impresa.pt/live/sic/sic540p.m3u8$$lsname=SIC (HTTP source #02)</link>
+<link>http://62.28.213.14:9981/stream/channelid/1682111017$$lsname=SIC (HTTP source #03)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]$$lsname=SIC  (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.pubucaster.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>hls</name><expres>hlsUrl \+ \(\"(.*?)"</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2/8C148 Safari/6533.18.5</agent><referer>http://www.ucaster.me</referer></regex><regex><name>canal</name><expres>channel='(.*?)'</expres><page>http://www.ucasterplayer.com/membedplayer/ficabruno/1/650/382.3529411764706</page></regex>$$lsname=SIC (HTTP source #04)</link>
 "<link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=SIC  (HTTP source #05)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/SIC364387434/1/555/440</page>
 <agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer>$$lsname=SIC (HTTP source #05)</link>"
@@ -64,7 +66,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://62.210.72.137:8080/live/arsenal14/arsenal14/377.m3u8;streamtype=HLSRETRY&amp;name=TVI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TVI (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://212.8.248.213:8080/live/farouk/12345/889.m3u8;streamtype=HLSRETRY&amp;name=TVI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TVI (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url= ;streamtype=HLSRETRY&amp;name=TVI [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TVI (F4M source #04)</link>
-<link>http://212.8.248.213:8080/live/farouk/12345/889.m3u8$$lsname=TVI (HTTP source #01)</link>
+<link>http://62.28.213.14:9981/stream/channelid/1402355728$$lsname=TVI (HTTP source #01)</link>
 <link><link>https://video-auth6.iol.pt/live tvi/live tvi/playlist.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6 0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0/10A5376e Safari/8536.25$$lsname=TVI  (HTTP source #04)</link><regex><name>m3u8</name><expres>wmsAuthSign=([^"]*)</expres><page>http://tviplayer.iol.pt/direto/TVI</page><referer>http://tviplayer.iol.pt/</referer></regex>$$lsname=TVI (HTTP source #04)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]$$lsname=TVI  (HTTP source #04)</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.org/membedplayer/TVI63453453/1/555/440</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2/8C148 Safari/6533.18.5</agent><referer>http://www.liveflashplayer.net</referer>$$lsname=TVI (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/tvi?ch=tvi$$lsname=TVI (SD source #01)</link>
@@ -101,6 +103,8 @@
 <link>plugin://plugin.video.f4mTester/?url= ;streamtype=HLSRETRY&amp;name=RTP 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP 3 (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://277.ath.cx:80/live/jnORazN9Un/MBNXwtk04L/581.m3u8;streamtype=HLSRETRY&amp;name=RTP 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP 3 (F4M source #04)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpn_5ch64h264.stream/chunklist.m3u8$$lsname=RTP 3 (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtpn_5ch64h264.stream/playlist.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36$$lsname=RTP 3 (HTTP source #02)</link>
+<link>https://streaming-live.rtp.pt/liverepeater/smil:rtpn.smil/chunklist_b640000_slpt.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36&Referer=http://www.rtp.pt/play/$$lsname=RTP 3 (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=rtp3$$lsname=RTP 3 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=$$lsname=RTP 3 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP3.png</thumbnail></item>
@@ -109,7 +113,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://62.210.72.137:8080/live/arsenal14/arsenal14/379.m3u8;streamtype=HLSRETRY&amp;name=TVI24 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TVI24 (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://212.8.248.213:8080/live/farouk/12345/887.m3u8;streamtype=HLSRETRY&amp;name=TVI24 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TVI24 (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://277.ath.cx:80/live/jnORazN9Un/MBNXwtk04L/403.m3u8;streamtype=HLSRETRY&amp;name=TVI24 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TVI24 (F4M source #04)</link>
-<link>http://212.8.248.213:8080/live/farouk/12345/887.m3u8$$lsname=TVI24 (HTTP source #01)</link>
+<link>http://noscdne.entrprise.tv:1935/cvo/tvi24.stream/live.m3u8$$lsname=TVI24 (HTTP source #01)</link>
 <link><link>https://video-auth6.iol.pt/live tvi24/live tvi24/playlist.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6 0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0/10A5376e Safari/8536.25$$lsname=TVI24  (HTTP source #05)</link><regex><name>m3u8</name><expres>wmsAuthSign=([^"]*)</expres><page>http://tviplayer.iol.pt/direto/TVI24</page><referer>http://tviplayer.iol.pt/</referer></regex>$$lsname=TVI24 (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/tvi?ch=tvi24$$lsname=TVI24 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVI24.png</thumbnail></item>
@@ -195,6 +199,8 @@
 <link>plugin://plugin.video.f4mTester/?url=http://212.8.248.213:8080/live/farouk/12345/890.m3u8;streamtype=HLSRETRY&amp;name=RTP MEMORIA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP MEMORIA (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://277.ath.cx:80/live/jnORazN9Un/MBNXwtk04L/33301.m3u8;streamtype=HLSRETRY&amp;name=RTP MEMORIA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP MEMORIA (F4M source #04)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpmem_5ch80h264.stream/chunklist.m3u8$$lsname=RTP MEMORIA (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtpmem_5ch80h264.stream/playlist.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36$$lsname=RTP MEMORIA (HTTP source #02)</link>
+<link>https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/chunklist_b640000_slpt.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36&amp;Referer=http://www.rtp.pt/play/$$lsname=RTP MEMORIA (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=rtp_memoria$$lsname=RTP MEMORIA (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=$$lsname=RTP MEMORIA (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTPMEMORIA.png</thumbnail></item>
@@ -1416,6 +1422,8 @@
 <link>plugin://plugin.video.f4mTester/?url=http://277.ath.cx:80/live/jnORazN9Un/MBNXwtk04L/401.m3u8;streamtype=HLSRETRY&amp;name=RTP MADEIRA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP MADEIRA (F4M source #04)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtpmadeira_5ch1016h264H14.stream/playlist.pt.m3u8$$lsname=RTP MADEIRA (HTTP source #01)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpmadeira_5ch1016h264H14.stream/chunklist.m3u8$$lsname=RTP MADEIRA (HTTP source #02)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpmadeira_5ch1016h264H14.stream/chunklist.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36$$lsname=RTP MADEIRA (HTTP source #03)</link>
+<link>https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/chunklist_b640000_slpt.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36&amp;Referer=http://www.rtp.pt/play/$$lsname=RTP MADEIRA (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=rtp_madeira$$lsname=RTP MADEIRA (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=$$lsname=RTP MADEIRA (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTPMADEIRA.png</thumbnail></item>
@@ -1424,6 +1432,8 @@
 <link>plugin://plugin.video.f4mTester/?url=http://212.8.248.213:8080/live/farouk/12345/893.m3u8;streamtype=HLSRETRY&amp;name=RTP ACORES [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP ACORES (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://277.ath.cx:80/live/jnORazN9Un/MBNXwtk04L/198.m3u8;streamtype=HLSRETRY&amp;name=RTP ACORES [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP ACORES (F4M source #04)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpacores_5rtpacores.stream/chunklist.m3u8$$lsname=RTP ACORES (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpacores_5rtpacores.stream/chunklist.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36$$lsname=RTP ACORES (HTTP source #02)</link>
+<link>https://streaming-live.rtp.pt/liverepeater/smil:rtpacores.smil/chunklist_b640000_slpt.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36&amp;Referer=http://www.rtp.pt/play/$$lsname=RTP ACORES (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=rtp_acores$$lsname=RTP ACORES (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=$$lsname=RTP ACORES (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTPACORES.png</thumbnail></item>
@@ -1432,6 +1442,8 @@
 <link>plugin://plugin.video.f4mTester/?url= ;streamtype=HLSRETRY&amp;name=RTP INTERNACIONAL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP INTERNACIONAL (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url= ;streamtype=HLSRETRY&amp;name=RTP INTERNACIONAL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP INTERNACIONAL (F4M source #04)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net:80/liverepeater/rtpi_5ch120h264.stream/playlist.pt.m3u8$$lsname=RTP INTERNACIONAL (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpi_5ch120h264.stream/chunklist.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36$$lsname=RTP INTERNACIONAL (HTTP source #02)</link>
+<link>https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/chunklist_b640000_slpt.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36&amp;Referer=http://www.rtp.pt/play/$$lsname=RTP INTERNACIONAL (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=rtp_intl$$lsname=RTP INTERNACIONAL (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=$$lsname=RTP INTERNACIONAL (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTPINT.png</thumbnail></item>
@@ -1452,6 +1464,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://277.ath.cx:80/live/jnORazN9Un/MBNXwtk04L/33294.m3u8;streamtype=HLSRETRY&amp;name=CANCAO NOVA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANCAO NOVA (F4M source #04)</link>
 <link>http://cancaonova-push-live.hls.adaptive.level3.net:80/hls-live/cancaonova-channel01/_definst_/live/stream1.m3u8$$lsname=CANCAO NOVA (HTTP source #01)</link>
 <link>http://cancaonova-push-live.hls.adaptive.level3.net/hls-live/cancaonova-channel01/_definst_/live/stream1.m3u8$$lsname=CANCAO NOVA (HTTP source #02)</link>
+<link>http://cancaonova-push-live.hls.adaptive.level3.net/hls-live/cancaonova-channel01/_definst_/live/stream1.m3u8|User-Agent=Lavf/56.15.102$$lsname=CANCAO NOVA (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANCAONOVA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FATIMA TV[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url= ;streamtype=HLSRETRY&amp;name=FATIMA TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FATIMA TV (F4M source #02)</link>
@@ -1474,6 +1487,8 @@
 <link>plugin://plugin.video.f4mTester/?url= ;streamtype=HLSRETRY&amp;name=RTP AFRICA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP AFRICA (F4M source #03)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://277.ath.cx:80/live/jnORazN9Un/MBNXwtk04L/33302.m3u8;streamtype=HLSRETRY&amp;name=RTP AFRICA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTP AFRICA (F4M source #04)</link>
 <link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpafrica_5ch27h264.stream/chunklist.m3u8$$lsname=RTP AFRICA (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk2-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpafrica_5ch27h264.stream/chunklist.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36$$lsname=RTP AFRICA (HTTP source #02)</link>
+<link>https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/chunklist_b640000_slpt.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36&amp;Referer=http://www.rtp.pt/play/$$lsname=RTP AFRICA (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=rtp_africa$$lsname=RTP AFRICA (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=$$lsname=RTP AFRICA (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTPAFRICA.png</thumbnail></item>
