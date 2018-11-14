@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ABC TV[/B][/COLOR]</title>
 <link>http://live.field59.com/wwsb/ngrp:wwsb1_all/playlist.m3u8$$lsname=ABC TV (HTTP source #01)</link>
+<link>http://abclive2-lh.akamaihd.net/i/abc_live11@423404/index_1200_av-p.m3u8$$lsname=ABC TV (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TBS HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.x10.mx/hls?vid=photocall.x10.mx/u3eyuzdwym/kr?ch=TBS_HD$$lsname=TBS HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TBS.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] A&E[/B][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.firstonetv.net/Live/United-States-(USA)/A+E--21$$lsname=A&E (SD source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/A&E.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] truTV[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.x10.mx/hls?vid=photocall.x10.mx/u3eyuzdwym/kr?ch=TRU_TV_HD$$lsname=truTV (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRUTV.png</thumbnail></item>
@@ -17,11 +21,9 @@
 <link>http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8?play-only=primary$$lsname=DW (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DW.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ABC NEWS[/B][/COLOR]</title>
-<link>http://abclive2-lh.akamaihd.net/i/abc_live11@423404/index_1200_av-p.m3u8$$lsname=ABC NEWS (HTTP source #01)</link>
-<link>http://abcnews24mha-lh.akamaihd.net/i/abcnews24nospe_1@70019/index_750_av-p.m3u8$$lsname=ABC NEWS (HTTP source #02)</link>
-<link>https://abclive1-lh.akamaihd.net/i/abc_live02@423396/index_2500_av-p.m3u8$$lsname=ABC NEWS (HTTP source #03)</link>
-<link>https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8$$lsname=ABC NEWS (HTTP source #04)</link>
-<link>http://abclive.abcnews.com/i/abc_live4@136330/master.m3u8$$lsname=ABC NEWS (HTTP source #05)</link>
+<link>http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8$$lsname=ABC NEWS (HTTP source #01)</link>
+<link>https://abclive1-lh.akamaihd.net/i/abc_live02@423396/index_2500_av-p.m3u8$$lsname=ABC NEWS (HTTP source #02)</link>
+<link>http://abclive.abcnews.com/i/abc_live4@136330/master.m3u8$$lsname=ABC NEWS (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://a2e2fa5531a84cc655a77bb242fdbc4986008f92&amp;mode=1&amp;name=Acestream+ABC NEWS$$lsname=ABC NEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABCNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX NEWS[/B][/COLOR]</title>
