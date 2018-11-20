@@ -27,7 +27,6 @@
 <link>plugin://program.plexus/?url=acestream://a2e2fa5531a84cc655a77bb242fdbc4986008f92&amp;mode=1&amp;name=Acestream+ABC NEWS$$lsname=ABC NEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABCNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX NEWS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/46363.m3u8;streamtype=HLSRETRY&amp;name=FOX NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX NEWS (F4M source #03)</link>
 <link>http://fnurtmp-f.akamaihd.net/i/FNCPREV_1@143121/index_300_av-b.m3u8$$lsname=FOX NEWS (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX 5[/B][/COLOR]</title>
@@ -109,6 +108,8 @@
 <link>http://80.80.160.168/live/5/live.m3u8$$lsname=INVESTIGATION DISCOVERY (HTTP source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/pt/thumb/8/86/Logotipo_Investiga%C3%A7%C3%A3o_Discovery.png/200px-Logotipo_Investiga%C3%A7%C3%A3o_Discovery.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] WWE NETWORK[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=256&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=WWE NETWORK (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=256&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=WWE NETWORK (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/wwenetwork.php$$lsname=WWE NETWORK (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/WWENET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BYU TV[/B][/COLOR]</title>
@@ -144,10 +145,14 @@
 <link>http://mlblive-akc.mlb.com/ls01/mlbam/mlb_network/NETWORK_LINEAR_1/master_wired.m3u8$$lsname=MLB NETWORK (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MLBNETWORK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS 1 USA[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=237&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=FOX SPORTS 1 USA (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=237&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=FOX SPORTS 1 USA (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/foxsports1.php$$lsname=FOX SPORTS 1 USA (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://364864dce75ae8f7a40b6557dc7949b0bf422313&amp;mode=1&amp;name=Acestream+FOX SPORTS 1 USA$$lsname=FOX SPORTS 1 USA (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS 2 USA[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=238&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=FOX SPORTS 2 USA (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=238&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=FOX SPORTS 2 USA (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/foxsports2.php$$lsname=FOX SPORTS 2 USA (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FS2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BEIN SPORTS US[/B][/COLOR]</title>
@@ -183,16 +188,48 @@
 <link>http://p12l-lh.akamaihd.net/i/la_delivery@425541/master.m3u8$$lsname=PAC 12 Los Angeles (HTTP source #01)</link>
 <link>http://p12l-lh.akamaihd.net/i/la_delivery@425541/index_1164_av-p.m3u8$$lsname=PAC 12 Los Angeles (HTTP source #02)</link>
 <thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET 360[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=222&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SPORTSNET 360 (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=222&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SPORTSNET 360 (HTTP source #04)</link>
+<thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/6/67/230px-SN_360_logo.svg.png/revision/latest/scale-to-width-down/200?cb=20140805003412</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET ONE[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=224&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SPORTSNET ONE (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=224&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SPORTSNET ONE (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/sportsnetone.php$$lsname=SPORTSNET ONE (SD source #01)</link>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/1/18/1000px-Sportsnetone2011_svg.png/revision/latest/scale-to-width-down/390?cb=20120424202314</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET ONTARIO[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=225&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SPORTSNET ONTARIO (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=225&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SPORTSNET ONTARIO (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/sportsnetontario.php$$lsname=SPORTSNET ONTARIO (SD source #01)</link>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/f/fd/Sportsnet_ontario.png/revision/latest/scale-to-width-down/250?cb=20120212021015</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET PACIFIC[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=226&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SPORTSNET PACIFIC (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=226&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SPORTSNET PACIFIC (HTTP source #04)</link>
+<thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/d/d4/Sportsnet_pacific.png/revision/latest?cb=20120212023043</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTSNET WORLD[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=228&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SPORTSNET WORLD (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=228&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SPORTSNET WORLD (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/sportsnetworld.php$$lsname=SPORTSNET WORLD (SD source #01)</link>
 <thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/8/8f/250px-SportsnetWorld.svg.png/revision/latest?cb=20111112195204</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN1[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=217&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=TSN1 (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=217&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=TSN1 (HTTP source #04)</link>
+<thumbnail>http://i.imgur.com/ZJ8xW1t.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN2[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=218&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=TSN2 (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=218&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=TSN2 (HTTP source #04)</link>
+<thumbnail>http://i.imgur.com/l1NJsdM.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN3[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=219&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=TSN3 (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=219&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=TSN3 (HTTP source #04)</link>
+<thumbnail>http://i.imgur.com/BsMyeWs.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN4[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=220&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=TSN4 (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=220&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=TSN4 (HTTP source #04)</link>
+<thumbnail>http://i.imgur.com/rMjGqgH.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TSN5[/B][/COLOR]</title>
+<link>http://163.172.15.141:9732/live?channelId=221&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=TSN5 (HTTP source #01)</link>
+<link>http://163.172.15.141:9732/live?channelId=221&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=TSN5 (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/pag/hd1.php$$lsname=TSN5 (SD source #01)</link>
 <thumbnail>http://i.imgur.com/QldQfqY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO2[/B][/COLOR]</title>
