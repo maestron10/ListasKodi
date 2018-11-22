@@ -6,28 +6,25 @@
 <link>http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8$$lsname=TV ESCOLA (HTTP source #04)</link>
 <link>http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream2/chunklist.m3u8$$lsname=TV ESCOLA (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVESCOLA.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TV BRASIL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45643.m3u8;streamtype=HLSRETRY&amp;name=TV BRASIL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV BRASIL (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVBRASIL.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NBR[/B][/COLOR]</title>
+<link>http://ebctveventual01-live.hls.adaptive.level3.net/hls-live/ebcremuxlive-ebctveventual01/_definst_/live.m3u8$$lsname=NBR (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NBR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] REDE BRASIL[/B][/COLOR]</title>
 <link>http://173.236.10.10:1935/rbtv/rbtv/playlist.m3u8$$lsname=REDE BRASIL (HTTP source #01)</link>
 <link>http://173.236.10.10:1935/rbtv/rbtv/chunklist_w712068166.m3u8$$lsname=REDE BRASIL (HTTP source #02)</link>
 <link>https://59f1cbe63db89.streamlock.net:1443/rbtv/rbtv/playlist.m3u8$$lsname=REDE BRASIL (HTTP source #03)</link>
+<link>http://goldiptv.ml:8081/live/dyego/dyegoapp/122.m3u8$$lsname=REDE BRASIL (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/REDEBRASIL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RECORD[/B][/COLOR]</title>
 <link><link>http://$doregex[Igor Rangel IP]/loadbalance/record2278/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://m.tudotv.tv/assistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://m.tudotv.tv/assistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page></regex>$$lsname=RECORD (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://ekostreams.co/ch/record.php$$lsname=RECORD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RECORDTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] APARECIDA[/B][/COLOR]</title>
-<link>http://69.46.0.170:1935/tvaparecida/tvaparecida.stream/live.m3u8$$lsname=APARECIDA (HTTP source #01)</link>
-<link>http://caikron.com.br:1935/tvaparecida/tvaparecida.stream/playlist.m3u8$$lsname=APARECIDA (HTTP source #02)</link>
-<link>http://caikron.com.br:1935/tvaparecida/tvaparecida.stream/chunklist_w1446858289.m3u8$$lsname=APARECIDA (HTTP source #03)</link>
+<link>http://caikron.com.br:1935/tvaparecida/tvaparecida.stream/playlist.m3u8$$lsname=APARECIDA (HTTP source #01)</link>
+<link>http://caikron.com.br:1935/tvaparecida/tvaparecida.stream/chunklist_w1446858289.m3u8$$lsname=APARECIDA (HTTP source #02)</link>
+<link>http://69.46.0.170:1935/tvaparecida/tvaparecida.stream/live.m3u8$$lsname=APARECIDA (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/APARECIDA.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANCAO NOVA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45632.m3u8;streamtype=HLSRETRY&amp;name=CANCAO NOVA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CANCAO NOVA (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANCAONOVA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] REDE TV![/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45712.m3u8;streamtype=HLSRETRY&amp;name=REDE TV! [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=REDE TV! (F4M source #03)</link>
 <link>http://evpp.mm.uol.com.br/redetv1/redetv1/chunklist_w83762451.m3u8$$lsname=REDE TV! (HTTP source #01)</link>
 <link>http://evpp.mm.uol.com.br/redetv1/redetv1/playlist.m3u8$$lsname=REDE TV! (HTTP source #02)</link>
 <link>http://evpp.mm.uol.com.br/redetv1/redetv1/chunklist_w1096797278.m3u8$$lsname=REDE TV! (HTTP source #03)</link>
@@ -35,96 +32,72 @@
 <link>http://evpp.mm.uol.com.br/redetv1/redetv1/chunklist_w1483436880.m3u8$$lsname=REDE TV! (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=redetv$$lsname=REDE TV! (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/REDETV! .png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] REDE RECORD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45638.m3u8;streamtype=HLSRETRY&amp;name=REDE RECORD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=REDE RECORD (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/REDERECORD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BAND[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45703.m3u8;streamtype=HLSRETRY&amp;name=BAND [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BAND (F4M source #03)</link>
+<link>http://evpp.mm.uol.com.br/geob_band/bandapp/chunklist_w622979429.m3u8$$lsname=BAND (HTTP source #01)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvbandaovivo3/1/640/360</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=BAND (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://ekostreams.co/ch/band.php$$lsname=BAND (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BAND.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SBT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45637.m3u8;streamtype=HLSRETRY&amp;name=SBT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SBT (F4M source #03)</link>
 <link>http://192.99.46.182:1935/pioneira-tv3/pioneira-tv3/chunklist_w1129490283.m3u8$$lsname=SBT (HTTP source #01)</link>
 <link>http://tvsd2.zoeweb.tv:1935/tvsd2/smil:tvsd2.smil/chunklist_b796000.m3u8$$lsname=SBT (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=sbt$$lsname=SBT (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SBT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOBO[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45715.m3u8;streamtype=HLSRETRY&amp;name=GLOBO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GLOBO (F4M source #03)</link>
-<link>http://apk2.futeboltv.com:8081/live/17/playlist.m3u8$$lsname=GLOBO (HTTP source #01)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.janjuapublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.janjuaplayer.com/membedplayer/globoaovivo16/1/700/360</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2/8C148 Safari/6533.18.5</agent><referer>http://www.janjuaplayer.com/</referer></regex>$$lsname=GLOBO (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://ekostreams.co/ch/bobo.php$$lsname=GLOBO (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBO.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOBO PREMIUM[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45678.m3u8;streamtype=HLSRETRY&amp;name=GLOBO PREMIUM [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GLOBO PREMIUM (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBOPREMIUM.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOBO RJ[/B][/COLOR]</title>
+<link>http://51.68.152.224:8080/GloboRJ/mpegts?token=6BmI9mnOg2$$lsname=GLOBO RJ (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOBO SP[/B][/COLOR]</title>
+<link>http://51.68.152.224:8080/GloboSP/mpegts?token=6BmI9mnOg2$$lsname=GLOBO SP (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://onlinenatv.com/canal/globo02.html$$lsname=GLOBO SP (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBO.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TV CULTURA[/B][/COLOR]</title>
+<link>http://51.68.152.224:8080/TVCULTURA/mpegts?token=6BmI9mnOg2$$lsname=TV CULTURA (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVCULTURA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] OFF[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45622.m3u8;streamtype=HLSRETRY&amp;name=OFF [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=OFF (F4M source #03)</link>
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/74926671567415569875/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex>$$lsname=OFF (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALOFF.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTV[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45655.m3u8;streamtype=HLSRETRY&amp;name=SPORTV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORTV (F4M source #03)</link>
-<link>http://apk2.futeboltv.com:8081/live/20/playlist.m3u8$$lsname=SPORTV (HTTP source #01)</link>
+<link>http://51.68.152.224:8080/SporTV/mpegts?token=6BmI9mnOg2$$lsname=SPORTV (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://widestream.io/embed-9646$$lsname=SPORTV (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTV2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45713.m3u8;streamtype=HLSRETRY&amp;name=SPORTV2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORTV2 (F4M source #03)</link>
-<link>http://apk2.futeboltv.com:8081/live/15/playlist.m3u8$$lsname=SPORTV2 (HTTP source #01)</link>
+<link>http://51.68.152.224:8080/SporTV2/mpegts?token=6BmI9mnOg2$$lsname=SPORTV2 (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/sportv2.php$$lsname=SPORTV2 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=%68%74%74%70%3A%2F%2F%65%6B%6F%73%74%72%65%61%6D%73%2E%63%6F%2F%63%68%2F%73%70%6F%72%74%76%32%2E%70%68%70%0D%0A$$lsname=SPORTV2 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORTV3[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45714.m3u8;streamtype=HLSRETRY&amp;name=SPORTV3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SPORTV3 (F4M source #03)</link>
-<link>http://apk2.futeboltv.com:8081/live/7/playlist.m3u8$$lsname=SPORTV3 (HTTP source #01)</link>
+<link>http://51.68.152.224:8080/SporTV3/mpegts?token=6BmI9mnOg2$$lsname=SPORTV3 (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/sportv3.php$$lsname=SPORTV3 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOBO NEWS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45679.m3u8;streamtype=HLSRETRY&amp;name=GLOBO NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GLOBO NEWS (F4M source #03)</link>
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/bobonews/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex>$$lsname=GLOBO NEWS (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBONEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GNT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45676.m3u8;streamtype=HLSRETRY&amp;name=GNT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GNT (F4M source #03)</link>
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/53745895287193198754/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer>$$lsname=GNT (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GNT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MULTISHOW[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45667.m3u8;streamtype=HLSRETRY&amp;name=MULTISHOW [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MULTISHOW (F4M source #03)</link>
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/show/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex>$$lsname=MULTISHOW (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MULTISHOW.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VIVA BR[/B][/COLOR]</title>
 <link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/vivaaovivo2/1/640/360</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=VIVA BR (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VIVABR.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] MAIS GLOBOSAT HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45640.m3u8;streamtype=HLSRETRY&amp;name=MAIS GLOBOSAT HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MAIS GLOBOSAT HD (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MAISGLOBOSAT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] E! ENTERTAINMENT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45682.m3u8;streamtype=HLSRETRY&amp;name=E! ENTERTAINMENT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=E! ENTERTAINMENT (F4M source #03)</link>
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/entertainment/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex>$$lsname=E! ENTERTAINMENT (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/E!.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TLC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45694.m3u8;streamtype=HLSRETRY&amp;name=TLC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TLC (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TLC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] ARTE 1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45635.m3u8;streamtype=HLSRETRY&amp;name=ARTE 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ARTE 1 (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY HOME & HEALTH[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45630.m3u8;streamtype=HLSRETRY&amp;name=DISCOVERY HOME & HEALTH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY HOME & HEALTH (F4M source #03)</link>
+<link>http://51.68.152.224:8080/DiscoveryH&H/mpegts?token=6BmI9mnOg2$$lsname=DISCOVERY HOME & HEALTH (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYHOME&HEALTH.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] WOOHOO[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45612.m3u8;streamtype=HLSRETRY&amp;name=WOOHOO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=WOOHOO (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/WOOHOO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN BRASIL[/B][/COLOR]</title>
-<link>http://apk2.futeboltv.com:8081/live/19/playlist.m3u8$$lsname=ESPN BRASIL (HTTP source #01)</link>
+<link>http://51.68.152.224:8080/ESPNBrasil/mpegts?token=6BmI9mnOg2$$lsname=ESPN BRASIL (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPNBR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45681.m3u8;streamtype=HLSRETRY&amp;name=ESPN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ESPN (F4M source #03)</link>
-<link>http://apk2.futeboltv.com:8081/live/3/playlist.m3u8$$lsname=ESPN (HTTP source #01)</link>
+<link>http://51.68.152.224:8080/ESPN/mpegts?token=6BmI9mnOg2$$lsname=ESPN (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/espn.php$$lsname=ESPN (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX LIFE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45680.m3u8;streamtype=HLSRETRY&amp;name=FOX LIFE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX LIFE (F4M source #03)</link>
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/foxlife/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex>$$lsname=FOX LIFE (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXLIFE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX PREMIUM 1[/B][/COLOR]</title>
@@ -140,165 +113,89 @@
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/86286526837465378731/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex>$$lsname=FOX PREMIUM 2 FHD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXPREMIUM2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS BR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45709.m3u8;streamtype=HLSRETRY&amp;name=FOX SPORTS BR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX SPORTS BR (F4M source #03)</link>
-<link>http://apk2.futeboltv.com:8081/live/4/playlist.m3u8$$lsname=FOX SPORTS BR (HTTP source #01)</link>
+<link>http://51.68.152.224:8080/FoxSports/mpegts?token=6BmI9mnOg2$$lsname=FOX SPORTS BR (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://widestream.io/embed-9651$$lsname=FOX SPORTS BR (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://vizer.tv/assistir-FoxSports$$lsname=FOX SPORTS BR (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXSPORTS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX SPORTS 2 BR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45710.m3u8;streamtype=HLSRETRY&amp;name=FOX SPORTS 2 BR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX SPORTS 2 BR (F4M source #03)</link>
-<link>http://apk2.futeboltv.com:8081/live/5/playlist.m3u8$$lsname=FOX SPORTS 2 BR (HTTP source #01)</link>
+<link>http://51.68.152.224:8080/FoxSports2/mpegts?token=6BmI9mnOg2$$lsname=FOX SPORTS 2 BR (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/foxsporm3u8?.php$$lsname=FOX SPORTS 2 BR (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://vizer.tv/assistir-FoxSporm3u8?$$lsname=FOX SPORTS 2 BR (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXSPORTS2.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] BAND SPORTS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45701.m3u8;streamtype=HLSRETRY&amp;name=BAND SPORTS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BAND SPORTS (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BANDSPORTS.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] BAND NEWS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45702.m3u8;streamtype=HLSRETRY&amp;name=BAND NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BAND NEWS (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BANDNEWS.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] NATIONAL GEOGRAPHIC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45666.m3u8;streamtype=HLSRETRY&amp;name=NATIONAL GEOGRAPHIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NATIONAL GEOGRAPHIC (F4M source #03)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NATIONAL GEOGRAPHIC HD[/B][/COLOR]</title>
+<link>http://51.68.152.224:8080/National GeographicHD/mpegts?token=6BmI9mnOg2$$lsname=NATIONAL GEOGRAPHIC HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45699.m3u8;streamtype=HLSRETRY&amp;name=DISCOVERY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ANIMAL PLANET[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45705.m3u8;streamtype=HLSRETRY&amp;name=ANIMAL PLANET [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ANIMAL PLANET (F4M source #03)</link>
+<link>http://51.68.152.224:8080/AnimalPlanetHD/mpegts?token=6BmI9mnOg2$$lsname=ANIMAL PLANET (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIMALPLANET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HISTORIA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45645.m3u8;streamtype=HLSRETRY&amp;name=HISTORIA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HISTORIA (F4M source #03)</link>
+<link>http://51.68.152.224:8080/HistoryHD/mpegts?token=6BmI9mnOg2$$lsname=HISTORIA (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HISTORIA.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY TURBO[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45685.m3u8;streamtype=HLSRETRY&amp;name=DISCOVERY TURBO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY TURBO (F4M source #03)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY TURBO HD[/B][/COLOR]</title>
+<link>http://51.68.152.224:8080/DiscoveryTurboHD/mpegts?token=6BmI9mnOg2$$lsname=DISCOVERY TURBO HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYTURBO.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SCIENCE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45686.m3u8;streamtype=HLSRETRY&amp;name=DISCOVERY SCIENCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SCIENCE (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSCIENCE.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY CIVILIZATION[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45687.m3u8;streamtype=HLSRETRY&amp;name=DISCOVERY CIVILIZATION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY CIVILIZATION (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCIVILIZATION.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] FUTURA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45628.m3u8;streamtype=HLSRETRY&amp;name=FUTURA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FUTURA (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FUTURA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NATIONAL GEOGRAPHIC WILD[/B][/COLOR]</title>
+<link>http://51.68.152.224:8080/NatGeoWildHD/mpegts?token=6BmI9mnOg2$$lsname=NATIONAL GEOGRAPHIC WILD (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ptvsporm3u8?info/natgeowild.html$$lsname=NATIONAL GEOGRAPHIC WILD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEOWILD.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] H2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45675.m3u8;streamtype=HLSRETRY&amp;name=H2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=H2 (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/H2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY KIDS[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://widestream.io/embed.php?live=540$$lsname=DISCOVERY KIDS (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYKIDS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GLOOB[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45677.m3u8;streamtype=HLSRETRY&amp;name=GLOOB [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=GLOOB (F4M source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/gloob.php$$lsname=GLOOB (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOOB.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45684.m3u8;streamtype=HLSRETRY&amp;name=DISNEY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL (F4M source #03)</link>
 <link>http://widestream.io/embed.php?live=539$$lsname=DISNEY CHANNEL (RTMP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45665.m3u8;streamtype=HLSRETRY&amp;name=NICKELODEON [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICKELODEON (F4M source #03)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON HD[/B][/COLOR]</title>
+<link>http://51.68.152.224:8080/NickelodeonHD/mpegts?token=6BmI9mnOg2$$lsname=NICKELODEON HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] CARTOON NETWORK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45631.m3u8;streamtype=HLSRETRY&amp;name=CARTOON NETWORK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CARTOON NETWORK (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CARTOONNETWORK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY XD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45629.m3u8;streamtype=HLSRETRY&amp;name=DISNEY XD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY XD (F4M source #03)</link>
+<link>http://51.68.152.224:8080/DisneyXDHD/mpegts?token=6BmI9mnOg2$$lsname=DISNEY XD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYXD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY JUNIOR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45683.m3u8;streamtype=HLSRETRY&amp;name=DISNEY JUNIOR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY JUNIOR (F4M source #03)</link>
+<link>http://51.68.152.224:8080/DisneyJrHD/mpegts?token=6BmI9mnOg2$$lsname=DISNEY JUNIOR (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYJUNIOR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICK JR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45624.m3u8;streamtype=HLSRETRY&amp;name=NICK JR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NICK JR (F4M source #03)</link>
+<link>http://51.68.152.224:8080/NickJrHD/mpegts?token=6BmI9mnOg2$$lsname=NICK JR (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKJR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BOOMERANG[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45691.m3u8;streamtype=HLSRETRY&amp;name=BOOMERANG [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BOOMERANG (F4M source #03)</link>
+<link>http://51.68.152.224:8080/BoomerangHD/mpegts?token=6BmI9mnOg2$$lsname=BOOMERANG (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BOOMERANG.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TOONCAST[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45618.m3u8;streamtype=HLSRETRY&amp;name=TOONCAST [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TOONCAST (F4M source #03)</link>
+<link>http://51.68.152.224:8080/TooncastHD/mpegts?token=6BmI9mnOg2$$lsname=TOONCAST (HTTP source #01)</link>
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/0/05/Tooncast.svg/revision/latest/scale-to-width-down/302?cb=20160514054656</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] BIS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45634.m3u8;streamtype=HLSRETRY&amp;name=BIS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BIS (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BIS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45695.m3u8;streamtype=HLSRETRY&amp;name=MTV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV (F4M source #03)</link>
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/83792545658779361413/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex>$$lsname=MTV (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTV.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] MUSIC BOX BRASIL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45625.m3u8;streamtype=HLSRETRY&amp;name=MUSIC BOX BRASIL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MUSIC BOX BRASIL (F4M source #03)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/4/40/MusicBoxBrazilLogo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 MEGAHITS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45613.m3u8;streamtype=HLSRETRY&amp;name=VH1 MEGAHITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 MEGAHITS (F4M source #03)</link>
 <link>http://stream.1music.hu/stream/1music.m3u8$$lsname=VH1 MEGAHITS (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1MEGAHITS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] UNIVERSAL CHANNEL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45614.m3u8;streamtype=HLSRETRY&amp;name=UNIVERSAL CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=UNIVERSAL CHANNEL (F4M source #03)</link>
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/universalch/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex>$$lsname=UNIVERSAL CHANNEL (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/UNIVERSALCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45698.m3u8;streamtype=HLSRETRY&amp;name=FOX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FOX (F4M source #03)</link>
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/fox-hd/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex>$$lsname=FOX (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] WARNER CHANNEL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45692.m3u8;streamtype=HLSRETRY&amp;name=WARNER CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=WARNER CHANNEL (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/WARNERCHANNEL.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] SONY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45689.m3u8;streamtype=HLSRETRY&amp;name=SONY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SONY (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALSONY.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] FX[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45641.m3u8;streamtype=HLSRETRY&amp;name=FX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FX (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FX.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] AXN[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45704.m3u8;streamtype=HLSRETRY&amp;name=AXN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=AXN (F4M source #03)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] AXN HD[/B][/COLOR]</title>
+<link>http://51.68.152.224:8080/AXNHD/mpegts?token=6BmI9mnOg2$$lsname=AXN HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/AXN.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TBS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45619.m3u8;streamtype=HLSRETRY&amp;name=TBS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TBS (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TBS.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] A&E[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45706.m3u8;streamtype=HLSRETRY&amp;name=A&E [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=A&E (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/A&E.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] INVESTIGATION DISCOVERY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45671.m3u8;streamtype=HLSRETRY&amp;name=INVESTIGATION DISCOVERY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=INVESTIGATION DISCOVERY (F4M source #03)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/pt/thumb/8/86/Logotipo_Investiga%C3%A7%C3%A3o_Discovery.png/200px-Logotipo_Investiga%C3%A7%C3%A3o_Discovery.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] SYFY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45620.m3u8;streamtype=HLSRETRY&amp;name=SYFY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SYFY (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SYFY.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TNT SERIE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45644.m3u8;streamtype=HLSRETRY&amp;name=TNT SERIE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TNT SERIE (F4M source #03)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TNT SERIE HD[/B][/COLOR]</title>
+<link>http://51.68.152.224:8080/TNTSERIESHD/mpegts?token=6BmI9mnOg2$$lsname=TNT SERIE HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TNTSERIE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TNT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45693.m3u8;streamtype=HLSRETRY&amp;name=TNT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TNT (F4M source #03)</link>
-<link>http://apk2.futeboltv.com:8081/live/8/playlist.m3u8$$lsname=TNT (HTTP source #01)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvtntaovivo/1/1280/669</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=TNT (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TNT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEGAPIX[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45626.m3u8;streamtype=HLSRETRY&amp;name=MEGAPIX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MEGAPIX (F4M source #03)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvmegapixaovivo/1/1280/669</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=MEGAPIX (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEGAPIX.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] PRIME BOX BRAZIL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45656.m3u8;streamtype=HLSRETRY&amp;name=PRIME BOX BRAZIL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PRIME BOX BRAZIL (F4M source #03)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/4/4a/Primeboxbrazil.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] STUDIO UNIVERSAL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45636.m3u8;streamtype=HLSRETRY&amp;name=STUDIO UNIVERSAL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=STUDIO UNIVERSAL (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/STUDIOUNIVERSAL.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] PARAMOUNT CHANNEL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45664.m3u8;streamtype=HLSRETRY&amp;name=PARAMOUNT CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PARAMOUNT CHANNEL (F4M source #03)</link>
-<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/5/59/Paramount_Channel.svg/revision/latest/scale-to-width-down/208?cb=20130908121353</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TCM[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45646.m3u8;streamtype=HLSRETRY&amp;name=TCM [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TCM (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TCM.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE PREMIUM[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45648.m3u8;streamtype=HLSRETRY&amp;name=TELECINE PREMIUM [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELECINE PREMIUM (F4M source #03)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.p3gpublish.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.p3g.tv/membedplayer/tvtcpremumaovivo/1/640/360</page><referer>http://www.p3g.tv/</referer></regex>$$lsname=TELECINE PREMIUM (HTTP source #05)</link>
 <thumbnail>http://www.tvmagazine.com.br/imagens/icones/600/tcpremiumb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE ACTION[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45652.m3u8;streamtype=HLSRETRY&amp;name=TELECINE ACTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELECINE ACTION (F4M source #03)</link>
 <link><link>http://$doregex[TeamBlue IP]/loadbalance/telecineaction/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://aovivonatv.com/assistir-telecine-pipoca-ao-vivo-em-hd-24-horas/opmobile/10111/</page><referer>http://aovivonatv.com/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent></regex>$$lsname=TELECINE ACTION (HTTP source #05)</link>
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/d/d2/Telecine_Action_2005.png/revision/latest?cb=20151109191132</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE TOUCH[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45647.m3u8;streamtype=HLSRETRY&amp;name=TELECINE TOUCH [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELECINE TOUCH (F4M source #03)</link>
 "<link><link>http://$doregex[TeamBlue IP]/loadbalance/telecinetouch/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link>
 <regex>
 <name>TeamBlue IP</name>
@@ -315,41 +212,18 @@
 <agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36</agent>
 </regex>$$lsname=TELECINE TOUCH (HTTP source #05)</link>"
 <thumbnail>https://edhyghellen.files.wordpress.com/2010/10/tctouch.gif</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE FUN[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45650.m3u8;streamtype=HLSRETRY&amp;name=TELECINE FUN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELECINE FUN (F4M source #03)</link>
-<thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/d/d4/TC_FUN.jpg/revision/latest?cb=20131115104539</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE PIPOCA[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45649.m3u8;streamtype=HLSRETRY&amp;name=TELECINE PIPOCA [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELECINE PIPOCA (F4M source #03)</link>
-<thumbnail>http://www.tvmagazine.com.br/imagens/icones/600/tcpipocab.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINE CULT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45651.m3u8;streamtype=HLSRETRY&amp;name=TELECINE CULT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TELECINE CULT (F4M source #03)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/pt/e/ea/TC_Cult.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45697.m3u8;streamtype=HLSRETRY&amp;name=HBO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HBO (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBO.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45696.m3u8;streamtype=HLSRETRY&amp;name=HBO2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HBO2 (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBO2.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO PLUS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45673.m3u8;streamtype=HLSRETRY&amp;name=HBO PLUS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HBO PLUS (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBOPLUS.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO FAMILY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45674.m3u8;streamtype=HLSRETRY&amp;name=HBO FAMILY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HBO FAMILY (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBOFAMILY.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO SIGNATURE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45672.m3u8;streamtype=HLSRETRY&amp;name=HBO SIGNATURE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=HBO SIGNATURE (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBOSIGNATURE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MAX UP[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45668.m3u8;streamtype=HLSRETRY&amp;name=MAX UP [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MAX UP (F4M source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/argentina/maxup.php$$lsname=MAX UP (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MAXUP.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] MAX[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45670.m3u8;streamtype=HLSRETRY&amp;name=MAX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MAX (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MAX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MAX PRIME[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45669.m3u8;streamtype=HLSRETRY&amp;name=MAX PRIME [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MAX PRIME (F4M source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/argentina/maxprime.php$$lsname=MAX PRIME (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MAXPRIME.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MAX PRIME HD[/B][/COLOR]</title>
+<link>http://51.68.152.224:8080/MAXPRIMEHD/mpegts?token=6BmI9mnOg2$$lsname=MAX PRIME HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MAXPRIME.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TERRAVIVA[/B][/COLOR]</title>
+<link>http://evpp.mm.uol.com.BR 1935/band/terraviva/playlist.m3u8$$lsname=TERRAVIVA (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Terra_Viva_logo.svg/2000px-Terra_Viva_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL DO BOI[/B][/COLOR]</title>
 <link>http://67149o.ha.azioncdn.net/hlsmedium/playlist.m3u8$$lsname=CANAL RURAL (HTTP source #01)</link>
 <link>http://77149o.ha.azioncdn.net/hlsverylow/playlist.m3u8$$lsname=CANAL RURAL (HTTP source #02)</link>
@@ -359,29 +233,11 @@
 <link>http://77149o.ha.azioncdn.net/hlsverylow/playlist.m3u8$$lsname=CANAL RURAL (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANALRURAL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PREMIERE CLUBES[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/16297.m3u8;streamtype=HLSRETRY&amp;name=PREMIERE CLUBES [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PREMIERE CLUBES (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada85/734585790/16297.m3u8;streamtype=HLSRETRY&amp;name=PREMIERE CLUBES [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PREMIERE CLUBES (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45663.m3u8;streamtype=HLSRETRY&amp;name=PREMIERE CLUBES [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PREMIERE CLUBES (F4M source #03)</link>
 <link>rtmp://213.152.180.151:17247/sstream/1bdlLe7dro.stream$$lsname=PREMIERE CLUBES (RTMP source #01)</link>
 <link>rtmp://213.152.180.151:17247/sstream/06lt6eKOWl.stream$$lsname=PREMIERE CLUBES (RTMP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PFC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] PREMIERE 2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45662.m3u8;streamtype=HLSRETRY&amp;name=PREMIERE 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PREMIERE 2 (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PFC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] PREMIERE 3[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45661.m3u8;streamtype=HLSRETRY&amp;name=PREMIERE 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PREMIERE 3 (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PFC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] PREMIERE 4[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45660.m3u8;streamtype=HLSRETRY&amp;name=PREMIERE 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PREMIERE 4 (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PFC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] PREMIERE 5[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45659.m3u8;streamtype=HLSRETRY&amp;name=PREMIERE 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PREMIERE 5 (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PFC.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] PREMIERE 9[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45658.m3u8;streamtype=HLSRETRY&amp;name=PREMIERE 9 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PREMIERE 9 (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PFC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] COMBATE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45688.m3u8;streamtype=HLSRETRY&amp;name=COMBATE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMBATE (F4M source #03)</link>
+<link>http://51.68.152.224:8080/Combate/mpegts?token=6BmI9mnOg2$$lsname=COMBATE (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://widestream.io/embed-9649$$lsname=COMBATE (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/COMBATE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ALL SPORTS[/B][/COLOR]</title>
@@ -393,12 +249,6 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPORTE INTERATIVO 2[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ekostreams.co/ch/eimax2.php$$lsname=ESPORTE INTERATIVO 2 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPORTEINT2.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] FISH TV[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45642.m3u8;streamtype=HLSRETRY&amp;name=FISH TV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FISH TV (F4M source #03)</link>
-<thumbnail>http://www.tvmagazine.com.br/imagens/icones/600/fishtv.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] CONEXAO BRASIL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/45708.m3u8;streamtype=HLSRETRY&amp;name=CONEXAO BRASIL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CONEXAO BRASIL (F4M source #03)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CONEXAOBR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV VERDADE[/B][/COLOR]</title>
 <link>http://ocatv.mcgi.me:1935/public/247_es/live.m3u8$$lsname=TV VERDADE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVVERDADE.png</thumbnail></item>
@@ -415,8 +265,6 @@
 <link>http://streaming02.zas.media:1935/gideoes/_definst_/mp4:programacao_360p/chunklist_w93290010.m3u8$$lsname=TV GIDEOES (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVGIDEOES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RAI 1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1398.m3u8;streamtype=HLSRETRY&amp;name=RAI 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RAI 1 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada85/734585790/1398.m3u8;streamtype=HLSRETRY&amp;name=RAI 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RAI 1 (F4M source #02)</link>
 <link>http://cms3.fastiptv.org:80/live?channelId=102&uid=123&deviceMac=00:1a:79:39:92:3c$$lsname=RAI 1 (HTTP source #01)</link>
 <link>http://cms3.fastiptv.org:80/live?channelId=102&uid=118&deviceMac=00:1a:79:39:92:35$$lsname=RAI 1 (HTTP source #02)</link>
 <link>http://cms3.fastiptv.org:80/live?channelId=102&amp;uid=118&amp;deviceMac=00:1a:79:39:92:35$$lsname=RAI 1 (HTTP source #04)</link>
@@ -425,14 +273,10 @@
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/index.m3u8$$lsname=TV5 MONDE (HTTP source #01)</link>
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/v3plusinfo247hls_1_2.m3u8$$lsname=TV5 MONDE (HTTP source #02)</link>
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877-b/v3plusinfo247hls/v3plusinfo247hls_1_2.m3u8$$lsname=TV5 MONDE (HTTP source #03)</link>
-<link>plugin://program.plexus/?url=acestream://2b561606d65e869e9f5fdf663824293d0c836b18&amp;mode=1&amp;name=Acestream+TV5 MONDE$$lsname=TV5 MONDE (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://36b453d99679e0bdaf516a2902dd51ad8739a7a0&amp;mode=1&amp;name=Acestream+TV5 MONDE$$lsname=TV5 MONDE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TV5MONDE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
 <link>https://bblive-liveproduseast.hs.llnwd.net/btv/desktop/us_live.m3u8$$lsname=CNN (HTTP source #01)</link>
 <link>http://161.0.157.9/PLTV/88888888/224/3221226781/index.m3u8$$lsname=CNN (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] SIC INTERNACIONAL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/33020.m3u8;streamtype=HLSRETRY&amp;name=SIC INTERNACIONAL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SIC INTERNACIONAL (F4M source #03)</link>
-<link>http://bestfantastic.ddns.net:8000/live/geronimogoncalves/0yu2tALT8t/33020.m3u8$$lsname=SIC INTERNACIONAL (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SICK.png</thumbnail></item>
 Copyright © 2018 - TeamBlue

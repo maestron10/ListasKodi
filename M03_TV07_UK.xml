@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC ONE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1142.m3u8;streamtype=HLSRETRY&amp;name=BBC ONE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC ONE (F4M source #01)</link>
 <link>http://62.210.99.158:9989/live?channelId=2&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=BBC ONE (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1142.m3u8$$lsname=BBC ONE (HTTP source #02)</link>
 <link>http://62.210.99.158:9989/live?channelId=2&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=BBC ONE (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC ONE HD[/B][/COLOR]</title>
@@ -11,9 +9,7 @@
 <link><link>$doregex[getts]$$lsname=BBC ONE HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/14</page><referer>http://www.filmon.com/tv/channel/export?channel id=14&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BBC ONE HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC TWO[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1141.m3u8;streamtype=HLSRETRY&amp;name=BBC TWO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BBC TWO (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=4&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=BBC TWO (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1141.m3u8$$lsname=BBC TWO (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=4&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=BBC TWO (HTTP source #04)</link>
 <link><link>$doregex[getts]$$lsname=BBC TWO (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/25</page><referer>http://www.filmon.com/tv/channel/export?channel id=25&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BBC TWO (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC2.png</thumbnail></item>
@@ -23,9 +19,7 @@
 <link><link>$doregex[getts]$$lsname=BBC TWO HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/25</page><referer>http://www.filmon.com/tv/channel/export?channel id=25&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BBC TWO HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1146.m3u8;streamtype=HLSRETRY&amp;name=ITV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=6&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=ITV (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1146.m3u8$$lsname=ITV (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=6&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=ITV (HTTP source #04)</link>
 <link><link>$doregex[getts]$$lsname=ITV (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/11</page><referer>http://www.filmon.com/tv/channel/export?channel id=11&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV.png</thumbnail></item>
@@ -40,9 +34,7 @@
 <link><link>$doregex[getts]$$lsname=ITV +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/11</page><referer>http://www.filmon.com/tv/channel/export?channel id=11&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV +1 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHANNEL 4[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1135.m3u8;streamtype=HLSRETRY&amp;name=CHANNEL 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHANNEL 4 (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=9&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=CHANNEL 4 (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1135.m3u8$$lsname=CHANNEL 4 (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=9&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=CHANNEL 4 (HTTP source #04)</link>
 <link><link>$doregex[getts]$$lsname=CHANNEL 4 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/2</page><referer>http://www.filmon.com/tv/channel/export?channel id=2&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CHANNEL 4 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHANNEL4UK.png</thumbnail></item>
@@ -61,9 +53,7 @@
 <link><link>$doregex[getts]$$lsname=CHANNEL 4 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/2</page><referer>http://www.filmon.com/tv/channel/export?channel id=2&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CHANNEL 4 +1 HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHANNEL4+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CHANNEL 5[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1134.m3u8;streamtype=HLSRETRY&amp;name=CHANNEL 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CHANNEL 5 (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=12&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=CHANNEL 5 (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1134.m3u8$$lsname=CHANNEL 5 (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=12&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=CHANNEL 5 (HTTP source #04)</link>
 <link><link>$doregex[getts]</link>$$lsname=CHANNEL 5 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/22</page><referer>http://www.filmon.com/tv/channel/export?channel id=22&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CHANNEL 5 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHANNEL5UK.png</thumbnail></item>
@@ -92,9 +82,7 @@
 <link>http://62.210.93.115:80/live?channelId=26&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY ONE (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYONE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY ONE HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1113.m3u8;streamtype=HLSRETRY&amp;name=SKY ONE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY ONE HD (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=25&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY ONE HD (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1113.m3u8$$lsname=SKY ONE HD (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=25&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY ONE HD (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYONE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY LIVING[/B][/COLOR]</title>
@@ -102,9 +90,7 @@
 <link>http://62.210.93.115:80/live?channelId=28&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY LIVING (HTTP source #04)</link>
 <thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/6/62/SkyLiving16.png/revision/latest/scale-to-width-down/300?cb=20160419205650</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1145.m3u8;streamtype=HLSRETRY&amp;name=ITV 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 2 (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=14&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=ITV 2 (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1145.m3u8$$lsname=ITV 2 (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=14&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=ITV 2 (HTTP source #04)</link>
 <link><link>$doregex[getts]$$lsname=ITV 2 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/67</page><referer>http://www.filmon.com/tv/channel/export?channel id=67&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 2 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV2.png</thumbnail></item>
@@ -115,9 +101,7 @@
 <link><link>$doregex[getts]$$lsname=ITV 2 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/67</page><referer>http://www.filmon.com/tv/channel/export?channel id=67&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 2 +1 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV2+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 3[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1144.m3u8;streamtype=HLSRETRY&amp;name=ITV 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 3 (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=15&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=ITV 3 (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1144.m3u8$$lsname=ITV 3 (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=15&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=ITV 3 (HTTP source #04)</link>
 <link><link>$doregex[getts]$$lsname=ITV 3 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/26</page><referer>http://www.filmon.com/tv/channel/export?channel id=26&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 3 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV3.png</thumbnail></item>
@@ -128,9 +112,7 @@
 <link><link>$doregex[getts]$$lsname=ITV 3 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/26</page><referer>http://www.filmon.com/tv/channel/export?channel id=26&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 3 +1 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV3+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 4[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1143.m3u8;streamtype=HLSRETRY&amp;name=ITV 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ITV 4 (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=16&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=ITV 4 (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1143.m3u8$$lsname=ITV 4 (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=16&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=ITV 4 (HTTP source #04)</link>
 <link><link>$doregex[getts]$$lsname=ITV 4 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=ITV 4 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV4.png</thumbnail></item>
@@ -180,15 +162,11 @@
 <link>http://62.210.93.115:80/live?channelId=65&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=REALLY (HTTP source #04)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Really_logo.svg/996px-Really_logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] COMEDY CENTRAL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1133.m3u8;streamtype=HLSRETRY&amp;name=COMEDY CENTRAL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=COMEDY CENTRAL (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=39&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=COMEDY CENTRAL (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1133.m3u8$$lsname=COMEDY CENTRAL (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=39&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=COMEDY CENTRAL (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/COMEDYCENTRAL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1110.m3u8;streamtype=HLSRETRY&amp;name=MTV [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=50&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=MTV (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1110.m3u8$$lsname=MTV (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=50&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=MTV (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SYFY[/B][/COLOR]</title>
@@ -222,8 +200,6 @@
 <link><link>$doregex[getts]$$lsname=MORE4 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=More4 +1 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MORE4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS Reality[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1138.m3u8;streamtype=HLSRETRY&amp;name=CBS Reality [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBS Reality (F4M source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1138.m3u8$$lsname=CBS Reality (HTTP source #01)</link>
 <link><link>$doregex[getts]</link>$$lsname=CBS REALITY (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1808</page><referer>http://www.filmon.com/tv/channel/export?channel id=1808&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CBS Reality (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSREALITY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS Reality +1[/B][/COLOR]</title>
@@ -269,13 +245,9 @@
 <link><link>$doregex[getts]$$lsname=BET (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/25</page><referer>http://www.filmon.com/tv/channel/export?channel id=25&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=BET (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS Action[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1136.m3u8;streamtype=HLSRETRY&amp;name=CBS Action [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBS Action (F4M source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1136.m3u8$$lsname=CBS Action (HTTP source #01)</link>
 <link><link>$doregex[getts]</link>$$lsname=CBS ACTION (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1952</page><referer>http://www.filmon.com/tv/channel/export?channel id=1952&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CBS Action (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSACTION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS Drama[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1137.m3u8;streamtype=HLSRETRY&amp;name=CBS Drama [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=CBS Drama (F4M source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1137.m3u8$$lsname=CBS Drama (HTTP source #01)</link>
 <link><link>$doregex[getts]</link>$$lsname=CBS DRAMA (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1805</page><referer>http://www.filmon.com/tv/channel/export?channel id=1805&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=CBS Drama (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSDRAMA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] LIFETIME[/B][/COLOR]</title>
@@ -290,15 +262,11 @@
 <link><link>$doregex[getts]$$lsname=TRUTV (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/3707</page><referer>http://www.filmon.com/tv/channel/export?channel id=3707&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=truTV (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TRUTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DMAX[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1100.m3u8;streamtype=HLSRETRY&amp;name=DMAX [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DMAX (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=37&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=DMAX (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1100.m3u8$$lsname=DMAX (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=37&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=DMAX (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DMAXX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] YESTERDAY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1102.m3u8;streamtype=HLSRETRY&amp;name=YESTERDAY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=YESTERDAY (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=66&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=YESTERDAY (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1102.m3u8$$lsname=YESTERDAY (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=66&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=YESTERDAY (HTTP source #04)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Yesterday_logo_2012.svg/1200px-Yesterday_logo_2012.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EDEN[/B][/COLOR]</title>
@@ -306,9 +274,7 @@
 <link>http://62.210.93.115:80/live?channelId=62&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=EDEN (HTTP source #04)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/a/a4/Eden_logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1130.m3u8;streamtype=HLSRETRY&amp;name=DISCOVERY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=32&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=DISCOVERY (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1130.m3u8$$lsname=DISCOVERY (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=32&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=DISCOVERY (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ANIMAL PLANET[/B][/COLOR]</title>
@@ -316,15 +282,11 @@
 <link>http://62.210.93.115:80/live?channelId=42&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=ANIMAL PLANET (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIMALPLANET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SCIENCE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1127.m3u8;streamtype=HLSRETRY&amp;name=DISCOVERY SCIENCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SCIENCE (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=34&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=DISCOVERY SCIENCE (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1127.m3u8$$lsname=DISCOVERY SCIENCE (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=34&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=DISCOVERY SCIENCE (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSCIENCE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY TURBO[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1126.m3u8;streamtype=HLSRETRY&amp;name=DISCOVERY TURBO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY TURBO (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=35&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=DISCOVERY TURBO (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1126.m3u8$$lsname=DISCOVERY TURBO (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=35&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=DISCOVERY TURBO (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYTURBO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY HISTORY[/B][/COLOR]</title>
@@ -336,9 +298,7 @@
 <link>http://62.210.93.115:80/live?channelId=45&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=NAT GEO WILD (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEOWILD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NATIONAL GEOGRAPHIC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1124.m3u8;streamtype=HLSRETRY&amp;name=NATIONAL GEOGRAPHIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NATIONAL GEOGRAPHIC (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=46&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=NATIONAL GEOGRAPHIC (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1124.m3u8$$lsname=NATIONAL GEOGRAPHIC (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=46&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=NATIONAL GEOGRAPHIC (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HISTORY[/B][/COLOR]</title>
@@ -358,9 +318,7 @@
 <link>http://62.210.93.115:80/live?channelId=57&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=DISCOVERY HOME & HEALTH (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYHOME&HEALTH.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SHED[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1128.m3u8;streamtype=HLSRETRY&amp;name=DISCOVERY SHED [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISCOVERY SHED (F4M source #01)</link>
 <link>http://62.210.93.115:80/live?channelId=36&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=DISCOVERY SHED (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1128.m3u8$$lsname=DISCOVERY SHED (HTTP source #02)</link>
 <link>http://62.210.93.115:80/live?channelId=36&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=DISCOVERY SHED (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSHED.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOOD NETWORK[/B][/COLOR]</title>
@@ -375,10 +333,8 @@
 <link>plugin://program.plexus/?url=acestream://2ac6b56ddc77a4ddb1eb2f1165d9a0e5b397a65d&amp;mode=1&amp;name=Acestream+MTV LIVE HD$$lsname=MTV LIVE HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVLIVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV HITS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/11146.m3u8;streamtype=HLSRETRY&amp;name=MTV HITS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV HITS (F4M source #01)</link>
 <link>http://80.87.208.158:80/dna-67-tv-pc.m3u8$$lsname=MTV HITS (HTTP source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=105&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=MTV HITS (HTTP source #02)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/11146.m3u8$$lsname=MTV HITS (HTTP source #03)</link>
 <link>http://62.210.93.43:80/live?channelId=105&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=MTV HITS (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://325b98118ba497b5a7116e3ae148fd498ada0e4f&amp;mode=1&amp;name=Acestream+MTV HITS$$lsname=MTV HITS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVHITS.png</thumbnail></item>
@@ -387,36 +343,34 @@
 <link>http://62.210.93.43:80/live?channelId=102&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=MTV BASE (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVBASE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV DANCE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/11147.m3u8;streamtype=HLSRETRY&amp;name=MTV DANCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV DANCE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://url.switchtv.net:8080/live/vT1hq1RX6/c5oP7mnJ31/59.m3u8;streamtype=HLSRETRY&amp;name=MTV DANCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV DANCE (F4M source #05)</link>
 <link>http://80.87.208.158:80/dna-68-tv-pc.m3u8$$lsname=MTV DANCE (HTTP source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=104&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=MTV DANCE (HTTP source #02)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/11147.m3u8$$lsname=MTV DANCE (HTTP source #03)</link>
 <link>http://62.210.93.43:80/live?channelId=104&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=MTV DANCE (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://e4d4b5db7c284209619a6e56957d184503db3c09&amp;mode=1&amp;name=Acestream+MTV DANCE$$lsname=MTV DANCE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVDANCE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV ROCKS[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://url.switchtv.net:8080/live/vT1hq1RX6/c5oP7mnJ31/60.m3u8;streamtype=HLSRETRY&amp;name=MTV ROCKS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV ROCKS (F4M source #05)</link>
 <link>http://80.87.208.158:80/dna-99-tv-pc.m3u8$$lsname=MTV ROCKS (HTTP source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=107&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=MTV ROCKS (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=107&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=MTV ROCKS (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://0da69c24a53b287f2408c27f082464fbeeced629&amp;mode=1&amp;name=Acestream+MTV ROCKS$$lsname=MTV ROCKS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVROCKS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV CLASSIC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/11144.m3u8;streamtype=HLSRETRY&amp;name=MTV CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV CLASSIC (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=103&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=MTV CLASSIC (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/11144.m3u8$$lsname=MTV CLASSIC (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=103&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=MTV CLASSIC (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVCLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 EUROPE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/11135.m3u8;streamtype=HLSRETRY&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://url.switchtv.net:8080/live/vT1hq1RX6/c5oP7mnJ31/61.m3u8;streamtype=HLSRETRY&amp;name=VH1 EUROPE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 EUROPE (F4M source #05)</link>
 <link>http://80.87.208.158:80/dna-71-tv-pc.m3u8$$lsname=VH1 EUROPE (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/11135.m3u8$$lsname=VH1 EUROPE (HTTP source #02)</link>
+<link>http://url.switchtv.net:8080/live/vT1hq1RX6/c5oP7mnJ31/61.m3u8$$lsname=VH1 EUROPE (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.elementfx.com/hls?vid=photocall.elementfx.com/u3eyuzdwym/kr?ch=VH1_HD$$lsname=VH1 EUROPE (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://bb866041a3de03ad49a8d9652e2a8b615bbf1e29&amp;mode=1&amp;name=Acestream+VH1 EUROPE$$lsname=VH1 EUROPE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1EUROPE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 CLASSIC[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/11134.m3u8;streamtype=HLSRETRY&amp;name=VH1 CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 CLASSIC (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://url.switchtv.net:8080/live/vT1hq1RX6/c5oP7mnJ31/62.m3u8;streamtype=HLSRETRY&amp;name=VH1 CLASSIC [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=VH1 CLASSIC (F4M source #05)</link>
 <link>http://80.87.208.158:80/dna-69-tv-pc.m3u8$$lsname=VH1 CLASSIC (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/11134.m3u8$$lsname=VH1 CLASSIC (HTTP source #02)</link>
+<link>http://url.switchtv.net:8080/live/vT1hq1RX6/c5oP7mnJ31/62.m3u8$$lsname=VH1 CLASSIC (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.x10host.com/hls?vid=photocall.x10host.com/u3eyuzdwym/kr2?ch=VH1_CLASSIC$$lsname=VH1 CLASSIC (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://80ecb7d9b8fbc4d4bbbba1bab40e1895b532bdb1&amp;mode=1&amp;name=Acestream+VH1 CLASSIC$$lsname=VH1 CLASSIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1CLASSIC.png</thumbnail></item>
@@ -432,9 +386,7 @@
 <link>http://62.210.114.98:9989/live?channelId=414&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SONY MOVIE CHANNEL (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SONYMOVIECHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Movies4Men[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1111.m3u8;streamtype=HLSRETRY&amp;name=Movies4Men [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=Movies4Men (F4M source #01)</link>
 <link>http://62.210.114.98:9989/live?channelId=416&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=Movies4Men (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1111.m3u8$$lsname=Movies4Men (HTTP source #02)</link>
 <link>http://62.210.114.98:9989/live?channelId=416&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=Movies4Men (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://795f06ae46c609c598dee21f5797d15d77bd5888&amp;mode=1&amp;name=Acestream+Movies4Men$$lsname=Movies4Men (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOVIES4MEN.png</thumbnail></item>
@@ -448,9 +400,7 @@
 <link>http://62.210.93.43:80/live?channelId=86&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA PREMIERE (HTTP source #04)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/2/28/Sky_Cinema_Premiere.png/revision/latest?cb=20160708223437</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA PREMIERE HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1105.m3u8;streamtype=HLSRETRY&amp;name=SKY CINEMA PREMIERE HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY CINEMA PREMIERE HD (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=76&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY CINEMA PREMIERE HD (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1105.m3u8$$lsname=SKY CINEMA PREMIERE HD (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=76&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA PREMIERE HD (HTTP source #04)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/e/e6/Sky_Cinema_Premiere_HD.png/revision/latest?cb=20160709183308</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA HITS HD[/B][/COLOR]</title>
@@ -475,16 +425,12 @@
 <link>http://62.210.93.43:80/live?channelId=84&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA FAMILY (HTTP source #04)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/1/14/Sky_cinema_family_hd_2016.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA FAMILY HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1107.m3u8;streamtype=HLSRETRY&amp;name=SKY CINEMA FAMILY HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY CINEMA FAMILY HD (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=73&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY CINEMA FAMILY HD (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1107.m3u8$$lsname=SKY CINEMA FAMILY HD (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=73&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA FAMILY HD (HTTP source #04)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/1/14/Sky_cinema_family_hd_2016.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA ACTION[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1108.m3u8;streamtype=HLSRETRY&amp;name=SKY CINEMA ACTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY CINEMA ACTION (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=80&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY CINEMA ACTION (HTTP source #01)</link>
 <link>http://82.46.138.46:5555/play/a00a/index.m3u8$$lsname=SKY CINEMA ACTION (HTTP source #02)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1108.m3u8$$lsname=SKY CINEMA ACTION (HTTP source #03)</link>
 <link>http://62.210.93.43:80/live?channelId=80&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA ACTION (HTTP source #04)</link>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/2/2b/Sky_de_cinema_action.png/revision/latest?cb=20170105095524</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA ACTION HD[/B][/COLOR]</title>
@@ -492,17 +438,13 @@
 <link>http://62.210.93.43:80/live?channelId=70&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA ACTION HD (HTTP source #04)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/0/0a/Sky_Cinema_Action_HD_DE_Logo_2016.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA COMEDY[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1109.m3u8;streamtype=HLSRETRY&amp;name=SKY CINEMA COMEDY [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY CINEMA COMEDY (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=81&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY CINEMA COMEDY (HTTP source #01)</link>
 <link>http://82.46.138.46:5555/play/a00c/index.m3u8$$lsname=SKY CINEMA COMEDY (HTTP source #02)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1109.m3u8$$lsname=SKY CINEMA COMEDY (HTTP source #03)</link>
 <link>http://62.210.93.43:80/live?channelId=81&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA COMEDY (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYCOMEDY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA THRILLER[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1123.m3u8;streamtype=HLSRETRY&amp;name=SKY CINEMA THRILLER [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY CINEMA THRILLER (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=89&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY CINEMA THRILLER (HTTP source #01)</link>
 <link>http://82.46.138.46:5555/play/a00h/index.m3u8 $$lsname=SKY CINEMA THRILLER (HTTP source #02)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1123.m3u8$$lsname=SKY CINEMA THRILLER (HTTP source #03)</link>
 <link>http://62.210.93.43:80/live?channelId=89&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA THRILLER (HTTP source #04)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/9/96/Sky-Movies-CrimeThriller.png/revision/latest?cb=20111118190758</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA THRILLER HD[/B][/COLOR]</title>
@@ -514,27 +456,19 @@
 <link>http://62.210.93.43:80/live?channelId=87&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA SCI-FI & HORROR (HTTP source #04)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/f/f4/Sky-Movies-Sci-Fi.png/revision/latest/scale-to-width-down/250?cb=20111118191753</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA SCI-FI & HORROR HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1106.m3u8;streamtype=HLSRETRY&amp;name=SKY CINEMA SCI-FI & HORROR HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY CINEMA SCI-FI & HORROR HD (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=77&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY CINEMA SCI-FI & HORROR HD (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1106.m3u8$$lsname=SKY CINEMA SCI-FI & HORROR HD (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=77&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA SCI-FI & HORROR HD (HTTP source #04)</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/f/f4/Sky-Movies-Sci-Fi.png/revision/latest/scale-to-width-down/250?cb=20111118191753</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA DRAMA & ROMANCE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1121.m3u8;streamtype=HLSRETRY&amp;name=SKY CINEMA DRAMA & ROMANCE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY CINEMA DRAMA & ROMANCE (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=72&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY CINEMA DRAMA & ROMANCE (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1121.m3u8$$lsname=SKY CINEMA DRAMA & ROMANCE (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=72&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA DRAMA & ROMANCE (HTTP source #04)</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/4/46/Sky-Movies-DramaRomance.png/revision/latest?cb=20111118190215</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY CINEMA SELECT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1122.m3u8;streamtype=HLSRETRY&amp;name=SKY CINEMA SELECT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY CINEMA SELECT (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=78&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY CINEMA SELECT (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1122.m3u8$$lsname=SKY CINEMA SELECT (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=78&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY CINEMA SELECT (HTTP source #04)</link>
 <thumbnail>http://i.imgur.com/Kcj5M1Q.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORTS PREMIER LEAGUE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1089.m3u8;streamtype=HLSRETRY&amp;name=SKY SPORTS PREMIER LEAGUE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORTS PREMIER LEAGUE (F4M source #01)</link>
 <link>http://62.210.99.158:9989/live?channelId=133&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY SPORTS PREMIER LEAGUE (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1089.m3u8$$lsname=SKY SPORTS PREMIER LEAGUE (HTTP source #02)</link>
 <link>http://62.210.99.158:9989/live?channelId=133&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY SPORTS PREMIER LEAGUE (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cricfree.sc/update/skysportspremier.php$$lsname=SKY SPORTS PREMIER LEAGUE (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/skysports5.php$$lsname=SKY SPORTS PREMIER LEAGUE (SD source #02)</link>
@@ -545,9 +479,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/skysportspremierleague.php$$lsname=SKY SPORTS PREMIER LEAGUE HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSPL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORTS MAIN EVENT[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1091.m3u8;streamtype=HLSRETRY&amp;name=SKY SPORTS MAIN EVENT [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORTS MAIN EVENT (F4M source #01)</link>
 <link>http://62.210.114.105:80/live?channelId=129&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY SPORTS MAIN EVENT (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1091.m3u8$$lsname=SKY SPORTS MAIN EVENT (HTTP source #02)</link>
 <link>http://62.210.114.105:80/live?channelId=129&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY SPORTS MAIN EVENT (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cricfree.sc/update/skysportsmainevent.php$$lsname=SKY SPORTS MAIN EVENT (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://4a9b823d5a5e2b39abc5695ee93681f008fbf422&amp;mode=1&amp;name=Acestream+SKY SPORTS MAIN EVENT$$lsname=SKY SPORTS MAIN EVENT (PLEXUS source #01)</link>
@@ -568,9 +500,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/skysportsfootball.php$$lsname=SKY SPORTS FOOTBALL HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSFOOTBALL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORTS CRICKET[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1092.m3u8;streamtype=HLSRETRY&amp;name=SKY SPORTS CRICKET [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORTS CRICKET (F4M source #01)</link>
 <link>http://62.210.99.158:9989/live?channelId=123&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY SPORTS CRICKET (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1092.m3u8$$lsname=SKY SPORTS CRICKET (HTTP source #02)</link>
 <link>http://62.210.99.158:9989/live?channelId=123&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY SPORTS CRICKET (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSCRICKET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORTS CRICKET HD[/B][/COLOR]</title>
@@ -579,9 +509,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/skysportscricket.php$$lsname=SKY SPORTS CRICKET HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSCRICKET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORTS GOLF[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1090.m3u8;streamtype=HLSRETRY&amp;name=SKY SPORTS GOLF [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORTS GOLF (F4M source #01)</link>
 <link>http://62.210.99.158:9989/live?channelId=127&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY SPORTS GOLF (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1090.m3u8$$lsname=SKY SPORTS GOLF (HTTP source #02)</link>
 <link>http://62.210.99.158:9989/live?channelId=127&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY SPORTS GOLF (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSGOLF.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORTS GOLF HD[/B][/COLOR]</title>
@@ -590,9 +518,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/skysportsgolf.php$$lsname=SKY SPORTS GOLF HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSGOLF.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORTS F1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1088.m3u8;streamtype=HLSRETRY&amp;name=SKY SPORTS F1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORTS F1 (F4M source #01)</link>
 <link>http://62.210.99.158:9989/live?channelId=135&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY SPORTS F1 (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1088.m3u8$$lsname=SKY SPORTS F1 (HTTP source #02)</link>
 <link>http://62.210.99.158:9989/live?channelId=135&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY SPORTS F1 (HTTP source #04)</link>
 <link>rtmp://213.152.180.151:17247/sstream/1E8EJUkeNI.stream$$lsname=SKY SPORTS F1 (RTMP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSF1.png</thumbnail></item>
@@ -602,9 +528,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/skysportsf1.php$$lsname=SKY SPORTS F1 HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSF1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORTS ACTION[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1093.m3u8;streamtype=HLSRETRY&amp;name=SKY SPORTS ACTION [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORTS ACTION (F4M source #01)</link>
 <link>http://62.210.99.158:9989/live?channelId=119&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY SPORTS ACTION (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1093.m3u8$$lsname=SKY SPORTS ACTION (HTTP source #02)</link>
 <link>http://62.210.99.158:9989/live?channelId=119&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY SPORTS ACTION (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://v2.ustreamix.com/stream.php?id=sky-sports-3-b$$lsname=SKY SPORTS ACTION (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSACTION.png</thumbnail></item>
@@ -624,9 +548,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/skysportsarena.php$$lsname=SKY SPORTS ARENA HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSARENA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY SPORTS NEWS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1087.m3u8;streamtype=HLSRETRY&amp;name=SKY SPORTS NEWS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=SKY SPORTS NEWS (F4M source #01)</link>
 <link>http://62.210.99.158:9989/live?channelId=137&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=SKY SPORTS NEWS (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1087.m3u8$$lsname=SKY SPORTS NEWS (HTTP source #02)</link>
 <link>http://62.210.99.158:9989/live?channelId=137&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=SKY SPORTS NEWS (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://embratoria.com/embed/hls/is.php?s=skysports1$$lsname=SKY SPORTS NEWS (SD source #02)</link>
 <thumbnail>http://i.imgur.com/dQMc5EO.png</thumbnail></item>
@@ -644,16 +566,12 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/skysportsmix.php$$lsname=SKY SPORTS MIX HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYSPORTSMIX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 1 UK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1095.m3u8;streamtype=HLSRETRY&amp;name=EUROSPORT 1 UK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 1 UK (F4M source #01)</link>
 <link>http://62.210.214.28:9989/live?channelId=156&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=EUROSPORT 1 UK (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1095.m3u8$$lsname=EUROSPORT 1 UK (HTTP source #02)</link>
 <link>http://62.210.214.28:9989/live?channelId=156&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=EUROSPORT 1 UK (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/eurosport.php$$lsname=EUROSPORT 1 UK (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 UK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1094.m3u8;streamtype=HLSRETRY&amp;name=EUROSPORT 2 UK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=EUROSPORT 2 UK (F4M source #01)</link>
 <link>http://62.210.214.28:9989/live?channelId=157&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=EUROSPORT 2 UK (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1094.m3u8$$lsname=EUROSPORT 2 UK (HTTP source #02)</link>
 <link>http://62.210.214.28:9989/live?channelId=157&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=EUROSPORT 2 UK (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/eurosport2.php$$lsname=EUROSPORT 2 UK (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT2.png</thumbnail></item>
@@ -663,9 +581,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/mutv.php$$lsname=MUTV (SD source #01)</link>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/7/7e/Mutv.jpg/revision/latest?cb=20140909134056</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BT SPORT 1[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1079.m3u8;streamtype=HLSRETRY&amp;name=BT SPORT 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BT SPORT 1 (F4M source #01)</link>
 <link>http://62.210.214.28:9989/live?channelId=140&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=BT SPORT 1 (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1079.m3u8$$lsname=BT SPORT 1 (HTTP source #02)</link>
 <link>http://62.210.214.28:9989/live?channelId=140&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=BT SPORT 1 (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cricfree.sc/update/bt1.php$$lsname=BT SPORT 1 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BT1.png</thumbnail></item>
@@ -676,9 +592,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/btsport1.php$$lsname=BT SPORT 1 HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BT1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BT SPORT 2[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1078.m3u8;streamtype=HLSRETRY&amp;name=BT SPORT 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BT SPORT 2 (F4M source #01)</link>
 <link>http://62.210.214.28:9989/live?channelId=142&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=BT SPORT 2 (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1078.m3u8$$lsname=BT SPORT 2 (HTTP source #02)</link>
 <link>http://62.210.214.28:9989/live?channelId=142&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=BT SPORT 2 (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cricfree.sc/update/bt2.php$$lsname=BT SPORT 2 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BT2.png</thumbnail></item>
@@ -688,9 +602,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/btsport2.php$$lsname=BT SPORT 2 HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BT2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BT SPORT 3[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1085.m3u8;streamtype=HLSRETRY&amp;name=BT SPORT 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BT SPORT 3 (F4M source #01)</link>
 <link>http://62.210.214.28:9989/live?channelId=144&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=BT SPORT 3 (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1085.m3u8$$lsname=BT SPORT 3 (HTTP source #02)</link>
 <link>http://62.210.214.28:9989/live?channelId=144&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=BT SPORT 3 (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cricfree.sc/update/bteu.php$$lsname=BT SPORT 3 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BT3.png</thumbnail></item>
@@ -701,9 +613,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/btsporteurope.php$$lsname=BT SPORT 3 HD (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BT3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BT SPORT ESPN[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1077.m3u8;streamtype=HLSRETRY&amp;name=BT SPORT ESPN [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=BT SPORT ESPN (F4M source #01)</link>
 <link>http://62.210.214.28:9989/live?channelId=146&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=BT SPORT ESPN (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1077.m3u8$$lsname=BT SPORT ESPN (HTTP source #02)</link>
 <link>http://62.210.214.28:9989/live?channelId=146&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=BT SPORT ESPN (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cricfree.sc/update/espn.php$$lsname=BT SPORT ESPN (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BTESPN.png</thumbnail></item>
@@ -718,9 +628,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/attheraces.php$$lsname=AT THE RACES (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ATTHERACES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RACING UK[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1116.m3u8;streamtype=HLSRETRY&amp;name=RACING UK [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RACING UK (F4M source #01)</link>
 <link>http://62.210.214.28:9989/live?channelId=172&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=RACING UK (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1116.m3u8$$lsname=RACING UK (HTTP source #02)</link>
 <link>http://62.210.214.28:9989/live?channelId=172&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=RACING UK (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/racinguk.php$$lsname=RACING UK (SD source #01)</link>
 <thumbnail>https://www.mulliganssportsbar.co.uk/wp-content/uploads/2017/05/RacingUK-01.png</thumbnail></item>
@@ -743,9 +651,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/boxnation.php$$lsname=BOXNATION (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BOXNATION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PREMIER SPORTS[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1074.m3u8;streamtype=HLSRETRY&amp;name=PREMIER SPORTS [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=PREMIER SPORTS (F4M source #01)</link>
 <link>http://62.210.214.28:9989/live?channelId=170&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=PREMIER SPORTS (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1074.m3u8$$lsname=PREMIER SPORTS (HTTP source #02)</link>
 <link>http://62.210.214.28:9989/live?channelId=170&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=PREMIER SPORTS (HTTP source #04)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/premiersports.php$$lsname=PREMIER SPORTS (SD source #01)</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/pp/premier_sports.png</thumbnail></item>
@@ -784,14 +690,12 @@
 <link><link>$doregex[getts]$$lsname=EURONEWS (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.com/api-v2/channel/1672</page><referer>http://www.filmon.com/tv/channel/export?channel id=1672&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent><cookieJar></cookieJar></regex>$$lsname=EURONEWS (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTE ONE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1104.m3u8;streamtype=HLSRETRY&amp;name=RTE ONE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTE ONE (F4M source #01)</link>
 <link>http://akamai.rasset.ie/hls-live/_definst_/rte1/rte1-720.m3u8$$lsname=RTE ONE (HTTP source #01)</link>
 <link>http://cdn.rasset.ie/hls-live/_definst_/rte1/rte1-720.m3u8|user-agent=smartlabs$$lsname=RTE ONE (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=113&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=RTE ONE (HTTP source #03)</link>
 <link>http://62.210.93.43:80/live?channelId=113&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=RTE ONE (HTTP source #04)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/RT%C3%89_One_2014.svg/1280px-RT%C3%89_One_2014.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTE TWO[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1103.m3u8;streamtype=HLSRETRY&amp;name=RTE TWO [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RTE TWO (F4M source #01)</link>
 <link>http://akamai.rasset.ie/hls-live/_definst_/rte2/rte2-720.m3u8$$lsname=RTE TWO (HTTP source #01)</link>
 <link>http://cdn.rasset.ie/hls-live/_definst_/rte2/rte2-720.m3u8|user-agent=smartlabs$$lsname=RTE TWO (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=114&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=RTE TWO (HTTP source #03)</link>
@@ -803,7 +707,6 @@
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master.m3u8$$lsname=FRANCE 24 EN (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 FR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/2529.m3u8;streamtype=HLSRETRY&amp;name=FRANCE 24 FR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=FRANCE 24 FR (F4M source #01)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 FR (HTTP source #01)</link>
 <link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master.m3u8$$lsname=FRANCE 24 FR (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://2b1e0df48328edf1f26bc0e08dcc03dd5c5498fd&amp;mode=1&amp;name=Acestream+FRANCE 24 FR$$lsname=FRANCE 24 FR (PLEXUS source #01)</link>
@@ -853,15 +756,11 @@
 <link>http://62.210.93.43:80/live?channelId=98&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=NICKTOONS (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKTOONS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1131.m3u8;streamtype=HLSRETRY&amp;name=DISNEY CHANNEL [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY CHANNEL (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=94&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=DISNEY CHANNEL (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1131.m3u8$$lsname=DISNEY CHANNEL (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=94&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=DISNEY CHANNEL (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY JUNIOR[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ada104/1414ss/1132.m3u8;streamtype=HLSRETRY&amp;name=DISNEY JUNIOR [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=DISNEY JUNIOR (F4M source #01)</link>
 <link>http://62.210.93.43:80/live?channelId=95&deviceMac=00:1A:79:37:C2:FD&uid=4302$$lsname=DISNEY JUNIOR (HTTP source #01)</link>
-<link>http://formen1.com:8080/live/ada104/1414ss/1132.m3u8$$lsname=DISNEY JUNIOR (HTTP source #02)</link>
 <link>http://62.210.93.43:80/live?channelId=95&amp;deviceMac=00:1A:79:37:C2:FD&amp;uid=4302$$lsname=DISNEY JUNIOR (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYJUNIOR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BOOMERANG[/B][/COLOR]</title>
