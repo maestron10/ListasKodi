@@ -20,8 +20,8 @@
    <regex>
    <name>hash</name>
    <expres>this.loadPlayer\("(.*?)"</expres>
-   <page>http://cdn5.arenavision.link/$doregex[canal]</page>
-   <referer>http://cdn5.arenavision.link</referer>
+   <page>http://cdn1.arenavision.link/$doregex[canal]</page>
+   <referer>http://cdn1.arenavision.link</referer>
    <setcookie>beget=begetok</setcookie>
    </regex>
    <regex>
@@ -34,7 +34,7 @@
 <expres><![CDATA[87px\">(.*?)<[\w\W\s]{0,30}">(.*?)<[\w\W\s]{0,32}">(.*?)<[\w\W\s]{0,32}">(.*?)<[\w\W\s]{0,32}">(.*?)<[\w\W\s]{0,52}"(>[0-9]+)]]></expres>
 <page>http://arenavision.us/guide</page>
 <Agent>Mozilla</Agent>
-<referer>http://cdn5.arenavision.link</referer>
+<referer>http://cdn1.arenavision.link</referer>
 <setcookie>beget=begetok</setcookie>
  </regex>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
@@ -49,7 +49,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/01</page>
+<page>http://cdn1.arenavision.link/01</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -61,7 +61,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/02</page>
+<page>http://cdn1.arenavision.link/02</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -73,7 +73,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/03</page>
+<page>http://cdn1.arenavision.link/03</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -85,7 +85,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/04</page>
+<page>http://cdn1.arenavision.link/04</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -97,7 +97,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/05</page>
+<page>http://cdn1.arenavision.link/05</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -109,7 +109,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/06</page>
+<page>http://cdn1.arenavision.link/06</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -121,7 +121,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/07</page>
+<page>http://cdn1.arenavision.link/07</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -133,7 +133,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/08</page>
+<page>http://cdn1.arenavision.link/08</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -145,7 +145,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/09</page>
+<page>http://cdn1.arenavision.link/09</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -157,7 +157,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/10</page>
+<page>http://cdn1.arenavision.link/10</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -169,7 +169,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/11</page>
+<page>http://cdn1.arenavision.link/11</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -181,7 +181,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/12</page>
+<page>http://cdn1.arenavision.link/12</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -193,7 +193,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/13</page>
+<page>http://cdn1.arenavision.link/13</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -205,7 +205,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/14</page>
+<page>http://cdn1.arenavision.link/14</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -217,7 +217,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/15</page>
+<page>http://cdn1.arenavision.link/15</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -229,7 +229,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/16</page>
+<page>http://cdn1.arenavision.link/16</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -241,7 +241,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/17</page>
+<page>http://cdn1.arenavision.link/17</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -253,7 +253,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/18</page>
+<page>http://cdn1.arenavision.link/18</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -265,7 +265,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/19</page>
+<page>http://cdn1.arenavision.link/19</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -277,7 +277,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/20</page>
+<page>http://cdn1.arenavision.link/20</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -289,7 +289,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/21</page>
+<page>http://cdn1.arenavision.link/21</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -301,7 +301,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/22</page>
+<page>http://cdn1.arenavision.link/22</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -313,7 +313,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/23</page>
+<page>http://cdn1.arenavision.link/23</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -325,7 +325,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/24</page>
+<page>http://cdn1.arenavision.link/24</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -337,7 +337,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/25</page>
+<page>http://cdn1.arenavision.link/25</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -349,7 +349,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/26</page>
+<page>http://cdn1.arenavision.link/26</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -361,7 +361,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/27</page>
+<page>http://cdn1.arenavision.link/27</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -373,7 +373,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/28</page>
+<page>http://cdn1.arenavision.link/28</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -385,7 +385,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/29</page>
+<page>http://cdn1.arenavision.link/29</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -397,7 +397,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/30</page>
+<page>http://cdn1.arenavision.link/30</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -409,7 +409,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/31</page>
+<page>http://cdn1.arenavision.link/31</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -421,7 +421,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/32</page>
+<page>http://cdn1.arenavision.link/32</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -433,7 +433,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/33</page>
+<page>http://cdn1.arenavision.link/33</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -445,7 +445,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/34</page>
+<page>http://cdn1.arenavision.link/34</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -457,7 +457,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/35</page>
+<page>http://cdn1.arenavision.link/35</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -469,7 +469,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/36</page>
+<page>http://cdn1.arenavision.link/36</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -481,7 +481,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/37</page>
+<page>http://cdn1.arenavision.link/37</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -493,7 +493,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/38</page>
+<page>http://cdn1.arenavision.link/38</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -505,7 +505,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/39</page>
+<page>http://cdn1.arenavision.link/39</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -517,7 +517,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/40</page>
+<page>http://cdn1.arenavision.link/40</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -529,7 +529,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/41</page>
+<page>http://cdn1.arenavision.link/41</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -541,7 +541,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/42</page>
+<page>http://cdn1.arenavision.link/42</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -553,7 +553,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/43</page>
+<page>http://cdn1.arenavision.link/43</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -565,7 +565,7 @@
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://cdn5.arenavision.link/44</page>
+<page>http://cdn1.arenavision.link/44</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
@@ -585,9 +585,34 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV3.png</thumbnail>
 </item>
 <item>
+<title>[B][COLOR lawngreen]• [COLOR white]PT KURIAKOS TV[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=acestream://2c3f4fd1480f5e7919271aed60303e82a5d3d2cc&amp;mode=1&amp;name=KURIAKOS TV</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/KURIAKOSTV.png</thumbnail>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]PT MCM TOP HD[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=acestream://5648467b25d783293e277831bebc671f188c15a5&amp;mode=1&amp;name=MCM TOP HD</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MCMTOP.png</thumbnail>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]PT MTV ROCKS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=acestream://d6f5e8894dbb923b07283cb710bd73a8cfc1abf9&amp;mode=1&amp;name=MTV ROCKS</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVROCKS.png</thumbnail>
+</item>
+<item>
 <title>[B][COLOR lawngreen]• [COLOR white]DE: EUROSPORT 1 DE[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://8201d4dfc0dd605af403ed9fae139778ef89f2f7&amp;mode=1&amp;name=EUROSPORT 1 DE</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]DE: NDR HD[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=acestream://486a357c5357fb60b25019419808da12f4364f5f&amp;mode=1&amp;name=NDR HD</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NDR_Dachmarke.svg/2000px-NDR_Dachmarke.svg.png</thumbnail>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]DE: SONNENKLAR TV[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=acestream://bfc3a049bc05f24d8deafea6e9f3005d0fbe77ec&amp;mode=1&amp;name=SONNENKLAR TV</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SONNENKLAR.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ES: MOVISTAR MOTO GP[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
@@ -600,9 +625,24 @@
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/2/27/Realmadrid_TV.svg/revision/latest/scale-to-width-down/600?cb=20100605113205</thumbnail>
 </item>
 <item>
+<title>[B][COLOR lawngreen]• [COLOR white]FR:W9 HD[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=acestream://55afd7bb747e0c82cc299049e5466a27a2fd0d59&amp;mode=1&amp;name=W9 HD</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/W9.png</thumbnail>
+</item>
+<item>
 <title>[B][COLOR lawngreen]• [COLOR white]IT: RAI SPORT 1[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://b0e03c84b6ea812d496a9b7641b4e306d3b0a56e&amp;mode=1&amp;name=RAI SPORT 1</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAISPORT1.png</thumbnail>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]SKY TG24IT: [COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=acestream://954161f6bea9b1d9d55f3b14deede899f173fdae&amp;mode=1&amp;name=SKY TG24</link>
+<thumbnail>http://i.imgur.com/o4ca5xo.png</thumbnail>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]VIDEOLINAIT: [COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=acestream://58d93d662912325aff1ae4a92377bae4af7776bb&amp;mode=1&amp;name=VIDEOLINA</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VIDEOLINA.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]UK: SKY SPORTS MAIN EVENT[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
@@ -618,6 +658,11 @@
 <title>[B][COLOR lawngreen]• [COLOR white]US: NFL NOW[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://5dfe41fcaf59af1bb9e3376f8ef304f5213d97ea&amp;mode=1&amp;name=NFL NOW</link>
 <thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/6/68/NFL_NOW_horz_RGB.jpg/revision/latest?cb=20150803005255</thumbnail>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]US: ABC NEWS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=acestream://a29dde03ffc3e30529ed213839e3dca9b07759f8&amp;mode=1&amp;name=ABC NEWS</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ABCNEWS.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR red]====================[/B][/COLOR]</title>
@@ -664,7 +709,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]PT: MTV ROCKS[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://0da69c24a53b287f2408c27f082464fbeeced629&amp;mode=1&amp;name=MTV ROCKS</link>
+<link>plugin://program.plexus/?url=acestream://d6f5e8894dbb923b07283cb710bd73a8cfc1abf9&amp;mode=1&amp;name=MTV ROCKS</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVROCKS.png</thumbnail>
 </item>
 <item>
@@ -902,7 +947,7 @@
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]IT: SKY TG24[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
-<link>plugin://program.plexus/?url=acestream://9d6f2e0f247846dcf6565154105b2316a2110e13&amp;mode=1&amp;name=SKY TG24</link>
+<link>plugin://program.plexus/?url=acestream://954161f6bea9b1d9d55f3b14deede899f173fdae&amp;mode=1&amp;name=SKY TG24</link>
 <thumbnail>http://i.imgur.com/o4ca5xo.png</thumbnail>
 </item>
 <item>
