@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 1[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/12202.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 (F4M 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7947.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 (F4M 05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4114.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 (F4M 08)</link>
 <link>http://pina7.ddns.net:8000/aplicacao/scp4ever/16.ch$$lsname=ELEVEN SPORTS 1 (HTTP 01)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/1.m3u8$$lsname=ELEVEN SPORTS 1 (HTTP 02)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/38.m3u8$$lsname=ELEVEN SPORTS 1 (HTTP 03)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/4.m3u8$$lsname=ELEVEN SPORTS 1 (HTTP 04)</link>
+<link>http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4114.m3u8$$lsname=ELEVEN SPORTS 1 (HTTP 02)</link>
+<link>http://iptvlowcost.club:8080/live/eco/eco/7947.m3u8$$lsname=ELEVEN SPORTS 1 (HTTP 03)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 1 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/hhudt</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 1 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 1: [COLOR blue] ELEVEN SPORTS 1 HD[/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51927.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 HD (F4M 01)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/7.m3u8$$lsname=ELEVEN SPORTS 1 HD (HTTP 01)</link>
-<link>http://hotiptv.ddns.net:8000/live/rosario/rosario/7.m3u8$$lsname=ELEVEN SPORTS 1 HD (HTTP 02)</link>
-<link>http://hotiptv.ddns.net:8000/live/amigo/amigo/7.m3u8$$lsname=ELEVEN SPORTS 1 HD (HTTP 03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7852.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 HD (F4M 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7905.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 HD (F4M 05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/1889.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 HD (F4M 08)</link>
+<link>http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/1889.m3u8$$lsname=ELEVEN SPORTS 1 HD (HTTP 01)</link>
+<link>http://iptvlowcost.club:8080/live/eco/eco/7905.m3u8$$lsname=ELEVEN SPORTS 1 HD (HTTP 03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 1 FHD[/COLOR]</title>
@@ -18,14 +21,19 @@
 </item>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 2[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/12203.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 (F4M 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7948.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 (F4M 05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4117.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 (F4M 08)</link>
 <link>http://pina7.ddns.net:8000/aplicacao/scp4ever/17.ch$$lsname=ELEVEN SPORTS 2 (HTTP 01)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/2.m3u8$$lsname=ELEVEN SPORTS 2 (HTTP 02)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/39.m3u8$$lsname=ELEVEN SPORTS 2 (HTTP 03)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/5.m3u8$$lsname=ELEVEN SPORTS 2 (HTTP 04)</link>
+<link>http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4117.m3u8$$lsname=ELEVEN SPORTS 2 (HTTP 02)</link>
+<link>http://iptvlowcost.club:8080/live/eco/eco/7948.m3u8$$lsname=ELEVEN SPORTS 2 (HTTP 03)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 2 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/8efw5pjtkz</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 2 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 1 FHD: [COLOR blue] ELEVEN SPORTS 2 HD[/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51926.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 HD (F4M 01)</link>
-<link>http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51926.m3u8$$lsname=ELEVEN SPORTS 2 HD (HTTP 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7853.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 HD (F4M 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7906.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 HD (F4M 05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/1888.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 HD (F4M 08)</link>
+<link>http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/1888.m3u8$$lsname=ELEVEN SPORTS 2 HD (HTTP 01)</link>
+<link>http://iptvlowcost.club:8080/live/eco/eco/7906.m3u8$$lsname=ELEVEN SPORTS 2 HD (HTTP 03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 2 FHD[/COLOR]</title>
@@ -33,13 +41,18 @@
 </item>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 3[/COLOR]</title>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/3.m3u8$$lsname=ELEVEN SPORTS 3 (HTTP 01)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/6.m3u8$$lsname=ELEVEN SPORTS 3 (HTTP 02)</link>
-<link>http://hotiptv.ddns.net:8000/live/rosario/rosario/3.m3u8$$lsname=ELEVEN SPORTS 3 (HTTP 03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/12204.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 (F4M 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7949.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 (F4M 05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4122.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 (F4M 08)</link>
+<link>http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4122.m3u8$$lsname=ELEVEN SPORTS 3 (HTTP 01)</link>
+<link>http://iptvlowcost.club:8080/live/eco/eco/7949.m3u8$$lsname=ELEVEN SPORTS 3 (HTTP 03)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 3 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/xilltxm4l179w22</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 3 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 2 FHD: [COLOR blue] ELEVEN SPORTS 3 HD[/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51925.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 HD (F4M 01)</link>
-<link>http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51925.m3u8$$lsname=ELEVEN SPORTS 3 HD (HTTP 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7885.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 HD (F4M 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7907.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 HD (F4M 05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/1887.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 HD (F4M 08)</link>
+<link>http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/1887.m3u8$$lsname=ELEVEN SPORTS 3 HD (HTTP 01)</link>
+<link>http://iptvlowcost.club:8080/live/eco/eco/7907.m3u8$$lsname=ELEVEN SPORTS 3 HD (HTTP 03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 3 FHD[/COLOR]</title>
@@ -47,13 +60,13 @@
 </item>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 4[/COLOR]</title>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/32.m3u8$$lsname=ELEVEN SPORTS 4 (HTTP 01)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/33.m3u8$$lsname=ELEVEN SPORTS 4 (HTTP 02)</link>
-<link>http://hotiptv.ddns.net:8000/live/rosario/rosario/32.m3u8$$lsname=ELEVEN SPORTS 4 (HTTP 03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4124.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 4 (F4M 08)</link>
+<link>http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4124.m3u8$$lsname=ELEVEN SPORTS 4 (HTTP 01)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 4 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/rffdh5i</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 4 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 3 FHD: [COLOR blue] ELEVEN SPORTS 4 HD[/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51924.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 4 HD (F4M 01)</link>
-<link>http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51924.m3u8$$lsname=ELEVEN SPORTS 4 HD (HTTP 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7926.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 4 HD (F4M 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7929.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 4 HD (F4M 05)</link>
+<link>http://iptvlowcost.club:8080/live/eco/eco/7929.m3u8$$lsname=ELEVEN SPORTS 4 HD (HTTP 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 4 FHD[/COLOR]</title>
@@ -61,13 +74,13 @@
 </item>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 5[/COLOR]</title>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/34.m3u8$$lsname=ELEVEN SPORTS 5 (HTTP 01)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/35.m3u8$$lsname=ELEVEN SPORTS 5 (HTTP 02)</link>
-<link>http://hotiptv.ddns.net:8000/live/rosario/rosario/34.m3u8$$lsname=ELEVEN SPORTS 5 (HTTP 03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4127.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 5 (F4M 08)</link>
+<link>http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4127.m3u8$$lsname=ELEVEN SPORTS 5 (HTTP 01)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 5 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/4xwxr</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 5 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 4 FHD: [COLOR blue] ELEVEN SPORTS 5 HD[/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51923.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 5 HD (F4M 01)</link>
-<link>http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51923.m3u8$$lsname=ELEVEN SPORTS 5 HD (HTTP 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7927.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 5 HD (F4M 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7930.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 5 HD (F4M 05)</link>
+<link>http://iptvlowcost.club:8080/live/eco/eco/7930.m3u8$$lsname=ELEVEN SPORTS 5 HD (HTTP 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 5 FHD[/COLOR]</title>
@@ -75,13 +88,15 @@
 </item>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 6[/COLOR]</title>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/36.m3u8$$lsname=ELEVEN SPORTS 6 (HTTP 01)</link>
-<link>http://hotiptv.ddns.net:8000/live/Basilio/Basilio/37.m3u8$$lsname=ELEVEN SPORTS 6 (HTTP 02)</link>
-<link>http://hotiptv.ddns.net:8000/live/rosario/rosario/36.m3u8$$lsname=ELEVEN SPORTS 6 (HTTP 03)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4128.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 6 (F4M 08)</link>
+<link>http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/4128.m3u8$$lsname=ELEVEN SPORTS 6 (HTTP 01)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 6 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/vsdicz</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 6 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 5 FHD: [COLOR blue] ELEVEN SPORTS 6 HD[/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51922.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 6 HD (F4M 01)</link>
-<link>http://mypanel.tv:8080/live/frenchdubai/uiwyejkhasdlkiowqeKLGHdakldas/51922.m3u8$$lsname=ELEVEN SPORTS 6 HD (HTTP 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7928.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 6 HD (F4M 01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7931.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 6 HD (F4M 05)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/1884.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 6 HD (F4M 08)</link>
+<link>http://panel.3mosqueteiros.biz:8080/live/qwerty/qwerty/1884.m3u8$$lsname=ELEVEN SPORTS 6 HD (HTTP 01)</link>
+<link>http://iptvlowcost.club:8080/live/eco/eco/7931.m3u8$$lsname=ELEVEN SPORTS 6 HD (HTTP 02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 6 FHD[/COLOR]</title>
@@ -90,27 +105,32 @@
 <item>
 <title>[COLOR white]FR: [COLOR blue] ELEVEN SPORTS 1[/COLOR]</title>
 <title>[COLOR white]FR: [COLOR blue] ELEVEN SPORTS 1 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7876.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 HD (F4M 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <item>
 <title>[COLOR white]FR: [COLOR blue] ELEVEN SPORTS 2[/COLOR]</title>
 <title>[COLOR white]FR: [COLOR blue] ELEVEN SPORTS 2 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7877.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 HD (F4M 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <item>
 <title>[COLOR white]FR: [COLOR blue] ELEVEN SPORTS 3[/COLOR]</title>
 <title>[COLOR white]FR: [COLOR blue] ELEVEN SPORTS 3 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7878.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 HD (F4M 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <item>
 <title>[COLOR white]UK: [COLOR blue] ELEVEN SPORTS 1[/COLOR]</title>
 <link>http://swf.x10.bz/swe/twich.php?canal=elevensportsnext&f=.m3u8$$lsname=ELEVEN SPORTS 1 (HTTP 01)</link>
 <title>[COLOR white]UK: [COLOR blue] ELEVEN SPORTS 1 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7879.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 HD (F4M 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <item>
 <title>[COLOR white]UK: [COLOR blue] ELEVEN SPORTS 2[/COLOR]</title>
 <title>[COLOR white]UK: [COLOR blue] ELEVEN SPORTS 2 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://iptvlowcost.club:8080/live/eco/eco/7880.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 HD (F4M 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <item>
