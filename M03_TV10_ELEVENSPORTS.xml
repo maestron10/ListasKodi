@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 1[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/18315.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 (F4M 01)</link>
 <link>http://pina7.ddns.net:8000/aplicacao/scp4ever/16.ch$$lsname=ELEVEN SPORTS 1 (HTTP 01)</link>
 <link>http://5.189.170.58:6969/SPORTUGAL/SPORTUGAL/1.ch$$lsname=ELEVEN SPORTS 1 (HTTP 02)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 1 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/hhudt</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 1 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 1: [COLOR blue] ELEVEN SPORTS 1 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17576.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 HD (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17576.m3u8$$lsname=ELEVEN SPORTS 1 HD (HTTP 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 1 FHD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/18313.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 FHD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 FHD (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/18313.m3u8$$lsname=ELEVEN SPORTS 1 FHD (HTTP 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 2[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/24944.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 (F4M 01)</link>
 <link>http://pina7.ddns.net:8000/aplicacao/scp4ever/17.ch$$lsname=ELEVEN SPORTS 2 (HTTP 01)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 2 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/8efw5pjtkz</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 2 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 1 FHD: [COLOR blue] ELEVEN SPORTS 2 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17575.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 HD (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17575.m3u8$$lsname=ELEVEN SPORTS 2 HD (HTTP 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 2 FHD[/COLOR]</title>
@@ -22,8 +30,12 @@
 </item>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 3[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/24945.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/24945.m3u8$$lsname=ELEVEN SPORTS 3 (HTTP 01)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 3 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/xilltxm4l179w22</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 3 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 2 FHD: [COLOR blue] ELEVEN SPORTS 3 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17574.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 3 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 3 HD (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17574.m3u8$$lsname=ELEVEN SPORTS 3 HD (HTTP 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 3 FHD[/COLOR]</title>
@@ -31,8 +43,12 @@
 </item>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 4[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/24946.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 4 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 4 (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/24946.m3u8$$lsname=ELEVEN SPORTS 4 (HTTP 01)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 4 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/rffdh5i</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 4 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 3 FHD: [COLOR blue] ELEVEN SPORTS 4 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17573.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 4 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 4 HD (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17573.m3u8$$lsname=ELEVEN SPORTS 4 HD (HTTP 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 4 FHD[/COLOR]</title>
@@ -40,8 +56,12 @@
 </item>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 5[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/24948.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 5 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 5 (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/24948.m3u8$$lsname=ELEVEN SPORTS 5 (HTTP 01)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 5 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/4xwxr</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 5 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 4 FHD: [COLOR blue] ELEVEN SPORTS 5 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17572.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 5 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 5 HD (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17572.m3u8$$lsname=ELEVEN SPORTS 5 HD (HTTP 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 5 FHD[/COLOR]</title>
@@ -49,8 +69,12 @@
 </item>
 <item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 6[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/24949.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 6 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 6 (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/24949.m3u8$$lsname=ELEVEN SPORTS 6 (HTTP 01)</link>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 6 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/vsdicz</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 6 (HTTP 05)</link>
 <title>[COLOR white]ELEVEN SPORTS 5 FHD: [COLOR blue] ELEVEN SPORTS 6 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17571.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 6 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 6 HD (F4M 01)</link>
+<link>http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/17571.m3u8$$lsname=ELEVEN SPORTS 6 HD (HTTP 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <title>[COLOR white]PT: [COLOR blue] ELEVEN SPORTS 6 FHD[/COLOR]</title>
@@ -74,11 +98,13 @@
 <item>
 <title>[COLOR white]UK: [COLOR blue] ELEVEN SPORTS 1[/COLOR]</title>
 <title>[COLOR white]UK: [COLOR blue] ELEVEN SPORTS 1 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/14350.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 1 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 1 HD (F4M 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <item>
 <title>[COLOR white]UK: [COLOR blue] ELEVEN SPORTS 2[/COLOR]</title>
 <title>[COLOR white]UK: [COLOR blue] ELEVEN SPORTS 2 HD[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fantasticfour.dynu.net:8080/live/Tugavod/f7c4DgHWtK/14349.m3u8;streamtype=HLSRETRY&amp;name=ELEVEN SPORTS 2 HD [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=ELEVEN SPORTS 2 HD (F4M 01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ELEVENSPORTS1.png</thumbnail>
 </item>
 <item>
