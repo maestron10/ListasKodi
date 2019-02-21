@@ -90,6 +90,7 @@
 <link>http://85.244.70.140:7000/play/a035$$lsname=SPORT TV 1 (HTTP source #01)</link>
 <link><link>$doregex[get-url]$$lsname=SPORT TV 1  (HTTP source #04)</link><regex><name>get-url</name><expres>file.*?"(h[^"]+)</expres><page>http://sharecast.eu/embed/live1-rbi6c</page><referer>http://nowwatchtvlive.net/channel-tab-frame/sporttv1hd.php</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0<gent><cookieJar></cookiejar></regex>$$lsname=SPORT TV 1 (HTTP source #04)</link>
 <link><link>$doregex[m3u8]$$lsname=SPORT TV 1  (HTTP source #05)</link><regex><name>m3u8</name><expres>file: "([^\"].*)"</expres><page>http://sharecast.eu/embed.php?ch=live1-rbi6c</page><referer>http://sharecast.eu/</referer><agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36<gent></regex>$$lsname=SPORT TV 1 (HTTP source #05)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://whostreams.net/embed/s6m0vsdisiufp7$$lsname=SPORT TV 1 (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://1477bf72405a160736b245204d1bb47720b5daaa&amp;mode=1&amp;name=Acestream+SPORT TV 1$$lsname=SPORT TV 1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 1 HD[/B][/COLOR]</title>
@@ -124,6 +125,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 3[/B][/COLOR]</title>
 <link>http://85.244.70.140:7000/play/a02w$$lsname=SPORT TV 3 (HTTP source #01)</link>
 <link><link>$doregex[m3u8]$$lsname=SPORT TV 3 (HTTP source #05)</link><regex><name>m3u8</name><expres>file: "([^\"].*)"</expres><page>http://sharecast.eu/embed.php?ch=live3-qszlx</page><referer>http://sharecast.eu/</referer><agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36<gent></regex>$$lsname=SPORT TV 3 (HTTP source #05)</link>
+<link>plugin://program.plexus/?url=acestream://9ee63534669e7be54ccf59cae31d9a2b57e99aae&amp;mode=1&amp;name=Acestream+SPORT TV 3$$lsname=SPORT TV 3 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 3 HD[/B][/COLOR]</title>
 <link>http://185-125-230-172.livesports24.online/sport3tvpt.m3u8$$lsname=SPORT TV 3 HD (HTTP source #01)</link>
@@ -151,8 +153,6 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BTV[/B][/COLOR]</title>
 <link><link>http://random.veecast.net:8081/shareedge/Benfica1-wvd3i/playlist.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=BTV (#source 04)</link><regex><name>m3u8</name><expres>wmsAuthSign=([^"]*)</expres><page>http://veecast.net/embed22.php?ch=Benfica1-wvd3i</page><referer>http://canaisdesportohd.blogspot.com/p/benfica-opcao-2.html</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36<gent></regex>$$lsname=BTV (HTTP source #04)</link>
 <link><link>http://lives.sharecast.eu:8081/shareedge/btv-md504/chunks.m3u8?wmsAuthSign=$doregex[m3u8]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=BTV (#source 05)</link><regex><name>m3u8</name><expres>wmsAuthSign=([^"]*)</expres><page>http://sharecast.eu/embed/btv-md504</page><referer>http://sharecast.eu/</referer><agent>Mozilla/5.0 (Linux; Android 6.0; XT1097 Build/MPES24.49-18-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36<gent></regex>$$lsname=BTV (HTTP source #05)</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed/btv-md504$$lsname=BTV (SD source #01)</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://firstrowas1.cc/embed/MyPAl2yq4Y$$lsname=BTV (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BENFICATV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ELEVEN SPORTS 1[/B][/COLOR]</title>
 <link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=ELEVEN SPORTS 1 (HTTP source #05)</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/hhudt</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5<gent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=ELEVEN SPORTS 1 (HTTP source #05)</link>
@@ -617,7 +617,6 @@
 <link>https://cdn039.fractalmedia.es/hls/caz_pt_high.m3u8$$lsname=CACAVISION (HTTP source #01)</link>
 <link>https://cdn039.fractalmedia.es/hls/caz_pt_low.m3u8$$lsname=CACAVISION (HTTP source #02)</link>
 <link>https://cdn039.fractalmedia.es/hls/caz_pt_med.m3u8$$lsname=CACAVISION (HTTP source #03)</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/p1?ch=caz_pt$$lsname=CACAVISION (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CACAVISION.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS REALITY[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.filmon.com/channel/cbs-reality1$$lsname=CBS REALITY (SD source #01)</link>
