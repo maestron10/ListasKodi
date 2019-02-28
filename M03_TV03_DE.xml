@@ -52,6 +52,9 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] sixx[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernseheneutsch/sixx.html$$lsname=sixx (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SIXX.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] sixx HD[/B][/COLOR]</title>
+<link>http://130.185.248.18:53341/play/a02v$$lsname=sixx HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SIXX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DMAX[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernseheneutschmax.html$$lsname=DMAX (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DMAXX.png</thumbnail></item>
@@ -101,9 +104,11 @@
 <link>http://123tv.cdn.ses-ps.com/index.m3u8 $$lsname=1-2-3 TV (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/123.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ORF eins[/B][/COLOR]</title>
+<link>http://130.185.248.18:53341/play/ORF1$$lsname=ORF eins (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=orf1$$lsname=ORF eins (SD source #01)</link>
 <thumbnail>http://i.imgur.com/37HMpTD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ORF 2[/B][/COLOR]</title>
+<link>http://130.185.248.18:53341/play/ORF2$$lsname=ORF 2 (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=orf2$$lsname=ORF 2 (SD source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ORF-2-Logo.svg/2000px-ORF-2-Logo.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ORF III[/B][/COLOR]</title>
@@ -156,12 +161,14 @@
 <link>http://190.13.120.114/streams/bbcworld.m3u8$$lsname=BBC World News (HTTP source #01)</link>
 <link>http://stream.euroasia.lfstrm.tv/bbc_world_news/1/index.m3u8$$lsname=BBC World News (HTTP source #02)</link>
 <link>http://92.43.140.249/s24/04.m3u8$$lsname=BBC World News (HTTP source #03)</link>
+<link>http://5.12.236.70:40000/play/a02u/index.m3u8$$lsname=BBC World News (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://fa5b6508827ae9568e722762d213414c1eeed7d1&amp;mode=1&amp;name=Acestream+BBC World News$$lsname=BBC World News (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCWORLDNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Bloomberg[/B][/COLOR]</title>
 <link>http://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8$$lsname=Bloomberg (HTTP source #01)</link>
 <link>https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-1000-1_live.m3u8$$lsname=Bloomberg (HTTP source #02)</link>
 <link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8 $$lsname=Bloomberg (HTTP source #03)</link>
+<link>http://130.185.248.18:54455/play/a00d$$lsname=Bloomberg (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://251571f9eb0dd96cdbcf066598c44493a8e56d46&amp;mode=1&amp;name=Acestream+Bloomberg$$lsname=Bloomberg (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNBC[/B][/COLOR]</title>
@@ -324,15 +331,17 @@
 <link>plugin://program.plexus/?url=acestream://fc0782e32f9fdafeeee27ebb4ab44ad3975efc8e&amp;mode=1&amp;name=Acestream+Mezzo Live HD$$lsname=Mezzo Live HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZOLIVE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 Classic[/B][/COLOR]</title>
-<link>http://88.216.48.14:80/vh1/live.m3u8$$lsname=VH1 Classic (HTTP source #01)</link>
-<link>http://s1.only4.tv:80/816/video.m3u8$$lsname=VH1 Classic (HTTP source #02)</link>
-<link>http://91.231.219.145/tv_vh1_classic/video.m3u8$$lsname=VH1 Classic (HTTP source #03)</link>
+<link>http://5.12.236.70:40000/play/a00w/index.m3u8$$lsname=VH1 Classic (HTTP source #01)</link>
+<link>http://88.216.48.14:80/vh1/live.m3u8$$lsname=VH1 Classic (HTTP source #02)</link>
+<link>http://s1.only4.tv:80/816/video.m3u8$$lsname=VH1 Classic (HTTP source #03)</link>
+<link>http://91.231.219.145/tv_vh1_classic/video.m3u8$$lsname=VH1 Classic (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://185ee5f2e98278437e946fc09e26ecee75b446fd&amp;mode=1&amp;name=Acestream+VH1 Classic$$lsname=VH1 Classic (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 Europe[/B][/COLOR]</title>
-<link>http://85.244.70.140:7000/play/a012$$lsname=VH1 Europe (HTTP source #01)</link>
-<link>http://s1.only4.tv:80/817/video.m3u8$$lsname=VH1 Europe (HTTP source #02)</link>
-<link>http://91.231.219.145:80/tv_vh1_european/video.m3u8$$lsname=VH1 Europe (HTTP source #03)</link>
+<link>http://5.12.236.70:40000/play/a02n/index.m3u8$$lsname=VH1 Europe (HTTP source #01)</link>
+<link>http://85.244.70.140:7000/play/a012$$lsname=VH1 Europe (HTTP source #02)</link>
+<link>http://s1.only4.tv:80/817/video.m3u8$$lsname=VH1 Europe (HTTP source #03)</link>
+<link>http://91.231.219.145:80/tv_vh1_european/video.m3u8$$lsname=VH1 Europe (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://7f35eceef1ce8ce88804d8cb1db55a7581f53dd3&amp;mode=1&amp;name=Acestream+VH1 Europe$$lsname=VH1 Europe (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1EUROPE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C Music[/B][/COLOR]</title>
@@ -368,7 +377,6 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NATGEO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sonnenklar TV[/B][/COLOR]</title>
 <link>http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8$$lsname=Sonnenklar TV (HTTP source #01)</link>
-<link>http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8 $$lsname=Sonnenklar TV (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://bfc3a049bc05f24d8deafea6e9f3005d0fbe77ec&amp;mode=1&amp;name=Acestream+Sonnenklar TV$$lsname=Sonnenklar TV (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SONNENKLAR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV5 Monde[/B][/COLOR]</title>
@@ -446,8 +454,9 @@
 <link>http://185.236.229.14:8000/play/a0x2$$lsname=Motorvision DE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOTORVISIONTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC Entertainment[/B][/COLOR]</title>
-<link>http://185.236.229.14:8000/play/a13l$$lsname=BBC Entertainment (HTTP source #01)</link>
-<link>http://85.244.70.140:7000/play/a00u$$lsname=BBC Entertainment (HTTP source #02)</link>
+<link>http://5.12.236.70:40000/play/a013/index.m3u8$$lsname=BBC Entertainment (HTTP source #01)</link>
+<link>http://185.236.229.14:8000/play/a13l$$lsname=BBC Entertainment (HTTP source #02)</link>
+<link>http://85.244.70.140:7000/play/a00u$$lsname=BBC Entertainment (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCENTERT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Classica[/B][/COLOR]</title>
 <link>http://185.236.229.14:8000/play/a0xb$$lsname=Classica (HTTP source #01)</link>
@@ -457,7 +466,7 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/JUKEBOX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Mezzo[/B][/COLOR]</title>
 <link>http://61.216.177.73/sta/ch91865017.m3u8$$lsname=Mezzo (HTTP source #01)</link>
-<link>http://88.216.48.14:80/mezzo/live.m3u8  $$lsname=Mezzo (HTTP source #02)</link>
+<link>http://88.216.48.14:80/mezzo/live.m3u8$$lsname=Mezzo (HTTP source #02)</link>
 <link>http://stream.euroasia.lfstrm.tv/mezzo/1/index.m3u8$$lsname=Mezzo (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://b5b6c5b47f717c04b3f64b3d2aef0aac81f35f20&amp;mode=1&amp;name=Acestream+Mezzo$$lsname=Mezzo (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZO.png</thumbnail></item>
