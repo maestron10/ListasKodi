@@ -24,6 +24,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/the-cw-live-streaming-free/$$lsname=CW (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CW.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PBS[/B][/COLOR]</title>
+<link>http://192.222.145.93:9981/stream/channelid/915519515?ticket=5BBED7C7B5FCCB9AD73917E92B12E233E0A11063&profile=pass$$lsname=PBS (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/pbs-live/$$lsname=PBS (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PBSCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MSNBC[/B][/COLOR]</title>
@@ -35,14 +36,13 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/cnbc-live-streaming-free/$$lsname=CNBC (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
-<link>http://161.0.157.9/PLTV/88888888/224/3221226781/index.m3u8$$lsname=CNN (HTTP source #01)</link>
-<link>https://1259541102.rsc.cdn77.org/LS-ATL-54548-9/index.m3u8$$lsname=CNN (HTTP source #02)</link>
+<link>https://1259541102.rsc.cdn77.org/LS-ATL-54548-9/index.m3u8$$lsname=CNN (HTTP source #01)</link>
+<link>http://161.0.157.9/PLTV/88888888/224/3221226781/index.m3u8$$lsname=CNN (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/cnn-live-streaming-free/$$lsname=CNN (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://2b8184c673bb37f15e9b75742f32c235930ce3be&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX News[/B][/COLOR]</title>
-<link>http://185.236.229.14:8000/play/a0zg$$lsname=FOX News (HTTP source #01)</link>
-<link>https://1259541102.rsc.cdn77.org/LS-ATL-54548-4/index.m3u8$$lsname=FOX News (HTTP source #02)</link>
+<link>https://1259541102.rsc.cdn77.org/LS-ATL-54548-4/index.m3u8$$lsname=FOX News (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/fox-news-live-streaming-free/$$lsname=FOX News (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Discovery Channel[/B][/COLOR]</title>
@@ -55,7 +55,6 @@
 <link>http://svc-lvanvato-cxtv-wjax.cmgvideo.com/wjax/2564k/index.m3u8$$lsname=FOX 30 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOX30.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Food Network[/B][/COLOR]</title>
-<link>http://190.13.120.112/streams/food.m3u8$$lsname=Food Network (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/food-network-live-free/$$lsname=Food Network (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOOD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TNT[/B][/COLOR]</title>
@@ -99,11 +98,9 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/animal-planet-live/$$lsname=Animal Planet (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANIMALPLANET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] The Weather channel[/B][/COLOR]</title>
-<link>http://weather-lh.akamaihd.net/i/twc_1@92006/index_2400_av-p.m3u8$$lsname=The Weather channel (HTTP source #01)</link>
-<link>http://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8$$lsname=The Weather channel (HTTP source #02)</link>
-<link>http://weather-lh.akamaihd.net:80/i/twc_1@92006/master.m3u8$$lsname=The Weather channel (HTTP source #03)</link>
-<link>https://weather-lh.akamaihd.net/i/twc_1@92006/index_2400_av-p.m3u8?sd=10&rebase=on$$lsname=The Weather channel (HTTP source #04)</link>
-<link>https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8$$lsname=The Weather channel (HTTP source #05)</link>
+<link>http://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8$$lsname=The Weather channel (HTTP source #01)</link>
+<link>http://weather-lh.akamaihd.net:80/i/twc_1@92006/master.m3u8$$lsname=The Weather channel (HTTP source #02)</link>
+<link>https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8$$lsname=The Weather channel (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/the-weather-channel-live-streaming-free/$$lsname=The Weather channel (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/THEWEATHERCHANNEL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C-SPAN 2[/B][/COLOR]</title>
@@ -132,15 +129,12 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Euronews[/B][/COLOR]</title>
 <link>http://164.40.161.46:8002/play/s4$$lsname=Euronews (HTTP source #01)</link>
 <link>http://61.216.177.73/sta/ch91865009.m3u8$$lsname=Euronews (HTTP source #02)</link>
-<link>http://94.244.6.2:4081$$lsname=Euronews (HTTP source #03)</link>
-<link>http://88.216.48.14:80/euronews/live.m3u8$$lsname=Euronews (HTTP source #04)</link>
-<link><link>$doregex[getts]$$lsname=EURONEWS (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/1672</page><referer>http://www.filmon.com/tv/channel/export?channel id=1672&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=Euronews (HTTP source #05)</link>
+<link>http://88.216.48.14:80/euronews/live.m3u8$$lsname=Euronews (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC World News[/B][/COLOR]</title>
 <link>http://190.13.120.114/streams/bbcworld.m3u8$$lsname=BBC World News (HTTP source #01)</link>
 <link>http://stream.euroasia.lfstrm.tv/bbc_world_news/1/index.m3u8$$lsname=BBC World News (HTTP source #02)</link>
 <link>http://92.43.140.249/s24/04.m3u8$$lsname=BBC World News (HTTP source #03)</link>
-<link>http://5.12.236.70:40000/play/a02u/index.m3u8$$lsname=BBC World News (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://fa5b6508827ae9568e722762d213414c1eeed7d1&amp;mode=1&amp;name=Acestream+BBC World News$$lsname=BBC World News (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCWORLDNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Bloomberg[/B][/COLOR]</title>
@@ -163,7 +157,6 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/cartoon-network-live-streaming-free/$$lsname=Cartoon Network (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CARTOONNETWORK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NHK World[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://213.59.140.53:9997/play/NHK_World_TV/index.m3u8;streamtype=HLSRETRY&amp;name=NHK World [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=NHK World (F4M source #08)</link>
 <link>https://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_1180.m3u8$$lsname=NHK World (HTTP source #01)</link>
 <link>http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_200.m3u8$$lsname=NHK World (HTTP source #02)</link>
 <link>http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_2100.m3u8$$lsname=NHK World (HTTP source #03)</link>
@@ -188,46 +181,63 @@
 <link>http://80.80.160.168/live/5/live.m3u8$$lsname=Investigation Discovery (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/investigation-discovery-live-streaming-free/$$lsname=Investigation Discovery (SD source #01)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/pt/thumb/8/86/Logotipo_Investiga%C3%A7%C3%A3o_Discovery.png/200px-Logotipo_Investiga%C3%A7%C3%A3o_Discovery.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV Classic[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ibrahimd/dibrahim/11144.m3u8;streamtype=HLSRETRY&amp;name=MTV Classic [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=MTV Classic (F4M source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVCLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Hallmark Channel[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/hallmark-channel-live-streaming-free/$$lsname=Hallmark Channel (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HALLMART.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Hallmark Movies & Mysteries[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/hallmark-movies-mysteries-live-streaming-free/$$lsname=Hallmark Movies & Mysteries (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HALLMARKMOVIES.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SportsNet New York[/B][/COLOR]</title>
+<link>http://185.59.223.148/sports_sportsnet_nyc/mpegts$$lsname=SportsNet New York (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPORTSNETNY.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] WWE NETWORK[/B][/COLOR]</title>
+<link>http://mediastream.pro/stream/22229/imran00253/ranmirtufg/$$lsname=WWE NETWORK (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/WWENET.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN USA[/B][/COLOR]</title>
-<link>http://130.185.248.18:53340/play/a01i$$lsname=ESPN USA (HTTP source #01)</link>
+<link>http://185.246.209.106/sports_espn_hd/mpegts$$lsname=ESPN USA (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/espn-live-streaming-free/$$lsname=ESPN USA (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN USA HD[/B][/COLOR]</title>
 <link>http://80.80.160.168/live/6/2500000/live.m3u8$$lsname=ESPN USA HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ESPN 2 USA[/B][/COLOR]</title>
-<link>http://130.185.248.18:53340/play/a01j$$lsname=ESPN 2 USA (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/espn2-live-streaming-free/$$lsname=ESPN 2 USA (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ESPN2.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX Sports 1 USA[/B][/COLOR]</title>
-<link>http://130.185.248.18:53340/play/a01h$$lsname=FOX Sports 1 USA (HTTP source #01)</link>
-<link>plugin://program.plexus/?url=acestream://364864dce75ae8f7a40b6557dc7949b0bf422313&amp;mode=1&amp;name=Acestream+FOX Sports 1 USA$$lsname=FOX Sports 1 USA (PLEXUS source #01)</link>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NBCSN[/B][/COLOR]</title>
+<link>http://mediastream.pro/stream/3275/imran00253/ranmirtufg/$$lsname=NBCSN (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NBCSPORTS.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] FS1[/B][/COLOR]</title>
+<link>http://185.246.209.106/sports_fox_sports_1_hd/mpegts$$lsname=FS1 (HTTP source #01)</link>
+<link>plugin://program.plexus/?url=acestream://364864dce75ae8f7a40b6557dc7949b0bf422313&amp;mode=1&amp;name=Acestream+FS1$$lsname=FS1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FS1.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX Sports 2 USA[/B][/COLOR]</title>
-<link>http://130.185.248.18:53340/play/a01k$$lsname=FOX Sports 2 USA (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FS2.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] FS1 HD[/B][/COLOR]</title>
+<link>http://mediastream.pro/stream/3261/imran00253/ranmirtufg/$$lsname=FS1 HD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FS1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CBS Sports Network[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/cbs-sports-live-free/$$lsname=CBS Sports Network (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CBSSPORTS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NFL Network[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/nfl-network-live-free/$$lsname=NFL Network (SD source #01)</link>
 <thumbnail>http://www.morethanjustsports.com/Files/2010/11/screen_nflNetwork.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NFL Network HD[/B][/COLOR]</title>
+<link>http://mediastream.pro/stream/3274/imran00253/ranmirtufg/$$lsname=NFL Network HD (HTTP source #01)</link>
+<thumbnail>http://www.morethanjustsports.com/Files/2010/11/screen_nflNetwork.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NBA[/B][/COLOR]</title>
-<link>http://203.154.243.32:8088/live/nba/index.m3u8$$lsname=NBA (HTTP source #01)</link>
+<link>http://185.246.209.106/sports_nba_tv_hd/mpegts$$lsname=NBA (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://ce90df384e16fa59f2519fa9fddee31492042e70&amp;mode=1&amp;name=Acestream+NBA$$lsname=NBA (PLEXUS source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NBATV.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NBA HD[/B][/COLOR]</title>
+<link>http://mediastream.pro/stream/45235/imran00253/ranmirtufg/$$lsname=NBA HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NBATV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MLB Network[/B][/COLOR]</title>
 <link>http://mlblive-akc.mlb.com/ls01/mlbam/mlb_network/NETWORK_LINEAR_1/master_mobile.m3u8$$lsname=MLB Network (HTTP source #01)</link>
 <link>http://mlblive-akc.mlb.com/ls01/mlbam/mlb_network/NETWORK_LINEAR_1/master_wired.m3u8$$lsname=MLB Network (HTTP source #02)</link>
 <link>http://mlblive-akc.mlb.com/ls01/mlbam/mlb_network/NETWORK_LINEAR_1/master_tablet.m3u8 $$lsname=MLB Network (HTTP source #03)</link>
 <link>http://mlblive-akc.mlb.com/ls01/mlbam/mlb_network/NETWORK_LINEAR_1/master_tablet.m3u8$$lsname=MLB Network (HTTP source #04)</link>
-<link>http://45.230.168.133:8000/play/a05c$$lsname=MLB Network (HTTP source #05)</link>
+<link>http://185.246.209.106/sports_mlb_network_hd/mpegts$$lsname=MLB Network (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://01b26b06f670e6c3020adf549fe2fb841dd3b12e&amp;mode=1&amp;name=Acestream+MLB Network$$lsname=MLB Network (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MLBNETWORK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] The Golf Channel[/B][/COLOR]</title>
@@ -238,15 +248,24 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] The Olympic Channel[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://189fa06443b335db9dc6792f41e793dcf0d67c9a&amp;mode=1&amp;name=Acestream+The Olympic Channel$$lsname=The Olympic Channel (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/THEOLYMPICCHANNEL.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX Deportes[/B][/COLOR]</title>
+<link>http://185.59.223.148/usa_sports_fox_deportes_hd/mpegts$$lsname=FOX Deportes (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXDEPORTES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beIN Sports US[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://c42ea5a91a6a53530a3dd40c2519e249686be76c&amp;mode=1&amp;name=Acestream+beIN Sports US$$lsname=beIN Sports US (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEINSPORTSUSA.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX Soccer Plus[/B][/COLOR]</title>
+<link>http://185.59.223.148/usa_sports_fox_soccer_plus_hd/mpegts$$lsname=FOX Soccer Plus (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXSOCCERPLUS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] GOL TV[/B][/COLOR]</title>
 <link>http://45.230.168.133:8000/play/a04s$$lsname=GOL TV (HTTP source #01)</link>
 #N/D
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Outdoor Channel[/B][/COLOR]</title>
 <link>http://190.13.120.115/streams/outdoor.m3u8$$lsname=Outdoor Channel (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/OUTDOORCHANNEL.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] PAC 12 Bay Area[/B][/COLOR]</title>
+<link>http://185.59.223.148/usa_sports_pac_12_bay_area_hd/mpegts$$lsname=PAC 12 Bay Area (HTTP source #01)</link>
+<thumbnail>http://mech.utah.edu/files/2011/12/Pac-12UtahPrimaryUse_RGBweb.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] HBO[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/hbo-live-free/$$lsname=HBO (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/HBO.png</thumbnail></item>
@@ -261,13 +280,12 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/STARZ.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVE 24H[/B][/COLOR]</title>
 <link>https://hlsliveamdgl8-lh.akamaihd.net/i/hlsdvrlive_1@583030/master.m3u8$$lsname=TVE 24H (HTTP source #01)</link>
+<link>http://hlsliveamdgl8-lh.akamaihd.net/i/hlsdvrlive_1@583030/master.m3u8$$lsname=TVE 24H (HTTP source #02)</link>
+<link>http://5.189.185.173:8000/play/a02h$$lsname=TVE 24H (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVE24H.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Antena 3[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://lacalleochotv.org/magu/espana3.php$$lsname=Antena 3 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ANTENA3ES.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] ATRESERIES[/B][/COLOR]</title>
-<link>https://livestartover.atresmedia.com/a3series/bitrate_4.m3u8$$lsname=ATRESERIES (HTTP source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/A3SERIES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] I 24 NEWS EN[/B][/COLOR]</title>
 <link>https://i24alive1-a.akamaihd.net/6e3dd61ac4c34d6f8fb9698b565b9f50/eu-central-1/5377161796001/profile_0/chunklist_dvr.m3u8$$lsname=I 24 NEWS EN (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/I24NEWS.png</thumbnail></item>
@@ -276,7 +294,6 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/p1?ch=i24news_fr$$lsname=I 24 NEWS FR (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/I24NEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV5 MONDE[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://88.216.48.14:80/tv5monde/live.m3u8;streamtype=HLSRETRY&amp;name=TV5 MONDE [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=TV5 MONDE (F4M source #05)</link>
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/index.m3u8$$lsname=TV5 MONDE (HTTP source #01)</link>
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/v3plusinfo247hls_1_2.m3u8$$lsname=TV5 MONDE (HTTP source #02)</link>
 <link>http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877-b/v3plusinfo247hls/v3plusinfo247hls_1_2.m3u8$$lsname=TV5 MONDE (HTTP source #03)</link>
@@ -306,12 +323,16 @@
 <link>https://rt-news.secure.footprint.net/1103-inadv-qidx-1k_v3.m3u8$$lsname=RT AMERICA (HTTP source #01)</link>
 <link>http://rt-usa.secure.footprint.net:80/1105.m3u8?streamType=live$$lsname=RT AMERICA (HTTP source #02)</link>
 <link>http://rt-usa.secure.footprint.net/1105-inadv-qidx-1k_v5.m3u8$$lsname=RT AMERICA (HTTP source #03)</link>
+<link>http://rt-usa.secure.footprint.net:80/1105-inadv-qidx-4k_v3.m3u8$$lsname=RT AMERICA (HTTP source #04)</link>
+<link>http://rt-usa.secure.footprint.net:80/1105-inadv-qidx-1k_v3.m3u8$$lsname=RT AMERICA (HTTP source #05)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/2/21/RT_America_Logo.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Globo[/B][/COLOR]</title>
+<link>http://187.75.24.98:9981/stream/channelid/551089650$$lsname=Globo (HTTP source #01)</link>
 <link><link>http://$doregex[ip]$doregex[m3u8]</link><regex><name>ip</name><expres>redirect=(.*)</expres><page>http://www.janjuapublisher.com:1935/loadbalancer</page></regex><regex><name>m3u8</name><expres>ea \+ "(.*?)"</expres><page>http://www.janjuaplayer.com/membedplayer/globoaovivo16/1/700/360</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4 2 1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2/8C148 Safari/6533.18.5<gent><referer>http://www.janjuaplayer.com/</referer></regex>$$lsname=Globo (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://ekostreams.co/ch/bobo.php$$lsname=Globo (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/GLOBO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RECORD[/B][/COLOR]</title>
+<link>http://187.75.24.98:9981/stream/channelid/1012331848$$lsname=RECORD (HTTP source #01)</link>
 <link><link>http://$doregex[Igor Rangel IP]/loadbalance/record2278/playlist.m3u8$doregex[TeamBlue AuthSign]|User-Agent=iPhone</link><regex><name>TeamBlue IP</name><expres>http://(.*)/loadbalance</expres><page>http://m.tudotv.tvssistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page></regex><regex><name>TeamBlue AuthSign</name><expres>m3u8([^\"].*)"</expres><page>http://m.tudotv.tvssistir-record-ao-vivo-online-em-hd-gratis/opcao-1695/</page></regex>$$lsname=RECORD (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://ekostreams.co/ch/record.php$$lsname=RECORD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RECORDTV.png</thumbnail></item>
@@ -319,6 +340,7 @@
 <link>plugin://program.plexus/?url=acestream://37446d73e1e72b1c5a2c2295fb235db4903c2923&amp;mode=1&amp;name=Acestream+KBS World$$lsname=KBS World (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/KBSWORLD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RAI 1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://formen1.com:8080/live/ibrahimd/dibrahim/1398.m3u8;streamtype=HLSRETRY&amp;name=RAI 1 [COLOR deepskyblue](by TeamBlue)[/COLOR]$$lsname=RAI 1 (F4M source #01)</link>
 <link>http://92.43.140.249/s29/04.m3u8$$lsname=RAI 1 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAI1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CGTN AMERICA[/B][/COLOR]</title>
