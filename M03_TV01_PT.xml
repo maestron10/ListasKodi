@@ -39,6 +39,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVI24[/B][/COLOR]</title>
 <link>http://noscdne.entrprise.tv:1935/cvo/tvi24.stream/live.m3u8$$lsname=TVI24 (HTTP source #01)</link>
 <link>http://video-auth8.iol.pt/live_tvi24/live_tvi24/playlist.m3u8$$lsname=TVI24 (HTTP source #02)</link>
+<link>http://85.244.70.140:7000/play/a02v$$lsname=TVI24 (HTTP source #03)</link>
 <link>http://video-auth8.iol.pt:80/live_tvi24/live_tvi24/playlist.m3u8$$lsname=TVI24 (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://tviplayer.iol.pt/direto/TVI24$$lsname=TVI24 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://hls.giize.com/tvi?ch=tvi24$$lsname=TVI24 (SD source #02)</link>
@@ -69,7 +70,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://hls.giize.com/rtp?ch=memoria$$lsname=RTP MEMORIA (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTPMEMORIA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 1[/B][/COLOR]</title>
-<link>http://85.244.70.140:7000/play/a035 $$lsname=SPORT TV 1 (HTTP source #01)</link>
+<link>http://85.244.70.140:7000/play/a035$$lsname=SPORT TV 1 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://1477bf72405a160736b245204d1bb47720b5daaa&amp;mode=1&amp;name=Acestream+SPORT TV 1$$lsname=SPORT TV 1 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 1 HD[/B][/COLOR]</title>
@@ -81,35 +82,37 @@
 <link>plugin://program.plexus/?url=acestream://022ea68172a92fcf12e233fe34d02d4a5039c5e2&amp;mode=1&amp;name=Acestream+SPORT TV 2$$lsname=SPORT TV 2 (PLEXUS source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 2 HD[/B][/COLOR]</title>
-<link>https://tinyurl.com/y35bgab9$$lsname=SPORT TV 2 HD (HTTP source #01)</link>
-<link>http://185-125-230-172.livesports24.online/portugalsport2.m3u8$$lsname=SPORT TV 2 HD (HTTP source #04)</link>
-<link>https://185-125-230-172.livesports24.online/portugalsport2.m3u8$$lsname=SPORT TV 2 HD (HTTP source #05)</link>
+<link>http://185-125-230-172.livesports24.online/portugalsport2.m3u8$$lsname=SPORT TV 2 HD (HTTP source #01)</link>
+<link>https://185-125-230-172.livesports24.online/portugalsport2.m3u8$$lsname=SPORT TV 2 HD (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/search/label/Sport%20TV%202%20PT$$lsname=SPORT TV 2 HD (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://857c7ab59305fdccd621b6525786fe925813568d&amp;mode=1&amp;name=Acestream+SPORT TV 2 HD$$lsname=SPORT TV 2 HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2HD.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 2 FHD[/B][/COLOR]</title>
+<link>http://85.244.70.140:7000/play/a02t$$lsname=SPORT TV 2 FHD (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV2HD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 3[/B][/COLOR]</title>
+<link>http://85.244.70.140:7000/play/a02w$$lsname=SPORT TV 3 (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://9ee63534669e7be54ccf59cae31d9a2b57e99aae&amp;mode=1&amp;name=Acestream+SPORT TV 3$$lsname=SPORT TV 3 (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 3 HD[/B][/COLOR]</title>
-<link>http://185-125-230-172.livesports24.online/sport3tvpt.m3u8$$lsname=SPORT TV 3 HD (HTTP source #05)</link>
+<link>http://185-125-230-172.livesports24.online/sport3tvpt.m3u8$$lsname=SPORT TV 3 HD (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/search/label/Sport%20TV%203%20PT$$lsname=SPORT TV 3 HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV3HD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4[/B][/COLOR]</title>
-<link>http://85.244.70.140:7000/play/a02y $$lsname=SPORT TV 4 (HTTP source #01)</link>
-<link>https://tinyurl.com/y2e8k4gy$$lsname=SPORT TV 4 (HTTP source #02)</link>
-<link>https://livebar.pw/lba/123/g4/portugalsport4.m3u8$$lsname=SPORT TV 4 (HTTP source #04)</link>
-<link>https://vip7stream.pw/lba/123/g4/portugalsport4.m3u8$$lsname=SPORT TV 4 (HTTP source #05)</link>
+<link>https://livebar.pw/lba/123/g4/portugalsport4.m3u8$$lsname=SPORT TV 4 (HTTP source #01)</link>
+<link>https://vip7stream.pw/lba/123/g4/portugalsport4.m3u8$$lsname=SPORT TV 4 (HTTP source #02)</link>
+<link>http://85.244.70.140:7000/play/a02y$$lsname=SPORT TV 4 (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 4 HD[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/search/label/Sport%20TV%204%20PT$$lsname=SPORT TV 4 HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV4HD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SPORT TV 5[/B][/COLOR]</title>
-<link>https://vip7stream.pw/lba/123/g9/ptsport5.m3u8$$lsname=SPORT TV 5 (HTTP source #04)</link>
-<link>https://livebar.pw/lba/123/g9/ptsport5.m3u8$$lsname=SPORT TV 5 (HTTP source #05)</link>
+<link>https://livebar.pw/lba/123/g9/ptsport5.m3u8$$lsname=SPORT TV 5 (HTTP source #01)</link>
+<link>https://vip7stream.pw/lba/123/g9/ptsport5.m3u8$$lsname=SPORT TV 5 (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/search/label/Sport%20TV%205%20PT$$lsname=SPORT TV 5 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SPTV5.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT[/B][/COLOR]</title>
-<link>http://85.244.70.140:7000/play/a02z $$lsname=EUROSPORT (HTTP source #01)</link>
+<link>http://85.244.70.140:7000/play/a02z$$lsname=EUROSPORT (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EUROSPORT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PFC[/B][/COLOR]</title>
 <link>rtmp://213.152.180.151:17247/sstream/1bdlLe7dro.stream$$lsname=PFC (RTMP source #01)</link>
@@ -155,30 +158,31 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/motorstv.php$$lsname=MOTORSPORT.TV HD (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOTORSPORTTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MOTORVISION TV[/B][/COLOR]</title>
-<link>http://85.244.70.140:7000/play/a00t $$lsname=MOTORVISION TV (HTTP source #01)</link>
+<link>http://85.244.70.140:7000/play/a00t$$lsname=MOTORVISION TV (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MOTORVISIONTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY JUNIOR[/B][/COLOR]</title>
 <link>http://85.244.70.140:7000/play/a015$$lsname=DISNEY JUNIOR (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISNEYJUNIOR.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] PANDA BIGGS[/B][/COLOR]</title>
-<link>http://85.244.70.140:7000/play/a013 $$lsname=PANDA BIGGS (HTTP source #01)</link>
+<link>http://85.244.70.140:7000/play/a013$$lsname=PANDA BIGGS (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PANDABIGGS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON[/B][/COLOR]</title>
-<link>http://85.244.70.140:7000/play/a00o $$lsname=NICKELODEON (HTTP source #01)</link>
+<link>http://85.244.70.140:7000/play/a00o$$lsname=NICKELODEON (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NICKELODEON.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SIC K[/B][/COLOR]</title>
 <link>http://live.impresa.pt/live/sick/sick540p.m3u8$$lsname=SIC K (HTTP source #01)</link>
 <link>http://live.impresa.pt/live/sick/sick540p.m3u8?isnplk=10&rebase=on$$lsname=SIC K (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SICK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Super RTL[/B][/COLOR]</title>
+<link>http://79.197.178.205:9981/stream/channelid/1995623655$$lsname=Super RTL (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernseheneutsch/superrtl.html$$lsname=Super RTL (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SUPERRTL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVI FICÇÃO[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://hls.giize.com/tvi?ch=tvi_ficcao$$lsname=TVI FICÇÃO (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVIFICCAO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVI REALITY[/B][/COLOR]</title>
-<link>http://85.244.70.140:7000/play/a00x $$lsname=TVI REALITY (HTTP source #01)</link>
-<link>http://video-auth8.iol.pt:80/live_tvi_direct/live_tvi_direct-3/playlist.m3u8$$lsname=TVI REALITY (HTTP source #02)</link>
+<link>http://video-auth8.iol.pt:80/live_tvi_direct/live_tvi_direct-3/playlist.m3u8$$lsname=TVI REALITY (HTTP source #01)</link>
+<link>http://85.244.70.140:7000/play/a00x$$lsname=TVI REALITY (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://hls.giize.com/tvi?ch=tvi_direct$$lsname=TVI REALITY (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVIREALITY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV DANCE[/B][/COLOR]</title>
@@ -200,7 +204,6 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MTVROCKS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VH1 EUROPE[/B][/COLOR]</title>
 <link>http://85.244.70.140:7000/play/a012$$lsname=VH1 EUROPE (HTTP source #01)</link>
-<link>http://85.244.70.140:7000/play/a012 $$lsname=VH1 EUROPE (HTTP source #02)</link>
 <link>http://91.231.219.145:80/tv_vh1_european/video.m3u8$$lsname=VH1 EUROPE (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://7f35eceef1ce8ce88804d8cb1db55a7581f53dd3&amp;mode=1&amp;name=Acestream+VH1 EUROPE$$lsname=VH1 EUROPE (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1EUROPE.png</thumbnail></item>
@@ -219,8 +222,6 @@
 <link>plugin://program.plexus/?url=acestream://9356e42bacfc8d167f67d2b5fa57a83d26914079&amp;mode=1&amp;name=Acestream+C Music$$lsname=C Music (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CMUSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEZZO[/B][/COLOR]</title>
-<link>http://stream.euroasia.lfstrm.tv/mezzo/1/index.m3u8$$lsname=MEZZO (HTTP source #01)</link>
-<link>http://ott-cdn.ucom.am/s35/index.m3u8$$lsname=MEZZO (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://b5b6c5b47f717c04b3f64b3d2aef0aac81f35f20&amp;mode=1&amp;name=Acestream+MEZZO$$lsname=MEZZO (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MEZZO.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MEZZO LIVE HD[/B][/COLOR]</title>
@@ -284,17 +285,16 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEBLACKCARIBBEAN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BEBLACK CLASSIK[/B][/COLOR]</title>
 <link>http://ec.playmedia.fr/beblack/classik/playlist.m3u8$$lsname=BEBLACK CLASSIK (HTTP source #01)</link>
-<link>http://ec.playmedia.fr/beblack/classik/playlist.m3u8 $$lsname=BEBLACK CLASSIK (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://fc6e601f2b8f29309d750ce36adb4c229e2d3520&amp;mode=1&amp;name=Acestream+BEBLACK CLASSIK$$lsname=BEBLACK CLASSIK (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BEBLACKCLASSIK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY SHOWCASE[/B][/COLOR]</title>
-<link>http://85.244.70.140:7000/play/a00n $$lsname=DISCOVERY SHOWCASE (HTTP source #01)</link>
+<link>http://85.244.70.140:7000/play/a00n$$lsname=DISCOVERY SHOWCASE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DISCOVERYSHOWCASE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLAZE[/B][/COLOR]</title>
 <link>http://85.244.70.140:7000/play/a011$$lsname=BLAZE (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLAZETV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TLC[/B][/COLOR]</title>
-<link>http://85.244.70.140:7000/play/a00z $$lsname=TLC (HTTP source #01)</link>
+<link>http://85.244.70.140:7000/play/a00z$$lsname=TLC (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TLC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FTV[/B][/COLOR]</title>
 <link>http://fash1043.cloudycdn.services/slive/ftv_pg13_adaptive.smil/chunklist_b1400000_t64NDgwcA==.m3u8$$lsname=FTV (HTTP source #01)</link>
@@ -313,6 +313,7 @@
 <link>plugin://program.plexus/?url=acestream://fd25630da8a208613d6dcda27f29e5e4fb380353&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
+<link>https://euronews-pt-p10-cdn.hexaglobe.net/ef2b9ba36207f952f025c477b2719484/5c9db464/euronews/euronews-euronews-website-web-responsive-2/ewnsabrptpri_por.smil/playlist.m3u8$$lsname=EURONEWS (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.firstonetv.net/Live/Portugal/Euronews-1$$lsname=EURONEWS (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
@@ -371,14 +372,8 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 EN[/B][/COLOR]</title>
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 EN (HTTP source #01)</link>
 <link>http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8$$lsname=FRANCE 24 EN (HTTP source #02)</link>
-<link>http://61.216.177.73/sta/ch91865004.m3u8$$lsname=FRANCE 24 EN (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 FR[/B][/COLOR]</title>
-<link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 FR (HTTP source #01)</link>
-<link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master.m3u8$$lsname=FRANCE 24 FR (HTTP source #02)</link>
-<link>http://static.france24.com/live/F24_FR_LO_HLS/live_web.m3u8 $$lsname=FRANCE 24 FR (HTTP source #03)</link>
-<link>http://static.france24.com/live/F24_FR_LO_HLS/live_web.m3u8$$lsname=FRANCE 24 FR (HTTP source #04)</link>
-<link>http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master_900.m3u8 $$lsname=FRANCE 24 FR (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://9b43a82211a308a6d3d20051e96eaa4d9c5f2aeb&amp;mode=1&amp;name=Acestream+FRANCE 24 FR$$lsname=FRANCE 24 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] I 24 NEWS FR[/B][/COLOR]</title>
@@ -433,14 +428,13 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://hls.giize.com/tvi?ch=tvi_internacional$$lsname=TVI INTERNACIONAL (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TVI.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] VOX[/B][/COLOR]</title>
+<link>http://79.197.178.205:9981/stream/channelid/406851567$$lsname=VOX (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernseheneutsch/vox.html$$lsname=VOX (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://553335057de3ccdf704f8b5b421efea1d7e9273a&amp;mode=1&amp;name=Acestream+VOX$$lsname=VOX (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VOX.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTL[/B][/COLOR]</title>
+<link>http://79.197.178.205:9981/stream/channelid/877424134$$lsname=RTL (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.live-stream.tv/online/fernseheneutsch/rtl.html$$lsname=RTL (SD source #01)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTL.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] RTL HD[/B][/COLOR]</title>
-<link>http://5.44.126.198:9981/stream/channelid/1260109817$$lsname=RTL HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV GALICIA[/B][/COLOR]</title>
 <link>http://europa-crtvg.flumotion.com/crtvg/europa_med/chunks.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36$$lsname=TV GALICIA (HTTP source #01)</link>
@@ -489,7 +483,6 @@
 <link>http://evpp.mm.uol.com.br/ne10/ne10.smil/chunklist_b216000_sleng.m3u8 $$lsname=SBT HD (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SBT.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ARTE[/B][/COLOR]</title>
-<link><link>$doregex[getm3u8]$$lsname=ARTE (HTTP #source 05)</link><regex><name>getm3u8</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/1729</page><referer>http://www.filmon.com/tv/channel/export?channel id=1729&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=ARTE (HTTP source #05)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/p5?ch=arte_fr$$lsname=ARTE (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RUSSIA TODAY[/B][/COLOR]</title>
