@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP 1[/B][/COLOR]</title>
-<link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp1_5ch5h264.stream/playlist.m3u8$$lsname=RTP 1 (HTTP source #01)</link>
-<link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp1_5ch5h264.stream/chunklist.m3u8$$lsname=RTP 1 (HTTP source #02)</link>
-<link>http://188.82.107.63:8030/play/a03q$$lsname=RTP 1 (HTTP source #03)</link>
+<link>http://188.82.107.63:8030/play/a03q$$lsname=RTP 1 (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp1_5ch5h264.stream/playlist.m3u8$$lsname=RTP 1 (HTTP source #02)</link>
+<link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp1_5ch5h264.stream/chunklist.m3u8$$lsname=RTP 1 (HTTP source #03)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.rtp.pt/play/direto/rtp1$$lsname=RTP 1 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://hls.giize.com/rtp?ch=1$$lsname=RTP 1 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP1.png</thumbnail></item>
@@ -10,8 +10,8 @@
 <link>http://188.82.107.63:8030/play/a01v$$lsname=RTP 1 HD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP 2[/B][/COLOR]</title>
-<link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp2_5ch3h264.stream/playlist.m3u8$$lsname=RTP 2 (HTTP source #01)</link>
-<link>http://188.82.107.63:8030/play/a03r$$lsname=RTP 2 (HTTP source #02)</link>
+<link>http://188.82.107.63:8030/play/a03r$$lsname=RTP 2 (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp2_5ch3h264.stream/playlist.m3u8$$lsname=RTP 2 (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.rtp.pt/play/direto/rtp2$$lsname=RTP 2 (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://hls.giize.com/rtp?ch=2$$lsname=RTP 2 (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTP2.png</thumbnail></item>
@@ -77,8 +77,8 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://hls.giize.com/l3?ch=porto$$lsname=PORTO CANAL HD (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/PORTOCANAL.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SIC RADICAL[/B][/COLOR]</title>
-<link>http://live.impresa.pt/live/sicrad/sicrad.m3u8$$lsname=SIC RADICAL (HTTP source #01)</link>
-<link>http://live.impresa.pt/live/sicrad/sicrad540p.m3u8$$lsname=SIC RADICAL (HTTP source #02)</link>
+<link>http://live.impresa.pt/live/sicrad/sicrad540p.m3u8$$lsname=SIC RADICAL (HTTP source #01)</link>
+<link>http://live.impresa.pt/live/sicrad/sicrad.m3u8$$lsname=SIC RADICAL (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://splashvip.info/SICRADICAL.html$$lsname=SIC RADICAL (SD source #01)</link>
 <link>plugin://program.plexus/?url=acestream://3906c4a9ce25ec10fc7780f1980fdb6c497d77d5&amp;mode=1&amp;name=Acestream+SIC RADICAL$$lsname=SIC RADICAL (PLEXUS source #01)</link>
 <link>plugin://program.plexus/?url=acestream://6bae80c24f7b7f68cf33fd2a1b3411b951ccc41e&amp;mode=1&amp;name=Acestream+SIC RADICAL$$lsname=SIC RADICAL (PLEXUS source #02)</link>
@@ -269,12 +269,10 @@
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] MCM TOP[/B][/COLOR]</title>
 <link>http://stream.euroasia.lfstrm.tv/mcm_top/1/index.m3u8$$lsname=MCM TOP (HTTP source #01)</link>
+<link>http://188.82.107.63:8030/play/a03h$$lsname=MCM TOP (HTTP source #02)</link>
+<link>http://ott-cdn.ucom.am/s49/04.m3u8$$lsname=MCM TOP (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://01f8e9da64256b6986e11d2065a282e23922d7ee&amp;mode=1&amp;name=Acestream+MCM TOP$$lsname=MCM TOP (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MCMTOP.png</thumbnail></item>
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] MCM POP[/B][/COLOR]</title>
-<link>http://ott-cdn.ucom.am/s49/04.m3u8$$lsname=MCM POP (HTTP source #01)</link>
-<link>http://188.82.107.63:8030/play/a03h$$lsname=MCM POP (HTTP source #02)</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MCMPOP.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] C Music[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://9356e42bacfc8d167f67d2b5fa57a83d26914079&amp;mode=1&amp;name=Acestream+C Music$$lsname=C Music (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CMUSIC.png</thumbnail></item>
@@ -375,8 +373,8 @@
 <link>http://188.82.107.63:8030/play/a03k$$lsname=TV RECORD (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RECORDTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
-<link>http://92.43.140.249/s27/04.m3u8$$lsname=CNN (HTTP source #01)</link>
-<link>http://188.82.107.63:8030/play/a03m$$lsname=CNN (HTTP source #02)</link>
+<link>http://188.82.107.63:8030/play/a03m$$lsname=CNN (HTTP source #01)</link>
+<link>http://92.43.140.249/s27/04.m3u8$$lsname=CNN (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://fd25630da8a208613d6dcda27f29e5e4fb380353&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
@@ -384,10 +382,10 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.firstonetv.net/Live/Portugal/Euronews-1$$lsname=EURONEWS (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BLOOMBERG[/B][/COLOR]</title>
-<link>http://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-1/Source-USTV-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #01)</link>
-<link>https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #02)</link>
-<link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8 $$lsname=BLOOMBERG (HTTP source #03)</link>
-<link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8$$lsname=BLOOMBERG (HTTP source #04)</link>
+<link>https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-1000-1_live.m3u8$$lsname=BLOOMBERG (HTTP source #01)</link>
+<link>http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8 $$lsname=BLOOMBERG (HTTP source #02)</link>
+<link>https://bblive-liveprodapnortheast.hs.llnwd.net/btv/desktop/ap_live.m3u8$$lsname=BLOOMBERG (HTTP source #03)</link>
+<link>https://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8$$lsname=BLOOMBERG (HTTP source #04)</link>
 <link>plugin://program.plexus/?url=acestream://251571f9eb0dd96cdbcf066598c44493a8e56d46&amp;mode=1&amp;name=Acestream+BLOOMBERG$$lsname=BLOOMBERG (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BLOOMBERGTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] SKY NEWS[/B][/COLOR]</title>
@@ -418,15 +416,16 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustvgo.net/fox-news-live-streaming-free/$$lsname=FOX NEWS (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FOXNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] AL JAZEERA EN[/B][/COLOR]</title>
-<link>http://english.streaming.aljazeera.net/aljazeera/english2/index.m3u8 $$lsname=AL JAZEERA EN (HTTP source #01)</link>
-<link>http://english.streaming.aljazeera.net/aljazeera/english2/index.m3u8$$lsname=AL JAZEERA EN (HTTP source #02)</link>
-<link>http://english.streaming.aljazeera.net/aljazeera/english2/index255.m3u8$$lsname=AL JAZEERA EN (HTTP source #03)</link>
-<link>http://92.43.140.249/s23/04.m3u8$$lsname=AL JAZEERA EN (HTTP source #04)</link>
+<link>http://english.streaming.aljazeera.net/aljazeera/english2/index.m3u8$$lsname=AL JAZEERA EN (HTTP source #01)</link>
+<link>http://english.streaming.aljazeera.net/aljazeera/english2/index255.m3u8$$lsname=AL JAZEERA EN (HTTP source #02)</link>
+<link>http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8$$lsname=AL JAZEERA EN (HTTP source #04)</link>
+<link>http://92.43.140.249/s23/04.m3u8$$lsname=AL JAZEERA EN (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://832225885c76549bd11542142ec50e006139d96e&amp;mode=1&amp;name=Acestream+AL JAZEERA EN$$lsname=AL JAZEERA EN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ALJAZEERA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RAI NEWS 24[/B][/COLOR]</title>
 <link>https://1.ip2stream.icu/live/rai_news_24_hd/playlist.m3u8$$lsname=RAI NEWS 24 (HTTP source #01)</link>
 <link>http://80.238.134.35/RaiNews24/mpegts$$lsname=RAI NEWS 24 (HTTP source #02)</link>
+<link>http://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8$$lsname=RAI NEWS 24 (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RAINEWS24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TVE 24h[/B][/COLOR]</title>
 <link>https://hlsliveamdgl8-lh.akamaihd.net/i/hlsdvrlive_1@583030/master.m3u8$$lsname=TVE 24h (HTTP source #01)</link>
@@ -437,7 +436,8 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] DW (English)[/B][/COLOR]</title>
 <link>http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-b.m3u8$$lsname=DW (English) (HTTP source #01)</link>
 <link>http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_3_av-p.m3u8$$lsname=DW (English) (HTTP source #02)</link>
-<link>http://188.82.107.63:8030/play/a02t$$lsname=DW (English) (HTTP source #03)</link>
+<link>https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8$$lsname=DW (English) (HTTP source #03)</link>
+<link>http://188.82.107.63:8030/play/a02t$$lsname=DW (English) (HTTP source #04)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/DW.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 EN[/B][/COLOR]</title>
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 EN (HTTP source #01)</link>
@@ -462,14 +462,14 @@
 <link>http://noscdne.entrprise.tv:1935/live/canal180.stream/livestream.m3u8$$lsname=Canal 180 (HTTP source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL180.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP MADEIRA[/B][/COLOR]</title>
-<link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpmadeira_5ch1016h264H14.stream/playlist.m3u8$$lsname=RTP MADEIRA (HTTP source #01)</link>
-<link>http://188.82.107.63:8030/play/a024$$lsname=RTP MADEIRA (HTTP source #02)</link>
+<link>http://188.82.107.63:8030/play/a024$$lsname=RTP MADEIRA (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpmadeira_5ch1016h264H14.stream/playlist.m3u8$$lsname=RTP MADEIRA (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://www.rtp.pt/play/direto/rtpmadeira$$lsname=RTP MADEIRA (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://hls.giize.com/rtp?ch=madeira$$lsname=RTP MADEIRA (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTPMADEIRA.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP ACORES[/B][/COLOR]</title>
-<link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpacores_5rtpacores.stream/playlist.m3u8$$lsname=RTP ACORES (HTTP source #01)</link>
-<link>http://188.82.107.63:8030/play/a023$$lsname=RTP ACORES (HTTP source #02)</link>
+<link>http://188.82.107.63:8030/play/a023$$lsname=RTP ACORES (HTTP source #01)</link>
+<link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpacores_5rtpacores.stream/playlist.m3u8$$lsname=RTP ACORES (HTTP source #02)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://hls.giize.com/rtp?ch=acores$$lsname=RTP ACORES (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RTPACORES.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANÇÃO NOVA[/B][/COLOR]</title>
@@ -484,8 +484,7 @@
 <link>http://193.126.16.68:1935/livenlin4/2liveartvpub/live.m3u8$$lsname=AR TV (HTTP source #01)</link>
 <link>http://193.126.16.68:1935/livenlin4/mp4:2liveartvpub/playlist.m3u8$$lsname=AR TV (HTTP source #02)</link>
 <link>http://193.126.16.68:1935/livenlin4/2liveartvpub/chunklist_w30591610.m3u8$$lsname=AR TV (HTTP source #03)</link>
-<link>http://188.82.107.63:8030/play/a03p$$lsname=AR TV (HTTP source #04)</link>
-<link>rtmp://193.126.16.68:1935/livenlin4/2liveartvpub$$lsname=AR TV (RTMP source #01)</link>
+<link>http://188.82.107.63:8030/play/a03p$$lsname=AR TV (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RTP AFRICA[/B][/COLOR]</title>
 <link>http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpafrica_5ch27h264.stream/playlist.m3u8$$lsname=RTP AFRICA (HTTP source #01)</link>
@@ -560,17 +559,17 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/p5?ch=arte_fr$$lsname=ARTE (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RUSSIA TODAY[/B][/COLOR]</title>
-<link>http://91.231.219.145:80/tv_rt_english/playlist.m3u8$$lsname=RUSSIA TODAY (HTTP source #01)</link>
+<link>https://rt-uk.secure.footprint.net/1106.m3u8$$lsname=RUSSIA TODAY (HTTP source #01)</link>
+<link>http://91.231.219.145:80/tv_rt_english/playlist.m3u8$$lsname=RUSSIA TODAY (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/RUSSIATODAY.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] RT DOCUMENTARY[/B][/COLOR]</title>
 <link>http://rt-doc.secure.footprint.net/1101-inadv-qidx-1k_v5.m3u8$$lsname=RT DOCUMENTARY (HTTP source #01)</link>
+<link>https://rt-doc.secure.footprint.net/1101.m3u8$$lsname=RT DOCUMENTARY (HTTP source #02)</link>
 <thumbnail>http://www.veteranstoday.com/wp-content/uploads/2016/03/RTV-Doc.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] NHK WORLD[/B][/COLOR]</title>
 <link>https://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_1180.m3u8$$lsname=NHK WORLD (HTTP source #01)</link>
 <link>http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_200.m3u8$$lsname=NHK WORLD (HTTP source #02)</link>
 <link>http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_2100.m3u8$$lsname=NHK WORLD (HTTP source #03)</link>
-<link>http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_200.m3u8 $$lsname=NHK WORLD (HTTP source #04)</link>
-<link>http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_2100.m3u8 $$lsname=NHK WORLD (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://899487098a4fa45f627d7a76b32e3816f99fa2c2&amp;mode=1&amp;name=Acestream+NHK WORLD$$lsname=NHK WORLD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NHKWORLD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] KURIAKOS TV[/B][/COLOR]</title>
