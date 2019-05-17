@@ -293,14 +293,15 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/l1?ch=mediaset_extra$$lsname=Euronews (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/EURONEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
-<link>http://ott-cdn.ucom.am/s27/index.m3u8?fluxustv.m3u8$$lsname=CNN (HTTP source #01)</link>
+<link>http://ott-cdn.ucom.am/s27/index.m3u8$$lsname=CNN (HTTP source #01)</link>
 <link>http://188.93.238.153:8000/play/a02b/index.m3u8$$lsname=CNN (HTTP source #02)</link>
 <link>http://92.43.140.249/s27/04.m3u8$$lsname=CNN (HTTP source #03)</link>
 <link>plugin://program.plexus/?url=acestream://fd25630da8a208613d6dcda27f29e5e4fb380353&amp;mode=1&amp;name=Acestream+CNN$$lsname=CNN (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNN.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNBC[/B][/COLOR]</title>
-<link>http://ott-cdn.ucom.am/s65/index.m3u8?fluxustv.m3u8$$lsname=CNBC (HTTP source #01)</link>
+<link>http://ott-cdn.ucom.am/s65/index.m3u8$$lsname=CNBC (HTTP source #01)</link>
 <link>http://188.93.238.153:8000/play/a044/index.m3u8$$lsname=CNBC (HTTP source #02)</link>
+<link>http://161.0.157.9/PLTV/88888888/224/3221227005/03.m3u8$$lsname=CNBC (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CNBC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Bloomberg[/B][/COLOR]</title>
 <link>https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-1000-1_live.m3u8$$lsname=Bloomberg (HTTP source #01)</link>
@@ -313,12 +314,14 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC World News[/B][/COLOR]</title>
 <link>http://ott-cdn.ucom.am/s24/index.m3u8$$lsname=BBC World News (HTTP source #01)</link>
 <link>http://188.93.238.153:8000/play/a02d/index.m3u8$$lsname=BBC World News (HTTP source #02)</link>
+<link>https://1636691764.rsc.cdn77.org/LS-ATL-54548-11/tracks-v1a1/mono.m3u8$$lsname=BBC World News (HTTP source #03)</link>
 <link>http://92.43.140.249/s24/04.m3u8$$lsname=BBC World News (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://fa5b6508827ae9568e722762d213414c1eeed7d1&amp;mode=1&amp;name=Acestream+BBC World News$$lsname=BBC World News (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCWORLDNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] France 24 En[/B][/COLOR]</title>
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8$$lsname=France 24 En (HTTP source #01)</link>
 <link>http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8$$lsname=France 24 En (HTTP source #02)</link>
+<link>http://85.0.26.89:3000/play/xxFrance24enxx$$lsname=France 24 En (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Al Jazeera En[/B][/COLOR]</title>
 <link>http://english.streaming.aljazeera.net/aljazeera/english2/index.m3u8$$lsname=Al Jazeera En (HTTP source #01)</link>
@@ -332,6 +335,8 @@
 <link>plugin://program.plexus/?url=acestream://6ec03a9a0ab5b80072dc00cdbf6d73bea094a01d&amp;mode=1&amp;name=Acestream+NHK World$$lsname=NHK World (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/NHKWORLD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] France 24 Fr[/B][/COLOR]</title>
+<link>http://85.0.26.89:3000/play/xxFRANCE24frxx$$lsname=France 24 Fr (HTTP source #01)</link>
+<link>http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8$$lsname=France 24 Fr (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://9b43a82211a308a6d3d20051e96eaa4d9c5f2aeb&amp;mode=1&amp;name=Acestream+France 24 Fr$$lsname=France 24 Fr (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV5 Monde[/B][/COLOR]</title>

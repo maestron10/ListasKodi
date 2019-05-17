@@ -9,6 +9,7 @@
 <link><link>$doregex[getts]$$lsname=BBC TWO HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/25</page><referer>http://www.filmon.com/tv/channel/export?channel id=25&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=BBC Two HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV[/B][/COLOR]</title>
+<link>http://185.53.163.214:5678/ipvt_001$$lsname=ITV (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/11</page><referer>http://www.filmon.com/tv/channel/export?channel id=11&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=ITV (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV HD[/B][/COLOR]</title>
@@ -39,6 +40,7 @@
 <link><link>$doregex[getts]</link>$$lsname=CHANNEL 5 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/22</page><referer>http://www.filmon.com/tv/channel/export?channel id=22&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=Channel 5 +1 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CHANNEL5+1UK.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 2[/B][/COLOR]</title>
+<link>http://185.53.163.214:5678/ipvt_002$$lsname=ITV 2 (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV 2 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/67</page><referer>http://www.filmon.com/tv/channel/export?channel id=67&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=ITV 2 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV2.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 2 HD[/B][/COLOR]</title>
@@ -54,6 +56,7 @@
 <link><link>$doregex[getts]$$lsname=BBC FOUR HD (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/103</page><referer>http://www.filmon.com/tv/channel/export?channel id=103&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=BBC Four HD (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBC4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 3[/B][/COLOR]</title>
+<link>http://185.53.163.214:5678/ipvt_003$$lsname=ITV 3 (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV 3 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/26</page><referer>http://www.filmon.com/tv/channel/export?channel id=26&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=ITV 3 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV3.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 3 HD[/B][/COLOR]</title>
@@ -71,10 +74,14 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] More4 +1[/B][/COLOR]</title>
 <link><link>$doregex[getts]$$lsname=MORE4 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=More4 +1 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/MORE4.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] Yesterday[/B][/COLOR]</title>
+<link>http://195.181.169.148/YESTERDAY_UK_ENG/mono.m3u8$$lsname=Yesterday (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb0/Yesterday_logo_2012.svg/1200px-Yesterday_logo_2012.svg.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Ideal World[/B][/COLOR]</title>
 <link><link>$doregex[getts]$$lsname=ITV (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/11</page><referer>http://www.filmon.com/tv/channel/export?channel id=11&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=Ideal World (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/IDEALWORLD.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 4[/B][/COLOR]</title>
+<link>http://185.53.163.214:5678/ipvt_004$$lsname=ITV 4 (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITV 4 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=ITV 4 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV4.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITV 4 HD[/B][/COLOR]</title>
@@ -84,6 +91,7 @@
 <link><link>$doregex[getts]$$lsname=ITV 4 +1 (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=ITV 4 +1 (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITV4+1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITVBe[/B][/COLOR]</title>
+<link>http://185.53.163.214:5678/ipvt_005$$lsname=ITVBe (HTTP source #01)</link>
 <link><link>$doregex[getts]$$lsname=ITVBe (HTTP #source 05)</link><regex><name>getts</name><expres>"url":"(.*?)"</expres><page>http://www.filmon.compi-v2/channel/101</page><referer>http://www.filmon.com/tv/channel/export?channel id=101&</referer><agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0<gent><cookieJar></cookieJar></regex>$$lsname=ITVBe (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ITVBE.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ITVBe HD[/B][/COLOR]</title>
@@ -162,8 +170,10 @@
 <link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8$$lsname=Sky News (HTTP source #02)</link>
 <link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8$$lsname=Sky News (HTTP source #03)</link>
 <link>http://ax.micaesoft.com/YMitv/YMITV_UK_UKskytv_2.m3u8$$lsname=Sky News (HTTP source #04)</link>
+<link>http://ax.micaesoft.com/YMitv/YMITV_US USnasatv_1.m3u8$$lsname=Sky News (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Sky News HD[/B][/COLOR]</title>
+<link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/05.m3u8$$lsname=Sky News HD (HTTP source #01)</link>
 <link>plugin://program.plexus/?url=acestream://d4469fad34a99dfbadfbb0ce4d03a360bb613421&amp;mode=1&amp;name=Acestream+Sky News HD$$lsname=Sky News HD (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Kiss Me TV[/B][/COLOR]</title>
@@ -179,6 +189,9 @@
 <link>http://contributionstreams.ashttp9.visionip.tv/live/visiontv-contributionstreams-arise-tv-hsslive-25f-16x9-SD/chunklist.m3u8$$lsname=Arise News (HTTP source #01)</link>
 <link>http://contributionstreams.ashttp9.visionip.tv/live/visiontv-contributionstreams-arise-tv-hsslive-25f-16x9-SD/chunklist.m3u8 $$lsname=Arise News (HTTP source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARISENEWS.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] Sky Two[/B][/COLOR]</title>
+<link>http://195.181.169.148/SKYTWO_Eng/tracks-v1a1/mono.m3u8$$lsname=Sky Two (HTTP source #01)</link>
+<thumbnail>http://vignette2.wikia.nocookie.net/logopedia/images/5/5d/Sky_2_logo_2016.png/revision/latest?cb=20160626181053</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] Comedy Central[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://3770f6f45ed24e78b9e478f6a20f7cebb1e22c01&amp;mode=1&amp;name=Acestream+Comedy Central$$lsname=Comedy Central (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/COMEDYCENTRAL.png</thumbnail></item>
@@ -389,8 +402,11 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] France 24 EN[/B][/COLOR]</title>
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8$$lsname=France 24 EN (HTTP source #01)</link>
 <link>http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8$$lsname=France 24 EN (HTTP source #02)</link>
+<link>http://85.0.26.89:3000/play/xxFrance24enxx$$lsname=France 24 EN (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] France 24 FR[/B][/COLOR]</title>
+<link>http://85.0.26.89:3000/play/xxFRANCE24frxx$$lsname=France 24 FR (HTTP source #01)</link>
+<link>http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8$$lsname=France 24 FR (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://9b43a82211a308a6d3d20051e96eaa4d9c5f2aeb&amp;mode=1&amp;name=Acestream+France 24 FR$$lsname=France 24 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 Copyright © 2019 - TeamBlue

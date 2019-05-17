@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TF1[/B][/COLOR]</title>
+<link>http://41.226.164.203:4000/play/a00g/index.m3u8$$lsname=TF1 (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/p4?ch=tf1$$lsname=TF1 (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/TF1.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL+[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/canal-plus-francia-online/$$lsname=CANAL+ (SD source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://channelstream.club/stream/canal.php$$lsname=CANAL+ (SD source #02)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/CANAL+.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] M6[/B][/COLOR]</title>
+<link>http://41.226.164.203:4000/play/a00k/index.m3u8$$lsname=M6 (HTTP source #01)</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/M6.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] ARTE[/B][/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://photocall.tv/p5?ch=arte_fr$$lsname=ARTE (SD source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARTE.png</thumbnail></item>
@@ -154,15 +158,19 @@
 <link>plugin://program.plexus/?url=acestream://185ee5f2e98278437e946fc09e26ecee75b446fd&amp;mode=1&amp;name=Acestream+VH1 CLASSIC$$lsname=VH1 CLASSIC (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/VH1CLASSIC.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 FR[/B][/COLOR]</title>
+<link>http://85.0.26.89:3000/play/xxFRANCE24frxx$$lsname=FRANCE 24 FR (HTTP source #01)</link>
+<link>http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8$$lsname=FRANCE 24 FR (HTTP source #02)</link>
 <link>plugin://program.plexus/?url=acestream://9b43a82211a308a6d3d20051e96eaa4d9c5f2aeb&amp;mode=1&amp;name=Acestream+FRANCE 24 FR$$lsname=FRANCE 24 FR (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 EN[/B][/COLOR]</title>
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 EN (HTTP source #01)</link>
 <link>http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8$$lsname=FRANCE 24 EN (HTTP source #02)</link>
+<link>http://85.0.26.89:3000/play/xxFrance24enxx$$lsname=FRANCE 24 EN (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] FRANCE 24 ES[/B][/COLOR]</title>
 <link>http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8$$lsname=FRANCE 24 EN (HTTP source #01)</link>
 <link>http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8$$lsname=FRANCE 24 EN (HTTP source #02)</link>
+<link>http://85.0.26.89:3000/play/xxFrance24enxx$$lsname=FRANCE 24 EN (HTTP source #03)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/FRANCE24.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
 <link>plugin://program.plexus/?url=acestream://fe51157752f88475a0631c009c2930754dbdc17e&amp;mode=1&amp;name=Acestream+EURONEWS$$lsname=EURONEWS (PLEXUS source #01)</link>
@@ -176,6 +184,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] BBC WORLD NEWS[/B][/COLOR]</title>
 <link>http://ott-cdn.ucom.am/s24/index.m3u8$$lsname=BBC WORLD NEWS (HTTP source #01)</link>
 <link>http://188.93.238.153:8000/play/a02d/index.m3u8$$lsname=BBC WORLD NEWS (HTTP source #02)</link>
+<link>https://1636691764.rsc.cdn77.org/LS-ATL-54548-11/tracks-v1a1/mono.m3u8$$lsname=BBC WORLD NEWS (HTTP source #03)</link>
 <link>http://92.43.140.249/s24/04.m3u8$$lsname=BBC WORLD NEWS (HTTP source #05)</link>
 <link>plugin://program.plexus/?url=acestream://fa5b6508827ae9568e722762d213414c1eeed7d1&amp;mode=1&amp;name=Acestream+BBC WORLD NEWS$$lsname=BBC WORLD NEWS (PLEXUS source #01)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/BBCWORLDNEWS.png</thumbnail></item>
@@ -184,6 +193,7 @@
 <link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/06.m3u8$$lsname=SKY NEWS (HTTP source #02)</link>
 <link>http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8$$lsname=SKY NEWS (HTTP source #03)</link>
 <link>http://ax.micaesoft.com/YMitv/YMITV_UK_UKskytv_2.m3u8$$lsname=SKY NEWS (HTTP source #04)</link>
+<link>http://ax.micaesoft.com/YMitv/YMITV_US USnasatv_1.m3u8$$lsname=SKY NEWS (HTTP source #05)</link>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/SKYNEWS.png</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] CNN[/B][/COLOR]</title>
 <link>https://1259541102.rsc.cdn77.org/LS-ATL-54548-9/index.m3u8$$lsname=CNN (HTTP source #01)</link>
