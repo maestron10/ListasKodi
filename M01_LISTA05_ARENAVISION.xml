@@ -8,7 +8,7 @@
 <title>[B][COLOR red]====================[/B][/COLOR]</title>
 <link>http://fui.me</link>
 <item>
-<title>[COLOR lightgreen]Aceslist [COLOR white]Agenda[/COLOR] Hora Espanhola (+1)</title>
+<title>[COLOR lightgreen]Ace List [COLOR white]Agenda[/COLOR] Hora Espanhola (+1)</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -44,6 +44,11 @@
 </regex>
 <fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
 <thumbnail>https://i.imgur.com/vEoCPVN.jpg</thumbnail>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION OPÇÃO 1[/B][/COLOR]</title>
+<link>http://fui.me</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
 </item>
 <item>
 <title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION  1[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
@@ -572,6 +577,583 @@
 <setcookie>beget=begetok</setcookie>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION OPÇÃO 2[/B][/COLOR]</title>
+<link>http://fui.me</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 1[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 1 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h229-av1</page>
+<referer>http://www.flipax.net/h229-av1</referer>
+setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 2[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 2 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h230-av2</page>
+<referer>http://www.flipax.net/h230-av2</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 3[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 3 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h231-av3</page>
+<referer>http://www.flipax.net/h231-av3</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 4[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 4 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h232-av4</page>
+<referer>http://www.flipax.net/h232-av4</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 5[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 5 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h233-av5</page>
+<referer>http://www.flipax.net/h233-av5</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 6[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 6 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h234-av6</page>
+<referer>http://www.flipax.net/h234-av6</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 7[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 7 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h235-av7</page>
+<referer>http://www.flipax.net/h235-av7</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 8[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 8 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h236-av8</page>
+<referer>http://www.flipax.net/h236-av8</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 9[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 9 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h237-av9</page>
+<referer>http://www.flipax.net/h237-av9</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 10[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 10 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h238-av10</page>
+<referer>http://www.flipax.net/h238-av10</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 11[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 11 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h239-av11</page>
+<referer>http://www.flipax.net/h239-av11</referer>
+setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 12[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 12 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h240-av12</page>
+<referer>http://www.flipax.net/h240-av12</referer>
+setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 13[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 13 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h241-av13</page>
+<referer>http://www.flipax.net/h241-av13</referer>
+setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 14[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 14 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h242-av14</page>
+<referer>http://www.flipax.net/h242-av14</referer>
+setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 15[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 15 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h243-av15</page>
+<referer>http://www.flipax.net/h243-av15</referer>
+setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 16[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 16 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h244-av16</page>
+<referer>http://www.flipax.net/h244-av16</referer>
+setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 17[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 17 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h245-av17</page>
+<referer>http://www.flipax.net/h245-av17</referer>
+setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 18[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 18 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h246-av18</page>
+<referer>http://www.flipax.net/h246-av18</referer>
+setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 19[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 19 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h247-av19</page>
+<referer>http://www.flipax.net/h247-av19</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 20[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 20 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h248-av20</page>
+<referer>http://www.flipax.net/h248-av20</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 21[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 21 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h249-av21</page>
+<referer>http://www.flipax.net/h249-av21</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 22[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 22 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h250-av22</page>
+<referer>http://www.flipax.net/h250-av22</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 23[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 23 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h251-av23</page>
+<referer>http://www.flipax.net/h251-av23</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 24[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 24 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h252-av24</page>
+<referer>http://www.flipax.net/h252-av24</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 25[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 25 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h253-av25</page>
+<referer>http://www.flipax.net/h253-av25</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 26[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 26 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h254-av26</page>
+<referer>http://www.flipax.net/h254-av26</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 27[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 27 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h255-av27</page>
+<referer>http://www.flipax.net/h255-av27</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 28[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 28 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h256-av28</page>
+<referer>http://www.flipax.net/h256-av28</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 29[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 29 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h257-av29</page>
+<referer>http://www.flipax.net/h257-av29</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 30[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 30 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h258-av30</page>
+<referer>http://www.flipax.net/h258-av30</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 31[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 31 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h259-av31</page>
+<referer>http://www.flipax.net/h259-av31</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 32[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 32 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h260-av32</page>
+<referer>http://www.flipax.net/h260-av32</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 33[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 33 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h261-av33</page>
+<referer>http://www.flipax.net/h261-av33</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 34[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 34 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h262-av34</page>
+<referer>http://www.flipax.net/h262-av34</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 35[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 35 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h263-av35</page>
+<referer>http://www.flipax.net/h263-av35</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 36[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 36 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h264-av36</page>
+<referer>http://www.flipax.net/h264-av36</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 37[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 37 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h265-av37</page>
+<referer>http://www.flipax.net/h265-av37</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 38[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 38 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h266-av38</page>
+<referer>http://www.flipax.net/h266-av38</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 39[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 39 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h267-av39</page>
+<referer>http://www.flipax.net/h267-av39</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 40[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 40 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h268-av40</page>
+<referer>http://www.flipax.net/h268-av40</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 41[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 41 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h269-av41</page>
+<referer>http://www.flipax.net/h269-av41</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 42[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 42 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h270-av42</page>
+<referer>http://www.flipax.net/h270-av42</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 43[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 43 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h271-av43</page>
+<referer>http://www.flipax.net/h271-av43</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>[B][COLOR lawngreen]• [COLOR white]ARENAVISION 44[COLOR red] [PLEXUS • Acestream][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 44 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.flipax.net/h272-av44</page>
+<referer>http://www.flipax.net/h272-av44</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/LOGO/master/ARENAVISION.png</thumbnail>
+<fanart></fanart>
 </item>
 <item>
 <title>[B][COLOR red]====================[/B][/COLOR]</title>
